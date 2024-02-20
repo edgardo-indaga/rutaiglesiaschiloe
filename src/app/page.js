@@ -110,7 +110,7 @@ export default function Home() {
                 </a>
             </div>
             <div className="container mx-auto">
-              <Link href="/recorridos/vilopulli/index.html" alt="Vilopulli">Vilopulli</Link>
+              <Link href="/recorridos/vilopulli/index.html" alt="Vilopulli">Vilopulli</Link><br />
             </div>
         </main>
     );
