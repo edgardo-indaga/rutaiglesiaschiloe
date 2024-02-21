@@ -2,6 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
-body{
-    @apply bg-amarilloclaro;
+.nav-mobile{
+    background-color: #911443;
 }
+
