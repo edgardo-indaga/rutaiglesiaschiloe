@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Capa_2" data-name="Capa 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 215.66 127.12">
+  <defs>
+    <style>
+      .cls-1 {
+        font-size: 13.79px;
+      }
+
+      .cls-1, .cls-2 {
+        fill: #fff;
+        font-family: Dosis-Medium, Dosis;
+        font-variation-settings: ';
+        font-weight: 500;
+      }
+
+      .cls-2 {
+        font-size: 14.44px;
+      }
+
+      .cls-3 {
+        letter-spacing: .06em;
+      }
+
+      .cls-4 {
+        letter-spacing: .04em;
+      }
+
+      .cls-5 {
+        letter-spacing: .08em;
+      }
+
+      .cls-6 {
+        letter-spacing: .08em;
+      }
+
+      .cls-7 {
+        letter-spacing: .08em;
+      }
+
+      .cls-8, .cls-9 {
+        fill: #911442;
+        stroke: #fff;
+        stroke-miterlimit: 10;
+      }
+
+      .cls-10 {
+        letter-spacing: .02em;
+      }
+
+      .cls-9 {
+        opacity: .87;
+      }
+
+      .cls-11 {
+        letter-spacing: .08em;
+      }
+    </style>
+  </defs>
+  <g id="Capa_1-2" data-name="Capa 1">
+    <g>
+      <path class="cls-8" d="M47.19,77.52v37.95l11.8,10.68c.67.61,1.76.61,2.44,0l11.17-10.11v-38.53h-25.41Z"/>
+      <path class="cls-9" d="M39.47,40.97v54.86l11.8,15.45c.67.88,1.76.88,2.44,0l11.17-14.61v-55.69h-25.41Z"/>
+      <path class="cls-8" d="M64.88,54.74V12.81L53.08,1c-.67-.67-1.76-.67-2.44,0l-11.17,11.17v42.56h25.41Z"/>
+      <path class="cls-9" d="M72.6,52.11V19.98l-11.8-9.05c-.67-.52-1.76-.52-2.44,0l-11.17,8.56v32.62h25.41Z"/>
+      <path class="cls-8" d="M64.88,77.52h31.82l8.96-11.8c.51-.67.51-1.76,0-2.44l-8.48-11.17h-32.3v25.41Z"/>
+      <path class="cls-9" d="M47.19,84.81h34.64l9.75-11.8c.56-.67.56-1.76,0-2.44l-9.23-11.17h-35.17v25.41Z"/>
+      <path class="cls-9" d="M64.88,52.11H15.11L1.1,63.92c-.8.67-.8,1.76,0,2.44l13.26,11.17h50.52v-25.41Z"/>
+      <path class="cls-9" d="M64.88,45.22H22.25l-12,11.8c-.68.67-.68,1.76,0,2.44l11.36,11.17h43.28v-25.41Z"/>
+      <text class="cls-1" transform="translate(110.38 42.62)"><tspan class="cls-11" x="0" y="0">P</tspan><tspan class="cls-7" x="8.45" y="0">TI</tspan></text>
+      <text class="cls-2" transform="translate(110.38 59.76)"><tspan class="cls-6"><tspan x="0" y="0">IGLESIAS </tspan></tspan><tspan class="cls-4" x="0" y="17.81">P</tspan><tspan class="cls-10" x="8.31" y="17.81">A</tspan><tspan class="cls-5" x="16.55" y="17.81">TRIMONIALES</tspan><tspan class="cls-6" x="0" y="35.63">DE CHI</tspan><tspan class="cls-3" x="44.88" y="35.63">L</tspan><tspan class="cls-6" x="52.55" y="35.63">OÉ</tspan></text>
+    </g>
+  </g>
+</svg>

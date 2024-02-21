@@ -6,13 +6,11 @@ module.exports = {
         './src/app/**/*.{js,ts,jsx,tsx,mdx}',
     ],
     theme: {
-        container: {
-            center: true,
-        },
         colors: {
             amarillo: '#EFEBE1',
             beige: '#F0E6D1',
             tinto: '#911443',
+            blanco: '#ffffff',
         },
         extend: {
             backgroundImage: {

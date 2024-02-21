@@ -15,11 +15,8 @@ export default function HeaderPrincipal() {
     const toggleMenu = () => setMenuOpen(!menuOpen);
 
     return (
-        <header
-            className="fixed z-50 w-screen scroll-[800px] bg-transparent transition-all duration-300 ease-in-out backdrop-blur-md"
-            id="principal"
-        >
-            <div className="container my-[10px]">
+        <header className="fixed z-50 w-screen scroll-[800px] bg-transparent" id="principal">
+            <div className="container mx-auto my-[10px]">
                 <nav className="flex items-center h-[130px] px-[20px] xl:h-[130px] xl:px-[30px] mx-[12px] xl:mx-auto nav-header ">
                     <div className="flex w-full items-center justify-between">
                         <Link href="/">
@@ -28,6 +25,7 @@ export default function HeaderPrincipal() {
                                 alt="Logo PTI Iglesias Patrimoniales de Chiloé"
                                 width={260}
                                 height={160}
+                                priority
                                 className="w-[160px] md:w-[220px] md:h-auto"
                             />
                         </Link>
@@ -99,7 +97,7 @@ export default function HeaderPrincipal() {
                                 </svg>
                             </button>
                         </div>
-                        <div className="flex flex-col pt-20 py-4 items-center">
+                        <div className="flex flex-col pt-1 py-4 items-center">
                             <ul className="flex flex-col items-center">
                                 <li
                                     onClick={() => setMenuOpen(false)}
@@ -123,13 +121,38 @@ export default function HeaderPrincipal() {
                                     onClick={() => setMenuOpen(false)}
                                     className={styles.linksMobile}
                                 >
+                                    <Link href="#">Patrimonio de la Humanidad</Link>
+                                </li>
+                                <li
+                                    onClick={() => setMenuOpen(false)}
+                                    className={styles.linksMobile}
+                                >
+                                    <Link href="#">La historia</Link>
+                                </li>
+                                <li
+                                    onClick={() => setMenuOpen(false)}
+                                    className={styles.linksMobile}
+                                >
+                                    <Link href="#">La Arquitectura</Link>
+                                </li>
+                                <li
+                                    onClick={() => setMenuOpen(false)}
+                                    className={styles.linksMobile}
+                                >
+                                    <Link href="#">Las Comunidades</Link>
+                                </li>
+
+                                <li
+                                    onClick={() => setMenuOpen(false)}
+                                    className={styles.linksMobile}
+                                >
                                     <Link href="#">Contacto</Link>
                                 </li>
                             </ul>
 
                             {/* REDES SOCIALES MOBILE*/}
 
-                            <ul className="flex flex-row mt-[100px]">
+                            <ul className="flex flex-row mt-[50px]">
                                 <li className="py-[2px] px-[8px]">
                                     <Link
                                         href="https://www.instagram.com/crowadvance/"
@@ -184,6 +207,7 @@ export default function HeaderPrincipal() {
                                     alt="Logo PTI Iglesias Patrimoniales de Chiloé"
                                     width={260}
                                     height={160}
+                                    priority
                                     className="w-[180px]"
                                 />
                             </div>
