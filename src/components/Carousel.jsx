@@ -13,7 +13,7 @@ import Image from 'next/image';
 
 import imagen1 from '/public/carouselhome/first.webp';
 import imagen2 from '/public/carouselhome/second.webp';
-import imagen3 from '/public/carouselhome/third.webp';
+import imagen3 from '/public/carouselhome/thirds.webp';
 
 export default function App() {
     return (
@@ -48,7 +48,7 @@ export default function App() {
                         alt="Imagen 01"
                         width="2000"
                         height="1333"
-                        className="h-[100vh] object-cover object-bottom"
+                        className="h-[100vh] object-cover object-right-center"
                     />
                 </SwiperSlide>
             </Swiper>

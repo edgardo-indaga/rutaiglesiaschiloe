@@ -1,4 +1,5 @@
 import CarouselHome from '@/components/Carousel';
+import YoutubeVideo from '@/components/Youtube';
 
 export default function Home() {
     return (
@@ -11,7 +12,11 @@ export default function Home() {
                     </h1>
                 </div>
             </section>
-            <section className="h-[1000px]"></section>
+            <section className="md:py-[100px]">
+                <div className="container mx-auto flex justify-center items-center align-middle">
+                    <YoutubeVideo />
+                </div>
+            </section>
         </main>
     );
 }

@@ -5,7 +5,7 @@ export default function FooterPrincipal() {
     return (
         <footer className="bg-tinto">
             <div className="container mx-auto">
-                <div className="flex md:h-[130px] justify-center items-center align-middle">
+                <div className="flex md:h-[140px] justify-center items-center align-middle">
                     <Image
                         src="/PTI-logo.svg"
                         alt="Logo PTI"
@@ -25,6 +25,14 @@ export default function FooterPrincipal() {
                         />
                     </Link>
                 </div>
+            </div>
+            <div className="container-fluid flex justify-center items-center align-middle md:h-[40px] bg-[#581945]">
+                <p className="text-blanco">
+                    Desarrollado por{' '}
+                    <Link href="https://indaga.me" className="font-semibold" target="_blank">
+                        Indaga
+                    </Link>
+                </p>
             </div>
         </footer>
     );
