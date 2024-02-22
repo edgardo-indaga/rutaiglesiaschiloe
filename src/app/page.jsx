@@ -29,7 +29,7 @@ export default function Home() {
                             height={1503}
                         />
                     </div>
-                    <div className="md:w-7/12 md:pt-[140px] md:leading-[57px] ">
+                    <div className="md:w-7/12 md:pt-[170px] md:leading-[57px] ">
                         <h1 className="text-tinto md:text-[40px] font-semibold md:mb-[20px]">
                             PATRIMONIO DE LA HUMANIDAD
                         </h1>
@@ -37,8 +37,14 @@ export default function Home() {
                             16 iglesias del archipiélago conforman el Sitio de Patrimonio Mundial,
                             declarado por la UNESCO
                         </p>
-                        <Link href="/" alt="PATRIMONIO DE LA HUMANIDAD">
-                            <Image src="/btn-mas.svg" alt="ir" width={240} height={60} />
+                        <Link href="/patrimonio" alt="PATRIMONIO DE LA HUMANIDAD">
+                            <Image
+                                src="/btn-mas.svg"
+                                alt="ir"
+                                width={240}
+                                height={60}
+                                className="md:mt-[60px] md:w-[180px]"
+                            />
                         </Link>
                     </div>
                 </div>

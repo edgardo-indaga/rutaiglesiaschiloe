@@ -35,13 +35,13 @@ export default function HeaderPrincipal() {
                                     <Link href="/">Inicio</Link>
                                 </li>
                                 <li className={styles.navLinks}>
-                                    <Link href="#">Iglesias</Link>
+                                    <Link href="/iglesias">Iglesias</Link>
                                 </li>
                                 <li className={styles.navLinks}>
                                     <Link href="#">Protocolo</Link>
                                 </li>
                                 <li className={styles.navLinks}>
-                                    <Link href="#">Contacto</Link>
+                                    <Link href="/contacto">Contacto</Link>
                                 </li>
                             </ul>
                         </div>
@@ -109,7 +109,7 @@ export default function HeaderPrincipal() {
                                     onClick={() => setMenuOpen(false)}
                                     className={styles.linksMobile}
                                 >
-                                    <Link href="#">Iglesias</Link>
+                                    <Link href="/iglesias">Iglesias</Link>
                                 </li>
                                 <li
                                     onClick={() => setMenuOpen(false)}
@@ -121,32 +121,32 @@ export default function HeaderPrincipal() {
                                     onClick={() => setMenuOpen(false)}
                                     className={styles.linksMobile}
                                 >
-                                    <Link href="#">Patrimonio de la Humanidad</Link>
+                                    <Link href="/patrimonio">Patrimonio de la Humanidad</Link>
                                 </li>
                                 <li
                                     onClick={() => setMenuOpen(false)}
                                     className={styles.linksMobile}
                                 >
-                                    <Link href="#">La historia</Link>
+                                    <Link href="/historia">La historia</Link>
                                 </li>
                                 <li
                                     onClick={() => setMenuOpen(false)}
                                     className={styles.linksMobile}
                                 >
-                                    <Link href="#">La Arquitectura</Link>
+                                    <Link href="/arquitectura">La Arquitectura</Link>
                                 </li>
                                 <li
                                     onClick={() => setMenuOpen(false)}
                                     className={styles.linksMobile}
                                 >
-                                    <Link href="#">Las Comunidades</Link>
+                                    <Link href="/comunidad">Las Comunidades</Link>
                                 </li>
 
                                 <li
                                     onClick={() => setMenuOpen(false)}
                                     className={styles.linksMobile}
                                 >
-                                    <Link href="#">Contacto</Link>
+                                    <Link href="/contacto">Contacto</Link>
                                 </li>
                             </ul>
 
