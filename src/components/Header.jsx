@@ -2,7 +2,7 @@
 
 import Image from 'next/image';
 import Link from 'next/link';
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
 
 const styles = {
     navLinks:
@@ -12,10 +12,28 @@ const styles = {
 };
 export default function HeaderPrincipal() {
     const [menuOpen, setMenuOpen] = useState(false);
+    const [bgColor, setBgColor] = useState('bg-transparent');
+    const [key, setKey] = useState(Math.random());
+
     const toggleMenu = () => setMenuOpen(!menuOpen);
 
+    useEffect(() => {
+        const changeBackground = () => {
+            if (window.scrollY >= 900) {
+                setBgColor('bg-[#EFEBE1]');
+                setKey(Math.random()); // Esto forzará un renderizado
+            } else {
+                setBgColor('bg-transparent');
+                setKey(Math.random()); // Esto forzará un renderizado
+            }
+        };
+
+        window.addEventListener('scroll', changeBackground);
+        return () => window.removeEventListener('scroll', changeBackground);
+    }, []);
+
     return (
-        <header className="fixed z-50 w-screen scroll-[800px] bg-transparent" id="principal">
+        <header className={`fixed z-50 w-screen ${bgColor}`} id="header" key={key}>
             <div className="container mx-auto my-[10px]">
                 <nav className="flex items-center h-[130px] px-[20px] xl:h-[130px] xl:px-[30px] mx-[12px] xl:mx-auto nav-header ">
                     <div className="flex w-full items-center justify-between">
