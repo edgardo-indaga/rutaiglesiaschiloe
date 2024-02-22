@@ -10,10 +10,6 @@
     position: absolute;
     display: block;
 }
-.img--villipulli{
-    width: 110px;
-    height: 122px;
-}
 .hotspot--villipulli{
     top: -438px;
     left: 198px;
@@ -22,10 +18,6 @@
     display: inline-block;
     transition: all cubic-bezier(.8,0,.2,1) .4s;
 }
-.hotspot--villipulli:hover,
-.hotspot--Chonchi:hover{
-    transform: scale(1.2);
-}
 .hotspot--Chonchi{
     position: relative;
     top: -290px;
@@ -33,4 +25,135 @@
     left: 245px;
     display: inline-block;
     transition: all cubic-bezier(.8,0,.2,1) .4s;
+}
+.hotspot--Ichuac{
+    position: relative;
+    top: -200px;
+    left: -80px;
+    float: left;
+    display: inline-block;
+    transition: all cubic-bezier(.8,0,.2,1) .4s;
+}
+.hotspot--Rilan{
+    position: relative;
+    display: inline-block;
+    transition: all cubic-bezier(.8,0,.2,1) .4s;
+    float: right;
+    top: -150px;
+    right: 361px;
+}
+.hotspot--Nercon{
+    position: relative;
+    display: inline-block;
+    transition: all cubic-bezier(.8,0,.2,1) .4s;
+    float: left;
+    top: -470px;
+    left: -370px;
+}
+.hotspot--Castro{
+    position: relative;
+    display: inline-block;
+    transition: all cubic-bezier(.8,0,.2,1) .4s;
+    float: left;
+    top: -600px;
+    left: -400px;
+}
+.hotspot--Dalcahue{
+    position: relative;
+    display: inline-block;
+    transition: all cubic-bezier(.8,0,.2,1) .4s;
+    float: left;
+    top: -700px;
+    left: -370px;
+}
+.hotspot--SanJuan{
+    position: relative;
+    display: inline-block;
+    transition: all cubic-bezier(.8,0,.2,1) .4s;
+    float: left;
+    top: -900px;
+    left: 415px;
+}
+.hotspot--Colo{
+    position: relative;
+    display: inline-block;
+    transition: all cubic-bezier(.8,0,.2,1) .4s;
+    float: right;
+    top: -1010px;
+    right: 170px;
+}
+.hotspot--Tenaun{
+    position: relative;
+    display: inline-block;
+    transition: all cubic-bezier(.8,0,.2,1) .4s;
+    float: right;
+    top: -900px;
+    right: -100px;
+}
+.hotspot--Achao{
+    position: relative;
+    display: inline-block;
+    transition: all cubic-bezier(.8,0,.2,1) .4s;
+    float: right;
+    top: -780px;
+    left: 320px;
+}
+.hotspot--Caguach{
+    position: relative;
+    display: inline-block;
+    transition: all cubic-bezier(.8,0,.2,1) .4s;
+    float: right;
+    top: -700px;
+    left: 550px;
+}
+.hotspot--Quinchao{
+    position: relative;
+    display: inline-block;
+    transition: all cubic-bezier(.8,0,.2,1) .4s;
+    float: right;
+    top: -740px;
+    left: 640px;
+}
+.hotspot--Chelin{
+    position: relative;
+    display: inline-block;
+    transition: all cubic-bezier(.8,0,.2,1) .4s;
+    float: right;
+    top: -855px;
+    right: 270px
+}
+.hotspot--Detif{
+    position: relative;
+    display: inline-block;
+    transition: all cubic-bezier(.8,0,.2,1) .4s;
+    float: right;
+    top: -760px;
+    left: 50px;
+}
+.hotspot--Aldachildo{
+    position: relative;
+    display: inline-block;
+    transition: all cubic-bezier(.8,0,.2,1) .4s;
+    float: right;
+    top: -660px;
+    left: 30px
+}
+
+.hotspot--villipulli:hover,
+.hotspot--Chonchi:hover,
+.hotspot--Ichuac:hover,
+.hotspot--Rilan:hover,
+.hotspot--Nercon:hover,
+.hotspot--Castro:hover,
+.hotspot--Dalcahue:hover,
+.hotspot--SanJuan:hover,
+.hotspot--Colo:hover,
+.hotspot--Tenaun:hover,
+.hotspot--Achao:hover,
+.hotspot--Caguach:hover,
+.hotspot--Quinchao:hover,
+.hotspot--Chelin:hover,
+.hotspot--Detif:hover,
+.hotspot--Aldachildo:hover{
+    transform: scale(1.1);
 }
