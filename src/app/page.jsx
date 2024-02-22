@@ -1,6 +1,7 @@
 import Image from 'next/image';
 import CarouselHome from '@/components/Carousel';
 import YoutubeVideo from '@/components/Youtube';
+import HotSpotsMapa from '@/components/HotSpotsMapa';
 import Link from 'next/link';
 
 export default function Home() {
@@ -48,6 +49,9 @@ export default function Home() {
                         </Link>
                     </div>
                 </div>
+            </section>
+            <section className="md:py-[100px]">
+                <HotSpotsMapa />
             </section>
         </main>
     );

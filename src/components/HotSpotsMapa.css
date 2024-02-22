@@ -1,0 +1,36 @@
+.hotspots--wrapper {
+    position: relative;
+    margin: auto;
+    max-width: 960px;
+}
+.hotspots--figure{
+    max-width: 100%;
+}
+.hotspot {
+    position: absolute;
+    display: block;
+}
+.img--villipulli{
+    width: 110px;
+    height: 122px;
+}
+.hotspot--villipulli{
+    top: -438px;
+    left: 198px;
+    position: relative;
+    float: left;
+    display: inline-block;
+    transition: all cubic-bezier(.8,0,.2,1) .4s;
+}
+.hotspot--villipulli:hover,
+.hotspot--Chonchi:hover{
+    transform: scale(1.2);
+}
+.hotspot--Chonchi{
+    position: relative;
+    top: -290px;
+    float: left;
+    left: 245px;
+    display: inline-block;
+    transition: all cubic-bezier(.8,0,.2,1) .4s;
+}
