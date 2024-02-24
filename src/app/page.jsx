@@ -97,7 +97,7 @@ export default function Home() {
                     </h1>
                 </div>
             </section>
-            <section className="md:h-[900px] md:py-[100px]">
+            <section className="md:h-[900px] md:py-[100px]" id="arquitectura">
                 <div className="container mx-auto flex">
                     <div className="md:w-5/12">
                         <Image src="/home-04.webp" alt="La Historia" width={1300} height={1462} />

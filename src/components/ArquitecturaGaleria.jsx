@@ -14,17 +14,17 @@ import Zoom from 'yet-another-react-lightbox/plugins/zoom';
 import 'yet-another-react-lightbox/plugins/thumbnails.css';
 
 const slides = [
-    { src: '/historia/gallery/historia_galeria_01.jpg', width: 1200, height: 800 },
-    { src: '/historia/gallery/historia_galeria_02.jpg', width: 1200, height: 800 },
-    { src: '/historia/gallery/historia_galeria_03.jpg', width: 1200, height: 800 },
-    { src: '/historia/gallery/historia_galeria_08.jpg', width: 1200, height: 800 },
-    { src: '/historia/gallery/historia_galeria_04.jpg', width: 1200, height: 800 },
-    { src: '/historia/gallery/historia_galeria_05.jpg', width: 1200, height: 800 },
-    { src: '/historia/gallery/historia_galeria_07.jpg', width: 1200, height: 800 },
-    { src: '/historia/gallery/historia_galeria_06.jpg', width: 1200, height: 800 },
+    { src: '/arquitectura/gallery/arquitectura_galeria_01.jpg', width: 1200, height: 800 },
+    { src: '/arquitectura/gallery/arquitectura_galeria_02.jpg', width: 1200, height: 800 },
+    { src: '/arquitectura/gallery/arquitectura_galeria_03.jpg', width: 1200, height: 800 },
+    { src: '/arquitectura/gallery/arquitectura_galeria_04.jpg', width: 1200, height: 800 },
+    { src: '/arquitectura/gallery/arquitectura_galeria_05.jpg', width: 1200, height: 800 },
+    { src: '/arquitectura/gallery/arquitectura_galeria_06.jpg', width: 1200, height: 800 },
+    { src: '/arquitectura/gallery/arquitectura_galeria_07.jpg', width: 1200, height: 800 },
+    { src: '/arquitectura/gallery/arquitectura_galeria_08.jpg', width: 1200, height: 800 },
 ];
 
-export default function HistoriaGallery() {
+export default function ArquitecturaGallery() {
     const [index, setIndex] = React.useState(-1);
 
     return (

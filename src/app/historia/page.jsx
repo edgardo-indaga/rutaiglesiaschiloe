@@ -63,7 +63,7 @@ export default function LaHistoria() {
                     </p>
                 </div>
             </section>
-            <section className="md:h-[900px] md:py-[100px]">
+            <section className="md:h-auto md:py-[100px] md:mb-[100px]">
                 <div className="container mx-auto">
                     <HistoriaGallery />
 
