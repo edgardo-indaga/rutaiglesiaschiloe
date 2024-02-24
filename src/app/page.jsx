@@ -44,7 +44,7 @@ export default function Home() {
                                 alt="ir"
                                 width={240}
                                 height={60}
-                                className="md:mt-[60px] md:w-[180px] hover:scale-[1.1]"
+                                className="md:mt-[60px] md:w-[180px] hover:scale-[1.1] transition-all ease-cubic-bezier"
                             />
                         </Link>
                     </div>
@@ -59,7 +59,7 @@ export default function Home() {
                 <div className="container mx-auto flex">
                     <div className="md:w-7/12">
                         <h1 className="text-tinto md:text-[40px] font-semibold md:mb-[20px] md:mt-[-120px]">
-                            La Historia
+                            LA HISTORIA
                         </h1>
                         <p className="text-tinto md:text-[26px] font-thin md:leading-[34px]">
                             Las iglesias de Chiloé son el resultado de un sincretismo cultural
@@ -72,7 +72,7 @@ export default function Home() {
                                 alt="ir"
                                 width={240}
                                 height={60}
-                                className="md:mt-[60px] md:w-[180px] hover:scale-[1.1]"
+                                className="md:mt-[60px] md:w-[180px] hover:scale-[1.1] transition-all ease-cubic-bezier"
                             />
                         </Link>
                     </div>
@@ -116,7 +116,7 @@ export default function Home() {
                                 alt="ir"
                                 width={240}
                                 height={60}
-                                className="md:mt-[60px] md:w-[180px] hover:scale-[1.1]"
+                                className="md:mt-[60px] md:w-[180px] hover:scale-[1.1] transition-all ease-cubic-bezier"
                             />
                         </Link>
                     </div>
@@ -138,7 +138,7 @@ export default function Home() {
                                 alt="ir"
                                 width={240}
                                 height={60}
-                                className="md:mt-[60px] md:w-[180px] hover:scale-[1.1]"
+                                className="md:mt-[60px] md:w-[180px] hover:scale-[1.1] transition-all ease-cubic-bezier"
                             />
                         </Link>
                     </div>
@@ -160,19 +160,19 @@ export default function Home() {
                 <div className="container mx-auto flex justify-end items-center md:h-screen">
                     <div className="md:w-6/12 md:leading-[57px]">
                         <h1 className="text-blanco md:text-[40px] font-semibold md:mb-[20px]">
-                            LA ARQUITECTURA
+                            PROTOCOLO DE VISITA
                         </h1>
                         <p className="text-blanco md:text-[26px] font-thin md:leading-[34px]">
-                            Las iglesias de Chiloé son la expresión monumental de la maestría y
-                            creatividad de la carpintería chilota.
+                            Las iglesias de Chiloé no son museos, sino lugares de culto donde se
+                            debe mantener una siempre actitud de respeto.
                         </p>
-                        <Link href="/arquitectura" alt="LA ARQUITECTURA">
+                        <Link href="#" alt="LA ARQUITECTURA">
                             <Image
                                 src="/btn-mas-wh.svg"
                                 alt="ir"
                                 width={240}
                                 height={60}
-                                className="md:mt-[60px] md:w-[180px] hover:scale-[1.1]"
+                                className="md:mt-[60px] md:w-[180px] hover:scale-[1.1] transition-all ease-cubic-bezier"
                             />
                         </Link>
                     </div>

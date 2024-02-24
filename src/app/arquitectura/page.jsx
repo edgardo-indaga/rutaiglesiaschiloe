@@ -1,3 +1,10 @@
+export const metadata = {
+    title: 'PTI | La Arquitectura',
+};
 export default function LaArquitectura() {
-    return <h1>La Aquitectura</h1>;
+    return (
+        <section>
+            <h1>Titulo</h1>
+        </section>
+    );
 }

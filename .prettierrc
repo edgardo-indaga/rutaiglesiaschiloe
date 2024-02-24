@@ -29,5 +29,19 @@
 		"emptyLineBetweenGroups": true,
 		"maxLineLength": 100,
 		"spacesAroundCurlyBraces": false
-	}
+	},
+	"overrides": [
+		{
+			"files": "*.{js,jsx}",
+			"options": {
+				"parser": "babel"
+			}
+		},
+		{
+			"files": "*.json",
+			"options": {
+				"parser": "json"
+			}
+		}
+	]
 }

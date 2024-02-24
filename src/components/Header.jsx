@@ -2,11 +2,13 @@
 
 import Image from 'next/image';
 import Link from 'next/link';
+import { usePathname } from 'next/navigation';
 import { useEffect, useState } from 'react';
 
 const styles = {
     navLinks:
-        'font-barlow cursor-pointer uppercase text-tinto xl:text-[20px] xl:font-regular xl:leading-[20px] xl:px-[20px] hover:font-medium',
+        'font-barlow cursor-pointer uppercase text-tinto xl:text-[20px] xl:font-regular xl:leading-[20px] xl:px-[20px]',
+
     linksMobile:
         'font-barlow cursor-pointer uppercase text-blanco text-[18px] py-[15px] font-regular',
 };
@@ -14,13 +16,14 @@ export default function HeaderPrincipal() {
     const [menuOpen, setMenuOpen] = useState(false);
     const [bgColor, setBgColor] = useState('bg-transparent');
     const [key, setKey] = useState(Math.random());
+    const pathname = usePathname();
 
     const toggleMenu = () => setMenuOpen(!menuOpen);
 
     useEffect(() => {
         const changeBackground = () => {
             if (window.scrollY >= 900) {
-                setBgColor('bg-[#EFEBE1]');
+                setBgColor('bg-[#EFEBE1F2]');
                 setKey(Math.random()); // Esto forzará un renderizado
             } else {
                 setBgColor('bg-transparent');
@@ -35,7 +38,7 @@ export default function HeaderPrincipal() {
     return (
         <header className={`fixed z-50 w-screen ${bgColor}`} id="header" key={key}>
             <div className="container mx-auto my-[10px]">
-                <nav className="flex items-center h-[130px] px-[20px] xl:h-[130px] xl:px-[30px] mx-[12px] xl:mx-auto nav-header ">
+                <nav className="flex items-center h-[90px] px-[20px] xl:h-[100px] xl:px-[30px] mx-[12px] xl:mx-auto nav-header ">
                     <div className="flex w-full items-center justify-between">
                         <Link href="/">
                             <Image
@@ -44,22 +47,55 @@ export default function HeaderPrincipal() {
                                 width={260}
                                 height={160}
                                 priority
-                                className="w-[160px] md:w-[220px] md:h-auto"
+                                className="w-[140px] md:w-[180px] md:h-auto"
                             />
                         </Link>
                         <div className="hidden xl:flex">
                             <ul className="hidden xl:flex">
                                 <li className={styles.navLinks}>
-                                    <Link href="/">Inicio</Link>
+                                    <Link
+                                        className={`link ${pathname === '/' ? 'active' : ''}`}
+                                        href="/"
+                                        style={{ fontWeight: pathname === '/' ? '500' : 'normal' }}
+                                    >
+                                        Inicio
+                                    </Link>
+                                </li>
+
+                                <li className={styles.navLinks}>
+                                    <Link
+                                        className={`link ${
+                                            pathname === '/iglesias' ? 'active' : ''
+                                        }`}
+                                        href="/iglesias"
+                                        style={{
+                                            fontWeight: pathname === '/iglesias' ? '500' : 'normal',
+                                        }}
+                                    >
+                                        Iglesias
+                                    </Link>
                                 </li>
                                 <li className={styles.navLinks}>
-                                    <Link href="/iglesias">Iglesias</Link>
+                                    <Link
+                                        className={`link ${pathname === '#' ? 'active' : ''}`}
+                                        href="#"
+                                        style={{ fontWeight: pathname === '#' ? '500' : 'normal' }}
+                                    >
+                                        Protocolo
+                                    </Link>
                                 </li>
                                 <li className={styles.navLinks}>
-                                    <Link href="#">Protocolo</Link>
-                                </li>
-                                <li className={styles.navLinks}>
-                                    <Link href="/contacto">Contacto</Link>
+                                    <Link
+                                        className={`link ${
+                                            pathname === '/contacto' ? 'active' : ''
+                                        }`}
+                                        style={{
+                                            fontWeight: pathname === '/contacto' ? '500' : 'normal',
+                                        }}
+                                        href="/contacto"
+                                    >
+                                        Contacto
+                                    </Link>
                                 </li>
                             </ul>
                         </div>
