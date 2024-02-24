@@ -67,7 +67,7 @@ export default function LaHistoria() {
                 <div className="container mx-auto">
                     <HistoriaGallery />
 
-                    <Link href="/" alt="PAGINA DE INICIO">
+                    <Link href="/#historia" alt="PAGINA DE INICIO">
                         <Image
                             src="/btn-volver.svg"
                             alt="ir"

@@ -3,8 +3,10 @@ export const metadata = {
 };
 export default function LaArquitectura() {
     return (
-        <section>
-            <h1>Titulo</h1>
+        <section className="md:h-screen">
+            <div className="container mx-auto">
+                <h1>La Arquitectura</h1>
+            </div>
         </section>
     );
 }

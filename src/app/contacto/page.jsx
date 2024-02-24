@@ -1,6 +1,23 @@
+import { ContactForm } from './form';
 export const metadata = {
     title: 'PTI | Contacto',
 };
 export default function Contacto() {
-    return <h1>Contacto</h1>;
+    return (
+        <main>
+            <section
+                className="bg-cover bg-no-repeat bg-top md:h-screen"
+                style={{ backgroundImage: "url('./contacto/contacto-01.webp')" }}
+            >
+                <div className="container mx-auto flex justify-center items-center md:h-screen">
+                    <h1 className="text-blanco md:text-[40px] font-semibold">CONTACTO</h1>
+                </div>
+            </section>
+            <section className="md:py-[100px]">
+                <div className="container mx-auto flex items-center">
+                    <ContactForm />
+                </div>
+            </section>
+        </main>
+    );
 }

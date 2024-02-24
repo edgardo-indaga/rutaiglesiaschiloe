@@ -20,7 +20,7 @@ export default function Home() {
                     <YoutubeVideo />
                 </div>
             </section>
-            <section className="md:h-[900px] bg-beige md:py-[100px]">
+            <section className="md:h-[900px] bg-beige md:py-[100px]" id="patrimonio">
                 <div className="container mx-auto flex">
                     <div className="md:w-5/12">
                         <Image
@@ -55,7 +55,7 @@ export default function Home() {
                     <HotSpotsMapa />
                 </div>
             </section>
-            <section className="md:h-[900px] bg-beige">
+            <section className="md:h-[900px] bg-beige" id="historia">
                 <div className="container mx-auto flex">
                     <div className="md:w-7/12">
                         <h1 className="text-tinto md:text-[40px] font-semibold md:mb-[20px] md:mt-[-120px]">
