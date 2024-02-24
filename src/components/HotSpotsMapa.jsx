@@ -31,7 +31,7 @@ export default function HotSpotsMapa() {
                 width={1290}
                 className="hotspots--figure"
             />
-            <Link href="#" className="hotspot hotspot--villipulli">
+            <Link href="/iglesias/vilopulli" className="hotspot hotspot--villipulli">
                 <Image
                     src={Villipulli}
                     alt="Iglesia de Villipulli"
@@ -40,10 +40,10 @@ export default function HotSpotsMapa() {
                     className="md:w-[110px] md:h-[122px]"
                 />
             </Link>
-            <Link href="#" className="hotspot hotspot--Chonchi">
+            <Link href="/iglesias/chonchi" className="hotspot hotspot--Chonchi">
                 <Image src={Chonchi} alt="Iglesia de Chonchi" width={125} height={122} />
             </Link>
-            <Link href="#" className="hotspot hotspot--Ichuac">
+            <Link href="/iglesias/ichuac" className="hotspot hotspot--Ichuac">
                 <Image
                     src={Ichuac}
                     alt="Iglesia de Ichuac"
@@ -52,7 +52,7 @@ export default function HotSpotsMapa() {
                     className="md:h-[122px] md:w-auto"
                 />
             </Link>
-            <Link href="#" className="hotspot hotspot--Rilan">
+            <Link href="/iglesias/rilan" className="hotspot hotspot--Rilan">
                 <Image
                     src={Rilan}
                     alt="Iglesia de Rilán"
@@ -61,7 +61,7 @@ export default function HotSpotsMapa() {
                     className="md:h-[130px] md:w-auto"
                 />
             </Link>
-            <Link href="#" className="hotspot hotspot--Nercon">
+            <Link href="/iglesias/nercon" className="hotspot hotspot--Nercon">
                 <Image
                     src={Nercon}
                     alt="Iglesia de Nercón"
@@ -70,7 +70,7 @@ export default function HotSpotsMapa() {
                     className="md:h-[122px] md:w-auto"
                 />
             </Link>
-            <Link href="#" className="hotspot hotspot--Castro">
+            <Link href="/iglesias/castro" className="hotspot hotspot--Castro">
                 <Image
                     src={Castro}
                     alt="Iglesia de Castro"
@@ -79,7 +79,7 @@ export default function HotSpotsMapa() {
                     className="md:h-[122px] md:w-auto"
                 />
             </Link>
-            <Link href="#" className="hotspot hotspot--Dalcahue">
+            <Link href="/iglesias/dalcahue" className="hotspot hotspot--Dalcahue">
                 <Image
                     src={Dalcahue}
                     alt="Iglesia de Dalcahue"
@@ -88,7 +88,7 @@ export default function HotSpotsMapa() {
                     className="md:h-[126px] md:w-auto"
                 />
             </Link>
-            <Link href="#" className="hotspot hotspot--SanJuan">
+            <Link href="/iglesias/sanjuan" className="hotspot hotspot--SanJuan">
                 <Image
                     src={SanJuan}
                     alt="Iglesia de San Juan"
@@ -97,7 +97,7 @@ export default function HotSpotsMapa() {
                     className="md:h-[128px] md:w-auto"
                 />
             </Link>
-            <Link href="#" className="hotspot hotspot--Colo">
+            <Link href="/iglesias/colo" className="hotspot hotspot--Colo">
                 <Image
                     src={Colo}
                     alt="Iglesi de Colo"
@@ -106,7 +106,7 @@ export default function HotSpotsMapa() {
                     className="md:h-[128px] md:w-auto"
                 />
             </Link>
-            <Link href="#" className="hotspot hotspot--Tenaun">
+            <Link href="/iglesias/tenaun" className="hotspot hotspot--Tenaun">
                 <Image
                     src={Tenaun}
                     alt="Iglesia de Tenaún"
@@ -115,7 +115,7 @@ export default function HotSpotsMapa() {
                     className="md:h-[130px] md:w-auto"
                 />
             </Link>
-            <Link href="#" className="hotspot hotspot--Achao">
+            <Link href="/iglesias/achao" className="hotspot hotspot--Achao">
                 <Image
                     src={Achao}
                     alt="Iglesia de Achao"
@@ -124,7 +124,7 @@ export default function HotSpotsMapa() {
                     className="md:h-[130px] md:w-auto"
                 />
             </Link>
-            <Link href="#" className="hotspot hotspot--Caguach">
+            <Link href="/iglesias/caguach" className="hotspot hotspot--Caguach">
                 <Image
                     src={Caguach}
                     alt="Iglesia de Caguach"
@@ -133,7 +133,7 @@ export default function HotSpotsMapa() {
                     className="md:h-[130px] md:w-auto"
                 />
             </Link>
-            <Link href="#" className="hotspot hotspot--Quinchao">
+            <Link href="/iglesias/quinchao" className="hotspot hotspot--Quinchao">
                 <Image
                     src={Quinchao}
                     alt="Iglesia de Quinchao"
@@ -142,7 +142,7 @@ export default function HotSpotsMapa() {
                     className="md:h-[130px] md:w-auto"
                 />
             </Link>
-            <Link href="#" className="hotspot hotspot--Chelin">
+            <Link href="/iglesias/chelin" className="hotspot hotspot--Chelin">
                 <Image
                     src={Chelin}
                     alt="Iglesia de Chelin"
@@ -151,7 +151,7 @@ export default function HotSpotsMapa() {
                     className="md:h-[130px] md:w-auto"
                 />
             </Link>
-            <Link href="#" className="hotspot hotspot--Detif">
+            <Link href="/iglesias/detif" className="hotspot hotspot--Detif">
                 <Image
                     src={Detif}
                     alt="Iglesia de Detif"
@@ -160,7 +160,7 @@ export default function HotSpotsMapa() {
                     className="md:h-[130px] md:w-auto"
                 />
             </Link>
-            <Link href="#" className="hotspot hotspot--Aldachildo">
+            <Link href="/iglesias/aldachildo" className="hotspot hotspot--Aldachildo">
                 <Image
                     src={Aldachildo}
                     alt="Iglesia de Aldachildo"
