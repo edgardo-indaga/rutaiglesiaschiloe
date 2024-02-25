@@ -8,14 +8,20 @@ export const metadata = {
 export default function LaHistoria() {
     return (
         <main>
-            <section
-                className="bg-cover bg-no-repeat bg-top md:h-screen"
-                style={{ backgroundImage: "url('./historia/historia-01.webp')" }}
-            >
+            <section className="bg-cover bg-no-repeat bg-top md:h-screen">
+                <Image
+                    src="/historia/historia-01.webp"
+                    alt="LA HISTORIA"
+                    layout="fill"
+                    priority={true} // Prioritize the image for faster loading
+                    quality={100} // Maintain image quality
+                    className="object-cover object-top"
+                />
                 <div className="container mx-auto flex justify-center items-center md:h-screen">
-                    <h1 className="text-blanco md:text-[40px] font-semibold">LA HISTORIA</h1>
+                    <h1 className="text-blanco md:text-[40px] font-semibold z-10">LA HISTORIA</h1>
                 </div>
             </section>
+
             <section className="md:py-[100px]">
                 <div className="container mx-auto flex justify-center items-center align-middle">
                     <VideoHistoria />

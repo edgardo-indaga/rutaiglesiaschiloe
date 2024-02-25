@@ -9,16 +9,22 @@ export const metadata = {
 export default function ElPatrimonio() {
     return (
         <main>
-            <section
-                className="bg-cover bg-no-repeat bg-center md:h-screen"
-                style={{ backgroundImage: "url('./patrimonio/patrimonio-01.webp')" }}
-            >
+            <section className="bg-cover bg-no-repeat bg-top md:h-screen">
+                <Image
+                    src="/patrimonio/patrimonio-01.webp"
+                    alt="Patrimonio de la humanidad"
+                    layout="fill"
+                    priority={true} // Prioritize the image for faster loading
+                    quality={100} // Maintain image quality
+                    className="object-cover object-center"
+                />
                 <div className="container mx-auto flex justify-center items-center md:h-screen">
-                    <h1 className="text-blanco md:text-[40px] font-semibold">
+                    <h1 className="text-blanco md:text-[40px] font-semibold z-10">
                         PATRMONIO DE LA HUMANIDAD
                     </h1>
                 </div>
             </section>
+
             <section className="md:pt-[70px]">
                 <div className="container mx-auto flex flex-col justify-center items-center">
                     <p className="text-tinto md:text-[26px] font-thin md:leading-[34px]">

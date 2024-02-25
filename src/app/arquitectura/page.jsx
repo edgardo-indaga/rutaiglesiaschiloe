@@ -9,12 +9,19 @@ export const metadata = {
 export default function LaArquitectura() {
     return (
         <main>
-            <section
-                className="bg-cover bg-no-repeat bg-top md:h-screen"
-                style={{ backgroundImage: "url('./arquitectura/arquitectura-01.webp')" }}
-            >
-                <div className="container mx-auto flex justify-center items-center md:h-screen">
-                    <h1 className="text-blanco md:text-[40px] font-semibold">LA ARQUITECTURA</h1>
+            <section className="bg-cover bg-no-repeat bg-top md:h-screen">
+                <Image
+                    src="/arquitectura/arquitectura-01.webp"
+                    alt="Arquitectura"
+                    layout="fill"
+                    priority={true} // Prioritize the image for faster loading
+                    quality={100} // Maintain image quality
+                    className="object-cover object-top"
+                />
+                <div className="container mx-auto flex justify-center items-center md:h-screen ">
+                    <h1 className="text-blanco md:text-[40px] font-semibold z-10">
+                        LA ARQUITECTURA
+                    </h1>
                 </div>
             </section>
             <section className="md:py-[100px]">
