@@ -13,7 +13,7 @@ import Thumbnails from 'yet-another-react-lightbox/plugins/thumbnails';
 import Zoom from 'yet-another-react-lightbox/plugins/zoom';
 import 'yet-another-react-lightbox/plugins/thumbnails.css';
 
-const slides = [
+const slidesSecundario = [
     { src: '/comunidades/gallery/comunidades_galeria_09.jpg', width: 1200, height: 800 },
     { src: '/comunidades/gallery/comunidades_galeria_10.jpg', width: 1200, height: 800 },
     { src: '/comunidades/gallery/comunidades_galeria_11.jpg', width: 1200, height: 800 },
@@ -31,13 +31,13 @@ export default function ComunidadGallerySecundaria() {
         <>
             <PhotoAlbum
                 layout="rows"
-                photos={slides}
+                photos={slidesSecundario}
                 targetRowHeight={300}
                 //targetColumnWidth={500}
                 onClick={({ index: current }) => setIndex(current)}
             />
             <Lightbox
-                slides={slides}
+                slides={slidesSecundario}
                 open={index >= 0}
                 index={index}
                 close={() => setIndex(-1)}

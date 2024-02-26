@@ -2,7 +2,7 @@ import Image from 'next/image';
 import VideoComunidades from '@/components/VideoComunidades';
 import ComunidadGallery from '@/components/ComunidadGaleria';
 import ComunidadGallerySecundaria from '@/components/ComunidadGaleriaSecundaria';
-import PatrimonioGallery from '@/components/PatrimonioGaleria';
+
 import Link from 'next/link';
 export const metadata = {
     title: 'PTI | Las Comunidades',
@@ -68,7 +68,7 @@ export default function LaComunidad() {
                     <ComunidadGallery />
                 </div>
             </section>
-            <section className="md:py-[100px]">
+            <section className="md:pt-[100px]">
                 <div className="container mx-auto flex flex-col">
                     <p className="text-tinto md:text-[26px] font-medium md:leading-[34px] md:mb-[50px]">
                         COMUNIDADES: ORGULLO Y COMPROMISO
@@ -101,9 +101,8 @@ export default function LaComunidad() {
                     <ComunidadGallerySecundaria />
                 </div>
             </section>
-            <section className="md:h-auto md:py-[100px] md:mb-[100px]">
+            <section className="md:h-auto md:mb-[100px] md:pb-[100px]">
                 <div className="container mx-auto">
-                    <PatrimonioGallery />
                     <Link href="/#comunidades" alt="PAGINA DE INICIO">
                         <Image
                             src="/btn-volver.svg"
