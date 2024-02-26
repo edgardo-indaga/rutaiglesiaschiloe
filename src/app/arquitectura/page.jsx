@@ -13,7 +13,7 @@ export default function LaArquitectura() {
                 <Image
                     src="/arquitectura/arquitectura-01.webp"
                     alt="Arquitectura"
-                    layout="fill"
+                    fill={true}
                     priority={true} // Prioritize the image for faster loading
                     quality={100} // Maintain image quality
                     className="object-cover object-top"

@@ -12,7 +12,7 @@ export default function LaHistoria() {
                 <Image
                     src="/historia/historia-01.webp"
                     alt="LA HISTORIA"
-                    layout="fill"
+                    fill={true}
                     priority={true} // Prioritize the image for faster loading
                     quality={100} // Maintain image quality
                     className="object-cover object-top"

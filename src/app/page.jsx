@@ -10,7 +10,7 @@ export default function Home() {
             <section className="md:h-auto">
                 <div className="container">
                     <CarouselHome />
-                    <h1 className="font-barlow uppercase text-tinto md:text-[40px] md:font-semibold md:leading-[57px] absolute top-[50%] left-[60%] z-20">
+                    <h1 className="font-barlow uppercase text-tinto md:text-[40px] md:font-semibold md:leading-[57px] absolute md:top-[50%] md:left-[52.9%] z-20">
                         REFLEJOS DE UNA FORMA DE VIDA
                     </h1>
                 </div>
@@ -28,6 +28,7 @@ export default function Home() {
                             alt="PATRIMONIO DE LA HUMANIDAD"
                             width={1300}
                             height={1503}
+                            quality={100}
                         />
                     </div>
                     <div className="md:w-7/12 md:pt-[170px] md:leading-[57px] ">
@@ -44,6 +45,7 @@ export default function Home() {
                                 alt="ir"
                                 width={240}
                                 height={60}
+                                quality={100}
                                 className="md:mt-[60px] md:w-[180px] hover:scale-[1.1] transition-all ease-cubic-bezier"
                             />
                         </Link>
@@ -72,6 +74,7 @@ export default function Home() {
                                 alt="ir"
                                 width={240}
                                 height={60}
+                                quality={100}
                                 className="md:mt-[60px] md:w-[180px] hover:scale-[1.1] transition-all ease-cubic-bezier"
                             />
                         </Link>
@@ -82,6 +85,7 @@ export default function Home() {
                             alt="La Historia"
                             width={1300}
                             height={1503}
+                            quality={100}
                             className="md:mt-[-380px]"
                         />
                     </div>
@@ -100,7 +104,13 @@ export default function Home() {
             <section className="md:h-[900px] md:py-[100px]" id="arquitectura">
                 <div className="container mx-auto flex">
                     <div className="md:w-5/12">
-                        <Image src="/home-04.webp" alt="La Historia" width={1300} height={1462} />
+                        <Image
+                            src="/home-04.webp"
+                            alt="La Historia"
+                            width={1300}
+                            height={1462}
+                            quality={100}
+                        />
                     </div>
                     <div className="md:w-7/12 md:pt-[170px] md:leading-[57px]">
                         <h1 className="text-tinto md:text-[40px] font-semibold md:mb-[20px]">
@@ -116,6 +126,7 @@ export default function Home() {
                                 alt="ir"
                                 width={240}
                                 height={60}
+                                quality={100}
                                 className="md:mt-[60px] md:w-[180px] hover:scale-[1.1] transition-all ease-cubic-bezier"
                             />
                         </Link>
@@ -138,6 +149,7 @@ export default function Home() {
                                 alt="ir"
                                 width={240}
                                 height={60}
+                                quality={100}
                                 className="md:mt-[60px] md:w-[180px] hover:scale-[1.1] transition-all ease-cubic-bezier"
                             />
                         </Link>
@@ -148,6 +160,7 @@ export default function Home() {
                             alt="La Historia"
                             width={1300}
                             height={1895}
+                            quality={100}
                             className="md:mt-[-70px] md:h-[850px] md:w-auto"
                         />
                     </div>
@@ -166,12 +179,13 @@ export default function Home() {
                             Las iglesias de Chiloé no son museos, sino lugares de culto donde se
                             debe mantener una siempre actitud de respeto.
                         </p>
-                        <Link href="#" alt="LA ARQUITECTURA">
+                        <Link href="/protocolo.pdf" target="_blank" alt="PROTOCOLO DE VISITA">
                             <Image
                                 src="/btn-mas-wh.svg"
                                 alt="ir"
                                 width={240}
                                 height={60}
+                                quality={100}
                                 className="md:mt-[60px] md:w-[180px] hover:scale-[1.1] transition-all ease-cubic-bezier"
                             />
                         </Link>

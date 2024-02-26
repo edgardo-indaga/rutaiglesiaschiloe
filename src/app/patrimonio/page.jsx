@@ -1,7 +1,6 @@
 import Image from 'next/image';
 import Link from 'next/link';
 import PatrimonioGallery from '@/components/PatrimonioGaleria';
-import HistoriaGallery from '@/components/HistoriaGaleria';
 
 export const metadata = {
     title: 'PTI | El Patrimonio',
@@ -13,7 +12,7 @@ export default function ElPatrimonio() {
                 <Image
                     src="/patrimonio/patrimonio-01.webp"
                     alt="Patrimonio de la humanidad"
-                    layout="fill"
+                    fill={true}
                     priority={true} // Prioritize the image for faster loading
                     quality={100} // Maintain image quality
                     className="object-cover object-center"
@@ -82,7 +81,11 @@ export default function ElPatrimonio() {
                     </ul>
                 </div>
                 <div className="container mx-auto flex justify-center">
-                    <Link href="#" alt="PATRIMONIO DE LA HUMANIDAD">
+                    <Link
+                        href="https://whc.unesco.org/es/list/971"
+                        alt="PATRIMONIO DE LA HUMANIDAD"
+                        target="_blank"
+                    >
                         <Image
                             src="/btn-mas.svg"
                             alt="ir"

@@ -10,7 +10,7 @@ export default function Contacto() {
                 <Image
                     src="/contacto/contacto-01.webp"
                     alt="Contacto"
-                    layout="fill"
+                    fill={true}
                     priority={true} // Prioritize the image for faster loading
                     quality={100} // Maintain image quality
                     className="object-cover object-center"

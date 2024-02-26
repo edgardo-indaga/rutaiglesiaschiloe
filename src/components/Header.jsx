@@ -78,8 +78,9 @@ export default function HeaderPrincipal() {
                                 <li className={styles.navLinks}>
                                     <Link
                                         className={`link ${pathname === '#' ? 'active' : ''}`}
-                                        href="#"
+                                        href="/protocolo.pdf"
                                         style={{ fontWeight: pathname === '#' ? '500' : 'normal' }}
+                                        target="_blank"
                                     >
                                         Protocolo
                                     </Link>
@@ -169,7 +170,9 @@ export default function HeaderPrincipal() {
                                     onClick={() => setMenuOpen(false)}
                                     className={styles.linksMobile}
                                 >
-                                    <Link href="#">Protocolo</Link>
+                                    <Link href="/protocolo.pdf" target="_blank">
+                                        Protocolo
+                                    </Link>
                                 </li>
                                 <li
                                     onClick={() => setMenuOpen(false)}
