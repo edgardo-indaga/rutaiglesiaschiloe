@@ -3,6 +3,10 @@ import Image from 'next/image';
 import ThumbCompIglesias from '@/components/ThumbCompIglesias';
 import ThumbIglesias from '@/components/Thumb-Iglesias';
 
+export const metadata = {
+    title: 'PTI | Las Iglesias',
+};
+
 export default function LasIglesias() {
     return (
         <main>

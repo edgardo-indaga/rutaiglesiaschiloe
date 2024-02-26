@@ -82,9 +82,8 @@ export const ContactForm = () => {
                         value={phone}
                         onChange={(e) => setPhone(e.target.value)}
                         type="number"
-                        placeholder="Número de teléfono *"
+                        placeholder="Número de teléfono"
                         autoComplete="tel"
-                        required
                     />
                 </div>
 
