@@ -17,7 +17,7 @@ export default function IglesiaCastro() {
                     className="object-cover object-center"
                 />
             </section>
-            <section className="md:h-screen md:py-[100px]">
+            <section className="md:py-[100px]">
                 <div className="container mx-auto">
                     <h1 className="text-tinto md:text-[30px] font-semibold uppercase">
                         Iglesia San Francisco de CASTRO
@@ -88,7 +88,7 @@ export default function IglesiaCastro() {
                     </p>
                 </div>
             </section>
-            <section className="md:mt-[100px]">
+            <section>
                 <div
                     className="container mx-auto bg-cover bg-no-repeat bg-center md:h-screen flex justify-center align-middle items-center"
                     style={{ backgroundImage: "url('/iglesias/castro/castro-02.webp')" }}
@@ -103,7 +103,7 @@ export default function IglesiaCastro() {
                     </Link>
                 </div>
             </section>
-            <section className="md:h-auto md:py-[100px]">
+            <section className="md:py-[100px]">
                 <div className="container mx-auto">
                     <CastroGallery />
                 </div>
