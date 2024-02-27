@@ -51,7 +51,11 @@ export default function YoutubeVideo() {
             <YouTube videoId="VVaLzcOuC88" opts={opts} onReady={onReady} />
             {/* Botón de reproducción */}
             {!isPlaying && (
-                <button className={styles.playButton} onClick={handlePlayPause}>
+                <button
+                    aria-label="Play Youtube"
+                    className={styles.playButton}
+                    onClick={handlePlayPause}
+                >
                     <svg
                         xmlns="http://www.w3.org/2000/svg"
                         fill="none"
