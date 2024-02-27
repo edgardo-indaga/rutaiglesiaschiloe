@@ -9,7 +9,7 @@ export const metadata = {
 export default function LaArquitectura() {
     return (
         <main>
-            <section className="bg-cover bg-no-repeat bg-top md:h-screen">
+            <section className="md:h-screen relative">
                 <Image
                     src="/arquitectura/arquitectura-01.webp"
                     alt="Arquitectura"

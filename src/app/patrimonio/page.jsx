@@ -8,7 +8,7 @@ export const metadata = {
 export default function ElPatrimonio() {
     return (
         <main>
-            <section className="bg-cover bg-no-repeat bg-top md:h-screen">
+            <section className="md:h-screen relative">
                 <Image
                     src="/patrimonio/patrimonio-01.webp"
                     alt="Patrimonio de la humanidad"

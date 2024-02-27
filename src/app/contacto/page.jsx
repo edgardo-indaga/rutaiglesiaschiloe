@@ -6,7 +6,7 @@ export const metadata = {
 export default function Contacto() {
     return (
         <main>
-            <section className="bg-cover bg-no-repeat bg-top md:h-screen">
+            <section className="md:h-screen relative">
                 <Image
                     src="/contacto/contacto-01.webp"
                     alt="Contacto"

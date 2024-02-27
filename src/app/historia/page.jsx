@@ -8,7 +8,7 @@ export const metadata = {
 export default function LaHistoria() {
     return (
         <main>
-            <section className="bg-cover bg-no-repeat bg-top md:h-screen">
+            <section className="md:h-screen relative">
                 <Image
                     src="/historia/historia-01.webp"
                     alt="LA HISTORIA"
