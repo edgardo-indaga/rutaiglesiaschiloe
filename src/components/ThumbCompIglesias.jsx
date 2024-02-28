@@ -27,18 +27,14 @@ export default function ThumbCompIglesias() {
                                 quality={100} // Maintain image quality
                             />
                         </div>
-                        <div
-                            className={`md:w-[350px] md:h-[350px] bg-tinto cursor-pointer flex justify-center items-center ${
+                        <Link
+                            href="/patrimonio"
+                            className={`md:w-[350px] md:h-[350px] bg-tinto cursor-pointer flex justify-center items-center text-blanco text-[20px] font-medium uppercase ${
                                 isHovered ? '' : 'hidden'
                             }`}
                         >
-                            <Link
-                                href="/patrimonio"
-                                className="text-blanco text-[20px] font-medium uppercase"
-                            >
-                                PATRIMONIO DE LA HUMANIDAD
-                            </Link>
-                        </div>
+                            PATRIMONIO DE LA HUMANIDAD
+                        </Link>
                     </div>
                 </div>
                 <div className="md:w-3/12">
@@ -58,18 +54,14 @@ export default function ThumbCompIglesias() {
                                 quality={100} // Maintain image quality
                             />
                         </div>
-                        <div
-                            className={`md:w-[350px] md:h-[350px] bg-tinto cursor-pointer flex justify-center items-center ${
+                        <Link
+                            href="/historia"
+                            className={`md:w-[350px] md:h-[350px] bg-tinto cursor-pointer flex justify-center items-center text-blanco text-[20px] font-medium uppercase ${
                                 isHoverHistoria ? '' : 'hidden'
                             }`}
                         >
-                            <Link
-                                href="/historia"
-                                className="text-blanco text-[20px] font-medium uppercase"
-                            >
-                                LA HISTORIA
-                            </Link>
-                        </div>
+                            LA HISTORIA
+                        </Link>
                     </div>
                 </div>
                 <div className="md:w-3/12">
@@ -91,18 +83,14 @@ export default function ThumbCompIglesias() {
                                 quality={100} // Maintain image quality
                             />
                         </div>
-                        <div
-                            className={`md:w-[350px] md:h-[350px] bg-tinto cursor-pointer flex justify-center items-center ${
+                        <Link
+                            href="/arquitectura"
+                            className={`md:w-[350px] md:h-[350px] bg-tinto cursor-pointer flex justify-center items-center text-blanco text-[20px] font-medium uppercase ${
                                 isHoverArquitectura ? '' : 'hidden'
                             }`}
                         >
-                            <Link
-                                href="/arquitectura"
-                                className="text-blanco text-[20px] font-medium uppercase"
-                            >
-                                LA ARQUITECTURA
-                            </Link>
-                        </div>
+                            LA ARQUITECTURA
+                        </Link>
                     </div>
                 </div>
                 <div className="md:w-3/12">
@@ -124,18 +112,14 @@ export default function ThumbCompIglesias() {
                                 quality={100} // Maintain image quality
                             />
                         </div>
-                        <div
-                            className={`md:w-[350px] md:h-[350px] bg-tinto cursor-pointer flex justify-center items-center ${
+                        <Link
+                            href="/comunidades"
+                            className={`md:w-[350px] md:h-[350px] bg-tinto cursor-pointer flex justify-center items-center text-blanco text-[20px] font-medium uppercase ${
                                 isHoverComunidades ? '' : 'hidden'
                             }`}
                         >
-                            <Link
-                                href="/comunidades"
-                                className="text-blanco text-[20px] font-medium uppercase"
-                            >
-                                LAS COMUNIDADES
-                            </Link>
-                        </div>
+                            LAS COMUNIDADES
+                        </Link>
                     </div>
                 </div>
             </div>

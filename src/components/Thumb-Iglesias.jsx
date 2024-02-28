@@ -46,18 +46,15 @@ export default function ThumbIglesias() {
                                 quality={100}
                             />
                         </div>
-                        <div
-                            className={`md:w-[350px] md:h-[350px] bg-beige flex justify-center items-center ${
+
+                        <Link
+                            href="/iglesias/castro"
+                            className={`md:w-[350px] md:h-[350px] bg-beige flex justify-center items-center text-tinto md:text-[20px] md:font-medium uppercase text-center ${
                                 isHoverCastro ? '' : 'hidden'
                             }`}
                         >
-                            <Link
-                                href="/iglesias/castro"
-                                className="text-tinto md:text-[20px] md:font-medium uppercase md:w-[250px] text-center"
-                            >
-                                SAN FRANCISCO DE CASTRO
-                            </Link>
-                        </div>
+                            SAN FRANCISCO DE CASTRO
+                        </Link>
                     </div>
                 </div>
                 <div className="md:w-3/12 md:mb-[40px] ">
@@ -75,18 +72,15 @@ export default function ThumbIglesias() {
                                 quality={100}
                             />
                         </div>
-                        <div
-                            className={`md:w-[350px] md:h-[350px] bg-beige flex justify-center items-center ${
+
+                        <Link
+                            href="/iglesias/nercon"
+                            className={`md:w-[350px] md:h-[350px] bg-beige flex justify-center items-center text-tinto md:text-[20px] md:font-medium uppercase text-center ${
                                 isHoverNercon ? '' : 'hidden'
                             }`}
                         >
-                            <Link
-                                href="/iglesias/nercon"
-                                className="text-tinto md:text-[20px] md:font-medium uppercase md:w-[250px] text-center"
-                            >
-                                Iglesia Nuestra Señora de Gracia de NERCÓN
-                            </Link>
-                        </div>
+                            Iglesia Nuestra Señora de Gracia de NERCÓN
+                        </Link>
                     </div>
                 </div>
                 <div className="md:w-3/12 md:mb-[40px] ">
@@ -106,18 +100,15 @@ export default function ThumbIglesias() {
                                 quality={100}
                             />
                         </div>
-                        <div
-                            className={`md:w-[350px] md:h-[350px] bg-beige flex justify-center items-center ${
+
+                        <Link
+                            href="/iglesias/dalcahue"
+                            className={`md:w-[350px] md:h-[350px] bg-beige flex justify-center items-center text-tinto md:text-[20px] md:font-medium uppercase text-center ${
                                 isHoverDalcahue ? '' : 'hidden'
                             }`}
                         >
-                            <Link
-                                href="/iglesias/dalcahue"
-                                className="text-tinto md:text-[20px] md:font-medium uppercase md:w-[250px] text-center"
-                            >
-                                Iglesia Nuestra Señora de los Dolores de DALCAHUE
-                            </Link>
-                        </div>
+                            Iglesia Nuestra Señora de los Dolores de DALCAHUE
+                        </Link>
                     </div>
                 </div>
                 <div className="md:w-3/12 md:mb-[40px] ">
@@ -135,18 +126,15 @@ export default function ThumbIglesias() {
                                 quality={100}
                             />
                         </div>
-                        <div
-                            className={`md:w-[350px] md:h-[350px] bg-beige flex justify-center items-center ${
+
+                        <Link
+                            href="/iglesias/rilan"
+                            className={`md:w-[350px] md:h-[350px] bg-beige flex justify-center items-center text-tinto md:text-[20px] md:font-medium uppercase text-center ${
                                 isHoverRilan ? '' : 'hidden'
                             }`}
                         >
-                            <Link
-                                href="/iglesias/rilan"
-                                className="text-tinto md:text-[20px] md:font-medium uppercase md:w-[250px] text-center"
-                            >
-                                Iglesia Nuestra Señora de los Dolores de Rilán
-                            </Link>
-                        </div>
+                            Iglesia Nuestra Señora de los Dolores de Rilán
+                        </Link>
                     </div>
                 </div>
                 <div className="md:w-3/12 md:mb-[40px] ">
@@ -164,18 +152,15 @@ export default function ThumbIglesias() {
                                 quality={100}
                             />
                         </div>
-                        <div
-                            className={`md:w-[350px] md:h-[350px] bg-beige flex justify-center items-center ${
+
+                        <Link
+                            href="/iglesias/chelin"
+                            className={`md:w-[350px] md:h-[350px] bg-beige flex justify-center items-center text-tinto md:text-[20px] md:font-medium uppercase text-center ${
                                 isHoverChelin ? '' : 'hidden'
                             }`}
                         >
-                            <Link
-                                href="/iglesias/chelin"
-                                className="text-tinto md:text-[20px] md:font-medium uppercase md:w-[250px] text-center"
-                            >
-                                Iglesia Nuestra Señora del Rosario de CHELÍN
-                            </Link>
-                        </div>
+                            Iglesia Nuestra Señora del Rosario de CHELÍN
+                        </Link>
                     </div>
                 </div>
                 <div className="md:w-3/12 md:mb-[40px] ">
@@ -195,18 +180,15 @@ export default function ThumbIglesias() {
                                 quality={100}
                             />
                         </div>
-                        <div
-                            className={`md:w-[350px] md:h-[350px] bg-beige flex justify-center items-center ${
+
+                        <Link
+                            href="/iglesias/sanjuan"
+                            className={`md:w-[350px] md:h-[350px] bg-beige flex justify-center items-center text-tinto md:text-[20px] md:font-medium uppercase text-center ${
                                 isHoverSanJuan ? '' : 'hidden'
                             }`}
                         >
-                            <Link
-                                href="/iglesias/sanjuan"
-                                className="text-tinto md:text-[20px] md:font-medium uppercase md:w-[250px] text-center"
-                            >
-                                Iglesia San Juan Bautista de SAN JUAN
-                            </Link>
-                        </div>
+                            Iglesia San Juan Bautista de SAN JUAN
+                        </Link>
                     </div>
                 </div>
                 <div className="md:w-3/12 md:mb-[40px] ">
@@ -224,18 +206,15 @@ export default function ThumbIglesias() {
                                 quality={100}
                             />
                         </div>
-                        <div
-                            className={`md:w-[350px] md:h-[350px] bg-beige flex justify-center items-center ${
+
+                        <Link
+                            href="/iglesias/tenaun"
+                            className={`md:w-[350px] md:h-[350px] bg-beige flex justify-center items-center text-tinto md:text-[20px] md:font-medium uppercase text-center ${
                                 isHoverTenaun ? '' : 'hidden'
                             }`}
                         >
-                            <Link
-                                href="/iglesias/tenaun"
-                                className="text-tinto md:text-[20px] md:font-medium uppercase md:w-[250px] text-center"
-                            >
-                                Iglesia Nuestra Señora del Patrocinio de TENAÚN
-                            </Link>
-                        </div>
+                            Iglesia Nuestra Señora del Patrocinio de TENAÚN
+                        </Link>
                     </div>
                 </div>
                 <div className="md:w-3/12 md:mb-[40px] ">
@@ -253,18 +232,14 @@ export default function ThumbIglesias() {
                                 quality={100}
                             />
                         </div>
-                        <div
-                            className={`md:w-[350px] md:h-[350px] bg-beige flex justify-center items-center ${
+                        <Link
+                            href="/iglesias/colo"
+                            className={`md:w-[350px] md:h-[350px] bg-beige flex justify-center items-center text-tinto md:text-[20px] md:font-medium uppercase text-center ${
                                 isHoverColo ? '' : 'hidden'
                             }`}
                         >
-                            <Link
-                                href="/iglesias/colo"
-                                className="text-tinto md:text-[20px] md:font-medium uppercase md:w-[250px] text-center"
-                            >
-                                Iglesia San Antonio de COLO
-                            </Link>
-                        </div>
+                            Iglesia San Antonio de COLO
+                        </Link>
                     </div>
                 </div>
                 <div className="md:w-3/12 md:mb-[40px] ">
@@ -282,18 +257,14 @@ export default function ThumbIglesias() {
                                 quality={100}
                             />
                         </div>
-                        <div
-                            className={`md:w-[350px] md:h-[350px] bg-beige flex justify-center items-center ${
+                        <Link
+                            href="/iglesias/achao"
+                            className={`md:w-[350px] md:h-[350px] bg-beige flex justify-center items-center text-tinto md:text-[20px] md:font-medium uppercase text-center ${
                                 isHoverAchao ? '' : 'hidden'
                             }`}
                         >
-                            <Link
-                                href="/iglesias/achao"
-                                className="text-tinto md:text-[20px] md:font-medium uppercase md:w-[250px] text-center"
-                            >
-                                Iglesia Santa María de Loreto de ACHAO
-                            </Link>
-                        </div>
+                            Iglesia Santa María de Loreto de ACHAO
+                        </Link>
                     </div>
                 </div>
                 <div className="md:w-3/12 md:mb-[40px] ">
@@ -313,18 +284,14 @@ export default function ThumbIglesias() {
                                 quality={100}
                             />
                         </div>
-                        <div
-                            className={`md:w-[350px] md:h-[350px] bg-beige flex justify-center items-center ${
+                        <Link
+                            href="/iglesias/quinchao"
+                            className={`md:w-[350px] md:h-[350px] bg-beige flex justify-center items-center text-tinto md:text-[20px] md:font-medium uppercase text-center ${
                                 isHoverQuinchao ? '' : 'hidden'
                             }`}
                         >
-                            <Link
-                                href="/iglesias/quinchao"
-                                className="text-tinto md:text-[20px] md:font-medium uppercase md:w-[250px] text-center"
-                            >
-                                Iglesia Nuestra Señora de la Gracia de QUINCHAO
-                            </Link>
-                        </div>
+                            Iglesia Nuestra Señora de la Gracia de QUINCHAO
+                        </Link>
                     </div>
                 </div>
                 <div className="md:w-3/12 md:mb-[40px] ">
@@ -344,18 +311,14 @@ export default function ThumbIglesias() {
                                 quality={100}
                             />
                         </div>
-                        <div
-                            className={`md:w-[350px] md:h-[350px] bg-beige flex justify-center items-center ${
+                        <Link
+                            href="/iglesias/caguach"
+                            className={`md:w-[350px] md:h-[350px] bg-beige flex justify-center items-center text-tinto md:text-[20px] md:font-medium uppercase text-center ${
                                 isHoverCaguach ? '' : 'hidden'
                             }`}
                         >
-                            <Link
-                                href="/iglesias/caguach"
-                                className="text-tinto md:text-[20px] md:font-medium uppercase md:w-[250px] text-center"
-                            >
-                                Iglesia Jesús Nazareno de CAGUACH
-                            </Link>
-                        </div>
+                            Iglesia Jesús Nazareno de CAGUACH
+                        </Link>
                     </div>
                 </div>
                 <div className="md:w-3/12 md:mb-[40px] ">
@@ -375,18 +338,14 @@ export default function ThumbIglesias() {
                                 quality={100}
                             />
                         </div>
-                        <div
-                            className={`md:w-[350px] md:h-[350px] bg-beige flex justify-center items-center ${
+                        <Link
+                            href="/iglesias/chonchi"
+                            className={`md:w-[350px] md:h-[350px] bg-beige flex justify-center items-center text-tinto md:text-[20px] md:font-medium uppercase text-center ${
                                 isHoverChonchi ? '' : 'hidden'
                             }`}
                         >
-                            <Link
-                                href="/iglesias/chonchi"
-                                className="text-tinto md:text-[20px] md:font-medium uppercase md:w-[250px] text-center"
-                            >
-                                Iglesia Nuestra Señora del Rosario de CHONCHI
-                            </Link>
-                        </div>
+                            Iglesia Nuestra Señora del Rosario de CHONCHI
+                        </Link>
                     </div>
                 </div>
                 <div className="md:w-3/12 md:mb-[40px] ">
@@ -408,18 +367,14 @@ export default function ThumbIglesias() {
                                 quality={100}
                             />
                         </div>
-                        <div
-                            className={`md:w-[350px] md:h-[350px] bg-beige flex justify-center items-center ${
+                        <Link
+                            href="/iglesias/vilipulli"
+                            className={`md:w-[350px] md:h-[350px] bg-beige flex justify-center items-center text-tinto md:text-[20px] md:font-medium uppercase text-center ${
                                 isHoverVilipulli ? '' : 'hidden'
                             }`}
                         >
-                            <Link
-                                href="/iglesias/vilipulli"
-                                className="text-tinto md:text-[20px] md:font-medium uppercase md:w-[250px] text-center"
-                            >
-                                Iglesia San Antonio de Padua de VILUPULLI
-                            </Link>
-                        </div>
+                            Iglesia San Antonio de Padua de VILUPULLI
+                        </Link>
                     </div>
                 </div>
                 <div className="md:w-3/12 md:mb-[40px] ">
@@ -437,18 +392,14 @@ export default function ThumbIglesias() {
                                 quality={100}
                             />
                         </div>
-                        <div
-                            className={`md:w-[350px] md:h-[350px] bg-beige flex justify-center items-center ${
+                        <Link
+                            href="/iglesias/ichuac"
+                            className={`md:w-[350px] md:h-[350px] bg-beige flex justify-center items-center text-tinto md:text-[20px] md:font-medium uppercase text-center ${
                                 isHoverIchuac ? '' : 'hidden'
                             }`}
                         >
-                            <Link
-                                href="/iglesias/ichuac"
-                                className="text-tinto md:text-[20px] md:font-medium uppercase md:w-[250px] text-center"
-                            >
-                                Iglesia Natividad de María de ICHUAC
-                            </Link>
-                        </div>
+                            Iglesia Natividad de María de ICHUAC
+                        </Link>
                     </div>
                 </div>
                 <div className="md:w-3/12 md:mb-[40px] ">
@@ -470,18 +421,14 @@ export default function ThumbIglesias() {
                                 quality={100}
                             />
                         </div>
-                        <div
-                            className={`md:w-[350px] md:h-[350px] bg-beige flex justify-center items-center ${
+                        <Link
+                            href="/iglesias/aldachildo"
+                            className={`md:w-[350px] md:h-[350px] bg-beige flex justify-center items-center text-tinto md:text-[20px] md:font-medium uppercase text-center ${
                                 isHoverAldachildo ? '' : 'hidden'
                             }`}
                         >
-                            <Link
-                                href="/iglesias/aldachildo"
-                                className="text-tinto md:text-[20px] md:font-medium uppercase md:w-[250px] text-center"
-                            >
-                                Iglesia Jesús Nazareno de ALDACHILDO
-                            </Link>
-                        </div>
+                            Iglesia Jesús Nazareno de ALDACHILDO
+                        </Link>
                     </div>
                 </div>
                 <div className="md:w-3/12 md:mb-[40px] ">
@@ -499,18 +446,14 @@ export default function ThumbIglesias() {
                                 quality={100}
                             />
                         </div>
-                        <div
-                            className={`md:w-[350px] md:h-[350px] bg-beige flex justify-center items-center ${
+                        <Link
+                            href="/iglesias/detif"
+                            className={`md:w-[350px] md:h-[350px] bg-beige flex justify-center items-center text-tinto md:text-[20px] md:font-medium uppercase text-center ${
                                 isHoverDetif ? '' : 'hidden'
                             }`}
                         >
-                            <Link
-                                href="/iglesias/detif"
-                                className="text-tinto md:text-[20px] md:font-medium uppercase md:w-[250px] text-center"
-                            >
-                                Iglesia Santiago Apóstol de DETIF
-                            </Link>
-                        </div>
+                            Iglesia Santiago Apóstol de DETIF
+                        </Link>
                     </div>
                 </div>
             </div>
