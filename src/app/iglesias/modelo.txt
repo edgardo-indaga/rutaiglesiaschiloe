@@ -1,8 +1,9 @@
 import Image from 'next/image';
 import Link from 'next/link';
-import SanJuanGallery from '@/components/SanJuanGaleria';
+
+
 export const metadata = {
-    title: 'PTI | Iglesia San Juan Bautista de San Juan ',
+    title: 'PTI | Iglesia Nuestra Señora ',
 };
 
 export default function IglesiaColo() {
@@ -10,8 +11,8 @@ export default function IglesiaColo() {
         <main>
             <section className="md:h-screen relative">
                 <Image
-                    src="/iglesias/sanjuan/sanjuan-01.webp"
-                    alt="Iglesia San Juan Bautista de San Juan"
+                    src="/iglesias//-01.webp"
+                    alt="Iglesia Nuestra Señora de los Dolores de DALCAHUE"
                     fill={true}
                     priority={true}
                     quality={100}
@@ -21,14 +22,14 @@ export default function IglesiaColo() {
             <section className="md:py-[100px]">
                 <div className="container mx-auto">
                     <h1 className="text-tinto md:text-[30px] font-semibold uppercase">
-                        Iglesia San Juan Bautista de San Juan
+                        Iglesia Nuestra Señora
                     </h1>
                 </div>
                 <div className="container mx-auto flex md:mt-[70px]">
                     <div className="md:w-4/12 flex flex-row items-center">
                         <Image src="/iglesias/icono-01.svg" alt="Icono 01" width={77} height={56} />
                         <p className="text-tinto md:text-[26px] font-thin md:leading-[34px] md:ml-[30px] md:mr-[20px]">
-                            Construcción: <b className="md:font-medium">1887</b>
+                            Construcción: <b className="md:font-medium">1893</b>
                         </p>
                     </div>
                     <div className="md:w-4/12 flex flex-row items-center">
@@ -40,7 +41,7 @@ export default function IglesiaColo() {
                             className="md:h-[90px] md:w-auto"
                         />
                         <p className="text-tinto md:text-[26px] font-thin md:leading-[34px] md:ml-[30px] md:mr-[20px]">
-                            Patrono: <b className="md:font-medium">San Juan Bautista</b>
+                            Patrono: <b className="md:font-medium">Nuestra Señora de los Dolores</b>
                         </p>
                     </div>
                     <div className="md:w-4/12 flex flex-row items-center">
@@ -52,42 +53,26 @@ export default function IglesiaColo() {
                             className="md:h-[100px] md:w-auto"
                         />
                         <p className="text-tinto md:text-[26px] font-thin md:leading-[34px] md:ml-[30px] md:mr-[20px]">
-                            Fiesta Patronal: <b className="md:font-medium">24 de junio</b>
+                            Fiesta Patronal: <b className="md:font-medium">15 de septiembre</b>
                         </p>
                     </div>
                 </div>
                 <div className="container mx-auto md:mt-[70px]">
                     <p className="text-tinto md:text-[26px] font-thin md:leading-[34px] md:mb-[25px]">
-                        Llama la atención el emplazamiento de la iglesia de San Juan, que se
-                        encuentra muy cerca del borde marino cuando sube la marea. Según cuentan los
-                        lugareños, esto se debe al terremoto y posterior maremoto de 1960, cuando el
-                        nivel del mar se elevó y socavó el terreno. Afortunadamente, la iglesia se
-                        mantuvo en pie. Sin embargo, el cementerio contiguo quedó completamente
-                        sumergido y la imagen del patrón San Juan Bautista, tallada en madera, cayó
-                        y se trizó.
+
                     </p>
                     <p className="text-tinto md:text-[26px] font-thin md:leading-[34px] md:mb-[25px]">
-                        Junto a la iglesia se encuentra un astillero que mantiene vivo el oficio de
-                        carpintería de ribera tradicional de Chiloé. Desde el techo de la iglesia
-                        cuelgan miniaturas de barcos chilotes, dejadas como ofrenda por un vecino de
-                        la comunidad haciendo alusión a este oficio.
+
                     </p>
                     <p className="text-tinto md:text-[26px] font-thin md:leading-[34px] md:mb-[25px]">
-                        Durante las últimas restauraciones, se descubrieron restos humanos bajo la
-                        iglesia, lo que sugiere la presencia de un antiguo cementerio en el lugar.
-                        Las osamentas fueron colocadas en un cajón y posteriormente enterradas
-                        nuevamente bajo la iglesia.
-                    </p>
-                    <p className="text-tinto md:text-[26px] font-thin md:leading-[34px] md:mb-[25px]">
-                        Con orgullo, la comunidad sanjuanina afirma que su iglesia alberga la mayor
-                        cantidad de santos en todo el archipiélago.
+
                     </p>
                 </div>
             </section>
             <section>
                 <div
                     className="container mx-auto bg-cover bg-no-repeat bg-center md:h-screen flex justify-center align-middle items-center"
-                    style={{ backgroundImage: "url('/iglesias/sanjuan/sanjuan-02.webp')" }}
+                    style={{ backgroundImage: "url('/iglesias//-02.webp')" }}
                 >
                     <Link href="#">
                         <Image
@@ -101,7 +86,7 @@ export default function IglesiaColo() {
             </section>
             <section className="md:py-[100px]">
                 <div className="container mx-auto">
-                    <SanJuanGallery />
+                    // aqui va la galeria
                 </div>
                 <div className="container mx-auto flex justify-end">
                     <Link href="#" alt="Volver a paginas Iglesias">

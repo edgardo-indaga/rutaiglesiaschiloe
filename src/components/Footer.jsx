@@ -14,7 +14,7 @@ export default function FooterPrincipal() {
                         priority
                         className="md:mr-4 md:w-[180px]"
                     />
-                    <Link href="#">
+                    <Link href="https://corfo.cl/sites/cpp/homecorfo" target={'_blank'}>
                         <Image
                             src="/logo-corfo.svg"
                             alt="Logo Corfo"
