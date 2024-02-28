@@ -26,7 +26,7 @@ export default function IglesiaCastro() {
                 <div className="container mx-auto flex md:mt-[70px]">
                     <div className="md:w-4/12 flex flex-row items-center">
                         <Image src="/iglesias/icono-01.svg" alt="Icono 01" width={77} height={56} />
-                        <p className="text-tinto md:text-[26px] font-thin md:leading-[34px] md:ml-[30px]">
+                        <p className="text-tinto md:text-[26px] font-thin md:leading-[34px] md:ml-[30px] md:mr-[20px]">
                             Construcción: <b className="md:font-medium">1910</b>
                         </p>
                     </div>
@@ -38,7 +38,7 @@ export default function IglesiaCastro() {
                             height={117}
                             className="md:h-[90px] md:w-auto"
                         />
-                        <p className="text-tinto md:text-[26px] font-thin md:leading-[34px] md:ml-[30px]">
+                        <p className="text-tinto md:text-[26px] font-thin md:leading-[34px] md:ml-[30px] md:mr-[20px]">
                             Patrono: <b className="md:font-medium">San Francisco</b>
                         </p>
                     </div>
@@ -50,7 +50,7 @@ export default function IglesiaCastro() {
                             height={143}
                             className="md:h-[100px] md:w-auto"
                         />
-                        <p className="text-tinto md:text-[26px] font-thin md:leading-[34px] md:ml-[30px]">
+                        <p className="text-tinto md:text-[26px] font-thin md:leading-[34px] md:ml-[30px] md:mr-[20px]">
                             Fiesta Patronal: <b className="md:font-medium">4 de octubre</b>
                         </p>
                     </div>

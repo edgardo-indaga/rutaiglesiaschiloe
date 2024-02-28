@@ -144,7 +144,7 @@ export default function ThumbIglesias() {
                                 href="/iglesias/rilan"
                                 className="text-tinto md:text-[20px] md:font-medium uppercase md:w-[250px] text-center"
                             >
-                                Iglesia Nuestra Señora de los Dolores de DALCAHUE
+                                Iglesia Nuestra Señora de los Dolores de Rilán
                             </Link>
                         </div>
                     </div>
