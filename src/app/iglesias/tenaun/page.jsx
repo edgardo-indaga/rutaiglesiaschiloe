@@ -5,7 +5,7 @@ export const metadata = {
     title: 'PTI | Iglesia Nuestra Señora del Patrocinio de Tenaún',
 };
 
-export default function IglesiaColo() {
+export default function IglesiaTenaun() {
     return (
         <main>
             <section className="md:h-screen relative">

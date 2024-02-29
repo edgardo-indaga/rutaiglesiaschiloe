@@ -4,7 +4,7 @@ import Image from 'next/image';
 import Link from 'next/link';
 
 import Mapa from '/public/mapa/mapa-sin-iglesias.webp';
-import Villipulli from '/public/mapa/villipulli.png';
+import Vilupulli from '/public/mapa/vilupullli.png';
 import Chonchi from '/public/mapa/chonchi.png';
 import Ichuac from '/public/mapa/ichuac.png';
 import Rilan from '/public/mapa/rilan.png';
@@ -31,9 +31,9 @@ export default function HotSpotsMapa() {
                 width={1290}
                 className="hotspots--figure"
             />
-            <Link href="/iglesias/vilopulli" className="hotspot hotspot--villipulli">
+            <Link href="/iglesias/vilupulli" className="hotspot hotspot--villipulli">
                 <Image
-                    src={Villipulli}
+                    src={Vilupulli}
                     alt="Iglesia de Villipulli"
                     width={249}
                     height={224}

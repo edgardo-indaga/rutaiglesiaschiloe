@@ -368,7 +368,7 @@ export default function ThumbIglesias() {
                             />
                         </div>
                         <Link
-                            href="/iglesias/vilipulli"
+                            href="/iglesias/vilupulli"
                             className={`md:w-[350px] md:h-[350px] bg-beige flex justify-center items-center text-tinto md:text-[20px] md:font-medium uppercase text-center ${
                                 isHoverVilipulli ? '' : 'hidden'
                             }`}

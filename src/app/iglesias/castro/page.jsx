@@ -20,7 +20,7 @@ export default function IglesiaCastro() {
             <section className="md:py-[100px]">
                 <div className="container mx-auto">
                     <h1 className="text-tinto md:text-[30px] font-semibold uppercase">
-                        Iglesia San Francisco de CASTRO
+                        Iglesia San Francisco de Castro
                     </h1>
                 </div>
                 <div className="container mx-auto flex md:mt-[70px]">

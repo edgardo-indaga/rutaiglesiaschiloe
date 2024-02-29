@@ -5,7 +5,7 @@ export const metadata = {
     title: 'PTI | Iglesia San Juan Bautista de San Juan ',
 };
 
-export default function IglesiaColo() {
+export default function IglesiaSanJuan() {
     return (
         <main>
             <section className="md:h-screen relative">

@@ -4,7 +4,7 @@ import DalcahueGallery from '@/components/DalcahueGaleria';
 export const metadata = {
     title: 'PTI | Iglesia Nuestra Señora de los Dolores de Dalcahue',
 };
-export default function IglesiaColo() {
+export default function IglesiaDalcahue() {
     return (
         <main>
             <section className="md:h-screen relative">

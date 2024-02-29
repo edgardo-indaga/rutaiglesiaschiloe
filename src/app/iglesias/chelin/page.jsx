@@ -5,7 +5,7 @@ export const metadata = {
     title: 'PTI | Iglesia Nuestra Señora del Rosario de Chelín ',
 };
 
-export default function IglesiaColo() {
+export default function IglesiaChelin() {
     return (
         <main>
             <section className="md:h-screen relative">
