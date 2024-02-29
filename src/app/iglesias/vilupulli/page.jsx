@@ -67,11 +67,12 @@ export default function IglesiaVilupulli() {
                         fieles del lugar fueron sepultados bajo el antiguo templo.
                     </p>
                     <p className="text-tinto md:text-[26px] font-thin md:leading-[34px] md:mb-[25px]">
-                        Entre las imágenes de la iglesia, destaca la Virgen sentada, que representa
-                        a la Inmaculada Concepción en un trono de madera, pisando a un demonio en
-                        forma de serpiente. Esta imagen es única en el archipiélago y se asocia
-                        directamente con la localidad, dado que nombre mapudungún de Vilupulli, se
-                        traduce como Loma de la culebra o Colina de la serpiente.
+                        Entre las imágenes de la iglesia, destaca la &apos;Virgen sentada&quot;, que
+                        representa a la Inmaculada Concepción en un trono de madera, pisando a un
+                        demonio en forma de serpiente. Esta imagen es única en el archipiélago y se
+                        asocia directamente con la localidad, dado que nombre mapudungún de
+                        Vilupulli, se traduce como &apos;Loma de la culebra&quot; o &apos;Colina de
+                        la serpiente&quot;.
                     </p>
                     <p className="text-tinto md:text-[26px] font-thin md:leading-[34px] md:mb-[25px]">
                         Muchas personas recuerdan que alrededor de 1940 llegó la campana y que para

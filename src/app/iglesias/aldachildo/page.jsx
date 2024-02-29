@@ -59,12 +59,12 @@ export default function IglesiaAldachildo() {
                 </div>
                 <div className="container mx-auto md:mt-[70px]">
                     <p className="text-tinto md:text-[26px] font-thin md:leading-[34px] md:mb-[25px]">
-                        La comunidad cuenta que la iglesia de Aldachildo se (salvó de milagro) en
-                        1995, cuando estuvo a punto de ser demolida debido a su paupérrimo estado de
-                        conservación. Se dice que esto estuvo tan cerca de ocurrir, que varias
-                        personas locales ya habían donado papas y recursos para financiar las obras
-                        de construcción de una nueva iglesia. Afortunadamente, tras ser declarada
-                        Monumento Nacional, pudo ser restaurada.
+                        La comunidad cuenta que la iglesia de Aldachildo se &apos;salvó de
+                        milagro&quot; en 1995, cuando estuvo a punto de ser demolida debido a su
+                        paupérrimo estado de conservación. Se dice que esto estuvo tan cerca de
+                        ocurrir, que varias personas locales ya habían donado papas y recursos para
+                        financiar las obras de construcción de una nueva iglesia. Afortunadamente,
+                        tras ser declarada Monumento Nacional, pudo ser restaurada.
                     </p>
                     <p className="text-tinto md:text-[26px] font-thin md:leading-[34px] md:mb-[25px]">
                         Al igual que la iglesia de Vilupulli, llama la atención su estilizada torre.
