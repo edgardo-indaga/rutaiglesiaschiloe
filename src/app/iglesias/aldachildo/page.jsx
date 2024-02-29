@@ -3,7 +3,7 @@ import Link from 'next/link';
 import AldachildoGallery from '@/components/AldachildoGaleria';
 
 export const metadata = {
-    title: 'PTI | Iglesia Jesús Nazareno de Aldachildo ',
+    title: 'PTI | Iglesia Jesús Nazareno de Aldachildo',
 };
 
 export default function IglesiaAldachildo() {
@@ -59,7 +59,7 @@ export default function IglesiaAldachildo() {
                 </div>
                 <div className="container mx-auto md:mt-[70px]">
                     <p className="text-tinto md:text-[26px] font-thin md:leading-[34px] md:mb-[25px]">
-                        La comunidad cuenta que la iglesia de Aldachildo se 'salvó de milagro' en
+                        La comunidad cuenta que la iglesia de Aldachildo se (salvó de milagro) en
                         1995, cuando estuvo a punto de ser demolida debido a su paupérrimo estado de
                         conservación. Se dice que esto estuvo tan cerca de ocurrir, que varias
                         personas locales ya habían donado papas y recursos para financiar las obras
