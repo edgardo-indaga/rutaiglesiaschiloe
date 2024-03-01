@@ -1,11 +1,14 @@
 'use client';
 
 import React from 'react';
+// Componente de Album Visual
 import PhotoAlbum from 'react-photo-album';
-
+// Componente de Lightbox (POP-UP) de las imagenes
 import Lightbox from 'yet-another-react-lightbox';
 import 'yet-another-react-lightbox/styles.css';
-
+// Componente de Lightbox para poner titulos y descripciones
+import Captions from 'yet-another-react-lightbox/plugins/captions';
+import 'yet-another-react-lightbox/plugins/captions.css';
 // import optional lightbox plugins
 import Fullscreen from 'yet-another-react-lightbox/plugins/fullscreen';
 import Slideshow from 'yet-another-react-lightbox/plugins/slideshow';
@@ -14,14 +17,62 @@ import Zoom from 'yet-another-react-lightbox/plugins/zoom';
 import 'yet-another-react-lightbox/plugins/thumbnails.css';
 
 const slides = [
-    { src: '/iglesias/chonchi/chonchi_galeria_01.jpg', width: 1200, height: 800 },
-    { src: '/iglesias/chonchi/chonchi_galeria_02.jpg', width: 1200, height: 800 },
-    { src: '/iglesias/chonchi/chonchi_galeria_03.jpg', width: 1200, height: 800 },
-    { src: '/iglesias/chonchi/chonchi_galeria_04.jpg', width: 1200, height: 800 },
-    { src: '/iglesias/chonchi/chonchi_galeria_05.jpg', width: 1200, height: 800 },
-    { src: '/iglesias/chonchi/chonchi_galeria_06.jpg', width: 1200, height: 800 },
-    { src: '/iglesias/chonchi/chonchi_galeria_07.jpg', width: 1200, height: 800 },
-    { src: '/iglesias/chonchi/chonchi_galeria_08.jpg', width: 1200, height: 800 },
+    {
+        src: '/iglesias/chonchi/chonchi_galeria_01.jpg',
+        width: 1200,
+        height: 800,
+        title: 'Iglesia de Chonchi',
+        description: 'Detalle de pintura en altar',
+    },
+    {
+        src: '/iglesias/chonchi/chonchi_galeria_02.jpg',
+        width: 1200,
+        height: 800,
+        title: 'Iglesia de Chonchi',
+        description: 'Altar lateral',
+    },
+    {
+        src: '/iglesias/chonchi/chonchi_galeria_03.jpg',
+        width: 1200,
+        height: 800,
+        title: 'Iglesia de Chonchi',
+        description: 'Detalles ornamentales\n',
+    },
+    {
+        src: '/iglesias/chonchi/chonchi_galeria_04.jpg',
+        width: 1200,
+        height: 800,
+        title: 'Iglesia de Chonchi',
+        description: 'Púlpito',
+    },
+    {
+        src: '/iglesias/chonchi/chonchi_galeria_05.jpg',
+        width: 1200,
+        height: 800,
+        title: 'Iglesia de Chonchi',
+        description: 'Interior',
+    },
+    {
+        src: '/iglesias/chonchi/chonchi_galeria_06.jpg',
+        width: 1200,
+        height: 800,
+        title: 'Iglesia de Chonchi',
+        description: 'Detalle de bóveda estrellada\n',
+    },
+    {
+        src: '/iglesias/chonchi/chonchi_galeria_07.jpg',
+        width: 1200,
+        height: 800,
+        title: 'Iglesia de Chonchi',
+        description: 'Interior',
+    },
+    {
+        src: '/iglesias/chonchi/chonchi_galeria_08.jpg',
+        width: 1200,
+        height: 800,
+        title: 'Iglesia de Chonchi',
+        description: 'Detalle exterior',
+    },
 ];
 
 export default function ChonchiGallery() {
@@ -42,7 +93,7 @@ export default function ChonchiGallery() {
                 index={index}
                 close={() => setIndex(-1)}
                 // enable optional lightbox plugins
-                plugins={[Fullscreen, Slideshow, Thumbnails, Zoom]}
+                plugins={[Fullscreen, Slideshow, Thumbnails, Zoom, Captions]}
             />
         </>
     );
