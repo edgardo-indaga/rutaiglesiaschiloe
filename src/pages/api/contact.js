@@ -23,7 +23,7 @@ export default async function handler(req, res) {
 
     // Crea el correo electrónico
     const emailData = {
-        from: 'Formulario contacto CrowAdvance <web@rutaiglesiaschiloe.cl>', // Reemplaza con tu correo electrónico de envío
+        from: 'Formulario contacto Ruta Iglesias Chiloé <web@rutaiglesiaschiloe.cl>', // Reemplaza con tu correo electrónico de envío
         to: 'edgardoruotolo@gmail.com',
         subject: 'Nuevo Mensaje desde la web Ruta Iglesias Chiloe!',
         html: `
