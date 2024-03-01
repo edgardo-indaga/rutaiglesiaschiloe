@@ -49,7 +49,7 @@ export default function ThumbIglesias() {
 
                         <Link
                             href="/iglesias/castro"
-                            className={`md:w-[300px] md:h-[300px] bg-beige flex justify-center items-center text-tinto md:text-[20px] md:font-medium uppercase text-center ${
+                            className={`md:w-[300px] md:h-[300px] md:px-[20px] bg-beige flex justify-center items-center text-tinto md:text-[20px] md:font-medium uppercase text-center ${
                                 isHoverCastro ? '' : 'hidden'
                             }`}
                         >
@@ -75,7 +75,7 @@ export default function ThumbIglesias() {
 
                         <Link
                             href="/iglesias/nercon"
-                            className={`md:w-[300px] md:h-[300px] bg-beige flex justify-center items-center text-tinto md:text-[20px] md:font-medium uppercase text-center ${
+                            className={`md:w-[300px] md:h-[300px] md:px-[20px] bg-beige flex justify-center items-center text-tinto md:text-[20px] md:font-medium uppercase text-center ${
                                 isHoverNercon ? '' : 'hidden'
                             }`}
                         >
@@ -103,7 +103,7 @@ export default function ThumbIglesias() {
 
                         <Link
                             href="/iglesias/dalcahue"
-                            className={`md:w-[300px] md:h-[300px] bg-beige flex justify-center items-center text-tinto md:text-[20px] md:font-medium uppercase text-center ${
+                            className={`md:w-[300px] md:h-[300px] md:px-[20px] bg-beige flex justify-center items-center text-tinto md:text-[20px] md:font-medium uppercase text-center ${
                                 isHoverDalcahue ? '' : 'hidden'
                             }`}
                         >
@@ -129,7 +129,7 @@ export default function ThumbIglesias() {
 
                         <Link
                             href="/iglesias/rilan"
-                            className={`md:w-[300px] md:h-[300px] bg-beige flex justify-center items-center text-tinto md:text-[20px] md:font-medium uppercase text-center ${
+                            className={`md:w-[300px] md:h-[300px] md:px-[20px] bg-beige flex justify-center items-center text-tinto md:text-[20px] md:font-medium uppercase text-center ${
                                 isHoverRilan ? '' : 'hidden'
                             }`}
                         >
@@ -155,7 +155,7 @@ export default function ThumbIglesias() {
 
                         <Link
                             href="/iglesias/chelin"
-                            className={`md:w-[300px] md:h-[300px] bg-beige flex justify-center items-center text-tinto md:text-[20px] md:font-medium uppercase text-center ${
+                            className={`md:w-[300px] md:h-[300px] md:px-[20px] bg-beige flex justify-center items-center text-tinto md:text-[20px] md:font-medium uppercase text-center ${
                                 isHoverChelin ? '' : 'hidden'
                             }`}
                         >
@@ -183,7 +183,7 @@ export default function ThumbIglesias() {
 
                         <Link
                             href="/iglesias/sanjuan"
-                            className={`md:w-[300px] md:h-[300px] bg-beige flex justify-center items-center text-tinto md:text-[20px] md:font-medium uppercase text-center ${
+                            className={`md:w-[300px] md:h-[300px] md:px-[20px] bg-beige flex justify-center items-center text-tinto md:text-[20px] md:font-medium uppercase text-center ${
                                 isHoverSanJuan ? '' : 'hidden'
                             }`}
                         >
@@ -209,7 +209,7 @@ export default function ThumbIglesias() {
 
                         <Link
                             href="/iglesias/tenaun"
-                            className={`md:w-[300px] md:h-[300px] bg-beige flex justify-center items-center text-tinto md:text-[20px] md:font-medium uppercase text-center ${
+                            className={`md:w-[300px] md:h-[300px] md:px-[20px] bg-beige flex justify-center items-center text-tinto md:text-[20px] md:font-medium uppercase text-center ${
                                 isHoverTenaun ? '' : 'hidden'
                             }`}
                         >
@@ -234,7 +234,7 @@ export default function ThumbIglesias() {
                         </div>
                         <Link
                             href="/iglesias/colo"
-                            className={`md:w-[300px] md:h-[300px] bg-beige flex justify-center items-center text-tinto md:text-[20px] md:font-medium uppercase text-center ${
+                            className={`md:w-[300px] md:h-[300px] md:px-[20px] bg-beige flex justify-center items-center text-tinto md:text-[20px] md:font-medium uppercase text-center ${
                                 isHoverColo ? '' : 'hidden'
                             }`}
                         >
@@ -259,7 +259,7 @@ export default function ThumbIglesias() {
                         </div>
                         <Link
                             href="/iglesias/achao"
-                            className={`md:w-[300px] md:h-[300px] bg-beige flex justify-center items-center text-tinto md:text-[20px] md:font-medium uppercase text-center ${
+                            className={`md:w-[300px] md:h-[300px] md:px-[20px] bg-beige flex justify-center items-center text-tinto md:text-[20px] md:font-medium uppercase text-center ${
                                 isHoverAchao ? '' : 'hidden'
                             }`}
                         >
@@ -286,7 +286,7 @@ export default function ThumbIglesias() {
                         </div>
                         <Link
                             href="/iglesias/quinchao"
-                            className={`md:w-[300px] md:h-[300px] bg-beige flex justify-center items-center text-tinto md:text-[20px] md:font-medium uppercase text-center ${
+                            className={`md:w-[300px] md:h-[300px] md:px-[20px] bg-beige flex justify-center items-center text-tinto md:text-[20px] md:font-medium uppercase text-center ${
                                 isHoverQuinchao ? '' : 'hidden'
                             }`}
                         >
@@ -313,7 +313,7 @@ export default function ThumbIglesias() {
                         </div>
                         <Link
                             href="/iglesias/caguach"
-                            className={`md:w-[300px] md:h-[300px] bg-beige flex justify-center items-center text-tinto md:text-[20px] md:font-medium uppercase text-center ${
+                            className={`md:w-[300px] md:h-[300px] md:px-[20px] bg-beige flex justify-center items-center text-tinto md:text-[20px] md:font-medium uppercase text-center ${
                                 isHoverCaguach ? '' : 'hidden'
                             }`}
                         >
@@ -340,7 +340,7 @@ export default function ThumbIglesias() {
                         </div>
                         <Link
                             href="/iglesias/chonchi"
-                            className={`md:w-[300px] md:h-[300px] bg-beige flex justify-center items-center text-tinto md:text-[20px] md:font-medium uppercase text-center ${
+                            className={`md:w-[300px] md:h-[300px] md:px-[20px] bg-beige flex justify-center items-center text-tinto md:text-[20px] md:font-medium uppercase text-center ${
                                 isHoverChonchi ? '' : 'hidden'
                             }`}
                         >
@@ -369,7 +369,7 @@ export default function ThumbIglesias() {
                         </div>
                         <Link
                             href="/iglesias/vilupulli"
-                            className={`md:w-[300px] md:h-[300px] bg-beige flex justify-center items-center text-tinto md:text-[20px] md:font-medium uppercase text-center ${
+                            className={`md:w-[300px] md:h-[300px] md:px-[20px] bg-beige flex justify-center items-center text-tinto md:text-[20px] md:font-medium uppercase text-center ${
                                 isHoverVilipulli ? '' : 'hidden'
                             }`}
                         >
@@ -394,7 +394,7 @@ export default function ThumbIglesias() {
                         </div>
                         <Link
                             href="/iglesias/ichuac"
-                            className={`md:w-[300px] md:h-[300px] bg-beige flex justify-center items-center text-tinto md:text-[20px] md:font-medium uppercase text-center ${
+                            className={`md:w-[300px] md:h-[300px] md:px-[20px] bg-beige flex justify-center items-center text-tinto md:text-[20px] md:font-medium uppercase text-center ${
                                 isHoverIchuac ? '' : 'hidden'
                             }`}
                         >
@@ -423,7 +423,7 @@ export default function ThumbIglesias() {
                         </div>
                         <Link
                             href="/iglesias/aldachildo"
-                            className={`md:w-[300px] md:h-[300px] bg-beige flex justify-center items-center text-tinto md:text-[20px] md:font-medium uppercase text-center ${
+                            className={`md:w-[300px] md:h-[300px] md:px-[20px] bg-beige flex justify-center items-center text-tinto md:text-[20px] md:font-medium uppercase text-center ${
                                 isHoverAldachildo ? '' : 'hidden'
                             }`}
                         >
@@ -448,7 +448,7 @@ export default function ThumbIglesias() {
                         </div>
                         <Link
                             href="/iglesias/detif"
-                            className={`md:w-[300px] md:h-[300px] bg-beige flex justify-center items-center text-tinto md:text-[20px] md:font-medium uppercase text-center ${
+                            className={`md:w-[300px] md:h-[300px] md:px-[20px] bg-beige flex justify-center items-center text-tinto md:text-[20px] md:font-medium uppercase text-center ${
                                 isHoverDetif ? '' : 'hidden'
                             }`}
                         >

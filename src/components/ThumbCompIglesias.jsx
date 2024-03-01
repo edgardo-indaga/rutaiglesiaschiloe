@@ -29,7 +29,7 @@ export default function ThumbCompIglesias() {
                         </div>
                         <Link
                             href="/patrimonio"
-                            className={`md:w-[300px] md:h-[300px] bg-tinto cursor-pointer flex justify-center items-center text-blanco text-[20px] font-medium uppercase ${
+                            className={`md:w-[300px] md:h-[300px] md:px-[20px] bg-tinto flex justify-center items-center text-blanco md:text-[20px] md:font-medium uppercase text-center ${
                                 isHovered ? '' : 'hidden'
                             }`}
                         >
@@ -56,7 +56,7 @@ export default function ThumbCompIglesias() {
                         </div>
                         <Link
                             href="/historia"
-                            className={`md:w-[300px] md:h-[300px] bg-tinto cursor-pointer flex justify-center items-center text-blanco text-[20px] font-medium uppercase ${
+                            className={`md:w-[300px] md:h-[300px] md:px-[20px] bg-tinto flex justify-center items-center text-blanco md:text-[20px] md:font-medium uppercase text-center ${
                                 isHoverHistoria ? '' : 'hidden'
                             }`}
                         >
@@ -85,7 +85,7 @@ export default function ThumbCompIglesias() {
                         </div>
                         <Link
                             href="/arquitectura"
-                            className={`md:w-[300px] md:h-[300px] bg-tinto cursor-pointer flex justify-center items-center text-blanco text-[20px] font-medium uppercase ${
+                            className={`md:w-[300px] md:h-[300px] md:px-[20px] bg-tinto flex justify-center items-center text-blanco md:text-[20px] md:font-medium uppercase text-center ${
                                 isHoverArquitectura ? '' : 'hidden'
                             }`}
                         >
@@ -114,7 +114,7 @@ export default function ThumbCompIglesias() {
                         </div>
                         <Link
                             href="/comunidades"
-                            className={`md:w-[300px] md:h-[300px] bg-tinto cursor-pointer flex justify-center items-center text-blanco text-[20px] font-medium uppercase ${
+                            className={`md:w-[300px] md:h-[300px] md:px-[20px] bg-tinto flex justify-center items-center text-blanco md:text-[20px] md:font-medium uppercase text-center ${
                                 isHoverComunidades ? '' : 'hidden'
                             }`}
                         >
