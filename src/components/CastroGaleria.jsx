@@ -83,7 +83,7 @@ export default function CastroGallery() {
             <PhotoAlbum
                 layout="rows"
                 photos={slides}
-                targetRowHeight={300}
+                targetRowHeight={200}
                 //targetColumnWidth={500}
                 onClick={({ index: current }) => setIndex(current)}
             />

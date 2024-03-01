@@ -19,8 +19,8 @@ import 'yet-another-react-lightbox/plugins/thumbnails.css';
 const slidesSecundario = [
     {
         src: '/comunidades/gallery/comunidades_galeria_09.jpg',
-        width: 1200,
-        height: 800,
+        width: 1333,
+        height: 2000,
         title: 'Iglesia de Chonchi',
         description: 'María Aguilar, Encargada de la iglesia',
     },
@@ -54,8 +54,8 @@ const slidesSecundario = [
     },
     {
         src: '/comunidades/gallery/comunidades_galeria_14.jpg',
-        width: 1200,
-        height: 800,
+        width: 1333,
+        height: 2000,
         title: 'Iglesia de Nercón',
         description: 'Isabel Naguelquín, Patrona de la iglesia',
     },
@@ -68,8 +68,8 @@ const slidesSecundario = [
     },
     {
         src: '/comunidades/gallery/comunidades_galeria_16.jpg',
-        width: 1200,
-        height: 800,
+        width: 1333,
+        height: 2000,
         title: 'Iglesia de Tenaún',
         description: 'Juanita Ortiz, Encargada de la Iglesia',
     },

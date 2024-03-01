@@ -17,19 +17,19 @@ export default function ThumbCompIglesias() {
                         onMouseEnter={() => setIsHovered(true)}
                         onMouseLeave={() => setIsHovered(false)}
                     >
-                        <div className={`md:w-[350] md:h-[350px] ${isHovered ? 'hidden' : ''}`}>
+                        <div className={`md:w-[300] md:h-[300px] ${isHovered ? 'hidden' : ''}`}>
                             <Image
                                 src="/iglesias/iglesia-02.webp"
                                 alt="Iglesias 02"
-                                height={350}
-                                width={350}
+                                height={300}
+                                width={300}
                                 priority={true} // Prioritize the image for faster loading
                                 quality={100} // Maintain image quality
                             />
                         </div>
                         <Link
                             href="/patrimonio"
-                            className={`md:w-[350px] md:h-[350px] bg-tinto cursor-pointer flex justify-center items-center text-blanco text-[20px] font-medium uppercase ${
+                            className={`md:w-[300px] md:h-[300px] bg-tinto cursor-pointer flex justify-center items-center text-blanco text-[20px] font-medium uppercase ${
                                 isHovered ? '' : 'hidden'
                             }`}
                         >
@@ -43,20 +43,20 @@ export default function ThumbCompIglesias() {
                         onMouseLeave={() => setIsHoverHistoria(false)}
                     >
                         <div
-                            className={`md:w-[350] md:h-[350px] ${isHoverHistoria ? 'hidden' : ''}`}
+                            className={`md:w-[300] md:h-[300px] ${isHoverHistoria ? 'hidden' : ''}`}
                         >
                             <Image
                                 src="/iglesias/iglesia-03.webp"
                                 alt="Iglesias 02"
-                                height={350}
-                                width={350}
+                                height={300}
+                                width={300}
                                 priority={true} // Prioritize the image for faster loading
                                 quality={100} // Maintain image quality
                             />
                         </div>
                         <Link
                             href="/historia"
-                            className={`md:w-[350px] md:h-[350px] bg-tinto cursor-pointer flex justify-center items-center text-blanco text-[20px] font-medium uppercase ${
+                            className={`md:w-[300px] md:h-[300px] bg-tinto cursor-pointer flex justify-center items-center text-blanco text-[20px] font-medium uppercase ${
                                 isHoverHistoria ? '' : 'hidden'
                             }`}
                         >
@@ -70,22 +70,22 @@ export default function ThumbCompIglesias() {
                         onMouseLeave={() => setIsHoverArquitectura(false)}
                     >
                         <div
-                            className={`md:w-[350] md:h-[350px] ${
+                            className={`md:w-[300] md:h-[300px] ${
                                 isHoverArquitectura ? 'hidden' : ''
                             }`}
                         >
                             <Image
                                 src="/iglesias/iglesia-04.webp"
                                 alt="Iglesias 02"
-                                height={350}
-                                width={350}
+                                height={300}
+                                width={300}
                                 priority={true} // Prioritize the image for faster loading
                                 quality={100} // Maintain image quality
                             />
                         </div>
                         <Link
                             href="/arquitectura"
-                            className={`md:w-[350px] md:h-[350px] bg-tinto cursor-pointer flex justify-center items-center text-blanco text-[20px] font-medium uppercase ${
+                            className={`md:w-[300px] md:h-[300px] bg-tinto cursor-pointer flex justify-center items-center text-blanco text-[20px] font-medium uppercase ${
                                 isHoverArquitectura ? '' : 'hidden'
                             }`}
                         >
@@ -99,22 +99,22 @@ export default function ThumbCompIglesias() {
                         onMouseLeave={() => setIsHoverComunidades(false)}
                     >
                         <div
-                            className={`md:w-[350] md:h-[350px] ${
+                            className={`md:w-[300] md:h-[300px] ${
                                 isHoverComunidades ? 'hidden' : ''
                             }`}
                         >
                             <Image
                                 src="/iglesias/iglesia-05.webp"
                                 alt="Iglesias 02"
-                                height={350}
-                                width={350}
+                                height={300}
+                                width={300}
                                 priority={true} // Prioritize the image for faster loading
                                 quality={100} // Maintain image quality
                             />
                         </div>
                         <Link
                             href="/comunidades"
-                            className={`md:w-[350px] md:h-[350px] bg-tinto cursor-pointer flex justify-center items-center text-blanco text-[20px] font-medium uppercase ${
+                            className={`md:w-[300px] md:h-[300px] bg-tinto cursor-pointer flex justify-center items-center text-blanco text-[20px] font-medium uppercase ${
                                 isHoverComunidades ? '' : 'hidden'
                             }`}
                         >

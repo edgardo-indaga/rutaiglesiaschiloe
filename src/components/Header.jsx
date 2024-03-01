@@ -22,7 +22,7 @@ export default function HeaderPrincipal() {
 
     useEffect(() => {
         const changeBackground = () => {
-            if (window.scrollY >= 900) {
+            if (window.scrollY >= 150) {
                 setBgColor('bg-[#EFEBE1F2]');
                 setKey(Math.random()); // Esto forzará un renderizado
             } else {
@@ -78,9 +78,8 @@ export default function HeaderPrincipal() {
                                 <li className={styles.navLinks}>
                                     <Link
                                         className={`link ${pathname === '#' ? 'active' : ''}`}
-                                        href="/protocolo.pdf"
+                                        href="/protocolo"
                                         style={{ fontWeight: pathname === '#' ? '500' : 'normal' }}
-                                        target="_blank"
                                     >
                                         Protocolo
                                     </Link>

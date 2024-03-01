@@ -68,8 +68,8 @@ const slides = [
     },
     {
         src: '/comunidades/gallery/comunidades_galeria_08.jpg',
-        width: 1200,
-        height: 800,
+        width: 1333,
+        height: 2000,
         title: 'Iglesia de Caguach',
         description: 'Fiesta patronal de Jesús Nazareno',
     },
@@ -83,7 +83,7 @@ export default function ComunidadGallery() {
             <PhotoAlbum
                 layout="rows"
                 photos={slides}
-                targetRowHeight={300}
+                targetRowHeight={200}
                 //targetColumnWidth={500}
                 onClick={({ index: current }) => setIndex(current)}
             />

@@ -31,17 +31,17 @@ export default function ThumbIglesias() {
                 </div>
             </div>
             <div className="container mx-auto flex flex-wrap">
-                <div className="md:w-3/12 md:mb-[40px] ">
+                <div className="md:w-3/12 md:mb-[25px] ">
                     <div
                         onMouseEnter={() => setIsHoverCastro(true)}
                         onMouseLeave={() => setIsHoverCastro(false)}
                     >
-                        <div className={`md:w-[350] md:h-[350px] ${isHoverCastro ? 'hidden' : ''}`}>
+                        <div className={`md:w-[300] md:h-[300px] ${isHoverCastro ? 'hidden' : ''}`}>
                             <Image
                                 src="/iglesias/thumb-castro.webp"
                                 alt="Iglesias 01"
-                                height={350}
-                                width={350}
+                                height={300}
+                                width={300}
                                 priority={true}
                                 quality={100}
                             />
@@ -49,7 +49,7 @@ export default function ThumbIglesias() {
 
                         <Link
                             href="/iglesias/castro"
-                            className={`md:w-[350px] md:h-[350px] bg-beige flex justify-center items-center text-tinto md:text-[20px] md:font-medium uppercase text-center ${
+                            className={`md:w-[300px] md:h-[300px] bg-beige flex justify-center items-center text-tinto md:text-[20px] md:font-medium uppercase text-center ${
                                 isHoverCastro ? '' : 'hidden'
                             }`}
                         >
@@ -57,17 +57,17 @@ export default function ThumbIglesias() {
                         </Link>
                     </div>
                 </div>
-                <div className="md:w-3/12 md:mb-[40px] ">
+                <div className="md:w-3/12 md:mb-[25px] ">
                     <div
                         onMouseEnter={() => setIsHoverNercon(true)}
                         onMouseLeave={() => setIsHoverNercon(false)}
                     >
-                        <div className={`md:w-[350] md:h-[350px] ${isHoverNercon ? 'hidden' : ''}`}>
+                        <div className={`md:w-[300] md:h-[300px] ${isHoverNercon ? 'hidden' : ''}`}>
                             <Image
                                 src="/iglesias/thumb-nercon.webp"
                                 alt="Iglesias 02"
-                                height={350}
-                                width={350}
+                                height={300}
+                                width={300}
                                 priority={true}
                                 quality={100}
                             />
@@ -75,7 +75,7 @@ export default function ThumbIglesias() {
 
                         <Link
                             href="/iglesias/nercon"
-                            className={`md:w-[350px] md:h-[350px] bg-beige flex justify-center items-center text-tinto md:text-[20px] md:font-medium uppercase text-center ${
+                            className={`md:w-[300px] md:h-[300px] bg-beige flex justify-center items-center text-tinto md:text-[20px] md:font-medium uppercase text-center ${
                                 isHoverNercon ? '' : 'hidden'
                             }`}
                         >
@@ -83,19 +83,19 @@ export default function ThumbIglesias() {
                         </Link>
                     </div>
                 </div>
-                <div className="md:w-3/12 md:mb-[40px] ">
+                <div className="md:w-3/12 md:mb-[25px] ">
                     <div
                         onMouseEnter={() => setIsHoverDalcahue(true)}
                         onMouseLeave={() => setIsHoverDalcahue(false)}
                     >
                         <div
-                            className={`md:w-[350] md:h-[350px] ${isHoverDalcahue ? 'hidden' : ''}`}
+                            className={`md:w-[300] md:h-[300px] ${isHoverDalcahue ? 'hidden' : ''}`}
                         >
                             <Image
                                 src="/iglesias/thumb-dalcahue.webp"
                                 alt="Iglesias 03"
-                                height={350}
-                                width={350}
+                                height={300}
+                                width={300}
                                 priority={true}
                                 quality={100}
                             />
@@ -103,7 +103,7 @@ export default function ThumbIglesias() {
 
                         <Link
                             href="/iglesias/dalcahue"
-                            className={`md:w-[350px] md:h-[350px] bg-beige flex justify-center items-center text-tinto md:text-[20px] md:font-medium uppercase text-center ${
+                            className={`md:w-[300px] md:h-[300px] bg-beige flex justify-center items-center text-tinto md:text-[20px] md:font-medium uppercase text-center ${
                                 isHoverDalcahue ? '' : 'hidden'
                             }`}
                         >
@@ -111,17 +111,17 @@ export default function ThumbIglesias() {
                         </Link>
                     </div>
                 </div>
-                <div className="md:w-3/12 md:mb-[40px] ">
+                <div className="md:w-3/12 md:mb-[25px] ">
                     <div
                         onMouseEnter={() => setIsHoverRilan(true)}
                         onMouseLeave={() => setIsHoverRilan(false)}
                     >
-                        <div className={`md:w-[350] md:h-[350px] ${isHoverRilan ? 'hidden' : ''}`}>
+                        <div className={`md:w-[300] md:h-[300px] ${isHoverRilan ? 'hidden' : ''}`}>
                             <Image
                                 src="/iglesias/thumb-rilan.webp"
                                 alt="Iglesias 04"
-                                height={350}
-                                width={350}
+                                height={300}
+                                width={300}
                                 priority={true}
                                 quality={100}
                             />
@@ -129,7 +129,7 @@ export default function ThumbIglesias() {
 
                         <Link
                             href="/iglesias/rilan"
-                            className={`md:w-[350px] md:h-[350px] bg-beige flex justify-center items-center text-tinto md:text-[20px] md:font-medium uppercase text-center ${
+                            className={`md:w-[300px] md:h-[300px] bg-beige flex justify-center items-center text-tinto md:text-[20px] md:font-medium uppercase text-center ${
                                 isHoverRilan ? '' : 'hidden'
                             }`}
                         >
@@ -137,17 +137,17 @@ export default function ThumbIglesias() {
                         </Link>
                     </div>
                 </div>
-                <div className="md:w-3/12 md:mb-[40px] ">
+                <div className="md:w-3/12 md:mb-[25px] ">
                     <div
                         onMouseEnter={() => setIsHoverChelin(true)}
                         onMouseLeave={() => setIsHoverChelin(false)}
                     >
-                        <div className={`md:w-[350] md:h-[350px] ${isHoverChelin ? 'hidden' : ''}`}>
+                        <div className={`md:w-[300] md:h-[300px] ${isHoverChelin ? 'hidden' : ''}`}>
                             <Image
                                 src="/iglesias/thumb-chelin.webp"
                                 alt="Iglesias 05"
-                                height={350}
-                                width={350}
+                                height={300}
+                                width={300}
                                 priority={true}
                                 quality={100}
                             />
@@ -155,7 +155,7 @@ export default function ThumbIglesias() {
 
                         <Link
                             href="/iglesias/chelin"
-                            className={`md:w-[350px] md:h-[350px] bg-beige flex justify-center items-center text-tinto md:text-[20px] md:font-medium uppercase text-center ${
+                            className={`md:w-[300px] md:h-[300px] bg-beige flex justify-center items-center text-tinto md:text-[20px] md:font-medium uppercase text-center ${
                                 isHoverChelin ? '' : 'hidden'
                             }`}
                         >
@@ -163,19 +163,19 @@ export default function ThumbIglesias() {
                         </Link>
                     </div>
                 </div>
-                <div className="md:w-3/12 md:mb-[40px] ">
+                <div className="md:w-3/12 md:mb-[25px] ">
                     <div
                         onMouseEnter={() => setIsHoverSanJuan(true)}
                         onMouseLeave={() => setIsHoverSanJuan(false)}
                     >
                         <div
-                            className={`md:w-[350] md:h-[350px] ${isHoverSanJuan ? 'hidden' : ''}`}
+                            className={`md:w-[300] md:h-[300px] ${isHoverSanJuan ? 'hidden' : ''}`}
                         >
                             <Image
                                 src="/iglesias/thumb-sanjuan.webp"
                                 alt="Iglesias 06"
-                                height={350}
-                                width={350}
+                                height={300}
+                                width={300}
                                 priority={true}
                                 quality={100}
                             />
@@ -183,7 +183,7 @@ export default function ThumbIglesias() {
 
                         <Link
                             href="/iglesias/sanjuan"
-                            className={`md:w-[350px] md:h-[350px] bg-beige flex justify-center items-center text-tinto md:text-[20px] md:font-medium uppercase text-center ${
+                            className={`md:w-[300px] md:h-[300px] bg-beige flex justify-center items-center text-tinto md:text-[20px] md:font-medium uppercase text-center ${
                                 isHoverSanJuan ? '' : 'hidden'
                             }`}
                         >
@@ -191,17 +191,17 @@ export default function ThumbIglesias() {
                         </Link>
                     </div>
                 </div>
-                <div className="md:w-3/12 md:mb-[40px] ">
+                <div className="md:w-3/12 md:mb-[25px] ">
                     <div
                         onMouseEnter={() => setIsHoverTenaun(true)}
                         onMouseLeave={() => setIsHoverTenaun(false)}
                     >
-                        <div className={`md:w-[350] md:h-[350px] ${isHoverTenaun ? 'hidden' : ''}`}>
+                        <div className={`md:w-[300] md:h-[300px] ${isHoverTenaun ? 'hidden' : ''}`}>
                             <Image
                                 src="/iglesias/thumb-tenaun.webp"
                                 alt="Iglesias 07"
-                                height={350}
-                                width={350}
+                                height={300}
+                                width={300}
                                 priority={true}
                                 quality={100}
                             />
@@ -209,7 +209,7 @@ export default function ThumbIglesias() {
 
                         <Link
                             href="/iglesias/tenaun"
-                            className={`md:w-[350px] md:h-[350px] bg-beige flex justify-center items-center text-tinto md:text-[20px] md:font-medium uppercase text-center ${
+                            className={`md:w-[300px] md:h-[300px] bg-beige flex justify-center items-center text-tinto md:text-[20px] md:font-medium uppercase text-center ${
                                 isHoverTenaun ? '' : 'hidden'
                             }`}
                         >
@@ -217,24 +217,24 @@ export default function ThumbIglesias() {
                         </Link>
                     </div>
                 </div>
-                <div className="md:w-3/12 md:mb-[40px] ">
+                <div className="md:w-3/12 md:mb-[25px] ">
                     <div
                         onMouseEnter={() => setIsHoverColo(true)}
                         onMouseLeave={() => setIsHoverColo(false)}
                     >
-                        <div className={`md:w-[350] md:h-[350px] ${isHoverColo ? 'hidden' : ''}`}>
+                        <div className={`md:w-[300] md:h-[300px] ${isHoverColo ? 'hidden' : ''}`}>
                             <Image
                                 src="/iglesias/thumb-colo.webp"
                                 alt="Iglesias 08"
-                                height={350}
-                                width={350}
+                                height={300}
+                                width={300}
                                 priority={true}
                                 quality={100}
                             />
                         </div>
                         <Link
                             href="/iglesias/colo"
-                            className={`md:w-[350px] md:h-[350px] bg-beige flex justify-center items-center text-tinto md:text-[20px] md:font-medium uppercase text-center ${
+                            className={`md:w-[300px] md:h-[300px] bg-beige flex justify-center items-center text-tinto md:text-[20px] md:font-medium uppercase text-center ${
                                 isHoverColo ? '' : 'hidden'
                             }`}
                         >
@@ -242,24 +242,24 @@ export default function ThumbIglesias() {
                         </Link>
                     </div>
                 </div>
-                <div className="md:w-3/12 md:mb-[40px] ">
+                <div className="md:w-3/12 md:mb-[25px] ">
                     <div
                         onMouseEnter={() => setIsHoverAchao(true)}
                         onMouseLeave={() => setIsHoverAchao(false)}
                     >
-                        <div className={`md:w-[350] md:h-[350px] ${isHoverAchao ? 'hidden' : ''}`}>
+                        <div className={`md:w-[300] md:h-[300px] ${isHoverAchao ? 'hidden' : ''}`}>
                             <Image
                                 src="/iglesias/thumb-achao.webp"
                                 alt="Iglesias 09"
-                                height={350}
-                                width={350}
+                                height={300}
+                                width={300}
                                 priority={true}
                                 quality={100}
                             />
                         </div>
                         <Link
                             href="/iglesias/achao"
-                            className={`md:w-[350px] md:h-[350px] bg-beige flex justify-center items-center text-tinto md:text-[20px] md:font-medium uppercase text-center ${
+                            className={`md:w-[300px] md:h-[300px] bg-beige flex justify-center items-center text-tinto md:text-[20px] md:font-medium uppercase text-center ${
                                 isHoverAchao ? '' : 'hidden'
                             }`}
                         >
@@ -267,26 +267,26 @@ export default function ThumbIglesias() {
                         </Link>
                     </div>
                 </div>
-                <div className="md:w-3/12 md:mb-[40px] ">
+                <div className="md:w-3/12 md:mb-[25px] ">
                     <div
                         onMouseEnter={() => setIsHoverQuinchao(true)}
                         onMouseLeave={() => setIsHoverQuinchao(false)}
                     >
                         <div
-                            className={`md:w-[350] md:h-[350px] ${isHoverQuinchao ? 'hidden' : ''}`}
+                            className={`md:w-[300] md:h-[300px] ${isHoverQuinchao ? 'hidden' : ''}`}
                         >
                             <Image
                                 src="/iglesias/thumb-quinchao.webp"
                                 alt="Iglesias 10"
-                                height={350}
-                                width={350}
+                                height={300}
+                                width={300}
                                 priority={true}
                                 quality={100}
                             />
                         </div>
                         <Link
                             href="/iglesias/quinchao"
-                            className={`md:w-[350px] md:h-[350px] bg-beige flex justify-center items-center text-tinto md:text-[20px] md:font-medium uppercase text-center ${
+                            className={`md:w-[300px] md:h-[300px] bg-beige flex justify-center items-center text-tinto md:text-[20px] md:font-medium uppercase text-center ${
                                 isHoverQuinchao ? '' : 'hidden'
                             }`}
                         >
@@ -294,26 +294,26 @@ export default function ThumbIglesias() {
                         </Link>
                     </div>
                 </div>
-                <div className="md:w-3/12 md:mb-[40px] ">
+                <div className="md:w-3/12 md:mb-[25px] ">
                     <div
                         onMouseEnter={() => setIsHoverCaguach(true)}
                         onMouseLeave={() => setIsHoverCaguach(false)}
                     >
                         <div
-                            className={`md:w-[350] md:h-[350px] ${isHoverCaguach ? 'hidden' : ''}`}
+                            className={`md:w-[300] md:h-[300px] ${isHoverCaguach ? 'hidden' : ''}`}
                         >
                             <Image
                                 src="/iglesias/thumb-caguach.webp"
                                 alt="Iglesias 11"
-                                height={350}
-                                width={350}
+                                height={300}
+                                width={300}
                                 priority={true}
                                 quality={100}
                             />
                         </div>
                         <Link
                             href="/iglesias/caguach"
-                            className={`md:w-[350px] md:h-[350px] bg-beige flex justify-center items-center text-tinto md:text-[20px] md:font-medium uppercase text-center ${
+                            className={`md:w-[300px] md:h-[300px] bg-beige flex justify-center items-center text-tinto md:text-[20px] md:font-medium uppercase text-center ${
                                 isHoverCaguach ? '' : 'hidden'
                             }`}
                         >
@@ -321,26 +321,26 @@ export default function ThumbIglesias() {
                         </Link>
                     </div>
                 </div>
-                <div className="md:w-3/12 md:mb-[40px] ">
+                <div className="md:w-3/12 md:mb-[25px] ">
                     <div
                         onMouseEnter={() => setIsHoverChonchi(true)}
                         onMouseLeave={() => setIsHoverChonchi(false)}
                     >
                         <div
-                            className={`md:w-[350] md:h-[350px] ${isHoverChonchi ? 'hidden' : ''}`}
+                            className={`md:w-[300] md:h-[300px] ${isHoverChonchi ? 'hidden' : ''}`}
                         >
                             <Image
                                 src="/iglesias/thumb-chonchi.webp"
                                 alt="Iglesias 12"
-                                height={350}
-                                width={350}
+                                height={300}
+                                width={300}
                                 priority={true}
                                 quality={100}
                             />
                         </div>
                         <Link
                             href="/iglesias/chonchi"
-                            className={`md:w-[350px] md:h-[350px] bg-beige flex justify-center items-center text-tinto md:text-[20px] md:font-medium uppercase text-center ${
+                            className={`md:w-[300px] md:h-[300px] bg-beige flex justify-center items-center text-tinto md:text-[20px] md:font-medium uppercase text-center ${
                                 isHoverChonchi ? '' : 'hidden'
                             }`}
                         >
@@ -348,28 +348,28 @@ export default function ThumbIglesias() {
                         </Link>
                     </div>
                 </div>
-                <div className="md:w-3/12 md:mb-[40px] ">
+                <div className="md:w-3/12 md:mb-[25px] ">
                     <div
                         onMouseEnter={() => setIsHoverVilipulli(true)}
                         onMouseLeave={() => setIsHoverVilipulli(false)}
                     >
                         <div
-                            className={`md:w-[350] md:h-[350px] ${
+                            className={`md:w-[300] md:h-[300px] ${
                                 isHoverVilipulli ? 'hidden' : ''
                             }`}
                         >
                             <Image
                                 src="/iglesias/thumb-vilipulli.webp"
                                 alt="Iglesias 13"
-                                height={350}
-                                width={350}
+                                height={300}
+                                width={300}
                                 priority={true}
                                 quality={100}
                             />
                         </div>
                         <Link
                             href="/iglesias/vilupulli"
-                            className={`md:w-[350px] md:h-[350px] bg-beige flex justify-center items-center text-tinto md:text-[20px] md:font-medium uppercase text-center ${
+                            className={`md:w-[300px] md:h-[300px] bg-beige flex justify-center items-center text-tinto md:text-[20px] md:font-medium uppercase text-center ${
                                 isHoverVilipulli ? '' : 'hidden'
                             }`}
                         >
@@ -377,24 +377,24 @@ export default function ThumbIglesias() {
                         </Link>
                     </div>
                 </div>
-                <div className="md:w-3/12 md:mb-[40px] ">
+                <div className="md:w-3/12 md:mb-[25px] ">
                     <div
                         onMouseEnter={() => setIsHoverIchuac(true)}
                         onMouseLeave={() => setIsHoverIchuac(false)}
                     >
-                        <div className={`md:w-[350] md:h-[350px] ${isHoverIchuac ? 'hidden' : ''}`}>
+                        <div className={`md:w-[300] md:h-[300px] ${isHoverIchuac ? 'hidden' : ''}`}>
                             <Image
                                 src="/iglesias/thumb-ichuac.webp"
                                 alt="Iglesias 14"
-                                height={350}
-                                width={350}
+                                height={300}
+                                width={300}
                                 priority={true}
                                 quality={100}
                             />
                         </div>
                         <Link
                             href="/iglesias/ichuac"
-                            className={`md:w-[350px] md:h-[350px] bg-beige flex justify-center items-center text-tinto md:text-[20px] md:font-medium uppercase text-center ${
+                            className={`md:w-[300px] md:h-[300px] bg-beige flex justify-center items-center text-tinto md:text-[20px] md:font-medium uppercase text-center ${
                                 isHoverIchuac ? '' : 'hidden'
                             }`}
                         >
@@ -402,28 +402,28 @@ export default function ThumbIglesias() {
                         </Link>
                     </div>
                 </div>
-                <div className="md:w-3/12 md:mb-[40px] ">
+                <div className="md:w-3/12 md:mb-[25px] ">
                     <div
                         onMouseEnter={() => setIsHoverAldachildo(true)}
                         onMouseLeave={() => setIsHoverAldachildo(false)}
                     >
                         <div
-                            className={`md:w-[350] md:h-[350px] ${
+                            className={`md:w-[300] md:h-[300px] ${
                                 isHoverAldachildo ? 'hidden' : ''
                             }`}
                         >
                             <Image
                                 src="/iglesias/thumb-aldachildo.webp"
                                 alt="Iglesias 15"
-                                height={350}
-                                width={350}
+                                height={300}
+                                width={300}
                                 priority={true}
                                 quality={100}
                             />
                         </div>
                         <Link
                             href="/iglesias/aldachildo"
-                            className={`md:w-[350px] md:h-[350px] bg-beige flex justify-center items-center text-tinto md:text-[20px] md:font-medium uppercase text-center ${
+                            className={`md:w-[300px] md:h-[300px] bg-beige flex justify-center items-center text-tinto md:text-[20px] md:font-medium uppercase text-center ${
                                 isHoverAldachildo ? '' : 'hidden'
                             }`}
                         >
@@ -431,24 +431,24 @@ export default function ThumbIglesias() {
                         </Link>
                     </div>
                 </div>
-                <div className="md:w-3/12 md:mb-[40px] ">
+                <div className="md:w-3/12 md:mb-[25px] ">
                     <div
                         onMouseEnter={() => setIsHoverDetif(true)}
                         onMouseLeave={() => setIsHoverDetif(false)}
                     >
-                        <div className={`md:w-[350] md:h-[350px] ${isHoverDetif ? 'hidden' : ''}`}>
+                        <div className={`md:w-[300] md:h-[300px] ${isHoverDetif ? 'hidden' : ''}`}>
                             <Image
                                 src="/iglesias/thumb-detif.webp"
                                 alt="Iglesias 16"
-                                height={350}
-                                width={350}
+                                height={300}
+                                width={300}
                                 priority={true}
                                 quality={100}
                             />
                         </div>
                         <Link
                             href="/iglesias/detif"
-                            className={`md:w-[350px] md:h-[350px] bg-beige flex justify-center items-center text-tinto md:text-[20px] md:font-medium uppercase text-center ${
+                            className={`md:w-[300px] md:h-[300px] bg-beige flex justify-center items-center text-tinto md:text-[20px] md:font-medium uppercase text-center ${
                                 isHoverDetif ? '' : 'hidden'
                             }`}
                         >
