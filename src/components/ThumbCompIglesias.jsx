@@ -3,6 +3,11 @@ import Image from 'next/image';
 import Link from 'next/link';
 import { useState } from 'react';
 
+const style = {
+    imgResposive:
+        'w-[180px] sm:w-[200px] md:h-[200px] xl:w-[250px] xl:h-[250px] 2xl:w-[300px] 2xl:h-[300px]',
+};
+
 export default function ThumbCompIglesias() {
     const [isHovered, setIsHovered] = useState(false);
     const [isHoverHistoria, setIsHoverHistoria] = useState(false);
@@ -10,9 +15,9 @@ export default function ThumbCompIglesias() {
     const [isHoverComunidades, setIsHoverComunidades] = useState(false);
 
     return (
-        <section className="md:py-[100px]">
-            <div className="container mx-auto flex">
-                <div className="md:w-3/12">
+        <section className="py-[40px] md:py-[100px] px-[5px] md:px-0">
+            <div className="container mx-auto flex flex-wrap">
+                <div className="w-6/12 md:w-3/12 mb-[15px] md:mb-[25px] flex justify-center items-center align-middle">
                     <div
                         onMouseEnter={() => setIsHovered(true)}
                         onMouseLeave={() => setIsHovered(false)}
@@ -25,6 +30,7 @@ export default function ThumbCompIglesias() {
                                 width={300}
                                 priority={true} // Prioritize the image for faster loading
                                 quality={100} // Maintain image quality
+                                className={style.imgResposive}
                             />
                         </div>
                         <Link
@@ -37,7 +43,7 @@ export default function ThumbCompIglesias() {
                         </Link>
                     </div>
                 </div>
-                <div className="md:w-3/12">
+                <div className="w-6/12 md:w-3/12 mb-[15px] md:mb-[25px] flex justify-center items-center align-middle">
                     <div
                         onMouseEnter={() => setIsHoverHistoria(true)}
                         onMouseLeave={() => setIsHoverHistoria(false)}
@@ -52,6 +58,7 @@ export default function ThumbCompIglesias() {
                                 width={300}
                                 priority={true} // Prioritize the image for faster loading
                                 quality={100} // Maintain image quality
+                                className={style.imgResposive}
                             />
                         </div>
                         <Link
@@ -64,7 +71,7 @@ export default function ThumbCompIglesias() {
                         </Link>
                     </div>
                 </div>
-                <div className="md:w-3/12">
+                <div className="w-6/12 md:w-3/12 mb-[15px] md:mb-[25px] flex justify-center items-center align-middle">
                     <div
                         onMouseEnter={() => setIsHoverArquitectura(true)}
                         onMouseLeave={() => setIsHoverArquitectura(false)}
@@ -81,6 +88,7 @@ export default function ThumbCompIglesias() {
                                 width={300}
                                 priority={true} // Prioritize the image for faster loading
                                 quality={100} // Maintain image quality
+                                className={style.imgResposive}
                             />
                         </div>
                         <Link
@@ -93,7 +101,7 @@ export default function ThumbCompIglesias() {
                         </Link>
                     </div>
                 </div>
-                <div className="md:w-3/12">
+                <div className="w-6/12 md:w-3/12 mb-[15px] md:mb-[25px] flex justify-center items-center align-middle">
                     <div
                         onMouseEnter={() => setIsHoverComunidades(true)}
                         onMouseLeave={() => setIsHoverComunidades(false)}
@@ -110,6 +118,7 @@ export default function ThumbCompIglesias() {
                                 width={300}
                                 priority={true} // Prioritize the image for faster loading
                                 quality={100} // Maintain image quality
+                                className={style.imgResposive}
                             />
                         </div>
                         <Link

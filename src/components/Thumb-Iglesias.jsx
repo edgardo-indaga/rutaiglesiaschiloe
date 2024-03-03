@@ -3,6 +3,11 @@ import Image from 'next/image';
 import Link from 'next/link';
 import { useState } from 'react';
 
+const style = {
+    imgResposive:
+        'w-[180px] sm:w-[200px] md:h-[200px] xl:w-[250px] xl:h-[250px] 2xl:w-[300px] 2xl:h-[300px]',
+};
+
 export default function ThumbIglesias() {
     const [isHoverCastro, setIsHoverCastro] = useState(false);
     const [isHoverNercon, setIsHoverNercon] = useState(false);
@@ -22,7 +27,7 @@ export default function ThumbIglesias() {
     const [isHoverDetif, setIsHoverDetif] = useState(false);
 
     return (
-        <section className="md:pb-[100px]">
+        <section className="md:pb-[100px] pb-[40px] md:py-[100px] px-[5px] md:px-0">
             <div className="container mx-auto md:pb-[40px]">
                 <div className="md:w-full">
                     <h1 className="text-tinto md:text-[30px] font-semibold ">
@@ -31,7 +36,7 @@ export default function ThumbIglesias() {
                 </div>
             </div>
             <div className="container mx-auto flex flex-wrap">
-                <div className="md:w-3/12 md:mb-[25px] ">
+                <div className="w-6/12 md:w-3/12 mb-[15px] md:mb-[25px] flex justify-center items-center align-middle">
                     <div
                         onMouseEnter={() => setIsHoverCastro(true)}
                         onMouseLeave={() => setIsHoverCastro(false)}
@@ -44,12 +49,13 @@ export default function ThumbIglesias() {
                                 width={300}
                                 priority={true}
                                 quality={100}
+                                className={style.imgResposive}
                             />
                         </div>
 
                         <Link
                             href="/iglesias/castro"
-                            className={`md:w-[300px] md:h-[300px] md:px-[20px] bg-beige flex justify-center items-center text-tinto md:text-[20px] md:font-medium uppercase text-center ${
+                            className={`bg-beige flex justify-center items-center text-tinto font-medium uppercase text-center md:w-[300px] md:h-[300px] md:px-[20px] md:text-[20px]  ${
                                 isHoverCastro ? '' : 'hidden'
                             }`}
                         >
@@ -57,7 +63,7 @@ export default function ThumbIglesias() {
                         </Link>
                     </div>
                 </div>
-                <div className="md:w-3/12 md:mb-[25px] ">
+                <div className="w-6/12 md:w-3/12 mb-[15px] md:mb-[25px] flex justify-center items-center align-middle ">
                     <div
                         onMouseEnter={() => setIsHoverNercon(true)}
                         onMouseLeave={() => setIsHoverNercon(false)}
@@ -70,6 +76,7 @@ export default function ThumbIglesias() {
                                 width={300}
                                 priority={true}
                                 quality={100}
+                                className={style.imgResposive}
                             />
                         </div>
 
@@ -83,7 +90,7 @@ export default function ThumbIglesias() {
                         </Link>
                     </div>
                 </div>
-                <div className="md:w-3/12 md:mb-[25px] ">
+                <div className="w-6/12 md:w-3/12 mb-[15px] md:mb-[25px] flex justify-center items-center align-middle">
                     <div
                         onMouseEnter={() => setIsHoverDalcahue(true)}
                         onMouseLeave={() => setIsHoverDalcahue(false)}
@@ -98,6 +105,7 @@ export default function ThumbIglesias() {
                                 width={300}
                                 priority={true}
                                 quality={100}
+                                className={style.imgResposive}
                             />
                         </div>
 
@@ -111,7 +119,7 @@ export default function ThumbIglesias() {
                         </Link>
                     </div>
                 </div>
-                <div className="md:w-3/12 md:mb-[25px] ">
+                <div className="w-6/12 md:w-3/12 mb-[15px] md:mb-[25px] flex justify-center items-center align-middle">
                     <div
                         onMouseEnter={() => setIsHoverRilan(true)}
                         onMouseLeave={() => setIsHoverRilan(false)}
@@ -124,6 +132,7 @@ export default function ThumbIglesias() {
                                 width={300}
                                 priority={true}
                                 quality={100}
+                                className={style.imgResposive}
                             />
                         </div>
 
@@ -137,7 +146,7 @@ export default function ThumbIglesias() {
                         </Link>
                     </div>
                 </div>
-                <div className="md:w-3/12 md:mb-[25px] ">
+                <div className="w-6/12 md:w-3/12 mb-[15px] md:mb-[25px] flex justify-center items-center align-middle">
                     <div
                         onMouseEnter={() => setIsHoverChelin(true)}
                         onMouseLeave={() => setIsHoverChelin(false)}
@@ -150,6 +159,7 @@ export default function ThumbIglesias() {
                                 width={300}
                                 priority={true}
                                 quality={100}
+                                className={style.imgResposive}
                             />
                         </div>
 
@@ -163,7 +173,7 @@ export default function ThumbIglesias() {
                         </Link>
                     </div>
                 </div>
-                <div className="md:w-3/12 md:mb-[25px] ">
+                <div className="w-6/12 md:w-3/12 mb-[15px] md:mb-[25px] flex justify-center items-center align-middle">
                     <div
                         onMouseEnter={() => setIsHoverSanJuan(true)}
                         onMouseLeave={() => setIsHoverSanJuan(false)}
@@ -178,6 +188,7 @@ export default function ThumbIglesias() {
                                 width={300}
                                 priority={true}
                                 quality={100}
+                                className={style.imgResposive}
                             />
                         </div>
 
@@ -191,7 +202,7 @@ export default function ThumbIglesias() {
                         </Link>
                     </div>
                 </div>
-                <div className="md:w-3/12 md:mb-[25px] ">
+                <div className="w-6/12 md:w-3/12 mb-[15px] md:mb-[25px] flex justify-center items-center align-middle">
                     <div
                         onMouseEnter={() => setIsHoverTenaun(true)}
                         onMouseLeave={() => setIsHoverTenaun(false)}
@@ -204,6 +215,7 @@ export default function ThumbIglesias() {
                                 width={300}
                                 priority={true}
                                 quality={100}
+                                className={style.imgResposive}
                             />
                         </div>
 
@@ -217,7 +229,7 @@ export default function ThumbIglesias() {
                         </Link>
                     </div>
                 </div>
-                <div className="md:w-3/12 md:mb-[25px] ">
+                <div className="w-6/12 md:w-3/12 mb-[15px] md:mb-[25px] flex justify-center items-center align-middle">
                     <div
                         onMouseEnter={() => setIsHoverColo(true)}
                         onMouseLeave={() => setIsHoverColo(false)}
@@ -230,6 +242,7 @@ export default function ThumbIglesias() {
                                 width={300}
                                 priority={true}
                                 quality={100}
+                                className={style.imgResposive}
                             />
                         </div>
                         <Link
@@ -242,7 +255,7 @@ export default function ThumbIglesias() {
                         </Link>
                     </div>
                 </div>
-                <div className="md:w-3/12 md:mb-[25px] ">
+                <div className="w-6/12 md:w-3/12 mb-[15px] md:mb-[25px] flex justify-center items-center align-middle">
                     <div
                         onMouseEnter={() => setIsHoverAchao(true)}
                         onMouseLeave={() => setIsHoverAchao(false)}
@@ -255,6 +268,7 @@ export default function ThumbIglesias() {
                                 width={300}
                                 priority={true}
                                 quality={100}
+                                className={style.imgResposive}
                             />
                         </div>
                         <Link
@@ -267,7 +281,7 @@ export default function ThumbIglesias() {
                         </Link>
                     </div>
                 </div>
-                <div className="md:w-3/12 md:mb-[25px] ">
+                <div className="w-6/12 md:w-3/12 mb-[15px] md:mb-[25px] flex justify-center items-center align-middle">
                     <div
                         onMouseEnter={() => setIsHoverQuinchao(true)}
                         onMouseLeave={() => setIsHoverQuinchao(false)}
@@ -282,6 +296,7 @@ export default function ThumbIglesias() {
                                 width={300}
                                 priority={true}
                                 quality={100}
+                                className={style.imgResposive}
                             />
                         </div>
                         <Link
@@ -294,7 +309,7 @@ export default function ThumbIglesias() {
                         </Link>
                     </div>
                 </div>
-                <div className="md:w-3/12 md:mb-[25px] ">
+                <div className="w-6/12 md:w-3/12 mb-[15px] md:mb-[25px] flex justify-center items-center align-middle">
                     <div
                         onMouseEnter={() => setIsHoverCaguach(true)}
                         onMouseLeave={() => setIsHoverCaguach(false)}
@@ -309,6 +324,7 @@ export default function ThumbIglesias() {
                                 width={300}
                                 priority={true}
                                 quality={100}
+                                className={style.imgResposive}
                             />
                         </div>
                         <Link
@@ -321,7 +337,7 @@ export default function ThumbIglesias() {
                         </Link>
                     </div>
                 </div>
-                <div className="md:w-3/12 md:mb-[25px] ">
+                <div className="w-6/12 md:w-3/12 mb-[15px] md:mb-[25px] flex justify-center items-center align-middle">
                     <div
                         onMouseEnter={() => setIsHoverChonchi(true)}
                         onMouseLeave={() => setIsHoverChonchi(false)}
@@ -336,6 +352,7 @@ export default function ThumbIglesias() {
                                 width={300}
                                 priority={true}
                                 quality={100}
+                                className={style.imgResposive}
                             />
                         </div>
                         <Link
@@ -348,7 +365,7 @@ export default function ThumbIglesias() {
                         </Link>
                     </div>
                 </div>
-                <div className="md:w-3/12 md:mb-[25px] ">
+                <div className="w-6/12 md:w-3/12 mb-[15px] md:mb-[25px] flex justify-center items-center align-middle">
                     <div
                         onMouseEnter={() => setIsHoverVilipulli(true)}
                         onMouseLeave={() => setIsHoverVilipulli(false)}
@@ -365,6 +382,7 @@ export default function ThumbIglesias() {
                                 width={300}
                                 priority={true}
                                 quality={100}
+                                className={style.imgResposive}
                             />
                         </div>
                         <Link
@@ -377,7 +395,7 @@ export default function ThumbIglesias() {
                         </Link>
                     </div>
                 </div>
-                <div className="md:w-3/12 md:mb-[25px] ">
+                <div className="w-6/12 md:w-3/12 mb-[15px] md:mb-[25px] flex justify-center items-center align-middle">
                     <div
                         onMouseEnter={() => setIsHoverIchuac(true)}
                         onMouseLeave={() => setIsHoverIchuac(false)}
@@ -390,6 +408,7 @@ export default function ThumbIglesias() {
                                 width={300}
                                 priority={true}
                                 quality={100}
+                                className={style.imgResposive}
                             />
                         </div>
                         <Link
@@ -402,7 +421,7 @@ export default function ThumbIglesias() {
                         </Link>
                     </div>
                 </div>
-                <div className="md:w-3/12 md:mb-[25px] ">
+                <div className="w-6/12 md:w-3/12 mb-[15px] md:mb-[25px] flex justify-center items-center align-middle">
                     <div
                         onMouseEnter={() => setIsHoverAldachildo(true)}
                         onMouseLeave={() => setIsHoverAldachildo(false)}
@@ -419,6 +438,7 @@ export default function ThumbIglesias() {
                                 width={300}
                                 priority={true}
                                 quality={100}
+                                className={style.imgResposive}
                             />
                         </div>
                         <Link
@@ -431,7 +451,7 @@ export default function ThumbIglesias() {
                         </Link>
                     </div>
                 </div>
-                <div className="md:w-3/12 md:mb-[25px] ">
+                <div className="w-6/12 md:w-3/12 mb-[15px] md:mb-[25px] flex justify-center items-center align-middle ">
                     <div
                         onMouseEnter={() => setIsHoverDetif(true)}
                         onMouseLeave={() => setIsHoverDetif(false)}
@@ -444,6 +464,7 @@ export default function ThumbIglesias() {
                                 width={300}
                                 priority={true}
                                 quality={100}
+                                className={style.imgResposive}
                             />
                         </div>
                         <Link
