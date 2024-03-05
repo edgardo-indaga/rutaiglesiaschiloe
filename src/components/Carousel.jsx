@@ -26,6 +26,16 @@ export default function App() {
             >
                 <SwiperSlide>
                     <Image
+                        src={imagen2}
+                        alt="Imagen 01"
+                        width="2000"
+                        height="1333"
+                        quality={100}
+                        className="h-[100vh] object-cover object-center"
+                    />
+                </SwiperSlide>
+                <SwiperSlide>
+                    <Image
                         src={imagen1}
                         alt="Imagen 01"
                         width="2000"
@@ -36,22 +46,12 @@ export default function App() {
                 </SwiperSlide>
                 <SwiperSlide>
                     <Image
-                        src={imagen2}
-                        alt="Imagen 01"
-                        width="2000"
-                        height="1333"
-                        quality={100}
-                        className="h-[100vh] object-cover object-bottom"
-                    />
-                </SwiperSlide>
-                <SwiperSlide>
-                    <Image
                         src={imagen3}
                         alt="Imagen 01"
                         width="2000"
                         height="1333"
                         quality={100}
-                        className="h-[100vh] object-cover object-right-center"
+                        className="h-[100vh] object-cover object-center"
                     />
                 </SwiperSlide>
             </Swiper>

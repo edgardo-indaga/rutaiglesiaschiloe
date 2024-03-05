@@ -35,7 +35,7 @@ export default function Home() {
                         </h1>
                         <p className="text-tinto md:text-[26px] font-thin md:leading-[34px]">
                             16 iglesias del archipiélago conforman el Sitio de Patrimonio Mundial,
-                            declarado por la UNESCO.
+                            declarado por la UNESCO en el año 2000.
                         </p>
                         <Link href="/patrimonio" alt="PATRIMONIO DE LA HUMANIDAD">
                             <Image
@@ -51,6 +51,11 @@ export default function Home() {
                 </div>
             </section>
             <section className="md:py-[100px]">
+                <div className="container mx-auto flex justify-center md:mb-[70px]">
+                    <h1 className="text-tinto font-semibold xl:text-[48px]">
+                        16 IGLESIAS DEL SITIO DE PATRIMONIO MUNDIAL
+                    </h1>
+                </div>
                 <div className="container mx-auto">
                     <HotSpotsMapa />
                 </div>
