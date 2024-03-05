@@ -12,8 +12,8 @@ import { Pagination } from 'swiper/modules';
 import Image from 'next/image';
 
 import imagen1 from '/public/carouselhome/slider-01.webp';
-import imagen2 from '/public/carouselhome/second.webp';
-import imagen3 from '/public/carouselhome/thirds.webp';
+import imagen2 from '/public/carouselhome/slider-02.webp';
+import imagen3 from '/public/carouselhome/slider-03.webp';
 
 export default function App() {
     return (

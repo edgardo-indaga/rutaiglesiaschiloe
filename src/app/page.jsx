@@ -7,13 +7,11 @@ import Link from 'next/link';
 export default function Home() {
     return (
         <main>
-            <section className="md:h-auto">
-                <div className="container">
-                    <CarouselHome />
-                    <h1 className="font-barlow uppercase text-tinto md:text-[40px] md:font-semibold md:leading-[57px] absolute md:top-[50%] md:left-[52.9%] z-20">
-                        REFLEJOS DE UNA FORMA DE VIDA
-                    </h1>
-                </div>
+            <section className="h-screen">
+                <CarouselHome />
+                <h1 className="font-barlow uppercase text-tinto md:text-[66px] md:leading-[83px] md:font-semibold z-20 md:ml-[50%] md:mt-[-30%] absolute">
+                    REFLEJOS DE <br /> UNA FORMA DE VIDA
+                </h1>
             </section>
             <section className="md:py-[100px]">
                 <div className="container mx-auto flex justify-center items-center align-middle">
