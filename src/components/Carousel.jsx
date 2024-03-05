@@ -26,7 +26,7 @@ export default function App() {
             >
                 <SwiperSlide>
                     <Image
-                        src={imagen2}
+                        src={imagen1}
                         alt="Imagen 01"
                         width="2000"
                         height="1333"
@@ -34,9 +34,10 @@ export default function App() {
                         className="h-[100vh] object-cover object-center"
                     />
                 </SwiperSlide>
+                1
                 <SwiperSlide>
                     <Image
-                        src={imagen1}
+                        src={imagen2}
                         alt="Imagen 01"
                         width="2000"
                         height="1333"

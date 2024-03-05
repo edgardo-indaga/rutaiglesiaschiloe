@@ -9,9 +9,6 @@ export default function Home() {
         <main>
             <section className="h-screen">
                 <CarouselHome />
-                <h1 className="font-barlow uppercase text-tinto md:text-[66px] md:leading-[83px] md:font-semibold z-20 md:ml-[50%] md:mt-[-30%] absolute">
-                    REFLEJOS DE <br /> UNA FORMA DE VIDA
-                </h1>
             </section>
             <section className="md:py-[100px]">
                 <div className="container mx-auto flex justify-center items-center align-middle">
