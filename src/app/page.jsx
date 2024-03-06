@@ -161,7 +161,7 @@ export default function Home() {
                             width={1300}
                             height={1895}
                             quality={100}
-                            className="md:mt-[-70px] md:h-[850px] md:w-auto"
+                            className="md:mt-[-70px] md:h-[800px] md:w-auto"
                         />
                     </div>
                 </div>
