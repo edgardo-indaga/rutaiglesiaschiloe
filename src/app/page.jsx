@@ -11,11 +11,11 @@ export default function Home() {
                 <CarouselHome />
             </section>
             <section className="md:py-[100px]">
-                <div className="container mx-auto flex justify-center items-center align-middle">
+                <div className="container mx-auto flex items-center justify-center align-middle">
                     <YoutubeVideo />
                 </div>
             </section>
-            <section className="md:h-[900px] bg-beige md:py-[100px]" id="patrimonio">
+            <section className="bg-beige md:h-[900px] md:py-[100px]" id="patrimonio">
                 <div className="container mx-auto flex">
                     <div className="md:w-5/12">
                         <Image
@@ -26,11 +26,11 @@ export default function Home() {
                             quality={100}
                         />
                     </div>
-                    <div className="md:w-7/12 md:pt-[170px] md:leading-[57px] ">
-                        <h1 className="text-tinto md:text-[40px] font-semibold md:mb-[20px]">
+                    <div className="md:pt-[170px] md:leading-[57px] md:w-7/12">
+                        <h1 className="font-semibold text-tinto md:text-[40px] md:mb-[20px]">
                             PATRIMONIO DE LA HUMANIDAD
                         </h1>
-                        <p className="text-tinto md:text-[26px] font-thin md:leading-[34px]">
+                        <p className="font-thin text-tinto md:text-[26px] md:leading-[34px]">
                             16 iglesias del archipiélago conforman el Sitio de Patrimonio Mundial,
                             declarado por la UNESCO en el año 2000.
                         </p>
@@ -41,7 +41,7 @@ export default function Home() {
                                 width={240}
                                 height={60}
                                 quality={100}
-                                className="md:mt-[60px] md:w-[180px] hover:scale-[1.1] transition-all ease-cubic-bezier"
+                                className="transition-all ease-cubic-bezier hover:scale-[1.1] md:mt-[60px] md:w-[180px]"
                             />
                         </Link>
                     </div>
@@ -49,7 +49,7 @@ export default function Home() {
             </section>
             <section className="md:py-[100px]">
                 <div className="container mx-auto flex justify-center md:mb-[70px]">
-                    <h1 className="text-tinto font-semibold xl:text-[48px]">
+                    <h1 className="font-semibold text-tinto xl:text-[48px]">
                         16 IGLESIAS DEL SITIO DE PATRIMONIO MUNDIAL
                     </h1>
                 </div>
@@ -57,13 +57,13 @@ export default function Home() {
                     <HotSpotsMapa />
                 </div>
             </section>
-            <section className="md:h-[900px] bg-beige" id="historia">
+            <section className="bg-beige md:h-[900px]" id="historia">
                 <div className="container mx-auto flex">
                     <div className="md:w-7/12">
-                        <h1 className="text-tinto md:text-[40px] font-semibold md:mb-[20px] md:mt-[-120px]">
+                        <h1 className="font-semibold text-tinto md:text-[40px] md:mb-[20px] md:mt-[-120px]">
                             LA HISTORIA
                         </h1>
-                        <p className="text-tinto md:text-[26px] font-thin md:leading-[34px]">
+                        <p className="font-thin text-tinto md:text-[26px] md:leading-[34px]">
                             Las iglesias de Chiloé son el resultado de un sincretismo cultural
                             único, que se produce del rico intercambio entre españoles y pueblos
                             originarios.
@@ -75,7 +75,7 @@ export default function Home() {
                                 width={240}
                                 height={60}
                                 quality={100}
-                                className="md:mt-[60px] md:w-[180px] hover:scale-[1.1] transition-all ease-cubic-bezier"
+                                className="transition-all ease-cubic-bezier hover:scale-[1.1] md:mt-[60px] md:w-[180px]"
                             />
                         </Link>
                     </div>
@@ -92,11 +92,11 @@ export default function Home() {
                 </div>
             </section>
             <section
-                className="bg-cover bg-no-repeat bg-center md:h-screen"
+                className="bg-cover bg-center bg-no-repeat md:h-screen"
                 style={{ backgroundImage: "url('./home-03.webp')" }}
             >
                 <div className="container mx-auto">
-                    <h1 className="font-barlow uppercase text-tinto md:text-[40px] md:font-semibold md:leading-[57px] md:pt-[270px] md:pl-[300px]">
+                    <h1 className="uppercase font-barlow text-tinto md:text-[40px] md:leading-[57px] md:pt-[270px] md:pl-[300px] md:font-semibold">
                         TESTIGOS DEL PASADO
                     </h1>
                 </div>
@@ -112,11 +112,11 @@ export default function Home() {
                             quality={100}
                         />
                     </div>
-                    <div className="md:w-7/12 md:pt-[170px] md:leading-[57px]">
-                        <h1 className="text-tinto md:text-[40px] font-semibold md:mb-[20px]">
+                    <div className="md:pt-[170px] md:leading-[57px] md:w-7/12">
+                        <h1 className="font-semibold text-tinto md:text-[40px] md:mb-[20px]">
                             LA ARQUITECTURA
                         </h1>
-                        <p className="text-tinto md:text-[26px] font-thin md:leading-[34px]">
+                        <p className="font-thin text-tinto md:text-[26px] md:leading-[34px]">
                             Las iglesias de Chiloé son la expresión monumental de la maestría y
                             creatividad de la carpintería chilota.
                         </p>
@@ -127,19 +127,19 @@ export default function Home() {
                                 width={240}
                                 height={60}
                                 quality={100}
-                                className="md:mt-[60px] md:w-[180px] hover:scale-[1.1] transition-all ease-cubic-bezier"
+                                className="transition-all ease-cubic-bezier hover:scale-[1.1] md:mt-[60px] md:w-[180px]"
                             />
                         </Link>
                     </div>
                 </div>
             </section>
-            <section className="md:h-[900px] bg-beige md:py-[100px]" id="comunidades">
+            <section className="bg-beige md:h-[900px] md:py-[100px]" id="comunidades">
                 <div className="container mx-auto flex">
-                    <div className="md:w-7/12 md:pt-[170px] md:leading-[57px]">
-                        <h1 className="text-tinto md:text-[40px] font-semibold md:mb-[20px]">
+                    <div className="md:pt-[170px] md:leading-[57px] md:w-7/12">
+                        <h1 className="font-semibold text-tinto md:text-[40px] md:mb-[20px]">
                             LAS COMUNIDADES
                         </h1>
-                        <p className="text-tinto md:text-[26px] font-thin md:leading-[34px]">
+                        <p className="font-thin text-tinto md:text-[26px] md:leading-[34px]">
                             Son las propias comunidades las que mantienen vivas a las iglesias y
                             están a cargo su cuidado y mantención.
                         </p>
@@ -150,7 +150,7 @@ export default function Home() {
                                 width={240}
                                 height={60}
                                 quality={100}
-                                className="md:mt-[60px] md:w-[180px] hover:scale-[1.1] transition-all ease-cubic-bezier"
+                                className="transition-all ease-cubic-bezier hover:scale-[1.1] md:mt-[60px] md:w-[180px]"
                             />
                         </Link>
                     </div>
@@ -166,27 +166,28 @@ export default function Home() {
                     </div>
                 </div>
             </section>
+
             <section
-                className="bg-cover bg-no-repeat bg-center md:h-screen"
+                className="bg-cover bg-center bg-no-repeat md:h-screen"
                 style={{ backgroundImage: "url('./home-06.webp')" }}
             >
-                <div className="container mx-auto flex justify-end items-center md:h-screen">
-                    <div className="md:w-6/12 md:leading-[57px]">
-                        <h1 className="text-blanco md:text-[40px] font-semibold md:mb-[20px]">
+                <div className="container mx-auto flex items-center justify-end md:h-screen">
+                    <div className="md:leading-[57px] md:w-6/12">
+                        <h1 className="font-semibold text-blanco md:text-[40px] md:mb-[20px]">
                             PROTOCOLO DE VISITA
                         </h1>
-                        <p className="text-blanco md:text-[26px] font-thin md:leading-[34px]">
+                        <p className="font-thin text-blanco md:text-[26px] md:leading-[34px]">
                             Las iglesias de Chiloé no son museos, sino lugares de culto donde se
                             debe mantener una siempre actitud de respeto.
                         </p>
-                        <Link href="/protocolo.pdf" target="_blank" alt="PROTOCOLO DE VISITA">
+                        <Link href="/protocolo" target="_blank" alt="PROTOCOLO DE VISITA">
                             <Image
                                 src="/btn-mas-wh.svg"
                                 alt="ir"
                                 width={240}
                                 height={60}
                                 quality={100}
-                                className="md:mt-[60px] md:w-[180px] hover:scale-[1.1] transition-all ease-cubic-bezier"
+                                className="transition-all ease-cubic-bezier hover:scale-[1.1] md:mt-[60px] md:w-[180px]"
                             />
                         </Link>
                     </div>

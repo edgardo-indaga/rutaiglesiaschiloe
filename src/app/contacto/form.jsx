@@ -41,8 +41,8 @@ export const ContactForm = () => {
 
     return isSubmitted ? (
         <div className="container mx-auto md:h-[450px]">
-            <div className="flex flex-col justify-center items-center">
-                <h1 className="font-questrial text-negro text-center font-normal md:text-[20px] mt-[150px] md:w-[700px]">
+            <div className="flex flex-col items-center justify-center">
+                <h1 className="text-center font-normal font-questrial text-negro mt-[150px] md:text-[20px] md:w-[700px]">
                     ¡Gracias por ponerte en contacto con nosotros! Tu mensaje ha sido recibido con
                     éxito. Nos esforzaremos por responder a tu consulta lo antes posible. <br />
                     ¡Ten un gran día!
@@ -52,9 +52,9 @@ export const ContactForm = () => {
     ) : (
         <div className="container mx-auto md:mt-[70px]">
             <form onSubmit={onSubmit} className="flex flex-col items-center">
-                <div className="md:w-6/12 md:my-[15px]">
+                <div className="md:my-[15px] md:w-6/12">
                     <input
-                        className="border-[1px] border-solid border-tinto py-[12px] px-[16px] bg-amarillo w-full text-tinto placeholder-tinto placeholder:uppercase"
+                        className="border-[1px] border-solid border-[#581945] py-[12px] px-[16px] bg-amarillo w-full text-[#581945] placeholder-[#581945] placeholder:uppercase"
                         type="text"
                         value={name}
                         onChange={(e) => setName(e.target.value)}
@@ -64,9 +64,9 @@ export const ContactForm = () => {
                     />
                 </div>
 
-                <div className="md:w-6/12 md:my-[15px]">
+                <div className="md:my-[15px] md:w-6/12">
                     <input
-                        className="border-[1px] border-solid border-tinto py-[12px] px-[16px] bg-amarillo w-full text-tinto placeholder-tinto placeholder:uppercase"
+                        className="border-[1px] border-solid border-[#581945] py-[12px] px-[16px] bg-amarillo w-full text-[#581945] placeholder-[#581945] placeholder:uppercase"
                         value={email}
                         onChange={(e) => setEmail(e.target.value)}
                         type="email"
@@ -76,9 +76,9 @@ export const ContactForm = () => {
                     />
                 </div>
 
-                <div className="md:w-6/12 md:my-[15px]">
+                <div className="md:my-[15px] md:w-6/12">
                     <input
-                        className="border-[1px] border-solid border-tinto py-[12px] px-[16px] bg-amarillo w-full text-tinto placeholder-tinto placeholder:uppercase"
+                        className="border-[1px] border-solid border-[#581945] py-[12px] px-[16px] bg-amarillo w-full text-[#581945] placeholder-[#581945] placeholder:uppercase"
                         value={phone}
                         onChange={(e) => setPhone(e.target.value)}
                         type="number"
@@ -87,9 +87,9 @@ export const ContactForm = () => {
                     />
                 </div>
 
-                <div className="md:w-6/12 md:my-[15px]">
+                <div className="md:my-[15px] md:w-6/12">
                     <textarea
-                        className="border-[1px] border-solid border-tinto py-[12px] px-[16px] bg-amarillo text-tinto placeholder-tinto placeholder:uppercase w-full h-[200px]"
+                        className="border-[1px] border-solid border-[#581945] py-[12px] px-[16px] bg-amarillo text-[#581945] placeholder-[#581945] placeholder:uppercase w-full h-[200px]"
                         placeholder="Deja tu mensaje aquí *"
                         value={message}
                         onChange={(e) => setMessage(e.target.value)}
@@ -97,10 +97,10 @@ export const ContactForm = () => {
                     ></textarea>
                 </div>
 
-                <div className="md:w-6/12 md:my-[15px] flex flex-col items-end md:mt-[30px]">
+                <div className="flex flex-col items-end md:my-[15px] md:mt-[30px] md:w-6/12">
                     <button
                         type="submit"
-                        className="bg-tinto uppercase text-[18px] font-[400] leading-[16px] text-blanco border-tinto py-[15px] px-[60px] hover:bg-amarillo hover:border-[1px] hover:border-solid hover:border-tinto hover:text-tinto"
+                        className="bg-[#581945] uppercase text-[18px] font-[400] leading-[16px] text-blanco border-[#581945] py-[15px] px-[60px] hover:bg-amarillo hover:border-[1px] hover:border-solid hover:border-[#581945] hover:text-[#581945]"
                     >
                         Enviar
                     </button>

@@ -5,14 +5,14 @@ export default function FooterPrincipal() {
     return (
         <footer className="bg-tinto">
             <div className="container mx-auto">
-                <div className="flex md:h-[140px] justify-center items-center align-middle">
+                <div className="flex items-center justify-center align-middle md:h-[160px]">
                     <Image
                         src="/PTI-logo.svg"
                         alt="Logo PTI"
                         width={215}
                         height={126}
                         priority
-                        className="md:mr-4 md:w-[180px]"
+                        className="md:w-[120px] md:mr-4"
                     />
                     <Link href="https://corfo.cl/sites/cpp/homecorfo" target={'_blank'}>
                         <Image
@@ -21,7 +21,40 @@ export default function FooterPrincipal() {
                             width={183}
                             height={60}
                             priority
-                            className="md:ml-4 md:w-[150px]"
+                            className="md:w-[100px] md:ml-4"
+                        />
+                    </Link>
+
+                    <Link href="#" target={'_blank'}>
+                        <Image
+                            src="/logo-footer-03.svg"
+                            alt="Logo Corfo"
+                            width={183}
+                            height={60}
+                            priority
+                            className="md:w-[140px] md:ml-4"
+                        />
+                    </Link>
+
+                    <Link href="#" target={'_blank'}>
+                        <Image
+                            src="/logo-footer-04.svg"
+                            alt="Logo Corfo"
+                            width={183}
+                            height={60}
+                            priority
+                            className="md:w-[90px] md:ml-4"
+                        />
+                    </Link>
+
+                    <Link href="#" target={'_blank'}>
+                        <Image
+                            src="/logo-footer-06.png"
+                            alt="Logo Corfo"
+                            width={183}
+                            height={60}
+                            priority
+                            className="md:w-[90px] md:ml-4"
                         />
                     </Link>
                 </div>

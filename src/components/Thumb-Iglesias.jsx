@@ -27,16 +27,16 @@ export default function ThumbIglesias() {
     const [isHoverDetif, setIsHoverDetif] = useState(false);
 
     return (
-        <section className="md:pb-[100px] pb-[40px] md:py-[100px] px-[5px] md:px-0">
+        <section className="pb-[40px] px-[5px] md:pb-[100px] md:py-[100px] md:px-0">
             <div className="container mx-auto md:pb-[40px]">
                 <div className="md:w-full">
-                    <h1 className="text-tinto md:text-[30px] font-semibold ">
+                    <h1 className="font-semibold text-tinto md:text-[30px]">
                         16 IGLESIAS PATRIMONIO DE LA HUMANIDAD
                     </h1>
                 </div>
             </div>
             <div className="container mx-auto flex flex-wrap">
-                <div className="w-6/12 md:w-3/12 mb-[15px] md:mb-[25px] flex justify-center items-center align-middle">
+                <div className="flex w-6/12 items-center justify-center align-middle mb-[15px] md:mb-[25px] md:w-3/12">
                     <div
                         onMouseEnter={() => setIsHoverCastro(true)}
                         onMouseLeave={() => setIsHoverCastro(false)}
@@ -63,7 +63,7 @@ export default function ThumbIglesias() {
                         </Link>
                     </div>
                 </div>
-                <div className="w-6/12 md:w-3/12 mb-[15px] md:mb-[25px] flex justify-center items-center align-middle ">
+                <div className="flex w-6/12 items-center justify-center align-middle mb-[15px] md:mb-[25px] md:w-3/12">
                     <div
                         onMouseEnter={() => setIsHoverNercon(true)}
                         onMouseLeave={() => setIsHoverNercon(false)}
@@ -90,7 +90,7 @@ export default function ThumbIglesias() {
                         </Link>
                     </div>
                 </div>
-                <div className="w-6/12 md:w-3/12 mb-[15px] md:mb-[25px] flex justify-center items-center align-middle">
+                <div className="flex w-6/12 items-center justify-center align-middle mb-[15px] md:mb-[25px] md:w-3/12">
                     <div
                         onMouseEnter={() => setIsHoverDalcahue(true)}
                         onMouseLeave={() => setIsHoverDalcahue(false)}
@@ -119,7 +119,7 @@ export default function ThumbIglesias() {
                         </Link>
                     </div>
                 </div>
-                <div className="w-6/12 md:w-3/12 mb-[15px] md:mb-[25px] flex justify-center items-center align-middle">
+                <div className="flex w-6/12 items-center justify-center align-middle mb-[15px] md:mb-[25px] md:w-3/12">
                     <div
                         onMouseEnter={() => setIsHoverRilan(true)}
                         onMouseLeave={() => setIsHoverRilan(false)}
@@ -146,7 +146,7 @@ export default function ThumbIglesias() {
                         </Link>
                     </div>
                 </div>
-                <div className="w-6/12 md:w-3/12 mb-[15px] md:mb-[25px] flex justify-center items-center align-middle">
+                <div className="flex w-6/12 items-center justify-center align-middle mb-[15px] md:mb-[25px] md:w-3/12">
                     <div
                         onMouseEnter={() => setIsHoverChelin(true)}
                         onMouseLeave={() => setIsHoverChelin(false)}
@@ -173,7 +173,7 @@ export default function ThumbIglesias() {
                         </Link>
                     </div>
                 </div>
-                <div className="w-6/12 md:w-3/12 mb-[15px] md:mb-[25px] flex justify-center items-center align-middle">
+                <div className="flex w-6/12 items-center justify-center align-middle mb-[15px] md:mb-[25px] md:w-3/12">
                     <div
                         onMouseEnter={() => setIsHoverSanJuan(true)}
                         onMouseLeave={() => setIsHoverSanJuan(false)}
@@ -202,7 +202,7 @@ export default function ThumbIglesias() {
                         </Link>
                     </div>
                 </div>
-                <div className="w-6/12 md:w-3/12 mb-[15px] md:mb-[25px] flex justify-center items-center align-middle">
+                <div className="flex w-6/12 items-center justify-center align-middle mb-[15px] md:mb-[25px] md:w-3/12">
                     <div
                         onMouseEnter={() => setIsHoverTenaun(true)}
                         onMouseLeave={() => setIsHoverTenaun(false)}
@@ -229,7 +229,7 @@ export default function ThumbIglesias() {
                         </Link>
                     </div>
                 </div>
-                <div className="w-6/12 md:w-3/12 mb-[15px] md:mb-[25px] flex justify-center items-center align-middle">
+                <div className="flex w-6/12 items-center justify-center align-middle mb-[15px] md:mb-[25px] md:w-3/12">
                     <div
                         onMouseEnter={() => setIsHoverColo(true)}
                         onMouseLeave={() => setIsHoverColo(false)}
@@ -255,7 +255,7 @@ export default function ThumbIglesias() {
                         </Link>
                     </div>
                 </div>
-                <div className="w-6/12 md:w-3/12 mb-[15px] md:mb-[25px] flex justify-center items-center align-middle">
+                <div className="flex w-6/12 items-center justify-center align-middle mb-[15px] md:mb-[25px] md:w-3/12">
                     <div
                         onMouseEnter={() => setIsHoverAchao(true)}
                         onMouseLeave={() => setIsHoverAchao(false)}
@@ -281,7 +281,7 @@ export default function ThumbIglesias() {
                         </Link>
                     </div>
                 </div>
-                <div className="w-6/12 md:w-3/12 mb-[15px] md:mb-[25px] flex justify-center items-center align-middle">
+                <div className="flex w-6/12 items-center justify-center align-middle mb-[15px] md:mb-[25px] md:w-3/12">
                     <div
                         onMouseEnter={() => setIsHoverQuinchao(true)}
                         onMouseLeave={() => setIsHoverQuinchao(false)}
@@ -309,7 +309,7 @@ export default function ThumbIglesias() {
                         </Link>
                     </div>
                 </div>
-                <div className="w-6/12 md:w-3/12 mb-[15px] md:mb-[25px] flex justify-center items-center align-middle">
+                <div className="flex w-6/12 items-center justify-center align-middle mb-[15px] md:mb-[25px] md:w-3/12">
                     <div
                         onMouseEnter={() => setIsHoverCaguach(true)}
                         onMouseLeave={() => setIsHoverCaguach(false)}
@@ -337,7 +337,7 @@ export default function ThumbIglesias() {
                         </Link>
                     </div>
                 </div>
-                <div className="w-6/12 md:w-3/12 mb-[15px] md:mb-[25px] flex justify-center items-center align-middle">
+                <div className="flex w-6/12 items-center justify-center align-middle mb-[15px] md:mb-[25px] md:w-3/12">
                     <div
                         onMouseEnter={() => setIsHoverChonchi(true)}
                         onMouseLeave={() => setIsHoverChonchi(false)}
@@ -365,7 +365,7 @@ export default function ThumbIglesias() {
                         </Link>
                     </div>
                 </div>
-                <div className="w-6/12 md:w-3/12 mb-[15px] md:mb-[25px] flex justify-center items-center align-middle">
+                <div className="flex w-6/12 items-center justify-center align-middle mb-[15px] md:mb-[25px] md:w-3/12">
                     <div
                         onMouseEnter={() => setIsHoverVilipulli(true)}
                         onMouseLeave={() => setIsHoverVilipulli(false)}
@@ -395,7 +395,7 @@ export default function ThumbIglesias() {
                         </Link>
                     </div>
                 </div>
-                <div className="w-6/12 md:w-3/12 mb-[15px] md:mb-[25px] flex justify-center items-center align-middle">
+                <div className="flex w-6/12 items-center justify-center align-middle mb-[15px] md:mb-[25px] md:w-3/12">
                     <div
                         onMouseEnter={() => setIsHoverIchuac(true)}
                         onMouseLeave={() => setIsHoverIchuac(false)}
@@ -421,7 +421,7 @@ export default function ThumbIglesias() {
                         </Link>
                     </div>
                 </div>
-                <div className="w-6/12 md:w-3/12 mb-[15px] md:mb-[25px] flex justify-center items-center align-middle">
+                <div className="flex w-6/12 items-center justify-center align-middle mb-[15px] md:mb-[25px] md:w-3/12">
                     <div
                         onMouseEnter={() => setIsHoverAldachildo(true)}
                         onMouseLeave={() => setIsHoverAldachildo(false)}
@@ -451,7 +451,7 @@ export default function ThumbIglesias() {
                         </Link>
                     </div>
                 </div>
-                <div className="w-6/12 md:w-3/12 mb-[15px] md:mb-[25px] flex justify-center items-center align-middle ">
+                <div className="flex w-6/12 items-center justify-center align-middle mb-[15px] md:mb-[25px] md:w-3/12">
                     <div
                         onMouseEnter={() => setIsHoverDetif(true)}
                         onMouseLeave={() => setIsHoverDetif(false)}

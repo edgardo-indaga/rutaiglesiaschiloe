@@ -38,7 +38,7 @@ export default function HeaderPrincipal() {
     return (
         <header className={`fixed z-50 w-screen ${bgColor}`} id="header" key={key}>
             <div className="container mx-auto my-[10px]">
-                <nav className="flex items-center h-[90px] px-[20px] xl:h-[100px] xl:px-[30px] mx-[12px] xl:mx-auto nav-header ">
+                <nav className="flex items-center h-[90px] px-[20px] mx-[12px] nav-header xl:h-[100px] xl:px-[30px] xl:mx-auto">
                     <div className="flex w-full items-center justify-between">
                         <Link href="/">
                             <Image
@@ -141,7 +141,7 @@ export default function HeaderPrincipal() {
                                     strokeWidth="1.5"
                                     stroke="black"
                                     data-slot="icon"
-                                    className="w-8 h-8"
+                                    className="h-8 w-8"
                                 >
                                     <path
                                         strokeLinecap="round"
@@ -151,7 +151,7 @@ export default function HeaderPrincipal() {
                                 </svg>
                             </button>
                         </div>
-                        <div className="flex flex-col pt-1 py-4 items-center">
+                        <div className="flex flex-col items-center py-4 pt-1">
                             <ul className="flex flex-col items-center">
                                 <li
                                     onClick={() => setMenuOpen(false)}

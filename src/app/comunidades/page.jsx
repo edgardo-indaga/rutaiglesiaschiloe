@@ -10,7 +10,7 @@ export const metadata = {
 export default function LaComunidad() {
     return (
         <main>
-            <section className="md:h-screen relative">
+            <section className="relative md:h-screen">
                 <Image
                     src="/comunidades/comunidades-01.webp"
                     alt="Arquitectura"
@@ -19,49 +19,58 @@ export default function LaComunidad() {
                     quality={100} // Maintain image quality
                     className="object-cover object-top"
                 />
-                <div className="container mx-auto flex justify-center items-center md:h-screen ">
-                    <h1 className="text-blanco md:text-[40px] font-semibold z-10">
+                <div className="container mx-auto flex items-center justify-center md:h-screen">
+                    <h1 className="z-10 font-semibold text-blanco md:text-[40px]">
                         LAS COMUNIDADES
                     </h1>
                 </div>
             </section>
             <section className="md:py-[100px]">
-                <div className="container mx-auto flex justify-center items-center align-middle">
+                <div className="container mx-auto flex items-center justify-center align-middle">
                     <VideoComunidades />
                 </div>
             </section>
-            <section className="md:py-[100px] bg-beige">
-                <div className="container mx-auto flex flex-col">
-                    <p className="text-tinto md:text-[26px] font-medium md:leading-[34px] md:mb-[50px]">
-                        ¿QUÉ SIGNIFICA ESTE RECONOCIMIENTO?
+            <section className="bg-beige md:py-[100px]">
+                <div className="container mx-auto flex justify-center md:mb-[70px]">
+                    <h1 className="font-semibold text-tinto xl:text-[48px]">
+                        PATRIMONIO VIVO: LA RELIGIOSIDAD POPULAR
+                    </h1>
+                </div>
+                <div className="container mx-auto flex flex-col md:px-20">
+                    <p className="font-thin text-tinto md:text-[26px] md:leading-[34px] md:mb-[25px]">
+                        La historia de Chiloé está marcada por su{' '}
+                        <b>geografía insular y su consecuente aislamiento del resto de Chile.</b>{' '}
+                        Esta condición dio origen a{' '}
+                        <b>manifestaciones culturales únicas y muy arraigadas.</b>
                     </p>
-                    <p className="text-tinto md:text-[26px] font-thin md:leading-[34px] md:mb-[25px]">
-                        La historia de Chiloé está marcada por su geografía insular y su consecuente
-                        aislamiento del resto de Chile. Esta condición dio origen a manifestaciones
-                        culturales únicas y muy arraigadas.
-                    </p>
-                    <p className="text-tinto md:text-[26px] font-thin md:leading-[34px] md:mb-[25px]">
+                    <p className="font-thin text-tinto md:text-[26px] md:leading-[34px] md:mb-[25px]">
                         La cultura de bordemar combinada con el trabajo agrícola, la mitología, la
                         gastronomía y artesanía tradicional, el folclore, el oficio carpintero y la
                         arquitectura, son solo algunas de ellas.
                     </p>
-                    <p className="text-tinto md:text-[26px] font-thin md:leading-[34px] md:mb-[25px]">
-                        Este aislamiento fue un factor importante en la conservación de prácticas
-                        religiosas propias del medioevo español, que al mezclarse con la tradición
-                        chilota dieron origen a una religiosidad popular muy singular.{' '}
+                    <p className="font-thin text-tinto md:text-[26px] md:leading-[34px] md:mb-[25px]">
+                        Este aislamiento fue un factor importante en la conservación de{' '}
+                        <b>
+                            prácticas religiosas propias del medioevo español, que al mezclarse con
+                            la tradición chilota dieron origen a una religiosidad popular muy
+                            singular.
+                        </b>
                     </p>
-                    <p className="text-tinto md:text-[26px] font-thin md:leading-[34px] md:mb-[25px]">
-                        Expresión de ella son las grandes festividades religiosas. Cada iglesia
-                        tiene su fiesta patronal, pero las comunidades celebran además a otros
-                        cristos y santos importantes. Son momentos de encuentro y celebración
+                    <p className="font-thin text-tinto md:text-[26px] md:leading-[34px] md:mb-[25px]">
+                        Expresión de ella son las grandes <b>festividades religiosas.</b> Cada
+                        iglesia tiene su fiesta patronal, pero las comunidades celebran además a
+                        otros cristos y santos importantes. Son momentos de encuentro y celebración
                         comunitaria en las que se manifiestan las principales tradiciones del
                         archipiélago, como las mingas, la música y la gastronomía. Se realizan
                         además durante estas fiestas procesiones y pasacalles muy distintivas.
                     </p>
-                    <p className="text-tinto md:text-[26px] font-thin md:leading-[34px] md:mb-[25px]">
-                        Otras expresiones de esta religiosidad popular son los cantos y rezos “a la
-                        chilota”, los santos vestidos y los elementos decorativos de las iglesias,
-                        así como la propia organización de la comunidad religiosa
+                    <p className="font-thin text-tinto md:text-[26px] md:leading-[34px] md:mb-[25px]">
+                        Otras expresiones de esta religiosidad popular son los{' '}
+                        <b>
+                            cantos y rezos “a la chilota”, los santos vestidos y los elementos
+                            decorativos de las iglesias
+                        </b>
+                        , así como la propia organización de la comunidad religiosa.
                     </p>
                 </div>
                 <div className="container mx-auto md:mt-[50px]">
@@ -69,28 +78,35 @@ export default function LaComunidad() {
                 </div>
             </section>
             <section className="md:pt-[100px]">
-                <div className="container mx-auto flex flex-col">
-                    <p className="text-tinto md:text-[26px] font-medium md:leading-[34px] md:mb-[50px]">
+                <div className="container mx-auto flex justify-center md:mb-[70px]">
+                    <h1 className="font-semibold text-tinto xl:text-[48px]">
                         COMUNIDADES: ORGULLO Y COMPROMISO
-                    </p>
-                    <p className="text-tinto md:text-[26px] font-thin md:leading-[34px] md:mb-[25px]">
+                    </h1>
+                </div>
+                <div className="container mx-auto flex flex-col md:px-20">
+                    <p className="font-thin text-tinto md:text-[26px] md:leading-[34px] md:mb-[25px]">
                         Hoy, el sentimiento religioso sigue muy arraigado en las comunidades
-                        locales, que mantienen vivas a las iglesias y sienten un profundo orgullo
-                        por ellas.
+                        locales, que{' '}
+                        <b>
+                            mantienen vivas a las iglesias y sienten un profundo orgullo por ellas.
+                        </b>
                     </p>
-                    <p className="text-tinto md:text-[26px] font-thin md:leading-[34px] md:mb-[25px]">
-                        Son las propias comunidades las que están a cargo del cuidado y mantención
-                        de los templos, mediante un trabajo voluntario y muy dedicado. Para ello,
-                        definen una estructura de roles, entre los que destaca el Fiscal.
+                    <p className="font-thin text-tinto md:text-[26px] md:leading-[34px] md:mb-[25px]">
+                        <b>
+                            Son las propias comunidades las que están a cargo del cuidado y
+                            mantención de los templos,
+                        </b>{' '}
+                        mediante un trabajo voluntario y muy dedicado. Para ello, definen una
+                        estructura de roles, entre los que destaca el Fiscal.
                     </p>
-                    <p className="text-tinto md:text-[26px] font-thin md:leading-[34px] md:mb-[25px]">
-                        Los fiscales tienen su origen en las misiones circulares y eran personas
-                        locales que eran designadas por los sacerdotes para cuidar las iglesias y
-                        hacerse cargo de los rituales religiosos en su ausencia, que era la mayor
-                        parte del año. Era un cargo que se ejercía con mucha autonomía y que perdura
-                        hasta el día de hoy en muchas iglesias.
+                    <p className="font-thin text-tinto md:text-[26px] md:leading-[34px] md:mb-[25px]">
+                        <b>Los fiscales</b> tienen su origen en las misiones circulares y eran
+                        personas locales que eran designadas por los sacerdotes para cuidar las
+                        iglesias y hacerse cargo de los rituales religiosos en su ausencia, que era
+                        la mayor parte del año. Era un cargo que se ejercía con mucha autonomía y
+                        que perdura hasta el día de hoy en muchas iglesias.
                     </p>
-                    <p className="text-tinto md:text-[26px] font-thin md:leading-[34px] md:mb-[25px]">
+                    <p className="font-thin text-tinto md:text-[26px] md:leading-[34px] md:mb-[25px]">
                         Otro rol relevante es el de los Supremos, que se encargan de organizar las
                         fiestas patronales. También existen los patrones de iglesia, patrones de
                         llaves, patrones de imágenes y rezadores, entre otros. Estos roles suelen
@@ -101,7 +117,7 @@ export default function LaComunidad() {
                     <ComunidadGallerySecundaria />
                 </div>
             </section>
-            <section className="md:h-auto md:mb-[100px] md:pb-[100px]">
+            <section className="md:mb-[100px] md:pb-[100px] md:h-auto">
                 <div className="container mx-auto">
                     <Link href="/#comunidades" alt="PAGINA DE INICIO">
                         <Image
@@ -109,7 +125,7 @@ export default function LaComunidad() {
                             alt="ir"
                             width={240}
                             height={60}
-                            className="md:mt-[60px] md:w-[180px] hover:scale-[1.1] transition-all ease-cubic-bezier float-end"
+                            className="transition-all ease-cubic-bezier float-end hover:scale-[1.1] md:mt-[60px] md:w-[180px]"
                         />
                     </Link>
                 </div>

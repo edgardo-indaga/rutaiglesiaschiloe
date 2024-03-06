@@ -8,7 +8,7 @@ export const metadata = {
 export default function IglesiaNercon() {
     return (
         <main>
-            <section className="md:h-screen relative">
+            <section className="relative md:h-screen">
                 <Image
                     src="/iglesias/nercon/nercon-01.webp"
                     alt="Iglesia Nuestra Señora de Gracia de Nercón"
@@ -20,18 +20,18 @@ export default function IglesiaNercon() {
             </section>
             <section className="md:py-[100px]">
                 <div className="container mx-auto">
-                    <h1 className="text-tinto md:text-[30px] font-semibold uppercase">
+                    <h1 className="font-semibold uppercase text-tinto md:text-[30px]">
                         Iglesia Nuestra Señora de Gracia de Nercón
                     </h1>
                 </div>
                 <div className="container mx-auto flex md:mt-[70px]">
-                    <div className="md:w-4/12 flex flex-row items-center">
+                    <div className="flex flex-row items-center md:w-4/12">
                         <Image src="/iglesias/icono-01.svg" alt="Icono 01" width={77} height={56} />
-                        <p className="text-tinto md:text-[26px] font-thin md:leading-[34px] md:ml-[30px] md:mr-[20px]">
+                        <p className="font-thin text-tinto md:text-[26px] md:leading-[34px] md:ml-[30px] md:mr-[20px]">
                             Construcción: <b className="md:font-medium">1879</b>
                         </p>
                     </div>
-                    <div className="md:w-4/12 flex flex-row items-center">
+                    <div className="flex flex-row items-center md:w-4/12">
                         <Image
                             src="/iglesias/icono-02.svg"
                             alt="Icono 01"
@@ -39,12 +39,12 @@ export default function IglesiaNercon() {
                             height={117}
                             className="md:h-[90px] md:w-auto"
                         />
-                        <p className="text-tinto md:text-[26px] font-thin md:leading-[34px] md:ml-[30px] md:mr-[20px]">
+                        <p className="font-thin text-tinto md:text-[26px] md:leading-[34px] md:ml-[30px] md:mr-[20px]">
                             Patrono:{' '}
                             <b className="md:font-medium">Virgen de Gracia y Arcángel San Miguel</b>
                         </p>
                     </div>
-                    <div className="md:w-4/12 flex flex-row items-center">
+                    <div className="flex flex-row items-center md:w-4/12">
                         <Image
                             src="/iglesias/icono-03.svg"
                             alt="Icono 01"
@@ -52,36 +52,36 @@ export default function IglesiaNercon() {
                             height={143}
                             className="md:h-[100px] md:w-auto"
                         />
-                        <p className="text-tinto md:text-[26px] font-thin md:leading-[34px] md:ml-[30px] md:mr-[20px]">
+                        <p className="font-thin text-tinto md:text-[26px] md:leading-[34px] md:ml-[30px] md:mr-[20px]">
                             Fiesta Patronal: <b className="md:font-medium">8 y 29 de septiembre</b>
                         </p>
                     </div>
                 </div>
                 <div className="container mx-auto md:mt-[70px]">
-                    <p className="text-tinto md:text-[26px] font-thin md:leading-[34px] md:mb-[25px]">
+                    <p className="font-thin text-tinto md:text-[26px] md:leading-[34px] md:mb-[25px]">
                         Al visitar esta iglesia inmediatamente llaman la atención su bello
                         antejardín y el cementerio tradicional que la acompañan. Destacan también el
                         vistoso color celeste utilizado tanto en la fachada como en los nichos que
                         albergan a los santos; y las columnas interiores pintadas imitando el
                         mármol.
                     </p>
-                    <p className="text-tinto md:text-[26px] font-thin md:leading-[34px] md:mb-[25px]">
+                    <p className="font-thin text-tinto md:text-[26px] md:leading-[34px] md:mb-[25px]">
                         Tras la última restauración se dejó a la vista el “esqueleto” de la iglesia,
                         lo que permite al visitante recorrer el entretecho para apreciar la parte
                         exterior de la bóveda y el uso de ensambles y tarugos de madera.
                     </p>
-                    <p className="text-tinto md:text-[26px] font-thin md:leading-[34px] md:mb-[25px]">
+                    <p className="font-thin text-tinto md:text-[26px] md:leading-[34px] md:mb-[25px]">
                         Se cuenta que la figura de San Miguel pisando a Lucifer fue confeccionada
                         por un artesano local a partir de un madero recogido del bosque.
                     </p>
-                    <p className="text-tinto md:text-[26px] font-thin md:leading-[34px] md:mb-[25px]">
+                    <p className="font-thin text-tinto md:text-[26px] md:leading-[34px] md:mb-[25px]">
                         La Virgen de Gracia vela por sus fieles desde el nicho central, vestida de
                         prendas rosadas que le renuevan cada año familias que se ofrecen para
                         cuidarla. Otra imagen más pequeña de la patrona fue encontrada por un
                         lugareño en 1.730, al lado de la actual iglesia, donde anteriormente se
                         ubicaba la capilla.
                     </p>
-                    <p className="text-tinto md:text-[26px] font-thin md:leading-[34px] md:mb-[25px]">
+                    <p className="font-thin text-tinto md:text-[26px] md:leading-[34px] md:mb-[25px]">
                         Se expone en su interior una lancha chilota y cuelgan del techo pequeñas
                         embarcaciones. Estas son ofrendas de fieles navegantes, para quienes
                         antiguamente la iglesia cumplía el rol de faro.
@@ -90,7 +90,7 @@ export default function IglesiaNercon() {
             </section>
             <section>
                 <div
-                    className="container mx-auto bg-cover bg-no-repeat bg-center md:h-screen flex justify-center align-middle items-center"
+                    className="container mx-auto flex items-center justify-center bg-cover bg-center bg-no-repeat align-middle md:h-screen"
                     style={{ backgroundImage: "url('/iglesias/nercon/nercon-02.webp')" }}
                 >
                     <Link href="#">
@@ -114,7 +114,7 @@ export default function IglesiaNercon() {
                             alt="ir"
                             width={570}
                             height={64}
-                            className="md:mt-[60px] md:w-[430px] hover:scale-[1.1] transition-all ease-cubic-bezier float-end md:mr-[50px]"
+                            className="transition-all ease-cubic-bezier float-end hover:scale-[1.1] md:mt-[60px] md:w-[430px] md:mr-[50px]"
                         />
                     </Link>
                     <Link href="/iglesias" alt="Volver a paginas Iglesias">
@@ -123,7 +123,7 @@ export default function IglesiaNercon() {
                             alt="ir"
                             width={240}
                             height={60}
-                            className="md:mt-[60px] md:w-[180px] hover:scale-[1.1] transition-all ease-cubic-bezier float-end"
+                            className="transition-all ease-cubic-bezier float-end hover:scale-[1.1] md:mt-[60px] md:w-[180px]"
                         />
                     </Link>
                 </div>

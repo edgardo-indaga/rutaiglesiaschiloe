@@ -8,7 +8,7 @@ export const metadata = {
 export default function IglesiaTenaun() {
     return (
         <main>
-            <section className="md:h-screen relative">
+            <section className="relative md:h-screen">
                 <Image
                     src="/iglesias/tenaun/tenaun-01.webp"
                     alt="Iglesia Nuestra Señora del Patrocinio de Tenaún"
@@ -20,18 +20,18 @@ export default function IglesiaTenaun() {
             </section>
             <section className="md:py-[100px]">
                 <div className="container mx-auto">
-                    <h1 className="text-tinto md:text-[30px] font-semibold uppercase">
+                    <h1 className="font-semibold uppercase text-tinto md:text-[30px]">
                         Iglesia Nuestra Señora del Patrocinio de Tenaún
                     </h1>
                 </div>
                 <div className="container mx-auto flex md:mt-[70px]">
-                    <div className="md:w-4/12 flex flex-row items-center">
+                    <div className="flex flex-row items-center md:w-4/12">
                         <Image src="/iglesias/icono-01.svg" alt="Icono 01" width={77} height={56} />
-                        <p className="text-tinto md:text-[26px] font-thin md:leading-[34px] md:ml-[30px] md:mr-[20px]">
+                        <p className="font-thin text-tinto md:text-[26px] md:leading-[34px] md:ml-[30px] md:mr-[20px]">
                             Construcción: <b className="md:font-medium">1842</b>
                         </p>
                     </div>
-                    <div className="md:w-4/12 flex flex-row items-center">
+                    <div className="flex flex-row items-center md:w-4/12">
                         <Image
                             src="/iglesias/icono-02.svg"
                             alt="Icono 01"
@@ -39,11 +39,11 @@ export default function IglesiaTenaun() {
                             height={117}
                             className="md:h-[90px] md:w-auto"
                         />
-                        <p className="text-tinto md:text-[26px] font-thin md:leading-[34px] md:ml-[30px] md:mr-[20px]">
+                        <p className="font-thin text-tinto md:text-[26px] md:leading-[34px] md:ml-[30px] md:mr-[20px]">
                             Patrono: <b className="md:font-medium">Nuestra Señora del Patrocinio</b>
                         </p>
                     </div>
-                    <div className="md:w-4/12 flex flex-row items-center">
+                    <div className="flex flex-row items-center md:w-4/12">
                         <Image
                             src="/iglesias/icono-03.svg"
                             alt="Icono 01"
@@ -51,13 +51,13 @@ export default function IglesiaTenaun() {
                             height={143}
                             className="md:h-[100px] md:w-auto"
                         />
-                        <p className="text-tinto md:text-[26px] font-thin md:leading-[34px] md:ml-[30px] md:mr-[20px]">
+                        <p className="font-thin text-tinto md:text-[26px] md:leading-[34px] md:ml-[30px] md:mr-[20px]">
                             Fiesta Patronal: <b className="md:font-medium">30 de enero</b>
                         </p>
                     </div>
                 </div>
                 <div className="container mx-auto md:mt-[70px]">
-                    <p className="text-tinto md:text-[26px] font-thin md:leading-[34px] md:mb-[25px]">
+                    <p className="font-thin text-tinto md:text-[26px] md:leading-[34px] md:mb-[25px]">
                         La iglesia de Tenaún, junto con la de Castro, se distingue por sus tres
                         torres, ya que la gran mayoría de las iglesias patrimoniales del
                         archipiélago cuentan con solo una. También llaman la atención su colorida
@@ -66,19 +66,19 @@ export default function IglesiaTenaun() {
                         1.877, un documento parroquial confirma que su construcción se inició en el
                         año 1.842.
                     </p>
-                    <p className="text-tinto md:text-[26px] font-thin md:leading-[34px] md:mb-[25px]">
+                    <p className="font-thin text-tinto md:text-[26px] md:leading-[34px] md:mb-[25px]">
                         En su interior, la iglesia cuenta con un tradicional púlpito desde donde
                         antiguamente los sacerdotes predicaban sus sermones. Además, se exhiben
                         antiguos reclinatorios con diseños personalizados que pertenecían a los
                         fieles de la iglesia en el pasado.
                     </p>
-                    <p className="text-tinto md:text-[26px] font-thin md:leading-[34px] md:mb-[25px]">
+                    <p className="font-thin text-tinto md:text-[26px] md:leading-[34px] md:mb-[25px]">
                         Al interior de la iglesia se encuentran tres lápidas funerarias del siglo
                         XIX, que pertenecen a la familia Cheuqueman. Según se cuenta, se trata de
                         los donantes del terreno donde se ubica la actual iglesia, quienes descansan
                         enterrados bajo su estructura.
                     </p>
-                    <p className="text-tinto md:text-[26px] font-thin md:leading-[34px] md:mb-[25px]">
+                    <p className="font-thin text-tinto md:text-[26px] md:leading-[34px] md:mb-[25px]">
                         Si bien la patrona de la iglesia es Nuestra Señora del Patrocinio, se
                         celebra también a otros santos, como la Virgen de Lourdes, la Virgen del
                         Carmen, la Virgen del Tránsito, Jesús Nazareno, Nuestra Señora del Rosario,
@@ -89,7 +89,7 @@ export default function IglesiaTenaun() {
             </section>
             <section>
                 <div
-                    className="container mx-auto bg-cover bg-no-repeat bg-center md:h-screen flex justify-center align-middle items-center"
+                    className="container mx-auto flex items-center justify-center bg-cover bg-center bg-no-repeat align-middle md:h-screen"
                     style={{ backgroundImage: "url('/iglesias/tenaun/tenaun-02.webp')" }}
                 >
                     <Link href="#">
@@ -113,7 +113,7 @@ export default function IglesiaTenaun() {
                             alt="ir"
                             width={570}
                             height={64}
-                            className="md:mt-[60px] md:w-[430px] hover:scale-[1.1] transition-all ease-cubic-bezier float-end md:mr-[50px]"
+                            className="transition-all ease-cubic-bezier float-end hover:scale-[1.1] md:mt-[60px] md:w-[430px] md:mr-[50px]"
                         />
                     </Link>
                     <Link href="/iglesias" alt="Volver a paginas Iglesias">
@@ -122,7 +122,7 @@ export default function IglesiaTenaun() {
                             alt="ir"
                             width={240}
                             height={60}
-                            className="md:mt-[60px] md:w-[180px] hover:scale-[1.1] transition-all ease-cubic-bezier float-end"
+                            className="transition-all ease-cubic-bezier float-end hover:scale-[1.1] md:mt-[60px] md:w-[180px]"
                         />
                     </Link>
                 </div>

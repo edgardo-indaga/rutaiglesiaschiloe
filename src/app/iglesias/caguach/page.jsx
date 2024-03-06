@@ -8,7 +8,7 @@ export const metadata = {
 export default function IglesiaCaguach() {
     return (
         <main>
-            <section className="md:h-screen relative">
+            <section className="relative md:h-screen">
                 <Image
                     src="/iglesias/caguach/caguach-01.webp"
                     alt="Iglesia Jesús Nazareno de Caguach"
@@ -20,18 +20,18 @@ export default function IglesiaCaguach() {
             </section>
             <section className="md:py-[100px]">
                 <div className="container mx-auto">
-                    <h1 className="text-tinto md:text-[30px] font-semibold uppercase">
+                    <h1 className="font-semibold uppercase text-tinto md:text-[30px]">
                         Iglesia Jesús Nazareno de Caguach
                     </h1>
                 </div>
                 <div className="container mx-auto flex md:mt-[70px]">
-                    <div className="md:w-4/12 flex flex-row items-center">
+                    <div className="flex flex-row items-center md:w-4/12">
                         <Image src="/iglesias/icono-01.svg" alt="Icono 01" width={77} height={56} />
-                        <p className="text-tinto md:text-[26px] font-thin md:leading-[34px] md:ml-[30px] md:mr-[20px]">
+                        <p className="font-thin text-tinto md:text-[26px] md:leading-[34px] md:ml-[30px] md:mr-[20px]">
                             Construcción: <b className="md:font-medium">1919</b>
                         </p>
                     </div>
-                    <div className="md:w-4/12 flex flex-row items-center">
+                    <div className="flex flex-row items-center md:w-4/12">
                         <Image
                             src="/iglesias/icono-02.svg"
                             alt="Icono 01"
@@ -39,11 +39,11 @@ export default function IglesiaCaguach() {
                             height={117}
                             className="md:h-[90px] md:w-auto"
                         />
-                        <p className="text-tinto md:text-[26px] font-thin md:leading-[34px] md:ml-[30px] md:mr-[20px]">
+                        <p className="font-thin text-tinto md:text-[26px] md:leading-[34px] md:ml-[30px] md:mr-[20px]">
                             Patrono: <b className="md:font-medium">Jesús Nazareno</b>
                         </p>
                     </div>
-                    <div className="md:w-4/12 flex flex-row items-center">
+                    <div className="flex flex-row items-center md:w-4/12">
                         <Image
                             src="/iglesias/icono-03.svg"
                             alt="Icono 01"
@@ -51,13 +51,13 @@ export default function IglesiaCaguach() {
                             height={143}
                             className="md:h-[100px] md:w-auto"
                         />
-                        <p className="text-tinto md:text-[26px] font-thin md:leading-[34px] md:ml-[30px] md:mr-[20px]">
+                        <p className="font-thin text-tinto md:text-[26px] md:leading-[34px] md:ml-[30px] md:mr-[20px]">
                             Fiesta Patronal: <b className="md:font-medium">30 de agosto</b>
                         </p>
                     </div>
                 </div>
                 <div className="container mx-auto md:mt-[70px]">
-                    <p className="text-tinto md:text-[26px] font-thin md:leading-[34px] md:mb-[25px]">
+                    <p className="font-thin text-tinto md:text-[26px] md:leading-[34px] md:mb-[25px]">
                         De entre las iglesias que conforman el Sitio de Patrimonio Mundial, la de
                         Caguach es la más alejada de la isla grande y, por lo tanto, la de más
                         difícil acceso. Sin embargo, es también lugar de la celebración religiosa
@@ -65,7 +65,7 @@ export default function IglesiaCaguach() {
                         Nazareno, movilizando a miles de fieles que llegan desde todo el
                         archipiélago.
                     </p>
-                    <p className="text-tinto md:text-[26px] font-thin md:leading-[34px] md:mb-[25px]">
+                    <p className="font-thin text-tinto md:text-[26px] md:leading-[34px] md:mb-[25px]">
                         La imagen de Jesús Nazareno de Caguach, con su pelo natural y capa morada,
                         es la más venerada e imitada. Según la leyenda, a fines del siglo XVIII, los
                         habitantes de las islas de Caguach, Alao, Apiao, Tac y Chaulinec vivían en
@@ -76,7 +76,7 @@ export default function IglesiaCaguach() {
                         decidió realizar una competencia de embarcaciones a remo. Los remeros de
                         Caguach resultaron ganadores, por lo que la imagen quedó bajo su resguardo.
                     </p>
-                    <p className="text-tinto md:text-[26px] font-thin md:leading-[34px] md:mb-[25px]">
+                    <p className="font-thin text-tinto md:text-[26px] md:leading-[34px] md:mb-[25px]">
                         En 1.919 un incendio destruyó la capilla de Caguach, sin embargo, la imagen
                         del Nazareno salió ilesa y la comunidad inició inmediatamente los trabajos
                         para levantar el nuevo templo. Desde hace algunos años, la fiesta del
@@ -88,7 +88,7 @@ export default function IglesiaCaguach() {
             </section>
             <section>
                 <div
-                    className="container mx-auto bg-cover bg-no-repeat bg-center md:h-screen flex justify-center align-middle items-center"
+                    className="container mx-auto flex items-center justify-center bg-cover bg-center bg-no-repeat align-middle md:h-screen"
                     style={{ backgroundImage: "url('/iglesias/caguach/caguach-02.webp')" }}
                 >
                     <Link href="#">
@@ -112,7 +112,7 @@ export default function IglesiaCaguach() {
                             alt="ir"
                             width={570}
                             height={64}
-                            className="md:mt-[60px] md:w-[430px] hover:scale-[1.1] transition-all ease-cubic-bezier float-end md:mr-[50px]"
+                            className="transition-all ease-cubic-bezier float-end hover:scale-[1.1] md:mt-[60px] md:w-[430px] md:mr-[50px]"
                         />
                     </Link>
                     <Link href="/iglesias" alt="Volver a paginas Iglesias">
@@ -121,7 +121,7 @@ export default function IglesiaCaguach() {
                             alt="ir"
                             width={240}
                             height={60}
-                            className="md:mt-[60px] md:w-[180px] hover:scale-[1.1] transition-all ease-cubic-bezier float-end"
+                            className="transition-all ease-cubic-bezier float-end hover:scale-[1.1] md:mt-[60px] md:w-[180px]"
                         />
                     </Link>
                 </div>

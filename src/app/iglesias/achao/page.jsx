@@ -8,7 +8,7 @@ export const metadata = {
 export default function IglesiaAchao() {
     return (
         <main>
-            <section className="md:h-screen relative">
+            <section className="relative md:h-screen">
                 <Image
                     src="/iglesias/achao/achao-01.webp"
                     alt="Iglesia Santa María de Loreto de Achao"
@@ -20,18 +20,18 @@ export default function IglesiaAchao() {
             </section>
             <section className="md:py-[100px]">
                 <div className="container mx-auto">
-                    <h1 className="text-tinto md:text-[30px] font-semibold uppercase">
+                    <h1 className="font-semibold uppercase text-tinto md:text-[30px]">
                         Iglesia Santa María de Loreto de Achao
                     </h1>
                 </div>
                 <div className="container mx-auto flex md:mt-[70px]">
-                    <div className="md:w-4/12 flex flex-row items-center">
+                    <div className="flex flex-row items-center md:w-4/12">
                         <Image src="/iglesias/icono-01.svg" alt="Icono 01" width={77} height={56} />
-                        <p className="text-tinto md:text-[26px] font-thin md:leading-[34px] md:ml-[30px] md:mr-[20px]">
+                        <p className="font-thin text-tinto md:text-[26px] md:leading-[34px] md:ml-[30px] md:mr-[20px]">
                             Construcción: <b className="md:font-medium">1730</b>
                         </p>
                     </div>
-                    <div className="md:w-4/12 flex flex-row items-center">
+                    <div className="flex flex-row items-center md:w-4/12">
                         <Image
                             src="/iglesias/icono-02.svg"
                             alt="Icono 01"
@@ -39,11 +39,11 @@ export default function IglesiaAchao() {
                             height={117}
                             className="md:h-[90px] md:w-auto"
                         />
-                        <p className="text-tinto md:text-[26px] font-thin md:leading-[34px] md:ml-[30px] md:mr-[20px]">
+                        <p className="font-thin text-tinto md:text-[26px] md:leading-[34px] md:ml-[30px] md:mr-[20px]">
                             Patrono: <b className="md:font-medium">Santa María de Loreto</b>
                         </p>
                     </div>
-                    <div className="md:w-4/12 flex flex-row items-center">
+                    <div className="flex flex-row items-center md:w-4/12">
                         <Image
                             src="/iglesias/icono-03.svg"
                             alt="Icono 01"
@@ -51,20 +51,20 @@ export default function IglesiaAchao() {
                             height={143}
                             className="md:h-[100px] md:w-auto"
                         />
-                        <p className="text-tinto md:text-[26px] font-thin md:leading-[34px] md:ml-[30px] md:mr-[20px]">
+                        <p className="font-thin text-tinto md:text-[26px] md:leading-[34px] md:ml-[30px] md:mr-[20px]">
                             Fiesta Patronal: <b className="md:font-medium">10 de diciembre</b>
                         </p>
                     </div>
                 </div>
                 <div className="container mx-auto md:mt-[70px]">
-                    <p className="text-tinto md:text-[26px] font-thin md:leading-[34px] md:mb-[25px]">
+                    <p className="font-thin text-tinto md:text-[26px] md:leading-[34px] md:mb-[25px]">
                         La iglesia de Achao es reconocida como la construcción de madera más antigua
                         de Chile y se distingue de las demás iglesias chilotas por su estilo
                         interior recargado, propio del barroco. Tanto su bóveda principal como sus
                         altares, nichos y púlpito están adornados con finos y coloridos tallados de
                         madera.
                     </p>
-                    <p className="text-tinto md:text-[26px] font-thin md:leading-[34px] md:mb-[25px]">
+                    <p className="font-thin text-tinto md:text-[26px] md:leading-[34px] md:mb-[25px]">
                         Llama la atención que la patrona de la iglesia de Achao sea María de Loreto,
                         ya que su imagen no está presente en ninguna otra iglesia del archipiélago.
                         Hasta hace poco, se desconocía su origen. Un estudio histórico reveló que
@@ -79,7 +79,7 @@ export default function IglesiaAchao() {
                         idéntica de la imagen de Nuestra Señora del Loreto, que fue entregada a la
                         comunidad de Bariloche en el año 2006.
                     </p>
-                    <p className="text-tinto md:text-[26px] font-thin md:leading-[34px] md:mb-[25px]">
+                    <p className="font-thin text-tinto md:text-[26px] md:leading-[34px] md:mb-[25px]">
                         Una de las fiestas más importantes se celebra el 1° de enero con una
                         procesión en la que se trasladan las imágenes de las vírgenes de las
                         capillas rurales de la isla de Quinchao hasta la parroquia de la ciudad de
@@ -89,7 +89,7 @@ export default function IglesiaAchao() {
             </section>
             <section>
                 <div
-                    className="container mx-auto bg-cover bg-no-repeat bg-center md:h-screen flex justify-center align-middle items-center"
+                    className="container mx-auto flex items-center justify-center bg-cover bg-center bg-no-repeat align-middle md:h-screen"
                     style={{ backgroundImage: "url('/iglesias/achao/achao-02.webp')" }}
                 >
                     <Link href="#">
@@ -113,7 +113,7 @@ export default function IglesiaAchao() {
                             alt="ir"
                             width={570}
                             height={64}
-                            className="md:mt-[60px] md:w-[430px] hover:scale-[1.1] transition-all ease-cubic-bezier float-end md:mr-[50px]"
+                            className="transition-all ease-cubic-bezier float-end hover:scale-[1.1] md:mt-[60px] md:w-[430px] md:mr-[50px]"
                         />
                     </Link>
                     <Link href="/iglesias" alt="Volver a paginas Iglesias">
@@ -122,7 +122,7 @@ export default function IglesiaAchao() {
                             alt="ir"
                             width={240}
                             height={60}
-                            className="md:mt-[60px] md:w-[180px] hover:scale-[1.1] transition-all ease-cubic-bezier float-end"
+                            className="transition-all ease-cubic-bezier float-end hover:scale-[1.1] md:mt-[60px] md:w-[180px]"
                         />
                     </Link>
                 </div>

@@ -31,7 +31,8 @@ export default function App() {
                         width="2000"
                         height="1333"
                         quality={100}
-                        className="h-[100vh] object-cover object-center"
+                        priority={true}
+                        className="object-cover object-center h-[100vh]"
                     />
                 </SwiperSlide>
                 1
@@ -42,7 +43,8 @@ export default function App() {
                         width="2000"
                         height="1333"
                         quality={100}
-                        className="h-[100vh] object-cover object-center"
+                        priority={true}
+                        className="object-cover object-center h-[100vh]"
                     />
                 </SwiperSlide>
                 <SwiperSlide>
@@ -52,7 +54,8 @@ export default function App() {
                         width="2000"
                         height="1333"
                         quality={100}
-                        className="h-[100vh] object-cover object-center"
+                        priority={true}
+                        className="object-cover object-center h-[100vh]"
                     />
                 </SwiperSlide>
             </Swiper>

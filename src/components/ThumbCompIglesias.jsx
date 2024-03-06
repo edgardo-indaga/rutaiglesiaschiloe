@@ -15,9 +15,9 @@ export default function ThumbCompIglesias() {
     const [isHoverComunidades, setIsHoverComunidades] = useState(false);
 
     return (
-        <section className="py-[40px] md:py-[100px] px-[5px] md:px-0">
+        <section className="py-[40px] px-[5px] md:py-[100px] md:px-0">
             <div className="container mx-auto flex flex-wrap">
-                <div className="w-6/12 md:w-3/12 mb-[15px] md:mb-[25px] flex justify-center items-center align-middle">
+                <div className="flex w-6/12 items-center justify-center align-middle mb-[15px] md:mb-[25px] md:w-3/12">
                     <div
                         onMouseEnter={() => setIsHovered(true)}
                         onMouseLeave={() => setIsHovered(false)}
@@ -43,7 +43,7 @@ export default function ThumbCompIglesias() {
                         </Link>
                     </div>
                 </div>
-                <div className="w-6/12 md:w-3/12 mb-[15px] md:mb-[25px] flex justify-center items-center align-middle">
+                <div className="flex w-6/12 items-center justify-center align-middle mb-[15px] md:mb-[25px] md:w-3/12">
                     <div
                         onMouseEnter={() => setIsHoverHistoria(true)}
                         onMouseLeave={() => setIsHoverHistoria(false)}
@@ -71,7 +71,7 @@ export default function ThumbCompIglesias() {
                         </Link>
                     </div>
                 </div>
-                <div className="w-6/12 md:w-3/12 mb-[15px] md:mb-[25px] flex justify-center items-center align-middle">
+                <div className="flex w-6/12 items-center justify-center align-middle mb-[15px] md:mb-[25px] md:w-3/12">
                     <div
                         onMouseEnter={() => setIsHoverArquitectura(true)}
                         onMouseLeave={() => setIsHoverArquitectura(false)}
@@ -101,7 +101,7 @@ export default function ThumbCompIglesias() {
                         </Link>
                     </div>
                 </div>
-                <div className="w-6/12 md:w-3/12 mb-[15px] md:mb-[25px] flex justify-center items-center align-middle">
+                <div className="flex w-6/12 items-center justify-center align-middle mb-[15px] md:mb-[25px] md:w-3/12">
                     <div
                         onMouseEnter={() => setIsHoverComunidades(true)}
                         onMouseLeave={() => setIsHoverComunidades(false)}
