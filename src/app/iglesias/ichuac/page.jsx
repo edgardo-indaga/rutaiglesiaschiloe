@@ -18,55 +18,70 @@ export default function IglesiaIchuac() {
                     className="object-cover object-center"
                 />
             </section>
+
             <section className="md:py-[100px]">
-                <div className="container mx-auto">
-                    <h1 className="font-semibold uppercase text-tinto md:text-[30px]">
+                <div className="container mx-auto flex justify-center">
+                    <h1 className="font-semibold text-tinto xl:text-[48px] uppercase">
                         Iglesia Natividad de María de Ichuac
                     </h1>
                 </div>
-                <div className="container mx-auto flex md:mt-[70px]">
-                    <div className="flex flex-row items-center md:w-4/12">
-                        <Image src="/iglesias/icono-01.svg" alt="Icono 01" width={77} height={56} />
-                        <p className="font-thin text-tinto md:text-[26px] md:leading-[34px] md:ml-[30px] md:mr-[20px]">
+                <div className="container mx-auto flex md:pt-[70px]">
+                    <div className="md:w-4/12 flex flex-col items-center">
+                        <Image
+                            src="/iglesias/icono-01.svg"
+                            alt="Icono 01"
+                            width={77}
+                            height={56}
+                            className="md:h-[90px] md:w-auto md:mb-[20px]"
+                        />
+                        <p className="font-thin text-tinto text-center md:w-[300px] md:text-[26px] md:leading-[34px] md:ml-[30px] md:mr-[20px]">
                             Construcción: <b className="md:font-medium">1880</b>
                         </p>
                     </div>
-                    <div className="flex flex-row items-center md:w-4/12">
+                    <div className="md:w-4/12 flex flex-col items-center">
                         <Image
                             src="/iglesias/icono-02.svg"
                             alt="Icono 01"
                             width={43}
                             height={117}
-                            className="md:h-[90px] md:w-auto"
+                            className="md:h-[90px] md:w-auto md:mb-[20px]"
                         />
-                        <p className="font-thin text-tinto md:text-[26px] md:leading-[34px] md:ml-[30px] md:mr-[20px]">
+                        <p className="font-thin text-tinto text-center md:w-[300px] md:text-[26px] md:leading-[34px] md:ml-[30px] md:mr-[20px]">
                             Patrono: <b className="md:font-medium">Natividad de María</b>
                         </p>
                     </div>
-                    <div className="flex flex-row items-center md:w-4/12">
+                    <div className="md:w-4/12 flex flex-col items-center">
                         <Image
                             src="/iglesias/icono-03.svg"
                             alt="Icono 01"
                             width={107}
                             height={143}
-                            className="md:h-[100px] md:w-auto"
+                            className="md:h-[90px] md:w-auto md:mb-[20px]"
                         />
-                        <p className="font-thin text-tinto md:text-[26px] md:leading-[34px] md:ml-[30px] md:mr-[20px]">
+                        <p className="font-thin text-tinto text-center md:w-[300px] md:text-[26px] md:leading-[34px] md:ml-[30px] md:mr-[20px]">
                             Fiesta Patronal: <b className="md:font-medium">8 de septiembre</b>
                         </p>
                     </div>
                 </div>
-                <div className="container mx-auto md:mt-[70px]">
+            </section>
+
+            <section className="md:py-[100px] bg-beige">
+                <div className="container mx-auto md:px-20">
                     <p className="font-thin text-tinto md:text-[26px] md:leading-[34px] md:mb-[25px]">
-                        Se dice que Ichuac era la primera parada en el recorrido anual de la misión
-                        circular, luego de zarpar desde Castro. La iglesia actual fue construida por
-                        la comunidad con maderas de ciprés, coigüe y alerce. Según testimonios de
-                        los locales, trabajaron en ello unas 150 personas, durante 5 años.
+                        <b>
+                            Se dice que Ichuac era la primera parada en el recorrido anual de la
+                            misión circular, luego de zarpar desde Castro.
+                        </b>{' '}
+                        La iglesia actual fue construida por la comunidad con maderas de ciprés,
+                        coigüe y alerce. Según testimonios de los locales, trabajaron en ello unas
+                        150 personas, durante 5 años.
                     </p>
                     <p className="font-thin text-tinto md:text-[26px] md:leading-[34px] md:mb-[25px]">
-                        El reloj pintado en el pórtico de la iglesia marca las tres de la tarde, la
-                        hora tradicionalmente asociada con la muerte de Cristo. También destacan los
-                        motivos geométricos de la fachada.
+                        <b>
+                            El reloj pintado en el pórtico de la iglesia marca las tres de la tarde,
+                            la hora tradicionalmente asociada con la muerte de Cristo.
+                        </b>{' '}
+                        También destacan los motivos geométricos de la fachada.
                     </p>
                     <p className="font-thin text-tinto md:text-[26px] md:leading-[34px] md:mb-[25px]">
                         Aunque actualmente todo el exterior presenta el color natural de las maderas
@@ -81,10 +96,22 @@ export default function IglesiaIchuac() {
                         legado histórico y religioso de la iglesia de Ichuac.
                     </p>
                 </div>
+                <div className="container mx-auto flex justify-center">
+                    <Link href="#" alt="Volver a paginas Iglesias">
+                        <Image
+                            src="/btn-atractivos.svg"
+                            alt="ir"
+                            width={570}
+                            height={64}
+                            className="transition-all ease-cubic-bezier float-end hover:scale-[1.1] md:mt-[60px] md:w-[430px] md:mr-[50px]"
+                        />
+                    </Link>
+                </div>
             </section>
-            <section>
+
+            <section className="md:pt-[100px]">
                 <div
-                    className="container mx-auto flex items-center justify-center bg-cover bg-center bg-no-repeat align-middle md:h-screen"
+                    className="container mx-auto flex items-center justify-center bg-cover bg-center bg-no-repeat align-middle md:h-[720px]"
                     style={{ backgroundImage: "url('/iglesias/ichuac/ichuac-02.webp')" }}
                 >
                     <Link href="#">
@@ -97,20 +124,12 @@ export default function IglesiaIchuac() {
                     </Link>
                 </div>
             </section>
+
             <section className="md:py-[100px]">
                 <div className="container mx-auto">
                     <IchuacGallery />
                 </div>
                 <div className="container mx-auto flex justify-end">
-                    <Link href="#" alt="Volver a paginas Iglesias">
-                        <Image
-                            src="/btn-atractivos.svg"
-                            alt="ir"
-                            width={570}
-                            height={64}
-                            className="transition-all ease-cubic-bezier float-end hover:scale-[1.1] md:mt-[60px] md:w-[430px] md:mr-[50px]"
-                        />
-                    </Link>
                     <Link href="/iglesias" alt="Volver a paginas Iglesias">
                         <Image
                             src="/btn-volver.svg"
