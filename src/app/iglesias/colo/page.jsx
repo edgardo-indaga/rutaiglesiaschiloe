@@ -19,74 +19,99 @@ export default function IglesiaColo() {
                     className="object-cover object-center"
                 />
             </section>
+
             <section className="md:py-[100px]">
-                <div className="container mx-auto">
-                    <h1 className="font-semibold uppercase text-tinto md:text-[30px]">
+                <div className="container mx-auto flex justify-center">
+                    <h1 className="font-semibold text-tinto xl:text-[48px] uppercase">
                         Iglesia San Antonio de Colo
                     </h1>
                 </div>
-                <div className="container mx-auto flex md:mt-[70px]">
-                    <div className="flex flex-row items-center md:w-4/12">
-                        <Image src="/iglesias/icono-01.svg" alt="Icono 01" width={77} height={56} />
-                        <p className="font-thin text-tinto md:text-[26px] md:leading-[34px] md:ml-[30px] md:mr-[20px]">
+                <div className="container mx-auto flex md:pt-[70px]">
+                    <div className="md:w-4/12 flex flex-col items-center">
+                        <Image
+                            src="/iglesias/icono-01.svg"
+                            alt="Icono 01"
+                            width={77}
+                            height={56}
+                            className="md:h-[90px] md:w-auto md:mb-[20px]"
+                        />
+                        <p className="font-thin text-tinto text-center md:w-[300px] md:text-[26px] md:leading-[34px] md:ml-[30px] md:mr-[20px]">
                             Construcción: <b className="md:font-medium">1890</b>
                         </p>
                     </div>
-                    <div className="flex flex-row items-center md:w-4/12">
+                    <div className="md:w-4/12 flex flex-col items-center">
                         <Image
                             src="/iglesias/icono-02.svg"
                             alt="Icono 01"
                             width={43}
                             height={117}
-                            className="md:h-[90px] md:w-auto"
+                            className="md:h-[90px] md:w-auto md:mb-[20px]"
                         />
-                        <p className="font-thin text-tinto md:text-[26px] md:leading-[34px] md:ml-[30px] md:mr-[20px]">
+                        <p className="font-thin text-tinto text-center md:w-[300px] md:text-[26px] md:leading-[34px] md:ml-[30px] md:mr-[20px]">
                             Patrono: <b className="md:font-medium">San Antonio</b>
                         </p>
                     </div>
-                    <div className="flex flex-row items-center md:w-4/12">
+                    <div className="md:w-4/12 flex flex-col items-center">
                         <Image
                             src="/iglesias/icono-03.svg"
                             alt="Icono 01"
                             width={107}
                             height={143}
-                            className="md:h-[100px] md:w-auto"
+                            className="md:h-[90px] md:w-auto md:mb-[20px]"
                         />
-                        <p className="font-thin text-tinto md:text-[26px] md:leading-[34px] md:ml-[30px] md:mr-[20px]">
+                        <p className="font-thin text-tinto text-center md:w-[300px] md:text-[26px] md:leading-[34px] md:ml-[30px] md:mr-[20px]">
                             Fiesta Patronal: <b className="md:font-medium">13 de junio</b>
                         </p>
                     </div>
                 </div>
-                <div className="container mx-auto md:mt-[70px]">
+            </section>
+
+            <section className="md:py-[100px] bg-beige">
+                <div className="container mx-auto md:px-20">
                     <p className="font-thin text-tinto md:text-[26px] md:leading-[34px] md:mb-[25px]">
                         De entre las iglesias que forman parte del Sitio de Patrimonio Mundial, la
                         de Colo es una de las más pequeñas, rústicas y acogedoras. Es una versión de
                         menor tamaño de la iglesia de Quicaví, que al ser restaurada por la
-                        comunidad, perdió uno de los pisos de su torre. Si bien muchas de las
-                        iglesias están construidas sobre rocas, en la de Colo esto se puede
-                        evidenciar fácilmente.
+                        comunidad, perdió uno de los pisos de su torre.{' '}
+                        <b>
+                            Si bien muchas de las iglesias están construidas sobre rocas, en la de
+                            Colo esto se puede evidenciar fácilmente.
+                        </b>
                     </p>
                     <p className="font-thin text-tinto md:text-[26px] md:leading-[34px] md:mb-[25px]">
                         Al tratarse de una localidad principalmente rural, la iglesia de Colo se
                         alza solitaria, con sólo un par de casas al frente y dándole la espalda al
                         estuario del río del mismo nombre. Un sendero desciende por el acantilado
                         hasta una cueva natural en medio del bosque, que se dice fue lugar de
-                        reunión de brujos. Junto a la iglesia destaca un hermoso cementerio.
+                        reunión de brujos. <b>Junto a la iglesia destaca un hermoso cementerio.</b>
                     </p>
                     <p className="font-thin text-tinto md:text-[26px] md:leading-[34px] md:mb-[25px]">
-                        El sacerdote Mariano Puga, conocido como el “cura obrero” y recordado en
-                        todo Chile por su compromiso con los derechos humanos durante la dictadura
-                        militar, fue párroco de la iglesia de Colo y vivió durante 12 años con una
-                        familia del lugar. Sus misas eran muy populares y convocaban a personas de
-                        todo el archipiélago Se le recuerda con mucho cariño por la comunidad local,
-                        que lo veía recorrer las islas cercanas “mojado hasta los huesos” y tocando
-                        el acordeón. Tras su muerte, sus cenizas fueron esparcidas en el lugar.
+                        El <b>sacerdote Mariano Puga</b>, conocido como el “cura obrero” y recordado
+                        en todo Chile por su compromiso con los derechos humanos durante la
+                        dictadura militar, fue párroco de la iglesia de Colo y{' '}
+                        <b>vivió durante 12 años con una familia del lugar</b>. Sus misas eran muy
+                        populares y convocaban a personas de todo el archipiélago Se le recuerda con
+                        mucho cariño por la comunidad local, que lo veía recorrer las islas cercanas
+                        “mojado hasta los huesos” y tocando el acordeón. Tras su muerte, sus cenizas
+                        fueron esparcidas en el lugar.
                     </p>
                 </div>
+                <div className="container mx-auto flex justify-center">
+                    <Link href="#" alt="Volver a paginas Iglesias">
+                        <Image
+                            src="/btn-atractivos.svg"
+                            alt="ir"
+                            width={570}
+                            height={64}
+                            className="transition-all ease-cubic-bezier float-end hover:scale-[1.1] md:mt-[60px] md:w-[430px] md:mr-[50px]"
+                        />
+                    </Link>
+                </div>
             </section>
-            <section>
+
+            <section className="md:pt-[100px]">
                 <div
-                    className="container mx-auto flex items-center justify-center bg-cover bg-center bg-no-repeat align-middle md:h-screen"
+                    className="container mx-auto flex items-center justify-center bg-cover bg-center bg-no-repeat align-middle md:h-[720px]"
                     style={{ backgroundImage: "url('/iglesias/colo/colo-02.webp')" }}
                 >
                     <Link href="#">
@@ -99,20 +124,12 @@ export default function IglesiaColo() {
                     </Link>
                 </div>
             </section>
+
             <section className="md:py-[100px]">
                 <div className="container mx-auto">
                     <ColoGallery />
                 </div>
                 <div className="container mx-auto flex justify-end">
-                    <Link href="#" alt="Volver a paginas Iglesias">
-                        <Image
-                            src="/btn-atractivos.svg"
-                            alt="ir"
-                            width={570}
-                            height={64}
-                            className="transition-all ease-cubic-bezier float-end hover:scale-[1.1] md:mt-[60px] md:w-[430px] md:mr-[50px]"
-                        />
-                    </Link>
                     <Link href="/iglesias" alt="Volver a paginas Iglesias">
                         <Image
                             src="/btn-volver.svg"
