@@ -25,6 +25,7 @@ export default function IglesiaSanJuan() {
                         Iglesia San Juan Bautista de San Juan
                     </h1>
                 </div>
+
                 <div className="container mx-auto flex md:pt-[70px]">
                     <div className="md:w-4/12 flex flex-col items-center">
                         <Image
