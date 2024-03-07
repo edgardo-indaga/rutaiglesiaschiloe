@@ -27,6 +27,7 @@ export default function LaHistoria() {
                     <VideoHistoria />
                 </div>
             </section>
+
             <section className="bg-beige md:py-[100px]">
                 <div className="container mx-auto flex justify-center md:mb-[70px]">
                     <h1 className="font-semibold text-tinto xl:text-[48px]">TESTIGOS DEL PASADO</h1>

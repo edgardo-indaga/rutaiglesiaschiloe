@@ -17,57 +17,72 @@ export default function IglesiaCastro() {
                     className="object-cover object-center"
                 />
             </section>
+
             <section className="md:py-[100px]">
-                <div className="container mx-auto">
-                    <h1 className="font-semibold uppercase text-tinto md:text-[30px]">
+                <div className="container mx-auto flex justify-center">
+                    <h1 className="font-semibold text-tinto xl:text-[48px] uppercase">
                         Iglesia San Francisco de Castro
                     </h1>
                 </div>
-                <div className="container mx-auto flex md:mt-[70px]">
-                    <div className="flex flex-row items-center md:w-4/12">
-                        <Image src="/iglesias/icono-01.svg" alt="Icono 01" width={77} height={56} />
-                        <p className="font-thin text-tinto md:text-[26px] md:leading-[34px] md:ml-[30px] md:mr-[20px]">
+                <div className="container mx-auto flex md:pt-[70px]">
+                    <div className="md:w-4/12 flex flex-col items-center">
+                        <Image
+                            src="/iglesias/icono-01.svg"
+                            alt="Icono 01"
+                            width={77}
+                            height={56}
+                            className="md:h-[90px] md:w-auto md:mb-[20px]"
+                        />
+                        <p className="font-thin text-tinto text-center md:w-[300px] md:text-[26px] md:leading-[34px] md:ml-[30px] md:mr-[20px]">
                             Construcción: <b className="md:font-medium">1910</b>
                         </p>
                     </div>
-                    <div className="flex flex-row items-center md:w-4/12">
+                    <div className="md:w-4/12 flex flex-col items-center">
                         <Image
                             src="/iglesias/icono-02.svg"
                             alt="Icono 01"
                             width={43}
                             height={117}
-                            className="md:h-[90px] md:w-auto"
+                            className="md:h-[90px] md:w-auto md:mb-[20px]"
                         />
-                        <p className="font-thin text-tinto md:text-[26px] md:leading-[34px] md:ml-[30px] md:mr-[20px]">
+                        <p className="font-thin text-tinto text-center md:w-[300px] md:text-[26px] md:leading-[34px] md:ml-[30px] md:mr-[20px]">
                             Patrono: <b className="md:font-medium">San Francisco</b>
                         </p>
                     </div>
-                    <div className="flex flex-row items-center md:w-4/12">
+                    <div className="md:w-4/12 flex flex-col items-center">
                         <Image
                             src="/iglesias/icono-03.svg"
                             alt="Icono 01"
                             width={107}
                             height={143}
-                            className="md:h-[100px] md:w-auto"
+                            className="md:h-[90px] md:w-auto md:mb-[20px]"
                         />
-                        <p className="font-thin text-tinto md:text-[26px] md:leading-[34px] md:ml-[30px] md:mr-[20px]">
+                        <p className="font-thin text-tinto text-center md:w-[300px] md:text-[26px] md:leading-[34px] md:ml-[30px] md:mr-[20px]">
                             Fiesta Patronal: <b className="md:font-medium">4 de octubre</b>
                         </p>
                     </div>
                 </div>
-                <div className="container mx-auto md:mt-[70px]">
+            </section>
+
+            <section className="md:py-[100px] bg-beige">
+                <div className="container mx-auto md:px-20">
                     <p className="font-thin text-tinto md:text-[26px] md:leading-[34px] md:mb-[25px]">
                         La primera iglesia de Castro fue construida en 1.567 y, al igual que varias
-                        reconstrucciones posteriores, fue destruida por un incendio. La predecesora
-                        de la iglesia actual que se erigía en el mismo sitio, se quemó en 1.902. De
-                        ella se conservan bellas fotografías.
+                        reconstrucciones posteriores, fue destruida por un incendio.{' '}
+                        <b>
+                            La predecesora de la iglesia actual que se erigía en el mismo sitio, se
+                            quemó en 1.902.
+                        </b>{' '}
+                        De ella se conservan bellas fotografías.
                     </p>
                     <p className="font-thin text-tinto md:text-[26px] md:leading-[34px] md:mb-[25px]">
                         La Iglesia San Francisco de Castro es el principal templo del archipiélago y
-                        símbolo de su capital. Se trata de una construcción monumental cuyo diseño
-                        original, proveniente de Europa, consideraba la utilización de piedra y
-                        hormigón para su construcción. Sin embargo, los carpinteros locales
-                        decidieron levantarla a la usanza chilota: en madera.
+                        símbolo de su capital. Se trata de una construcción monumental{' '}
+                        <b>
+                            cuyo diseño original, proveniente de Europa, consideraba la utilización
+                            de piedra y hormigón para su construcción. Sin embargo, los carpinteros
+                            locales decidieron levantarla a la usanza chilota: en madera.
+                        </b>
                     </p>
                     <p className="font-thin text-tinto md:text-[26px] md:leading-[34px] md:mb-[25px]">
                         Su aspecto exterior se diferencia del modelo tradicional de arquitectura
@@ -83,14 +98,29 @@ export default function IglesiaCastro() {
                         era su color original.
                     </p>
                     <p className="font-thin text-tinto md:text-[26px] md:leading-[34px] md:mb-[25px]">
-                        Entre las imágenes religiosas destacan el arcángel Miguel, victorioso sobre
-                        Satanás y una réplica del famoso Jesús de Nazareno de Caguach.
+                        Entre las imágenes religiosas destacan el{' '}
+                        <b>
+                            arcángel Miguel, victorioso sobre Satanás y una réplica del famoso Jesús
+                            de Nazareno de Caguach.
+                        </b>
                     </p>
                 </div>
+                <div className="container mx-auto flex justify-center">
+                    <Link href="#" alt="Volver a paginas Iglesias">
+                        <Image
+                            src="/btn-atractivos.svg"
+                            alt="ir"
+                            width={570}
+                            height={64}
+                            className="transition-all ease-cubic-bezier float-end hover:scale-[1.1] md:mt-[60px] md:w-[430px] md:mr-[50px]"
+                        />
+                    </Link>
+                </div>
             </section>
-            <section>
+
+            <section className="md:pt-[100px]">
                 <div
-                    className="container mx-auto flex items-center justify-center bg-cover bg-center bg-no-repeat align-middle md:h-screen"
+                    className="container mx-auto flex items-center justify-center bg-cover bg-center bg-no-repeat align-middle md:h-[720px]"
                     style={{ backgroundImage: "url('/iglesias/castro/castro-02.webp')" }}
                 >
                     <Link href="#">
@@ -103,20 +133,12 @@ export default function IglesiaCastro() {
                     </Link>
                 </div>
             </section>
+
             <section className="md:py-[100px]">
                 <div className="container mx-auto">
                     <CastroGallery />
                 </div>
                 <div className="container mx-auto flex justify-end">
-                    <Link href="#" alt="Volver a paginas Iglesias">
-                        <Image
-                            src="/btn-atractivos.svg"
-                            alt="ir"
-                            width={570}
-                            height={64}
-                            className="transition-all ease-cubic-bezier float-end hover:scale-[1.1] md:mt-[60px] md:w-[430px] md:mr-[50px]"
-                        />
-                    </Link>
                     <Link href="/iglesias" alt="Volver a paginas Iglesias">
                         <Image
                             src="/btn-volver.svg"
