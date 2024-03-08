@@ -121,7 +121,7 @@ export default function IglesiaChonchi() {
                     className="container mx-auto flex items-center justify-center bg-cover bg-center bg-no-repeat align-middle md:h-[720px]"
                     style={{ backgroundImage: "url('/iglesias/chonchi/chonchi-02.webp')" }}
                 >
-                    <Link href="#">
+                    <Link href="/recorridos/iglesia-chonchi/index.html" target={'_blank'}>
                         <Image
                             src="/iglesias/icono-04.svg"
                             alt="icono 360"

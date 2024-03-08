@@ -19,7 +19,7 @@ export default function ElPatrimonio() {
                 />
                 <div className="container mx-auto flex items-center justify-center md:h-screen">
                     <h1 className="z-10 font-semibold text-blanco md:text-[40px]">
-                        PATRMONIO DE LA HUMANIDAD
+                        PATRIMONIO DE LA HUMANIDAD
                     </h1>
                 </div>
             </section>
@@ -53,18 +53,19 @@ export default function ElPatrimonio() {
                 <div className="container mx-auto flex flex-colmd:px-20">
                     <ul className="list-disc md:ml-[100px]">
                         <li className="font-thin text-tinto md:text-[26px] md:leading-[34px] md:py-[10px]">
-                            Son una forma única de arquitectura en madera, producto de la fusión de
-                            tradiciones culturales europeas e indígenas.
+                            Son una forma única de arquitectura en madera, producto de la{' '}
+                            <b>fusión de tradiciones culturales</b> europeas e indígenas.
                         </li>
                         <li className="font-thin text-tinto md:text-[26px] md:leading-[34px] md:py-[10px]">
-                            Destacan por su diseño arquitectónico, materiales y sistemas
-                            constructivos, y por la maestría de los carpinteros que las levantaron.
+                            Destacan por su{' '}
+                            <b>diseño arquitectónico, materiales y sistemas constructivos,</b> y por
+                            la maestría de los carpinteros que las levantaron.
                         </li>
                         <li className="font-thin text-tinto md:text-[26px] md:leading-[34px] md:py-[10px]">
                             Las prácticas devocionales y comunitarias, los festivales religiosos y
                             las actividades grupales de apoyo como la minga son componentes clave de
-                            los valores intangibles de la relación entre las comunidades y las
-                            iglesias.
+                            los valores intangibles de la{' '}
+                            <b>relación entre las comunidades y las iglesias.</b>
                         </li>
                     </ul>
                 </div>

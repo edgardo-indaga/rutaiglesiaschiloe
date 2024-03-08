@@ -126,7 +126,7 @@ export default function IglesiaAchao() {
                     className="container mx-auto flex items-center justify-center bg-cover bg-center bg-no-repeat align-middle md:h-[720px]"
                     style={{ backgroundImage: "url('/iglesias/achao/achao-02.webp')" }}
                 >
-                    <Link href="#">
+                    <Link href="/recorridos/iglesia-achao/index.html" target={'_blank'}>
                         <Image
                             src="/iglesias/icono-04.svg"
                             alt="icono 360"

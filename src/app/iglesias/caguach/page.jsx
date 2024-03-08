@@ -123,7 +123,7 @@ export default function IglesiaCaguach() {
                     className="container mx-auto flex items-center justify-center bg-cover bg-center bg-no-repeat align-middle md:h-[720px]"
                     style={{ backgroundImage: "url('/iglesias/caguach/caguach-02.webp')" }}
                 >
-                    <Link href="#">
+                    <Link href="/recorridos/iglesia-caguach/index.html" target={'_blank'}>
                         <Image
                             src="/iglesias/icono-04.svg"
                             alt="icono 360"

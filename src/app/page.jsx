@@ -91,16 +91,12 @@ export default function Home() {
                     </div>
                 </div>
             </section>
+
             <section
                 className="bg-cover bg-center bg-no-repeat md:h-screen"
-                style={{ backgroundImage: "url('./home-03.webp')" }}
-            >
-                <div className="container mx-auto">
-                    <h1 className="uppercase font-barlow text-tinto md:text-[40px] md:leading-[57px] md:pt-[270px] md:pl-[300px] md:font-semibold">
-                        TESTIGOS DEL PASADO
-                    </h1>
-                </div>
-            </section>
+                style={{ backgroundImage: "url('./home-07.webp')" }}
+            ></section>
+
             <section className="md:h-[900px] md:py-[100px]" id="arquitectura">
                 <div className="container mx-auto flex">
                     <div className="md:w-5/12">
@@ -176,9 +172,9 @@ export default function Home() {
                         <h1 className="font-semibold text-blanco md:text-[40px] md:mb-[20px]">
                             PROTOCOLO DE VISITA
                         </h1>
-                        <p className="font-thin text-blanco md:text-[26px] md:leading-[34px]">
+                        <p className="font-thin text-blanco md:text-[26px] md:leading-[34px] md:w-[460px]">
                             Las iglesias de Chiloé no son museos, sino lugares de culto donde se
-                            debe mantener una siempre actitud de respeto.
+                            debe mantener siempre una siempre actitud de respeto.
                         </p>
                         <Link href="/protocolo" target="_blank" alt="PROTOCOLO DE VISITA">
                             <Image
