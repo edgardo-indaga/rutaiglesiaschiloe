@@ -27,7 +27,7 @@ export default function ThumbIglesias() {
     const [isHoverDetif, setIsHoverDetif] = useState(false);
 
     return (
-        <section className="pb-[40px] px-[5px] md:pb-[100px] md:py-[100px] md:px-0">
+        <section className="pb-[40px] px-[5px] md:pb-[100px] md:px-0">
             <div className="container mx-auto md:pb-[40px]">
                 <div className="md:w-full">
                     <h1 className="font-semibold text-tinto md:text-[30px]">
