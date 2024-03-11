@@ -1,5 +1,6 @@
 import Image from 'next/image';
 import CarouselHome from '@/components/Carousel';
+import CarouselMobile from '@/components/CarouselMobile';
 import YoutubeVideo from '@/components/Youtube';
 import HotSpotsMapa from '@/components/HotSpotsMapa';
 import Link from 'next/link';
@@ -7,56 +8,70 @@ import Link from 'next/link';
 export default function Home() {
     return (
         <main>
-            <section className="h-screen">
+            <section className="hidden h-screen md:block">
                 <CarouselHome />
             </section>
-            <section className="md:py-[100px]">
+
+            <section className="block h-screen md:hidden">
+                <CarouselMobile />
+            </section>
+
+            <section className="py-10 md:py-[100px]">
                 <div className="container mx-auto flex items-center justify-center align-middle">
                     <YoutubeVideo />
                 </div>
             </section>
-            <section className="bg-beige md:h-[900px] md:py-[100px]" id="patrimonio">
-                <div className="container mx-auto flex">
-                    <div className="md:w-5/12">
+
+            <section
+                className="bg-beige py-10 px-5 md:px-0 md:h-[900px] md:py-[100px]"
+                id="patrimonio"
+            >
+                <div className="container mx-auto flex md:flex-row flex-col">
+                    <div className="order-2 w- md:order-1 md:w-5/12 flex justify-center">
                         <Image
                             src="/home-01.webp"
                             alt="PATRIMONIO DE LA HUMANIDAD"
                             width={1300}
                             height={1503}
                             quality={100}
+                            className="w-[280px] md:w-full"
                         />
                     </div>
-                    <div className="md:pt-[170px] md:leading-[57px] md:w-7/12">
-                        <h1 className="font-semibold text-tinto md:text-[40px] md:mb-[20px]">
+                    <div className="order-1 md:pt-[170px] md:leading-[57px] md:order-2 md:w-7/12">
+                        <h1 className="font-semibold text-tinto text-[24px] mb-[20px] md:text-[40px] md:mb-[20px]">
                             PATRIMONIO DE LA HUMANIDAD
                         </h1>
-                        <p className="font-thin text-tinto md:text-[26px] md:leading-[34px]">
+                        <p className="font-thin text-tinto text-[18px] md:text-[26px] md:leading-[34px] mb-[20px]">
                             16 iglesias del archipiélago conforman el Sitio de Patrimonio Mundial,
                             declarado por la UNESCO en el año 2000.
                         </p>
-                        <Link href="/patrimonio" alt="PATRIMONIO DE LA HUMANIDAD">
-                            <Image
-                                src="/btn-mas.svg"
-                                alt="ir"
-                                width={240}
-                                height={60}
-                                quality={100}
-                                className="transition-all ease-cubic-bezier hover:scale-[1.1] md:mt-[60px] md:w-[180px]"
-                            />
-                        </Link>
+                        <div className="flex justify-center md:justify-start my-[50px]">
+                            <Link href="/patrimonio" alt="PATRIMONIO DE LA HUMANIDAD">
+                                <Image
+                                    src="/btn-mas.svg"
+                                    alt="ir"
+                                    width={240}
+                                    height={60}
+                                    quality={100}
+                                    className="transition-all ease-cubic-bezier hover:scale-[1.1] md:mt-[60px] w-[130px] md:w-[180px]"
+                                />
+                            </Link>
+                        </div>
                     </div>
                 </div>
             </section>
+
             <section className="md:py-[100px]">
                 <div className="container mx-auto flex justify-center md:mb-[70px]">
                     <h1 className="font-semibold text-tinto xl:text-[48px]">
                         16 IGLESIAS DEL SITIO DE PATRIMONIO MUNDIAL
                     </h1>
                 </div>
-                <div className="container mx-auto">
+                <div className="container mx-auto hidden md:block">
                     <HotSpotsMapa />
                 </div>
             </section>
+
             <section className="bg-beige md:h-[900px]" id="historia">
                 <div className="container mx-auto flex">
                     <div className="md:w-7/12">
@@ -129,6 +144,7 @@ export default function Home() {
                     </div>
                 </div>
             </section>
+
             <section className="bg-beige md:h-[900px] md:py-[100px]" id="comunidades">
                 <div className="container mx-auto flex">
                     <div className="md:pt-[170px] md:leading-[57px] md:w-7/12">
@@ -174,7 +190,7 @@ export default function Home() {
                         </h1>
                         <p className="font-thin text-blanco md:text-[26px] md:leading-[34px] md:w-[460px]">
                             Las iglesias de Chiloé no son museos, sino lugares de culto donde se
-                            debe mantener siempre una siempre actitud de respeto.
+                            debe mantener siempre una actitud de respeto.
                         </p>
                         <Link href="/protocolo" target="_blank" alt="PROTOCOLO DE VISITA">
                             <Image

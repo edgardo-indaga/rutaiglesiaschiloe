@@ -6,7 +6,7 @@ export default function Protocolo() {
         <main>
             <div className="container mx-auto md:py-[200px]">
                 <embed
-                    src="/protocolo.pdf"
+                    src="/uploads/protocolo.pdf"
                     type="application/pdf"
                     style={{ height: '100vh', width: '100%', margin: 'auto', display: 'block' }}
                 />

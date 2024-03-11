@@ -7,25 +7,14 @@ import styles from './YoutubeVideo.module.css'; // Importar estilos CSS
 export default function YoutubeVideo() {
     const [player, setPlayer] = useState(null); // Estado para controlar el reproductor de video
     const [isPlaying, setIsPlaying] = useState(false); // Estado para controlar la reproducción
-    const [windowSize, setWindowSize] = useState({ width: 1280, height: 780 }); // Tamaño predeterminado
-
-    useEffect(() => {
-        const handleResize = () => {
-            setWindowSize({ width: window.innerWidth, height: window.innerHeight });
-        };
-        window.addEventListener('resize', handleResize);
-        return () => {
-            window.removeEventListener('resize', handleResize);
-        };
-    }, []);
 
     const opts = {
-        width: windowSize.width,
-        height: windowSize.height,
+        width: '1280',
+        height: '780',
         playerVars: {
             // https://developers.google.com/youtube/player_parameters
             autoplay: 0,
-            controls: 0, // Quita todos los controles de YouTube
+            // Quita todos los controles de YouTube
             rel: 0, // Evita que se muestren videos relacionados al final
             modestbranding: 1, // Oculta el logo de YouTube
             disablekb: 1, // Desactiva el teclado
@@ -33,11 +22,17 @@ export default function YoutubeVideo() {
     };
 
     const handlePlayPause = () => {
-        setIsPlaying(!isPlaying); // Alternar el estado de reproducción
-        if (isPlaying) {
-            player.pauseVideo(); // Pausa el video si está reproduciendo
+        const newIsPlayingState = !isPlaying;
+        setIsPlaying(newIsPlayingState);
+
+        if (newIsPlayingState) {
+            if (player) {
+                player.playVideo();
+            }
         } else {
-            player.playVideo(); // Reproduce el video si está pausado
+            if (player) {
+                player.pauseVideo();
+            }
         }
     };
 

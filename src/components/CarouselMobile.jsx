@@ -11,11 +11,11 @@ import 'swiper/css/pagination';
 import { Pagination } from 'swiper/modules';
 import Image from 'next/image';
 
-import imagen1 from '/public/carouselhome/slider-01.webp';
-import imagen2 from '/public/carouselhome/slider-02.webp';
-import imagen3 from '/public/carouselhome/slider-03.webp';
+import imagen4 from '/public/carouselhome/slider-mobile-01.webp';
+import imagen5 from '/public/carouselhome/slider-mobile-02.webp';
+import imagen6 from '/public/carouselhome/slider-mobile-03.webp';
 
-export default function App() {
+export default function CarouselMobile() {
     return (
         <>
             <Swiper
@@ -26,7 +26,7 @@ export default function App() {
             >
                 <SwiperSlide>
                     <Image
-                        src={imagen1}
+                        src={imagen4}
                         alt="Imagen 01"
                         width="2000"
                         height="1333"
@@ -37,7 +37,7 @@ export default function App() {
                 </SwiperSlide>
                 <SwiperSlide>
                     <Image
-                        src={imagen2}
+                        src={imagen5}
                         alt="Imagen 01"
                         width="2000"
                         height="1333"
@@ -48,7 +48,7 @@ export default function App() {
                 </SwiperSlide>
                 <SwiperSlide>
                     <Image
-                        src={imagen3}
+                        src={imagen6}
                         alt="Imagen 01"
                         width="2000"
                         height="1333"

@@ -47,8 +47,8 @@ const slides = [
     },
     {
         src: '/iglesias/tenaun/tenaun_galeria_05.jpg',
-        width: 1200,
-        height: 800,
+        width: 1333,
+        height: 2000,
         title: 'Iglesia de Tenaún',
         description: 'Imagen de la Virgen de Gracia con vestido de lana',
     },

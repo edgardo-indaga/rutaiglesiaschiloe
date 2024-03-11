@@ -54,8 +54,8 @@ const slides = [
     },
     {
         src: '/iglesias/sanjuan/sanjuan_galeria_06.jpg',
-        width: 1200,
-        height: 800,
+        width: 1333,
+        height: 2000,
         title: 'Iglesia de San Juan',
         description: 'Imagen de San Juan, patrono de la iglesia',
     },

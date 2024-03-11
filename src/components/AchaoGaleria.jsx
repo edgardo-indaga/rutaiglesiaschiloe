@@ -40,8 +40,8 @@ const slides = [
     },
     {
         src: '/iglesias/achao/achao_galeria_04.jpg',
-        width: 1200,
-        height: 800,
+        width: 1333,
+        height: 2000,
         title: 'Iglesia de Achao',
         description: 'Imagen de la patrona Santa María de Loreto',
     },
@@ -54,8 +54,8 @@ const slides = [
     },
     {
         src: '/iglesias/achao/achao_galeria_06.jpg',
-        width: 1200,
-        height: 800,
+        width: 1333,
+        height: 2000,
         title: 'Iglesia de Achao ',
         description: 'Fachada',
     },
