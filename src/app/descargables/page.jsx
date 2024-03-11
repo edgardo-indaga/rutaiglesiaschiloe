@@ -1,5 +1,5 @@
 import Image from 'next/image';
-import ItemsDescargables from '@/components/ItemDescargables';
+import ThumbDescargables from '@/components/ItemDescargables';
 export const metadata = {
     title: 'PTI | Las Iglesias',
 };
@@ -17,7 +17,7 @@ export default function Descargables() {
                     className="object-cover object-top md:object-center"
                 />
             </section>
-            <ItemsDescargables />
+            <ThumbDescargables />
         </main>
     );
 }
