@@ -4,6 +4,13 @@ import CarouselMobile from '@/components/CarouselMobile';
 import YoutubeVideo from '@/components/Youtube';
 import HotSpotsMapa from '@/components/HotSpotsMapa';
 import Link from 'next/link';
+import { Dosis } from 'next/font/google';
+
+const dosis = Dosis({
+    subsets: ['latin'],
+    weight: ['200', '300', '400', '500', '600', '700', '800'],
+    style: ['normal'],
+});
 
 export default function Home() {
     return (
@@ -14,7 +21,9 @@ export default function Home() {
 
             <section className="block h-[680px] md:hidden">
                 <CarouselMobile />
-                <h1 className="absolute z-20 top-[420px] w-[100vw] text-blanco text-center text-[40px] leading-[50px] font-bold px-[40px]">
+                <h1
+                    className={`absolute z-20 top-[460px] w-[100vw] text-blanco text-center text-[48px] leading-[54px] font-bold px-[40px] ${dosis.className}`}
+                >
                     RUTA DE LAS IGLESIAS DE CHILOÉ
                 </h1>
             </section>
