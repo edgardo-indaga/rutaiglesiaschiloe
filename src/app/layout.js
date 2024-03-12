@@ -3,7 +3,6 @@ import './globals.css';
 
 import Header from '../components/Header';
 import Footer from '../components/Footer';
-import Head from 'next/head';
 
 const barlow = Barlow({
     subsets: ['latin'],
@@ -14,6 +13,14 @@ const barlow = Barlow({
 export const metadata = {
     title: 'PTI Iglesias Patrimoniales De Chiloé',
     description: 'Ruta de las Iglesias de Chiloé, Patrimonio de la Humanidad.',
+    icons: {
+        icon: '/favicon.svg',
+        apple: '/favicon.png',
+        other: {
+            rel: 'apple-touch-icon-precomposed',
+            url: '/favicon.png',
+        },
+    },
     keywords: [
         'Chile',
         'Chiloé',
@@ -56,10 +63,6 @@ export const metadata = {
 export default function RootLayout({ children }) {
     return (
         <html lang="es">
-            <Head>
-                <link rel="icon" href="/favicon.svg" sizes="32x32" type="image/svg+xml" />
-                <link rel="icon" href="/favicon.png" sizes="64x64" type="image/png" />
-            </Head>
             <body className={barlow.className}>
                 <Header />
                 {children}
