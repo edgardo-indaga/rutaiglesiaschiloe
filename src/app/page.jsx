@@ -12,8 +12,11 @@ export default function Home() {
                 <CarouselHome />
             </section>
 
-            <section className="block h-screen md:hidden">
+            <section className="block h-[680px] md:hidden">
                 <CarouselMobile />
+                <h1 className="absolute z-20 top-[420px] w-[100vw] text-blanco text-center text-[40px] leading-[50px] font-bold px-[40px]">
+                    RUTA DE LAS IGLESIAS DE CHILOÉ
+                </h1>
             </section>
 
             <section className="py-10 md:py-[100px]">
@@ -27,7 +30,7 @@ export default function Home() {
                 id="patrimonio"
             >
                 <div className="container mx-auto flex flex-col md:flex-row">
-                    <div className="order-2 flex justify-center w- md:order-1 md:w-5/12">
+                    <div className="order-2 flex justify-center md:order-1 md:w-5/12">
                         <Image
                             src="/home-01.webp"
                             alt="PATRIMONIO DE LA HUMANIDAD"
@@ -130,33 +133,43 @@ export default function Home() {
                             width={1300}
                             height={1503}
                             quality={100}
-                            className="md:mt-[-300px] w-[280px] md:w-full"
+                            className="md:mt-[-300px] w-[260px] md:w-full"
                         />
                     </div>
                 </div>
             </section>
 
             <section
-                className="bg-cover bg-center bg-no-repeat md:h-screen"
+                className="bg-cover bg-center bg-no-repeat md:h-screen hidden md:flex"
                 style={{ backgroundImage: "url('./home-07.webp')" }}
             ></section>
 
-            <section className="md:h-[900px] md:py-[100px]" id="arquitectura">
-                <div className="container mx-auto flex">
-                    <div className="md:w-5/12">
+            <section
+                className="bg-cover bg-center bg-no-repeat h-[680px] md:hidden flex justify-center items-center"
+                style={{ backgroundImage: "url('./home-mobile-02.webp')" }}
+            >
+                <h1 className="font-semibold text-blanco uppercase text-[38px] text-center mt-[360px] w-[260px]">
+                    Testigos del pasado
+                </h1>
+            </section>
+
+            <section className="md:h-[900px] md:py-[100px] px-5 py-10 md:px-0" id="arquitectura">
+                <div className="container mx-auto flex md:flex-row flex-col">
+                    <div className="md:w-5/12 order-2 md:order-1 flex justify-center">
                         <Image
                             src="/home-04.webp"
                             alt="La Historia"
                             width={1300}
                             height={1462}
                             quality={100}
+                            className="w-[280px] md:w-full"
                         />
                     </div>
-                    <div className="md:pt-[170px] md:leading-[57px] md:w-7/12">
-                        <h1 className="font-semibold text-tinto md:text-[40px] md:mb-[20px]">
+                    <div className="md:pt-[170px] md:leading-[57px] md:w-7/12 order-1 md:order-2">
+                        <h1 className="font-semibold text-tinto text-[24px] mb-[20px] md:text-[40px] md:mb-[20px] text-center md:text-left">
                             LA ARQUITECTURA
                         </h1>
-                        <p className="font-thin text-tinto md:text-[26px] md:leading-[34px]">
+                        <p className="font-thin text-tinto text-[18px] mb-[20px] md:text-[26px] md:leading-[34px]">
                             Las iglesias de Chiloé son la expresión monumental de la maestría y
                             creatividad de la carpintería chilota.
                         </p>
@@ -167,20 +180,31 @@ export default function Home() {
                                 width={240}
                                 height={60}
                                 quality={100}
-                                className="transition-all ease-cubic-bezier hover:scale-[1.1] md:mt-[60px] md:w-[180px]"
+                                className="hidden transition-all ease-cubic-bezier w-[130px] hover:scale-[1.1] md:mt-[60px] md:w-[180px] xl:flex"
                             />
                         </Link>
+                        <div className="flex justify-center md:justify-start xl:hidden">
+                            <Link
+                                href="/arquitectura"
+                                className="font-light bg-morado text-blanco text-[16px] leading-[16px] my-[30px] py-[12px] px-[20px]"
+                            >
+                                Conoce más
+                            </Link>
+                        </div>
                     </div>
                 </div>
             </section>
 
-            <section className="bg-beige md:h-[900px] md:py-[100px]" id="comunidades">
-                <div className="container mx-auto flex">
-                    <div className="md:pt-[170px] md:leading-[57px] md:w-7/12">
-                        <h1 className="font-semibold text-tinto md:text-[40px] md:mb-[20px]">
+            <section
+                className="bg-beige md:h-[900px] py-[50px] md:py-[100px] px-5 md:px-0"
+                id="comunidades"
+            >
+                <div className="container mx-auto flex md:flex-row flex-col">
+                    <div className="md:pt-[170px] md:leading-[57px] md:w-7/12 flex flex-col justify-center">
+                        <h1 className="text-center font-semibold text-tinto text-[24px] leading-[32px] md:text-[40px] md:mb-[20px] md:mt-[-120px] md:text-left md:leading-normal mb-[20px]">
                             LAS COMUNIDADES
                         </h1>
-                        <p className="font-thin text-tinto md:text-[26px] md:leading-[34px]">
+                        <p className="font-thin text-tinto text-[18px] mb-[20px] md:text-[26px] md:leading-[34px]">
                             Son las propias comunidades las que mantienen vivas a las iglesias y
                             están a cargo su cuidado y mantención.
                         </p>
@@ -191,18 +215,26 @@ export default function Home() {
                                 width={240}
                                 height={60}
                                 quality={100}
-                                className="transition-all ease-cubic-bezier hover:scale-[1.1] md:mt-[60px] md:w-[180px]"
+                                className="transition-all ease-cubic-bezier hover:scale-[1.1] md:mt-[60px] md:w-[180px] md:flex hidden"
                             />
                         </Link>
+                        <div className="flex justify-center md:justify-start xl:hidden">
+                            <Link
+                                href="/comunidades"
+                                className="font-light bg-morado text-blanco text-[16px] leading-[16px] my-[30px] py-[12px] px-[20px]"
+                            >
+                                Conoce más
+                            </Link>
+                        </div>
                     </div>
-                    <div className="md:w-5/12">
+                    <div className="md:w-5/12 flex justify-center">
                         <Image
                             src="/home-05.webp"
                             alt="La Historia"
                             width={1300}
                             height={1895}
                             quality={100}
-                            className="md:mt-[-70px] md:h-[800px] md:w-auto"
+                            className="md:mt-[-70px] md:h-[800px] md:w-auto w-[250px]"
                         />
                     </div>
                 </div>
@@ -212,25 +244,37 @@ export default function Home() {
                 className="bg-cover bg-center bg-no-repeat md:h-screen"
                 style={{ backgroundImage: "url('./home-06.webp')" }}
             >
-                <div className="container mx-auto flex items-center justify-end md:h-screen">
+                <div className="container mx-auto flex items-center justify-end md:h-screen h-[500px] px-5 md:px-0">
                     <div className="md:leading-[57px] md:w-6/12">
-                        <h1 className="font-semibold text-blanco md:text-[40px] md:mb-[20px]">
+                        <h1 className="text-center font-semibold text-blanco text-[24px] leading-[32px] md:text-[40px] md:mb-[20px] md:text-left md:leading-normal mb-[20px]">
                             PROTOCOLO DE VISITA
                         </h1>
-                        <p className="font-thin text-blanco md:text-[26px] md:leading-[34px] md:w-[460px]">
+                        <p className="font-thin text-blanco md:text-[26px] md:leading-[34px] md:w-[460px]  text-[18px] mb-[20px] ">
                             Las iglesias de Chiloé no son museos, sino lugares de culto donde se
                             debe mantener siempre una actitud de respeto.
                         </p>
-                        <Link href="/protocolo" target="_blank" alt="PROTOCOLO DE VISITA">
+                        <Link
+                            href="/uploads/protocolo.pdf"
+                            target="_blank"
+                            alt="PROTOCOLO DE VISITA"
+                        >
                             <Image
                                 src="/btn-mas-wh.svg"
                                 alt="ir"
                                 width={240}
                                 height={60}
                                 quality={100}
-                                className="transition-all ease-cubic-bezier hover:scale-[1.1] md:mt-[60px] md:w-[180px]"
+                                className="transition-all ease-cubic-bezier hover:scale-[1.1] md:mt-[60px] md:w-[180px] md:flex hidden"
                             />
                         </Link>
+                        <div className="flex justify-center md:justify-start xl:hidden">
+                            <Link
+                                href="/uploads/protocolo.pdf"
+                                className="font-light bg-morado text-blanco text-[16px] leading-[16px] my-[30px] py-[12px] px-[20px]"
+                            >
+                                Conoce más
+                            </Link>
+                        </div>
                     </div>
                 </div>
             </section>

@@ -48,7 +48,7 @@ export default function VideoHistoria() {
 
     return (
         <div className={styles.videoContainer}>
-            <YouTube videoId="dQw4w9WgXcQ" opts={opts} onReady={onReady} />
+            <YouTube videoId="9BM2ZCYWXt8" opts={opts} onReady={onReady} />
             {/* Botón de reproducción */}
             {!isPlaying && (
                 <button

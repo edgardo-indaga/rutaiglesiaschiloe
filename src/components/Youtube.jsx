@@ -14,7 +14,7 @@ export default function YoutubeVideo() {
         playerVars: {
             // https://developers.google.com/youtube/player_parameters
             autoplay: 0,
-            // Quita todos los controles de YouTube
+            controls: 0, // Quita todos los controles de YouTube
             rel: 0, // Evita que se muestren videos relacionados al final
             modestbranding: 1, // Oculta el logo de YouTube
             disablekb: 1, // Desactiva el teclado
@@ -43,7 +43,7 @@ export default function YoutubeVideo() {
 
     return (
         <div className={styles.videoContainer}>
-            <YouTube videoId="VVaLzcOuC88" opts={opts} onReady={onReady} />
+            <YouTube videoId="Hu1vWWZKAl0" opts={opts} onReady={onReady} />
             {/* Botón de reproducción */}
             {!isPlaying && (
                 <button

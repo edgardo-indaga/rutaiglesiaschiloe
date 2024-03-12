@@ -48,7 +48,7 @@ export default function VideoComunidades() {
 
     return (
         <div className={styles.videoContainer}>
-            <YouTube videoId="dQw4w9WgXcQ" opts={opts} onReady={onReady} />
+            <YouTube videoId="YcVtg6cRaaw" opts={opts} onReady={onReady} />
             {/* Botón de reproducción */}
             {!isPlaying && (
                 <button

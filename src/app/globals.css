@@ -24,4 +24,9 @@ body{
 .swiper-pagination-bullet-active{
     background: #911443 !important;
 }
-
+@media only screen and (max-width: 600px) {
+    .swiper-container{
+        width: 100vw !important;
+        height: 680px !important;
+    }
+}

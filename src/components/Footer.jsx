@@ -5,56 +5,59 @@ export default function FooterPrincipal() {
     return (
         <footer className="bg-tinto">
             <div className="container mx-auto">
-                <div className="flex items-center justify-center align-middle md:h-[160px]">
-                    <Image
-                        src="/PTI-logo.svg"
-                        alt="Logo PTI"
-                        width={215}
-                        height={126}
-                        priority
-                        className="md:w-[120px] md:mr-4"
-                    />
-                    <Link href="https://corfo.cl/sites/cpp/homecorfo" target={'_blank'}>
+                <div className="flex h-auto flex-wrap items-center justify-center py-4 align-middle md:h-[140px] md:flex-row">
+                    <Link href="/">
+                        <Image
+                            src="/PTI-logo.svg"
+                            alt="Logo PTI"
+                            width={215}
+                            height={126}
+                            priority
+                            className="m-2 mx-4 w-[100px] md:w-[130px] md:mr-4"
+                        />
+                    </Link>
+
+                    <Link href="https://www.corfo.cl/" target={'_blank'}>
                         <Image
                             src="/logo-corfo.svg"
                             alt="Logo Corfo"
                             width={183}
                             height={60}
                             priority
-                            className="md:w-[100px] md:ml-4"
+                            className="m-2 mx-4 w-[100px] md:w-[100px] md:ml-4"
                         />
                     </Link>
 
-                    <Link href="#" target={'_blank'}>
+                    <Link href="https://www.indap.gob.cl/" target={'_blank'}>
                         <Image
                             src="/logo-footer-03.svg"
                             alt="Logo Corfo"
                             width={183}
                             height={60}
                             priority
-                            className="md:w-[140px] md:ml-4"
+                            className="m-2 mx-4 w-[100px] md:w-[140px] md:ml-4"
                         />
                     </Link>
 
-                    <Link href="#" target={'_blank'}>
+                    <Link href="https://www.sernatur.cl/" target={'_blank'}>
                         <Image
                             src="/logo-footer-04.svg"
                             alt="Logo Corfo"
                             width={183}
                             height={60}
                             priority
-                            className="md:w-[90px] md:ml-4"
+                            className="m-2 mx-4 w-[60px] md:w-[90px] md:ml-4"
                         />
                     </Link>
 
-                    <Link href="#" target={'_blank'}>
+                    <Link href="https://iglesiaschiloe.cl/" target={'_blank'}>
                         <Image
                             src="/logo-footer-06.png"
                             alt="Logo Corfo"
                             width={183}
                             height={60}
                             priority
-                            className="md:w-[90px] md:ml-4"
+                            className="m-2 mx-4 w-[60px] md:w-[90px] md:ml-4"
                         />
                     </Link>
                 </div>

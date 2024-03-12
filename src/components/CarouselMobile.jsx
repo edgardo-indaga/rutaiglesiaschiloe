@@ -32,7 +32,7 @@ export default function CarouselMobile() {
                         height="1333"
                         quality={100}
                         priority={true}
-                        className="object-cover object-center h-[100vh]"
+                        className="object-cover object-center h-[680px]"
                     />
                 </SwiperSlide>
                 <SwiperSlide>
@@ -43,7 +43,7 @@ export default function CarouselMobile() {
                         height="1333"
                         quality={100}
                         priority={true}
-                        className="object-cover object-center h-[100vh]"
+                        className="object-cover object-center h-[680px]"
                     />
                 </SwiperSlide>
                 <SwiperSlide>
@@ -54,7 +54,7 @@ export default function CarouselMobile() {
                         height="1333"
                         quality={100}
                         priority={true}
-                        className="object-cover object-center h-[100vh]"
+                        className="object-cover object-center h-[680px]"
                     />
                 </SwiperSlide>
             </Swiper>

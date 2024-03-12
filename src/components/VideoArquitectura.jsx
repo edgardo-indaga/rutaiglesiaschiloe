@@ -48,7 +48,7 @@ export default function VideoArquitectura() {
 
     return (
         <div className={styles.videoContainer}>
-            <YouTube videoId="dQw4w9WgXcQ" opts={opts} onReady={onReady} />
+            <YouTube videoId="Xu5-Vj13ol0" opts={opts} onReady={onReady} />
             {/* Botón de reproducción */}
             {!isPlaying && (
                 <button
