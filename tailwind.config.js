@@ -11,6 +11,7 @@ module.exports = {
             beige: '#F0E6D1',
             tinto: '#911443',
             blanco: '#ffffff',
+            morado: '#581a44',
         },
         extend: {
             backgroundImage: {

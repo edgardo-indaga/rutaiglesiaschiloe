@@ -16,6 +16,9 @@ export default function Descargables() {
                     quality={100} // Maintain image quality
                     className="object-cover object-top md:object-center"
                 />
+                <div className="container mx-auto flex h-screen items-center justify-center">
+                    <h1 className="z-10 font-semibold text-blanco md:text-[40px]">DESCARGABLES</h1>
+                </div>
             </section>
             <ThumbDescargables />
         </main>

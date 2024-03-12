@@ -1,6 +1,7 @@
 'use client';
 import Image from 'next/image';
 import { useState } from 'react';
+import Link from 'next/link';
 
 const style = {
     imgResposive:
@@ -31,15 +32,15 @@ export default function ThumbDescargables() {
                                 className={style.imgResposive}
                             />
                         </div>
-                        <a
+                        <Link
                             href="/uploads/protocolo.pdf"
-                            download
+                            target={'_blank'}
                             className={`md:w-[300px] md:h-[300px] md:px-[20px] bg-beige flex justify-center items-center text-tinto md:text-[20px] md:font-medium uppercase text-center ${
                                 isHovereditem01 ? '' : 'hidden'
                             }`}
                         >
                             PROTOCOLO
-                        </a>
+                        </Link>
                     </div>
                 </div>
             </div>

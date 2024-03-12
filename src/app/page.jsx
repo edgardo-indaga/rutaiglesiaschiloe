@@ -23,11 +23,11 @@ export default function Home() {
             </section>
 
             <section
-                className="bg-beige py-10 px-5 md:px-0 md:h-[900px] md:py-[100px]"
+                className="px-5 py-10 bg-beige md:h-[900px] md:py-[100px] md:px-0"
                 id="patrimonio"
             >
-                <div className="container mx-auto flex md:flex-row flex-col">
-                    <div className="order-2 w- md:order-1 md:w-5/12 flex justify-center">
+                <div className="container mx-auto flex flex-col md:flex-row">
+                    <div className="order-2 flex justify-center w- md:order-1 md:w-5/12">
                         <Image
                             src="/home-01.webp"
                             alt="PATRIMONIO DE LA HUMANIDAD"
@@ -41,44 +41,65 @@ export default function Home() {
                         <h1 className="font-semibold text-tinto text-[24px] mb-[20px] md:text-[40px] md:mb-[20px]">
                             PATRIMONIO DE LA HUMANIDAD
                         </h1>
-                        <p className="font-thin text-tinto text-[18px] md:text-[26px] md:leading-[34px] mb-[20px]">
+                        <p className="font-thin text-tinto text-[18px] mb-[20px] md:text-[26px] md:leading-[34px]">
                             16 iglesias del archipiélago conforman el Sitio de Patrimonio Mundial,
                             declarado por la UNESCO en el año 2000.
                         </p>
-                        <div className="flex justify-center md:justify-start my-[50px]">
-                            <Link href="/patrimonio" alt="PATRIMONIO DE LA HUMANIDAD">
-                                <Image
-                                    src="/btn-mas.svg"
-                                    alt="ir"
-                                    width={240}
-                                    height={60}
-                                    quality={100}
-                                    className="transition-all ease-cubic-bezier hover:scale-[1.1] md:mt-[60px] w-[130px] md:w-[180px]"
-                                />
+                        <Link href="/patrimonio" alt="PATRIMONIO DE LA HUMANIDAD">
+                            <Image
+                                src="/btn-mas.svg"
+                                alt="ir"
+                                width={240}
+                                height={60}
+                                quality={100}
+                                className="hidden transition-all ease-cubic-bezier w-[130px] hover:scale-[1.1] md:mt-[60px] md:w-[180px] xl:flex"
+                            />
+                        </Link>
+                        <div className="flex justify-center md:justify-start xl:hidden">
+                            <Link
+                                href="/iglesias"
+                                className="font-light bg-morado text-blanco text-[16px] leading-[16px] my-[30px] py-[12px] px-[20px]"
+                            >
+                                Conoce más
                             </Link>
                         </div>
                     </div>
                 </div>
             </section>
 
-            <section className="md:py-[100px]">
+            <section className="px-4 py-[70px] md:py-[100px]">
                 <div className="container mx-auto flex justify-center md:mb-[70px]">
-                    <h1 className="font-semibold text-tinto xl:text-[48px]">
+                    <h1 className="text-center font-semibold text-tinto text-[24px] leading-[32px] xl:text-[48px]">
                         16 IGLESIAS DEL SITIO DE PATRIMONIO MUNDIAL
                     </h1>
                 </div>
                 <div className="container mx-auto hidden md:block">
                     <HotSpotsMapa />
                 </div>
+                <div className="container mx-auto flex flex-col items-center pt-10 md:hidden">
+                    <Image
+                        src="/mapa/mapa-con-iglesias.webp"
+                        alt="Mapa con Iglesias"
+                        width={1330}
+                        height={1260}
+                        quality={100}
+                    />
+                    <Link
+                        href="/iglesias"
+                        className="font-light bg-morado text-blanco text-[16px] leading-[16px] mt-[50px] py-[10px] px-[20px]"
+                    >
+                        Conoce más
+                    </Link>
+                </div>
             </section>
 
-            <section className="bg-beige md:h-[900px]" id="historia">
-                <div className="container mx-auto flex">
+            <section className="bg-beige md:h-[900px] py-[50px] md:py-0 px-5 md:px-0" id="historia">
+                <div className="container mx-auto flex flex-col md:flex-row">
                     <div className="md:w-7/12">
-                        <h1 className="font-semibold text-tinto md:text-[40px] md:mb-[20px] md:mt-[-120px]">
+                        <h1 className="text-center font-semibold text-tinto text-[24px] leading-[32px] md:text-[40px] md:mb-[20px] md:mt-[-120px] md:text-left md:leading-normal mb-[20px]">
                             LA HISTORIA
                         </h1>
-                        <p className="font-thin text-tinto md:text-[26px] md:leading-[34px]">
+                        <p className="font-thin text-tinto text-[18px] mb-[20px] md:text-[26px] md:leading-[34px]">
                             Las iglesias de Chiloé son el resultado de un sincretismo cultural
                             único, que se produce del rico intercambio entre españoles y pueblos
                             originarios.
@@ -90,18 +111,26 @@ export default function Home() {
                                 width={240}
                                 height={60}
                                 quality={100}
-                                className="transition-all ease-cubic-bezier hover:scale-[1.1] md:mt-[60px] md:w-[180px]"
+                                className="transition-all ease-cubic-bezier hover:scale-[1.1] md:mt-[60px] md:w-[180px] md:flex hidden"
                             />
                         </Link>
+                        <div className="flex justify-center md:justify-start xl:hidden">
+                            <Link
+                                href="/historia"
+                                className="font-light bg-morado text-blanco text-[16px] leading-[16px] my-[30px] py-[12px] px-[20px]"
+                            >
+                                Conoce más
+                            </Link>
+                        </div>
                     </div>
-                    <div className="md:w-5/12">
+                    <div className="md:w-5/12 flex justify-center">
                         <Image
                             src="/home-02.webp"
                             alt="La Historia"
                             width={1300}
                             height={1503}
                             quality={100}
-                            className="md:mt-[-380px]"
+                            className="md:mt-[-300px] w-[280px] md:w-full"
                         />
                     </div>
                 </div>

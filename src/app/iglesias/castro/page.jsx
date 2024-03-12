@@ -139,7 +139,7 @@ export default function IglesiaCastro() {
                     <CastroGallery />
                 </div>
                 <div className="container mx-auto flex justify-end">
-                    <Link href="/iglesias" alt="Volver a paginas Iglesias">
+                    <Link href="/iglesias#listadoiglesias" alt="Volver a paginas Iglesias">
                         <Image
                             src="/btn-volver.svg"
                             alt="ir"
