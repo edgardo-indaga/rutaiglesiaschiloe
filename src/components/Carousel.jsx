@@ -28,8 +28,6 @@ export default function App() {
                     <Image
                         src={imagen1}
                         alt="Imagen 01"
-                        width="2000"
-                        height="1333"
                         quality={100}
                         priority={true}
                         className="object-cover object-center h-[100vh]"
@@ -39,8 +37,6 @@ export default function App() {
                     <Image
                         src={imagen2}
                         alt="Imagen 01"
-                        width="2000"
-                        height="1333"
                         quality={100}
                         priority={true}
                         className="object-cover object-center h-[100vh]"
@@ -50,8 +46,6 @@ export default function App() {
                     <Image
                         src={imagen3}
                         alt="Imagen 01"
-                        width="2000"
-                        height="1333"
                         quality={100}
                         priority={true}
                         className="object-cover object-center h-[100vh]"

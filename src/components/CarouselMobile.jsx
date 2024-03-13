@@ -28,8 +28,6 @@ export default function CarouselMobile() {
                     <Image
                         src={imagen4}
                         alt="Imagen 01"
-                        width="2000"
-                        height="1333"
                         quality={100}
                         priority={true}
                         className="object-cover object-center h-[680px]"
@@ -39,8 +37,6 @@ export default function CarouselMobile() {
                     <Image
                         src={imagen5}
                         alt="Imagen 01"
-                        width="2000"
-                        height="1333"
                         quality={100}
                         priority={true}
                         className="object-cover object-center h-[680px]"
@@ -50,8 +46,6 @@ export default function CarouselMobile() {
                     <Image
                         src={imagen6}
                         alt="Imagen 01"
-                        width="2000"
-                        height="1333"
                         quality={100}
                         priority={true}
                         className="object-cover object-center h-[680px]"

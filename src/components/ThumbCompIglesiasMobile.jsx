@@ -1,6 +1,10 @@
 import Image from 'next/image';
 import Link from 'next/link';
 
+import thumbpatrimonio from '/public/iglesias/iglesia-02.webp';
+import thumbhistoria from '/public/iglesias/iglesia-03.webp';
+import thumbparquitectura from '/public/iglesias/iglesia-04.webp';
+import thumbcomunidad from '/public/iglesias/iglesia-05.webp';
 export default function ThumbCompIglesiasMobile() {
     return (
         <section className="pt-[50px] block md:hidden">
@@ -8,11 +12,11 @@ export default function ThumbCompIglesiasMobile() {
                 <div className="w-[165px] relative h-[165px] mx-[4px] my-[4px]">
                     <div className="opacity-70">
                         <Image
-                            src="/iglesias/iglesia-02.webp"
+                            src={thumbpatrimonio}
                             alt="Patrimonio"
-                            objectFit="cover"
                             fill={true}
                             quality={100}
+                            className="object-cover"
                         />
                     </div>
 
@@ -29,11 +33,11 @@ export default function ThumbCompIglesiasMobile() {
                 <div className="w-[165px] relative h-[165px] mx-[4px] my-[4px]">
                     <div className="opacity-70">
                         <Image
-                            src="/iglesias/iglesia-03.webp"
-                            alt="Patrimonio"
-                            objectFit="cover"
+                            src={thumbhistoria}
+                            alt="Historia"
                             fill={true}
                             quality={100}
+                            className="object-cover"
                         />
                     </div>
 
@@ -47,11 +51,11 @@ export default function ThumbCompIglesiasMobile() {
                 <div className="w-[165px] relative h-[165px] mx-[4px] my-[4px]">
                     <div className="opacity-70">
                         <Image
-                            src="/iglesias/iglesia-04.webp"
+                            src={thumbparquitectura}
                             alt="Patrimonio"
-                            objectFit="cover"
                             fill={true}
                             quality={100}
+                            className="object-cover"
                         />
                     </div>
 
@@ -65,11 +69,11 @@ export default function ThumbCompIglesiasMobile() {
                 <div className="w-[165px] relative h-[165px] mx-[4px] my-[4px]">
                     <div className="opacity-70">
                         <Image
-                            src="/iglesias/iglesia-05.webp"
+                            src={thumbcomunidad}
                             alt="Patrimonio"
-                            objectFit="cover"
                             fill={true}
                             quality={100}
+                            className="object-cover"
                         />
                     </div>
 
