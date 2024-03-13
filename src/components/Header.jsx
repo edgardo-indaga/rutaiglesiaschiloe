@@ -198,7 +198,7 @@ export default function HeaderPrincipal() {
                                     onClick={() => setMenuOpen(false)}
                                     className={styles.linksMobile}
                                 >
-                                    <Link href="/comunidad">Las Comunidades</Link>
+                                    <Link href="/comunidades">Las Comunidades</Link>
                                 </li>
 
                                 <li
