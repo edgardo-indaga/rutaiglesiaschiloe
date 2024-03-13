@@ -35,7 +35,13 @@
     }
 }
 
-@media (min-width: 1025px) {
+@media (min-width: 1025px) and (max-width: 1440px) {
+    .videoContainer iframe {
+        width: 840px;
+        height: 480px;
+    }
+}
+@media (min-width: 1441px){
     .videoContainer iframe {
         width: 1024px;
         height: 600px;
