@@ -27,10 +27,13 @@ export default function ThumbIglesias() {
     const [isHoverDetif, setIsHoverDetif] = useState(false);
 
     return (
-        <section className="pb-[40px] px-[5px] md:pb-[100px] md:px-0" id="listadoiglesias">
+        <section
+            className="pb-[40px] px-[5px] md:pb-[100px] md:px-0 hidden md:block"
+            id="listadoiglesias"
+        >
             <div className="container mx-auto md:pb-[40px]">
                 <div className="md:w-full">
-                    <h1 className="font-semibold text-tinto md:text-[30px]">
+                    <h1 className="font-semibold text-tinto md:text-[30px] ml-[10px]">
                         16 IGLESIAS PATRIMONIO DE LA HUMANIDAD
                     </h1>
                 </div>

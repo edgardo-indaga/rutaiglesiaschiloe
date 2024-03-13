@@ -15,7 +15,7 @@ export default function ThumbCompIglesias() {
     const [isHoverComunidades, setIsHoverComunidades] = useState(false);
 
     return (
-        <section className="py-[40px] px-[5px] md:py-[100px] md:px-0">
+        <section className="py-[40px] px-[5px] md:pt-[100px] md:px-0 hidden md:block">
             <div className="container mx-auto flex flex-wrap">
                 <div className="flex w-6/12 items-center justify-center align-middle mb-[15px] md:mb-[25px] md:w-3/12">
                     <div
