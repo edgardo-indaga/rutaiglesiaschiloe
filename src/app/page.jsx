@@ -12,7 +12,7 @@ const dosis = Dosis({
     style: ['normal'],
 });
 
-export default function Home() {
+export default function Inicio() {
     return (
         <main>
             <section className="hidden h-screen md:block">

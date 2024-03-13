@@ -5,6 +5,14 @@ import ThumbIglesias from '@/components/Thumb-Iglesias';
 import ThumbCompIglesiasMobile from '@/components/ThumbCompIglesiasMobile';
 import ThumbIglesiasMobile from '@/components/ThumbIglesiasMobile';
 
+import { Dosis } from 'next/font/google';
+
+const dosis = Dosis({
+    subsets: ['latin'],
+    weight: ['200', '300', '400', '500', '600', '700', '800'],
+    style: ['normal'],
+});
+
 export const metadata = {
     title: 'PTI | Las Iglesias',
 };
@@ -12,7 +20,7 @@ export const metadata = {
 export default function LasIglesias() {
     return (
         <main>
-            <section className="relative md:h-screen h-[680px]">
+            <section className="relative h-[680px] md:h-screen">
                 <Image
                     src="/iglesias/iglesia-01.webp"
                     alt="Patrimonio de la humanidad"
@@ -22,7 +30,9 @@ export default function LasIglesias() {
                     className="object-cover object-top md:object-center"
                 />
                 <div className="container mx-auto flex h-screen items-center justify-center px-[50px]">
-                    <h1 className="z-10 font-semibold text-blanco md:text-[40px] text-[40px] text-center leading-[48px]">
+                    <h1
+                        className={`z-10 font-semibold text-blanco md:text-[40px] text-[40px] text-center leading-[48px] ${dosis.className}`}
+                    >
                         IGLESIAS DE CHILOÉ
                     </h1>
                 </div>

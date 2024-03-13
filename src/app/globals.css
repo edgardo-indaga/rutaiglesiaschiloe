@@ -30,3 +30,12 @@ body{
         height: 680px !important;
     }
 }
+.react-photo-album--row img{
+    opacity: 1;
+    transition: opacity .2s;
+}
+.react-photo-album--row img:hover{
+    transform: scale(1.04); /* Aumenta el tamaño */
+    transition: transform .2s; /* Suaviza la transición */
+    opacity: 0.8;
+}
