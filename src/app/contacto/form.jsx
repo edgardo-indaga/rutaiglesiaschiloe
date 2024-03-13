@@ -52,7 +52,7 @@ export const ContactForm = () => {
     ) : (
         <div className="container mx-auto md:mt-[70px]">
             <form onSubmit={onSubmit} className="flex flex-col items-center">
-                <div className="md:my-[15px] md:w-6/12">
+                <div className="md:my-[15px] md:w-6/12 my-2 w-full">
                     <input
                         className="border-[1px] border-solid border-[#581945] py-[12px] px-[16px] bg-amarillo w-full text-[#581945] placeholder-[#581945] placeholder:uppercase"
                         type="text"
@@ -64,7 +64,7 @@ export const ContactForm = () => {
                     />
                 </div>
 
-                <div className="md:my-[15px] md:w-6/12">
+                <div className="md:my-[15px] md:w-6/12 my-2 w-full">
                     <input
                         className="border-[1px] border-solid border-[#581945] py-[12px] px-[16px] bg-amarillo w-full text-[#581945] placeholder-[#581945] placeholder:uppercase"
                         value={email}
@@ -76,7 +76,7 @@ export const ContactForm = () => {
                     />
                 </div>
 
-                <div className="md:my-[15px] md:w-6/12">
+                <div className="md:my-[15px] md:w-6/12 my-2 w-full">
                     <input
                         className="border-[1px] border-solid border-[#581945] py-[12px] px-[16px] bg-amarillo w-full text-[#581945] placeholder-[#581945] placeholder:uppercase"
                         value={phone}
@@ -87,7 +87,7 @@ export const ContactForm = () => {
                     />
                 </div>
 
-                <div className="md:my-[15px] md:w-6/12">
+                <div className="md:my-[15px] md:w-6/12 my-2 w-full">
                     <textarea
                         className="border-[1px] border-solid border-[#581945] py-[12px] px-[16px] bg-amarillo text-[#581945] placeholder-[#581945] placeholder:uppercase w-full h-[200px]"
                         placeholder="Deja tu mensaje aquí *"
@@ -97,7 +97,7 @@ export const ContactForm = () => {
                     ></textarea>
                 </div>
 
-                <div className="flex flex-col items-end md:my-[15px] md:mt-[30px] md:w-6/12">
+                <div className="flex flex-col items-end my-2 md:my-[15px] md:mt-[30px] md:w-6/12">
                     <button
                         type="submit"
                         className="bg-[#581945] uppercase text-[18px] font-[400] leading-[16px] text-blanco border-[#581945] py-[15px] px-[60px] hover:bg-amarillo hover:border-[1px] hover:border-solid hover:border-[#581945] hover:text-[#581945]"

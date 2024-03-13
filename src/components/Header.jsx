@@ -174,9 +174,7 @@ export default function HeaderPrincipal() {
                                     onClick={() => setMenuOpen(false)}
                                     className={styles.linksMobile}
                                 >
-                                    <Link href="/src/components/ItemDescargables">
-                                        Descargables
-                                    </Link>
+                                    <Link href="/descargables">Descargables</Link>
                                 </li>
                                 <li
                                     onClick={() => setMenuOpen(false)}
