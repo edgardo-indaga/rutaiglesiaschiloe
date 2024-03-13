@@ -40,8 +40,8 @@ const slides = [
     },
     {
         src: '/historia/gallery/historia_galeria_08.jpg',
-        width: 1200,
-        height: 800,
+        width: 1333,
+        height: 2000,
         title: 'Iglesia de Caguach',
         description: 'Sacerdote franciscano en fiesta patronal',
     },
