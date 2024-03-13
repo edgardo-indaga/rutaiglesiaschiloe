@@ -8,8 +8,8 @@ import thumbcomunidad from '/public/iglesias/iglesia-05.webp';
 export default function ThumbCompIglesiasMobile() {
     return (
         <section className="pt-[50px] block md:hidden">
-            <div className="container mx-auto flex flex-wrap px-5">
-                <div className="w-[165px] relative h-[165px] mx-[4px] my-[4px]">
+            <div className="container mx-auto flex flex-wrap px-5 justify-between">
+                <div className="w-[155] relative h-[155px] mx-[4px] my-[10px]">
                     <div className="opacity-70">
                         <Image
                             src={thumbpatrimonio}
@@ -20,7 +20,7 @@ export default function ThumbCompIglesiasMobile() {
                         />
                     </div>
 
-                    <div className="w-[165px] h-[165px] flex items-center justify-center bg-tinto z-20">
+                    <div className="w-[155px] h-[155px] flex items-center justify-center bg-tinto z-20">
                         <Link
                             href="/patrimonio"
                             className="text-blanco text-[18px] text-center z-20"
@@ -30,7 +30,7 @@ export default function ThumbCompIglesiasMobile() {
                     </div>
                 </div>
 
-                <div className="w-[165px] relative h-[165px] mx-[4px] my-[4px]">
+                <div className="w-[155] relative h-[155px] mx-[4px] my-[10px]">
                     <div className="opacity-70">
                         <Image
                             src={thumbhistoria}
@@ -41,14 +41,14 @@ export default function ThumbCompIglesiasMobile() {
                         />
                     </div>
 
-                    <div className="w-[165px] h-[165px] flex items-center justify-center bg-tinto z-20">
+                    <div className="w-[155px] h-[155px] flex items-center justify-center bg-tinto z-20">
                         <Link href="/historia" className="text-blanco text-[18px] text-center z-20">
                             LA HISTORIA
                         </Link>
                     </div>
                 </div>
 
-                <div className="w-[165px] relative h-[165px] mx-[4px] my-[4px]">
+                <div className="w-[155] relative h-[155px] mx-[4px] my-[10px]">
                     <div className="opacity-70">
                         <Image
                             src={thumbparquitectura}
@@ -59,14 +59,14 @@ export default function ThumbCompIglesiasMobile() {
                         />
                     </div>
 
-                    <div className="w-[165px] h-[165px] flex items-center justify-center bg-tinto z-20">
+                    <div className="w-[155px] h-[155px] flex items-center justify-center bg-tinto z-20">
                         <Link href="/historia" className="text-blanco text-[18px] text-center z-20">
                             LA ARQUITECTURA
                         </Link>
                     </div>
                 </div>
 
-                <div className="w-[165px] relative h-[165px] mx-[4px] my-[4px]">
+                <div className="w-[155] relative h-[155px] mx-[4px] my-[10px]">
                     <div className="opacity-70">
                         <Image
                             src={thumbcomunidad}
@@ -77,7 +77,7 @@ export default function ThumbCompIglesiasMobile() {
                         />
                     </div>
 
-                    <div className="w-[165px] h-[165px] flex items-center justify-center bg-tinto z-20">
+                    <div className="w-[155px] h-[155px] flex items-center justify-center bg-tinto z-20">
                         <Link href="/historia" className="text-blanco text-[18px] text-center z-20">
                             LAS COMUNIDADES
                         </Link>

@@ -26,8 +26,8 @@ export default function ThumbIglesiasMobile() {
                 </h1>
             </div>
 
-            <div className="container mx-auto flex flex-wrap px-5">
-                <div className="w-[165px] relative h-[165px] mx-[4px] my-[4px]">
+            <div className="container mx-auto flex flex-wrap px-5 justify-between">
+                <div className="w-[155] relative h-[155px] mx-[4px] my-[10px]">
                     <div className="opacity-70">
                         <Image
                             src={thumbCastro}
@@ -38,7 +38,7 @@ export default function ThumbIglesiasMobile() {
                         />
                     </div>
 
-                    <div className="w-[165px] h-[165px] flex items-center justify-center bg-tinto z-20">
+                    <div className="w-[155px] h-[155px] flex items-center justify-center bg-tinto z-20">
                         <Link
                             href="/iglesias/castro"
                             className="text-blanco text-[18px] text-center z-20 uppercase px-2"
@@ -48,7 +48,7 @@ export default function ThumbIglesiasMobile() {
                     </div>
                 </div>
 
-                <div className="w-[165px] relative h-[165px] mx-[4px] my-[4px]">
+                <div className="w-[155] relative h-[155px] mx-[4px] my-[10px]">
                     <div className="opacity-70">
                         <Image
                             src={thumbNercon}
@@ -59,7 +59,7 @@ export default function ThumbIglesiasMobile() {
                         />
                     </div>
 
-                    <div className="w-[165px] h-[165px] flex items-center justify-center bg-tinto z-20">
+                    <div className="w-[155px] h-[155px] flex items-center justify-center bg-tinto z-20">
                         <Link
                             href="/iglesias/nercon"
                             className="text-blanco text-[18px] text-center z-20 uppercase px-2"
@@ -69,7 +69,7 @@ export default function ThumbIglesiasMobile() {
                     </div>
                 </div>
 
-                <div className="w-[165px] relative h-[165px] mx-[4px] my-[4px]">
+                <div className="w-[155] relative h-[155px] mx-[4px] my-[10px]">
                     <div className="opacity-70">
                         <Image
                             src={thumbDalcahue}
@@ -80,7 +80,7 @@ export default function ThumbIglesiasMobile() {
                         />
                     </div>
 
-                    <div className="w-[165px] h-[165px] flex items-center justify-center bg-tinto z-20">
+                    <div className="w-[155px] h-[155px] flex items-center justify-center bg-tinto z-20">
                         <Link
                             href="/iglesias/dalcahue"
                             className="text-blanco text-[18px] text-center z-20 uppercase px-2"
@@ -90,7 +90,7 @@ export default function ThumbIglesiasMobile() {
                     </div>
                 </div>
 
-                <div className="w-[165px] relative h-[165px] mx-[4px] my-[4px]">
+                <div className="w-[155] relative h-[155px] mx-[4px] my-[10px]">
                     <div className="opacity-70">
                         <Image
                             src={thumbRilan}
@@ -101,7 +101,7 @@ export default function ThumbIglesiasMobile() {
                         />
                     </div>
 
-                    <div className="w-[165px] h-[165px] flex items-center justify-center bg-tinto z-20">
+                    <div className="w-[155px] h-[155px] flex items-center justify-center bg-tinto z-20">
                         <Link
                             href="/iglesias/rilan"
                             className="text-blanco text-[18px] text-center z-20 uppercase px-2"
@@ -111,7 +111,7 @@ export default function ThumbIglesiasMobile() {
                     </div>
                 </div>
 
-                <div className="w-[165px] relative h-[165px] mx-[4px] my-[4px]">
+                <div className="w-[155] relative h-[155px] mx-[4px] my-[10px]">
                     <div className="opacity-70">
                         <Image
                             src={thumbChelin}
@@ -122,7 +122,7 @@ export default function ThumbIglesiasMobile() {
                         />
                     </div>
 
-                    <div className="w-[165px] h-[165px] flex items-center justify-center bg-tinto z-20">
+                    <div className="w-[155px] h-[155px] flex items-center justify-center bg-tinto z-20">
                         <Link
                             href="/iglesias/chelin"
                             className="text-blanco text-[18px] text-center z-20 uppercase px-2"
@@ -132,7 +132,7 @@ export default function ThumbIglesiasMobile() {
                     </div>
                 </div>
 
-                <div className="w-[165px] relative h-[165px] mx-[4px] my-[4px]">
+                <div className="w-[155] relative h-[155px] mx-[4px] my-[10px]">
                     <div className="opacity-70">
                         <Image
                             src={thumbSanJuan}
@@ -143,7 +143,7 @@ export default function ThumbIglesiasMobile() {
                         />
                     </div>
 
-                    <div className="w-[165px] h-[165px] flex items-center justify-center bg-tinto z-20">
+                    <div className="w-[155px] h-[155px] flex items-center justify-center bg-tinto z-20">
                         <Link
                             href="/iglesias/sanjuan"
                             className="text-blanco text-[18px] text-center z-20 uppercase px-2"
@@ -153,7 +153,7 @@ export default function ThumbIglesiasMobile() {
                     </div>
                 </div>
 
-                <div className="w-[165px] relative h-[165px] mx-[4px] my-[4px]">
+                <div className="w-[155] relative h-[155px] mx-[4px] my-[10px]">
                     <div className="opacity-70">
                         <Image
                             src={thumbTenaun}
@@ -164,7 +164,7 @@ export default function ThumbIglesiasMobile() {
                         />
                     </div>
 
-                    <div className="w-[165px] h-[165px] flex items-center justify-center bg-tinto z-20">
+                    <div className="w-[155px] h-[155px] flex items-center justify-center bg-tinto z-20">
                         <Link
                             href="/iglesias/tenaun"
                             className="text-blanco text-[18px] text-center z-20 uppercase px-2"
@@ -174,7 +174,7 @@ export default function ThumbIglesiasMobile() {
                     </div>
                 </div>
 
-                <div className="w-[165px] relative h-[165px] mx-[4px] my-[4px]">
+                <div className="w-[155] relative h-[155px] mx-[4px] my-[10px]">
                     <div className="opacity-70">
                         <Image
                             src={thumbColo}
@@ -185,7 +185,7 @@ export default function ThumbIglesiasMobile() {
                         />
                     </div>
 
-                    <div className="w-[165px] h-[165px] flex items-center justify-center bg-tinto z-20">
+                    <div className="w-[155px] h-[155px] flex items-center justify-center bg-tinto z-20">
                         <Link
                             href="/iglesias/colo"
                             className="text-blanco text-[18px] text-center z-20 uppercase px-2"
@@ -195,7 +195,7 @@ export default function ThumbIglesiasMobile() {
                     </div>
                 </div>
 
-                <div className="w-[165px] relative h-[165px] mx-[4px] my-[4px]">
+                <div className="w-[155] relative h-[155px] mx-[4px] my-[10px]">
                     <div className="opacity-70">
                         <Image
                             src={thumbAchao}
@@ -206,7 +206,7 @@ export default function ThumbIglesiasMobile() {
                         />
                     </div>
 
-                    <div className="w-[165px] h-[165px] flex items-center justify-center bg-tinto z-20">
+                    <div className="w-[155px] h-[155px] flex items-center justify-center bg-tinto z-20">
                         <Link
                             href="/iglesias/achao"
                             className="text-blanco text-[18px] text-center z-20 uppercase px-2"
@@ -216,7 +216,7 @@ export default function ThumbIglesiasMobile() {
                     </div>
                 </div>
 
-                <div className="w-[165px] relative h-[165px] mx-[4px] my-[4px]">
+                <div className="w-[155] relative h-[155px] mx-[4px] my-[10px]">
                     <div className="opacity-70">
                         <Image
                             src={thumbQuinchao}
@@ -227,7 +227,7 @@ export default function ThumbIglesiasMobile() {
                         />
                     </div>
 
-                    <div className="w-[165px] h-[165px] flex items-center justify-center bg-tinto z-20">
+                    <div className="w-[155px] h-[155px] flex items-center justify-center bg-tinto z-20">
                         <Link
                             href="/iglesias/quinchao"
                             className="text-blanco text-[18px] text-center z-20 uppercase px-2"
@@ -237,7 +237,7 @@ export default function ThumbIglesiasMobile() {
                     </div>
                 </div>
 
-                <div className="w-[165px] relative h-[165px] mx-[4px] my-[4px]">
+                <div className="w-[155] relative h-[155px] mx-[4px] my-[10px]">
                     <div className="opacity-70">
                         <Image
                             src={thumbCaguach}
@@ -248,7 +248,7 @@ export default function ThumbIglesiasMobile() {
                         />
                     </div>
 
-                    <div className="w-[165px] h-[165px] flex items-center justify-center bg-tinto z-20">
+                    <div className="w-[155px] h-[155px] flex items-center justify-center bg-tinto z-20">
                         <Link
                             href="/iglesias/caguach"
                             className="text-blanco text-[18px] text-center z-20 uppercase px-2"
@@ -258,7 +258,7 @@ export default function ThumbIglesiasMobile() {
                     </div>
                 </div>
 
-                <div className="w-[165px] relative h-[165px] mx-[4px] my-[4px]">
+                <div className="w-[155] relative h-[155px] mx-[4px] my-[10px]">
                     <div className="opacity-70">
                         <Image
                             src={thumbChonchi}
@@ -269,7 +269,7 @@ export default function ThumbIglesiasMobile() {
                         />
                     </div>
 
-                    <div className="w-[165px] h-[165px] flex items-center justify-center bg-tinto z-20">
+                    <div className="w-[155px] h-[155px] flex items-center justify-center bg-tinto z-20">
                         <Link
                             href="/iglesias/chonchi"
                             className="text-blanco text-[18px] text-center z-20 uppercase px-2"
@@ -279,7 +279,7 @@ export default function ThumbIglesiasMobile() {
                     </div>
                 </div>
 
-                <div className="w-[165px] relative h-[165px] mx-[4px] my-[4px]">
+                <div className="w-[155] relative h-[155px] mx-[4px] my-[10px]">
                     <div className="opacity-70">
                         <Image
                             src={thumbVilupulli}
@@ -290,7 +290,7 @@ export default function ThumbIglesiasMobile() {
                         />
                     </div>
 
-                    <div className="w-[165px] h-[165px] flex items-center justify-center bg-tinto z-20">
+                    <div className="w-[155px] h-[155px] flex items-center justify-center bg-tinto z-20">
                         <Link
                             href="/iglesias/vilupulli"
                             className="text-blanco text-[18px] text-center z-20 uppercase px-2"
@@ -300,7 +300,7 @@ export default function ThumbIglesiasMobile() {
                     </div>
                 </div>
 
-                <div className="w-[165px] relative h-[165px] mx-[4px] my-[4px]">
+                <div className="w-[155] relative h-[155px] mx-[4px] my-[10px]">
                     <div className="opacity-70">
                         <Image
                             src={thumbIchuac}
@@ -311,7 +311,7 @@ export default function ThumbIglesiasMobile() {
                         />
                     </div>
 
-                    <div className="w-[165px] h-[165px] flex items-center justify-center bg-tinto z-20">
+                    <div className="w-[155px] h-[155px] flex items-center justify-center bg-tinto z-20">
                         <Link
                             href="/iglesias/ichuac"
                             className="text-blanco text-[18px] text-center z-20 uppercase px-2"
@@ -321,7 +321,7 @@ export default function ThumbIglesiasMobile() {
                     </div>
                 </div>
 
-                <div className="w-[165px] relative h-[165px] mx-[4px] my-[4px]">
+                <div className="w-[155] relative h-[155px] mx-[4px] my-[10px]">
                     <div className="opacity-70">
                         <Image
                             src={thumbAldachildo}
@@ -332,7 +332,7 @@ export default function ThumbIglesiasMobile() {
                         />
                     </div>
 
-                    <div className="w-[165px] h-[165px] flex items-center justify-center bg-tinto z-20">
+                    <div className="w-[155px] h-[155px] flex items-center justify-center bg-tinto z-20">
                         <Link
                             href="/iglesias/aldachildo"
                             className="text-blanco text-[18px] text-center z-20 uppercase px-2"
@@ -342,7 +342,7 @@ export default function ThumbIglesiasMobile() {
                     </div>
                 </div>
 
-                <div className="w-[165px] relative h-[165px] mx-[4px] my-[4px]">
+                <div className="w-[155] relative h-[155px] mx-[4px] my-[10px]">
                     <div className="opacity-70">
                         <Image
                             src={thumbDetif}
@@ -353,7 +353,7 @@ export default function ThumbIglesiasMobile() {
                         />
                     </div>
 
-                    <div className="w-[165px] h-[165px] flex items-center justify-center bg-tinto z-20">
+                    <div className="w-[155px] h-[155px] flex items-center justify-center bg-tinto z-20">
                         <Link
                             href="/iglesias/detif"
                             className="text-blanco text-[18px] text-center z-20 uppercase px-2"
