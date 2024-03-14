@@ -20,7 +20,7 @@ import iglesiaAldachildo from '/public/iglesias-vector/aldachildo-iglesia.png';
 
 const styles = {
     tituloIglesia: 'text-tinto text-[18px] capitalize',
-    btnVer: 'bg-tinto text-blanco uppercase text-center font-barlow py-[2px] w-[60px] text-[14px] mt-[20px]',
+    btnVer: 'bg-morado text-blanco uppercase text-center font-barlow py-[2px] w-[60px] text-[14px] mt-[20px]',
 };
 
 export default function ThumbIglesiasMobile() {
