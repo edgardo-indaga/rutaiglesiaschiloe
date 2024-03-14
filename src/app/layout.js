@@ -1,6 +1,7 @@
 import { Barlow } from 'next/font/google';
 import './globals.css';
 import { Analytics } from '@vercel/analytics/react';
+import { GoogleAnalytics } from '@next/third-parties/google';
 
 import Header from '../components/Header';
 import Footer from '../components/Footer';
@@ -70,6 +71,7 @@ export default function RootLayout({ children }) {
                 <Footer />
                 <Analytics />
             </body>
+            <GoogleAnalytics gaId="G-2XRWN8XZBF" />
         </html>
     );
 }
