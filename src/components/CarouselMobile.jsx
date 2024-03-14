@@ -35,7 +35,7 @@ export default function CarouselMobile() {
                 </SwiperSlide>
                 <SwiperSlide>
                     <Image
-                        src={imagen5}
+                        src={imagen6}
                         alt="Imagen 01"
                         quality={100}
                         priority={true}
@@ -44,7 +44,7 @@ export default function CarouselMobile() {
                 </SwiperSlide>
                 <SwiperSlide>
                     <Image
-                        src={imagen6}
+                        src={imagen5}
                         alt="Imagen 01"
                         quality={100}
                         priority={true}

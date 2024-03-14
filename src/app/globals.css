@@ -39,10 +39,20 @@ body{
     transition: transform .2s; /* Suaviza la transición */
     opacity: 0.8;
 }
-@media (max-width: 360px){
+@media (max-width: 376px){
     .thumbiglesias,
     .thumbcompiglesias{
         width: 150px;
         height: 150px;
+    }
+    .text-slider{
+        left: 78px;
+        font-size: 25px;
+    }
+}
+@media (min-width: 377px) and (max-width: 430px){
+    .text-slider{
+        left: 90px;
+        font-size: 27px;
     }
 }

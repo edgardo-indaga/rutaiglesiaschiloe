@@ -22,9 +22,10 @@ export default function Inicio() {
             <section className="block h-[680px] md:hidden">
                 <CarouselMobile />
                 <h1
-                    className={`absolute z-20 top-[400px] w-[100vw] text-blanco text-center text-[40px] leading-[48px] font-[600] px-[40px] ${dosis.className}`}
+                    className={`text-slider absolute z-20 top-[300px] text-blanco text-left text-[28px] leading-[38px] font-[600] px-[40px] ${dosis.className}`}
                 >
-                    RUTA DE LAS IGLESIAS DE CHILOÉ
+                    RUTA DE LAS <br />
+                    IGLESIAS DE CHILOÉ
                 </h1>
             </section>
 
