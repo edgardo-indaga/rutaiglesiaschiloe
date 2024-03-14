@@ -21,7 +21,7 @@ export default function IglesiaIchuac() {
 
             <section className="px-5 py-10 md:py-[100px] md:px-0">
                 <div className="container mx-auto flex justify-center">
-                    <h1 className="font-semibold text-tinto md:text-[40px] text-[40px] text-center leading-[48px] uppercase">
+                    <h1 className="font-semibold text-tinto md:text-[40px] text-[30px] text-center leading-[38px] md:leading-[48px] uppercase">
                         Iglesia Natividad de María de Ichuac
                     </h1>
                 </div>
@@ -58,7 +58,7 @@ export default function IglesiaIchuac() {
                             height={143}
                             className="h-[60px] md:h-[90px] md:w-auto md:mb-[20px]"
                         />
-                        <p className="font-thin text-tinto text-[18px] md:text-center md:w-[300px] md:text-[26px] md:leading-[34px] md:ml-[30px] md:mr-[20px]">
+                        <p className="font-thin text-tinto text-[18px] md:text-center md:w-[300px] md:text-[26px] md:leading-[34px] ml-[4px] md:ml-[30px] md:mr-[20px]">
                             Fiesta Patronal: <b className="md:font-medium">8 de septiembre</b>
                         </p>
                     </div>

@@ -1,6 +1,7 @@
 'use client';
 
 import { useState } from 'react';
+import Link from 'next/link';
 
 export const ContactForm = () => {
     const [isSubmitted, setSubmitted] = useState(false);
@@ -41,8 +42,8 @@ export const ContactForm = () => {
 
     return isSubmitted ? (
         <div className="container mx-auto md:h-[450px]">
-            <div className="flex flex-col items-center justify-center">
-                <h1 className="text-center font-normal font-questrial text-negro mt-[150px] md:text-[20px] md:w-[700px]">
+            <div className="flex flex-col items-center justify-center h-[300px] md:h-[450px]">
+                <h1 className="text-center font-normal font-questrial text-negro text-[18px] md:mt-[150px] md:text-[20px] md:w-[700px]">
                     ¡Gracias por ponerte en contacto con nosotros! Tu mensaje ha sido recibido con
                     éxito. Nos esforzaremos por responder a tu consulta lo antes posible. <br />
                     ¡Ten un gran día!

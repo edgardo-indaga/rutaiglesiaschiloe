@@ -4,6 +4,7 @@ import Image from 'next/image';
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
 import { useEffect, useState } from 'react';
+import logoCorfo from '/public/logo-corfo-color.svg';
 
 const styles = {
     navLinks:
@@ -174,12 +175,6 @@ export default function HeaderPrincipal() {
                                     onClick={() => setMenuOpen(false)}
                                     className={styles.linksMobile}
                                 >
-                                    <Link href="/descargables">Descargables</Link>
-                                </li>
-                                <li
-                                    onClick={() => setMenuOpen(false)}
-                                    className={styles.linksMobile}
-                                >
                                     <Link href="/patrimonio">Patrimonio de la Humanidad</Link>
                                 </li>
                                 <li
@@ -207,9 +202,15 @@ export default function HeaderPrincipal() {
                                 >
                                     <Link href="/contacto">Contacto</Link>
                                 </li>
+                                <li
+                                    onClick={() => setMenuOpen(false)}
+                                    className={styles.linksMobile}
+                                >
+                                    <Link href="/descargables">Descargables</Link>
+                                </li>
                             </ul>
 
-                            <div className="mt-[50px]">
+                            <div className="mt-[50px] flex">
                                 <Image
                                     src="/logo_vector_wh.svg"
                                     alt="Logo PTI Iglesias Patrimoniales de Chiloé"
@@ -218,6 +219,13 @@ export default function HeaderPrincipal() {
                                     priority
                                     className="w-[120px]"
                                 />
+                                <Link href="https://www.corfo.cl/" target={'_blank'}>
+                                    <Image
+                                        src={logoCorfo}
+                                        alt={'Logo Corfo'}
+                                        className="w-[100px] pt-[20px] ml-[10px]"
+                                    ></Image>
+                                </Link>
                             </div>
                         </div>
                     </div>

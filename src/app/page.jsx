@@ -22,7 +22,7 @@ export default function Inicio() {
             <section className="block h-[680px] md:hidden">
                 <CarouselMobile />
                 <h1
-                    className={`absolute z-20 top-[460px] w-[100vw] text-blanco text-center text-[48px] leading-[54px] font-bold px-[40px] ${dosis.className}`}
+                    className={`absolute z-20 top-[400px] w-[100vw] text-blanco text-center text-[40px] leading-[48px] font-[600] px-[40px] ${dosis.className}`}
                 >
                     RUTA DE LAS IGLESIAS DE CHILOÉ
                 </h1>
@@ -152,15 +152,6 @@ export default function Inicio() {
                 className="bg-cover bg-center bg-no-repeat md:h-screen hidden md:flex"
                 style={{ backgroundImage: "url('./home-07.webp')" }}
             ></section>
-
-            <section
-                className="bg-cover bg-center bg-no-repeat h-[680px] md:hidden flex justify-center items-center"
-                style={{ backgroundImage: "url('./home-mobile-02.webp')" }}
-            >
-                <h1 className="font-semibold text-blanco uppercase text-[38px] text-center mt-[360px] w-[260px]">
-                    Testigos del pasado
-                </h1>
-            </section>
 
             <section className="md:h-[900px] md:py-[100px] px-5 py-10 md:px-0" id="arquitectura">
                 <div className="container mx-auto flex md:flex-row flex-col">

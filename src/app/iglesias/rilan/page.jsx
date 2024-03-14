@@ -20,7 +20,7 @@ export default function IglesiaRilan() {
 
             <section className="px-5 py-10 md:py-[100px] md:px-0">
                 <div className="container mx-auto flex justify-center">
-                    <h1 className="font-semibold text-tinto md:text-[40px] text-[40px] text-center leading-[48px] uppercase">
+                    <h1 className="font-semibold text-tinto md:text-[40px] text-[30px] text-center leading-[38px] md:leading-[48px] uppercase">
                         Iglesia Santa María de Rilán
                     </h1>
                 </div>

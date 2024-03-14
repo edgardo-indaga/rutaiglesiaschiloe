@@ -21,7 +21,7 @@ export default function IglesiaChelin() {
 
             <section className="px-5 py-10 md:py-[100px] md:px-0">
                 <div className="container mx-auto flex justify-center">
-                    <h1 className="font-semibold text-tinto md:text-[40px] text-[40px] text-center leading-[48px] uppercase">
+                    <h1 className="font-semibold text-tinto md:text-[40px] text-[30px] text-center leading-[38px] md:leading-[48px] uppercase">
                         Iglesia Nuestra Señora del Rosario de Chelín
                     </h1>
                 </div>
@@ -58,7 +58,7 @@ export default function IglesiaChelin() {
                             height={143}
                             className="h-[60px] md:h-[90px] md:w-auto md:mb-[20px]"
                         />
-                        <p className="font-thin text-tinto text-[18px] md:text-center md:w-[300px] md:text-[26px] md:leading-[34px] md:ml-[30px] md:mr-[20px] ml-[30px]">
+                        <p className="font-thin text-tinto text-[18px] md:text-center md:w-[300px] md:text-[26px] md:leading-[34px] md:ml-[30px] md:mr-[20px] ml-[34px]">
                             Fiesta Patronal:{' '}
                             <b className="md:font-medium">30 de agosto (Jesús Nazareno)</b>
                         </p>
