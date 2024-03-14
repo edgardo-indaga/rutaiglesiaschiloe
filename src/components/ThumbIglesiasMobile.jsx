@@ -1,22 +1,28 @@
 import Image from 'next/image';
 import Link from 'next/link';
 
-import thumbCastro from '/public/iglesias/thumb-castro.webp';
-import thumbNercon from '/public/iglesias/thumb-nercon.webp';
-import thumbDalcahue from '/public/iglesias/thumb-dalcahue.webp';
-import thumbRilan from '/public/iglesias/thumb-rilan.webp';
-import thumbChelin from '/public/iglesias/thumb-chelin.webp';
-import thumbSanJuan from '/public/iglesias/thumb-sanjuan.webp';
-import thumbTenaun from '/public/iglesias/thumb-tenaun.webp';
-import thumbColo from '/public/iglesias/thumb-colo.webp';
-import thumbAchao from '/public/iglesias/thumb-achao.webp';
-import thumbQuinchao from '/public/iglesias/thumb-quinchao.webp';
-import thumbCaguach from '/public/iglesias/thumb-caguach.webp';
-import thumbChonchi from '/public/iglesias/thumb-chonchi.webp';
-import thumbVilupulli from '/public/iglesias/thumb-vilipulli.webp';
-import thumbIchuac from '/public/iglesias/thumb-ichuac.webp';
-import thumbAldachildo from '/public/iglesias/thumb-aldachildo.webp';
-import thumbDetif from '/public/iglesias/thumb-detif.webp';
+import iglesiaVilupulli from '/public/iglesias-vector/vilupulli-iglesia.png';
+import iglesiaChonchi from '/public/iglesias-vector/chonchi-iglesia.png';
+import iglesiaIchuac from '/public/iglesias-vector/ichuac-iglesia.png';
+import iglesiaRilan from '/public/iglesias-vector/rilan-iglesia.png';
+import iglesiaNercon from '/public/iglesias-vector/nercon-iglesia.png';
+import iglesiaCastro from '/public/iglesias-vector/castro-iglesia.png';
+import iglesiaDalcahue from '/public/iglesias-vector/dalcahue-iglesia.png';
+import iglesiaSanJuan from '/public/iglesias-vector/sanjuan-iglesia.png';
+import iglesiaColo from '/public/iglesias-vector/colo-iglesia.png';
+import iglesiaTenaun from '/public/iglesias-vector/tenaun-iglesia.png';
+import iglesiaAchao from '/public/iglesias-vector/achao-iglesia.png';
+import iglesiaCaguach from '/public/iglesias-vector/caguach-iglesia.png';
+import iglesiaQuinchao from '/public/iglesias-vector/quinchao-iglesia.png';
+import iglesiaChelin from '/public/iglesias-vector/chelin-iglesia.png';
+import iglesiaDetif from '/public/iglesias-vector/detif-iglesia.png';
+import iglesiaAldachildo from '/public/iglesias-vector/aldachildo-iglesia.png';
+
+const styles = {
+    tituloIglesia: 'text-tinto text-[18px] capitalize',
+    btnVer: 'bg-tinto text-blanco uppercase text-center font-barlow py-[2px] w-[60px] text-[14px] mt-[20px]',
+};
+
 export default function ThumbIglesiasMobile() {
     return (
         <section className="py-[50px] block md:hidden" id="listadoiglesias">
@@ -26,339 +32,268 @@ export default function ThumbIglesiasMobile() {
                 </h1>
             </div>
 
-            <div className="container mx-auto flex flex-wrap px-5 justify-between">
-                <div className="w-[155] relative h-[155px] mx-[4px] my-[10px] thumbiglesias">
-                    <div className="opacity-70">
+            <div className="container mx-auto px-5">
+                <div className="flex flex-row mb-[10px]">
+                    <div className="w-5/12 flex justify-center">
                         <Image
-                            src={thumbCastro}
-                            alt="castro"
-                            fill={true}
-                            quality={100}
-                            className="object-cover"
+                            src={iglesiaCastro}
+                            alt={'Iglesia de Castro'}
+                            className="h-[150px] w-auto"
                         />
                     </div>
-
-                    <div className="w-[155px] h-[155px] flex items-center justify-center bg-tinto z-20 thumbiglesias">
-                        <Link
-                            href="/iglesias/castro"
-                            className="text-blanco text-[18px] text-center z-20 uppercase px-2"
-                        >
-                            SAN FRANCISCO DE CASTRO
+                    <div className="w-7/12 flex flex-col h-[160px] justify-center pl-[5px]">
+                        <h1 className={styles.tituloIglesia}>Iglesia San Francisco de Castro</h1>
+                        <Link href="/iglesias/castro" className={styles.btnVer}>
+                            VER
                         </Link>
                     </div>
                 </div>
-
-                <div className="w-[155] relative h-[155px] mx-[4px] my-[10px] thumbiglesias">
-                    <div className="opacity-70">
+                <div className="flex flex-row mb-[10px]">
+                    <div className="w-5/12 flex justify-center">
                         <Image
-                            src={thumbNercon}
-                            alt="nercon"
-                            fill={true}
-                            quality={100}
-                            className="object-cover"
+                            src={iglesiaNercon}
+                            alt={'Iglesia de Nercón'}
+                            className="h-[150px] w-auto"
                         />
                     </div>
-
-                    <div className="w-[155px] h-[155px] flex items-center justify-center bg-tinto z-20 thumbiglesias">
-                        <Link
-                            href="/iglesias/nercon"
-                            className="text-blanco text-[18px] text-center z-20 uppercase px-2"
-                        >
-                            Nuestra Señora de Gracia de NERCÓN
+                    <div className="w-7/12 flex flex-col h-[160px] justify-center pl-[5px]">
+                        <h1 className={styles.tituloIglesia}>
+                            Iglesia Nuestra Señora de Gracia de Nercón
+                        </h1>
+                        <Link href="/iglesias/nercon" className={styles.btnVer}>
+                            VER
                         </Link>
                     </div>
                 </div>
-
-                <div className="w-[155] relative h-[155px] mx-[4px] my-[10px] thumbiglesias">
-                    <div className="opacity-70">
+                <div className="flex flex-row mb-[10px]">
+                    <div className="w-5/12 flex justify-center">
                         <Image
-                            src={thumbDalcahue}
-                            alt="dalcahue"
-                            fill={true}
-                            quality={100}
-                            className="object-cover"
+                            src={iglesiaDalcahue}
+                            alt={'Iglesia de Dalcahue'}
+                            className="h-[150px] w-auto"
                         />
                     </div>
-
-                    <div className="w-[155px] h-[155px] flex items-center justify-center bg-tinto z-20 thumbiglesias">
-                        <Link
-                            href="/iglesias/dalcahue"
-                            className="text-blanco text-[18px] text-center z-20 uppercase px-2"
-                        >
-                            Nuestra Señora de los Dolores de DALCAHUE
+                    <div className="w-7/12 flex flex-col h-[160px] justify-center pl-[5px]">
+                        <h1 className={styles.tituloIglesia}>
+                            Iglesia Nuestra Señora de los Dolores de Dalcahue
+                        </h1>
+                        <Link href="/iglesias/dalcahue" className={styles.btnVer}>
+                            VER
                         </Link>
                     </div>
                 </div>
-
-                <div className="w-[155] relative h-[155px] mx-[4px] my-[10px] thumbiglesias">
-                    <div className="opacity-70">
+                <div className="flex flex-row mb-[10px]">
+                    <div className="w-5/12 flex justify-center">
                         <Image
-                            src={thumbRilan}
-                            alt="rilan"
-                            fill={true}
-                            quality={100}
-                            className="object-cover"
+                            src={iglesiaRilan}
+                            alt={'Iglesia de Rilan'}
+                            className="h-[150px] w-auto"
                         />
                     </div>
-
-                    <div className="w-[155px] h-[155px] flex items-center justify-center bg-tinto z-20 thumbiglesias">
-                        <Link
-                            href="/iglesias/rilan"
-                            className="text-blanco text-[18px] text-center z-20 uppercase px-2"
-                        >
-                            Nuestra Señora de los Dolores de Rilán
+                    <div className="w-7/12 flex flex-col h-[160px] justify-center pl-[5px]">
+                        <h1 className={styles.tituloIglesia}>
+                            Iglesia Nuestra Señora de los Dolores de Rilán
+                        </h1>
+                        <Link href="/iglesias/rilan" className={styles.btnVer}>
+                            VER
                         </Link>
                     </div>
                 </div>
-
-                <div className="w-[155] relative h-[155px] mx-[4px] my-[10px] thumbiglesias">
-                    <div className="opacity-70">
+                <div className="flex flex-row mb-[10px]">
+                    <div className="w-5/12 flex justify-center">
                         <Image
-                            src={thumbChelin}
-                            alt="chelin"
-                            fill={true}
-                            quality={100}
-                            className="object-cover"
+                            src={iglesiaChelin}
+                            alt={'Iglesia de Chelin'}
+                            className="h-[150px] w-auto"
                         />
                     </div>
-
-                    <div className="w-[155px] h-[155px] flex items-center justify-center bg-tinto z-20 thumbiglesias">
-                        <Link
-                            href="/iglesias/chelin"
-                            className="text-blanco text-[18px] text-center z-20 uppercase px-2"
-                        >
-                            Nuestra Señora del Rosario de CHELÍN
+                    <div className="w-7/12 flex flex-col h-[160px] justify-center pl-[5px]">
+                        <h1 className={styles.tituloIglesia}>
+                            Iglesia Nuestra Señora del Rosario de Chelín
+                        </h1>
+                        <Link href="/iglesias/chelin" className={styles.btnVer}>
+                            VER
                         </Link>
                     </div>
                 </div>
-
-                <div className="w-[155] relative h-[155px] mx-[4px] my-[10px] thumbiglesias">
-                    <div className="opacity-70">
+                <div className="flex flex-row mb-[10px]">
+                    <div className="w-5/12 flex justify-center">
                         <Image
-                            src={thumbSanJuan}
-                            alt="San Juan"
-                            fill={true}
-                            quality={100}
-                            className="object-cover"
+                            src={iglesiaSanJuan}
+                            alt={'Iglesia de San Juan'}
+                            className="h-[150px] w-auto"
                         />
                     </div>
-
-                    <div className="w-[155px] h-[155px] flex items-center justify-center bg-tinto z-20 thumbiglesias">
-                        <Link
-                            href="/iglesias/sanjuan"
-                            className="text-blanco text-[18px] text-center z-20 uppercase px-2"
-                        >
-                            Iglesia San Juan Bautista de SAN JUAN
+                    <div className="w-7/12 flex flex-col h-[160px] justify-center pl-[5px]">
+                        <h1 className={styles.tituloIglesia}>
+                            Iglesia San Juan Bautista de San Juan
+                        </h1>
+                        <Link href="/iglesias/sanjuan" className={styles.btnVer}>
+                            VER
                         </Link>
                     </div>
                 </div>
-
-                <div className="w-[155] relative h-[155px] mx-[4px] my-[10px] thumbiglesias">
-                    <div className="opacity-70">
+                <div className="flex flex-row mb-[10px]">
+                    <div className="w-5/12 flex justify-center">
                         <Image
-                            src={thumbTenaun}
-                            alt="Tenaun"
-                            fill={true}
-                            quality={100}
-                            className="object-cover"
+                            src={iglesiaTenaun}
+                            alt={'Iglesia de Tenaún'}
+                            className="h-[150px] w-auto"
                         />
                     </div>
-
-                    <div className="w-[155px] h-[155px] flex items-center justify-center bg-tinto z-20 thumbiglesias">
-                        <Link
-                            href="/iglesias/tenaun"
-                            className="text-blanco text-[18px] text-center z-20 uppercase px-2"
-                        >
-                            Nuestra Señora del Patrocinio de TENAÚN
+                    <div className="w-7/12 flex flex-col h-[160px] justify-center pl-[5px]">
+                        <h1 className={styles.tituloIglesia}>
+                            Iglesia Nuestra Señora del Patrocinio de Tenaún
+                        </h1>
+                        <Link href="/iglesias/tenaun" className={styles.btnVer}>
+                            VER
                         </Link>
                     </div>
                 </div>
-
-                <div className="w-[155] relative h-[155px] mx-[4px] my-[10px] thumbiglesias">
-                    <div className="opacity-70">
+                <div className="flex flex-row mb-[10px]">
+                    <div className="w-5/12 flex justify-center">
                         <Image
-                            src={thumbColo}
-                            alt="Colo"
-                            fill={true}
-                            quality={100}
-                            className="object-cover"
+                            src={iglesiaColo}
+                            alt={'Iglesia de Colo'}
+                            className="h-[150px] w-auto"
                         />
                     </div>
-
-                    <div className="w-[155px] h-[155px] flex items-center justify-center bg-tinto z-20 thumbiglesias">
-                        <Link
-                            href="/iglesias/colo"
-                            className="text-blanco text-[18px] text-center z-20 uppercase px-2"
-                        >
-                            Iglesia San Antonio de COLO
+                    <div className="w-7/12 flex flex-col h-[160px] justify-center pl-[5px]">
+                        <h1 className={styles.tituloIglesia}>Iglesia San Antonio de Colo</h1>
+                        <Link href="/iglesias/colo" className={styles.btnVer}>
+                            VER
                         </Link>
                     </div>
                 </div>
-
-                <div className="w-[155] relative h-[155px] mx-[4px] my-[10px] thumbiglesias">
-                    <div className="opacity-70">
+                <div className="flex flex-row mb-[10px]">
+                    <div className="w-5/12 flex justify-center">
                         <Image
-                            src={thumbAchao}
-                            alt="Achao"
-                            fill={true}
-                            quality={100}
-                            className="object-cover"
+                            src={iglesiaAchao}
+                            alt={'Iglesia de Achao'}
+                            className="h-[150px] w-auto"
                         />
                     </div>
-
-                    <div className="w-[155px] h-[155px] flex items-center justify-center bg-tinto z-20 thumbiglesias">
-                        <Link
-                            href="/iglesias/achao"
-                            className="text-blanco text-[18px] text-center z-20 uppercase px-2"
-                        >
-                            Iglesia Santa María de Loreto de ACHAO
+                    <div className="w-7/12 flex flex-col h-[160px] justify-center pl-[5px]">
+                        <h1 className={styles.tituloIglesia}>
+                            Iglesia Santa María de Loreto de Achao
+                        </h1>
+                        <Link href="/iglesias/achao" className={styles.btnVer}>
+                            VER
                         </Link>
                     </div>
                 </div>
-
-                <div className="w-[155] relative h-[155px] mx-[4px] my-[10px] thumbiglesias">
-                    <div className="opacity-70">
+                <div className="flex flex-row mb-[10px]">
+                    <div className="w-5/12 flex justify-center">
                         <Image
-                            src={thumbQuinchao}
-                            alt="Quinchao"
-                            fill={true}
-                            quality={100}
-                            className="object-cover"
+                            src={iglesiaQuinchao}
+                            alt={'Iglesia de Quinchao'}
+                            className="h-[150px] w-auto"
                         />
                     </div>
-
-                    <div className="w-[155px] h-[155px] flex items-center justify-center bg-tinto z-20 thumbiglesias">
-                        <Link
-                            href="/iglesias/quinchao"
-                            className="text-blanco text-[18px] text-center z-20 uppercase px-2"
-                        >
-                            Iglesia Nuestra Señora de la Gracia de QUINCHAO
+                    <div className="w-7/12 flex flex-col h-[160px] justify-center pl-[5px]">
+                        <h1 className={styles.tituloIglesia}>
+                            Iglesia Nuestra Señora de la Gracia de Quinchao
+                        </h1>
+                        <Link href="/iglesias/quinchao" className={styles.btnVer}>
+                            VER
                         </Link>
                     </div>
                 </div>
-
-                <div className="w-[155] relative h-[155px] mx-[4px] my-[10px] thumbiglesias">
-                    <div className="opacity-70">
+                <div className="flex flex-row mb-[10px]">
+                    <div className="w-5/12 flex justify-center">
                         <Image
-                            src={thumbCaguach}
-                            alt="Caguach"
-                            fill={true}
-                            quality={100}
-                            className="object-cover"
+                            src={iglesiaCaguach}
+                            alt={'Iglesia Jesús Nazareno de CAGUACH'}
+                            className="h-[150px] w-auto"
                         />
                     </div>
-
-                    <div className="w-[155px] h-[155px] flex items-center justify-center bg-tinto z-20 thumbiglesias">
-                        <Link
-                            href="/iglesias/caguach"
-                            className="text-blanco text-[18px] text-center z-20 uppercase px-2"
-                        >
-                            Iglesia Jesús Nazareno de CAGUACH
+                    <div className="w-7/12 flex flex-col h-[160px] justify-center pl-[5px]">
+                        <h1 className={styles.tituloIglesia}>Iglesia Jesús Nazareno de Caguach</h1>
+                        <Link href="/iglesias/caguach" className={styles.btnVer}>
+                            VER
                         </Link>
                     </div>
                 </div>
-
-                <div className="w-[155] relative h-[155px] mx-[4px] my-[10px] thumbiglesias">
-                    <div className="opacity-70">
+                <div className="flex flex-row mb-[10px]">
+                    <div className="w-5/12 flex justify-center">
                         <Image
-                            src={thumbChonchi}
-                            alt="Chonchi"
-                            fill={true}
-                            quality={100}
-                            className="object-cover"
+                            src={iglesiaChonchi}
+                            alt={'Iglesia Nuestra Señora del Rosario de CHONCHI'}
+                            className="h-[150px] w-auto"
                         />
                     </div>
-
-                    <div className="w-[155px] h-[155px] flex items-center justify-center bg-tinto z-20 thumbiglesias">
-                        <Link
-                            href="/iglesias/chonchi"
-                            className="text-blanco text-[18px] text-center z-20 uppercase px-2"
-                        >
-                            Nuestra Señora del Rosario de CHONCHI
+                    <div className="w-7/12 flex flex-col h-[160px] justify-center pl-[5px]">
+                        <h1 className={styles.tituloIglesia}>
+                            Iglesia Nuestra Señora del Rosario de Chonchi
+                        </h1>
+                        <Link href="/iglesias/chonchi" className={styles.btnVer}>
+                            VER
                         </Link>
                     </div>
                 </div>
-
-                <div className="w-[155] relative h-[155px] mx-[4px] my-[10px] thumbiglesias">
-                    <div className="opacity-70">
+                <div className="flex flex-row mb-[10px]">
+                    <div className="w-5/12 flex justify-center">
                         <Image
-                            src={thumbVilupulli}
-                            alt="Vilupulli"
-                            fill={true}
-                            quality={100}
-                            className="object-cover"
+                            src={iglesiaChonchi}
+                            alt={'Iglesia San Antonio de Padua de VILUPULLI'}
+                            className="h-[150px] w-auto"
                         />
                     </div>
-
-                    <div className="w-[155px] h-[155px] flex items-center justify-center bg-tinto z-20 thumbiglesias">
-                        <Link
-                            href="/iglesias/vilupulli"
-                            className="text-blanco text-[18px] text-center z-20 uppercase px-2"
-                        >
-                            Iglesia San Antonio de Padua de VILUPULLI
+                    <div className="w-7/12 flex flex-col h-[160px] justify-center pl-[5px]">
+                        <h1 className={styles.tituloIglesia}>
+                            Iglesia San Antonio de Padua de Vilupulli
+                        </h1>
+                        <Link href="/iglesias/vilupulli" className={styles.btnVer}>
+                            VER
                         </Link>
                     </div>
                 </div>
-
-                <div className="w-[155] relative h-[155px] mx-[4px] my-[10px] thumbiglesias">
-                    <div className="opacity-70">
+                <div className="flex flex-row mb-[10px]">
+                    <div className="w-5/12 flex justify-center">
                         <Image
-                            src={thumbIchuac}
-                            alt="Vilupulli"
-                            fill={true}
-                            quality={100}
-                            className="object-cover"
+                            src={iglesiaIchuac}
+                            alt={'IIglesia Natividad de María de ICHUAC'}
+                            className="h-[150px] w-auto"
                         />
                     </div>
-
-                    <div className="w-[155px] h-[155px] flex items-center justify-center bg-tinto z-20 thumbiglesias">
-                        <Link
-                            href="/iglesias/ichuac"
-                            className="text-blanco text-[18px] text-center z-20 uppercase px-2"
-                        >
-                            Iglesia Natividad de María de ICHUAC
+                    <div className="w-7/12 flex flex-col h-[160px] justify-center pl-[5px]">
+                        <h1 className={styles.tituloIglesia}>
+                            Iglesia Natividad de María de Ichuac
+                        </h1>
+                        <Link href="/iglesias/ichuac" className={styles.btnVer}>
+                            VER
                         </Link>
                     </div>
                 </div>
-
-                <div className="w-[155] relative h-[155px] mx-[4px] my-[10px] thumbiglesias">
-                    <div className="opacity-70">
+                <div className="flex flex-row mb-[10px]">
+                    <div className="w-5/12 flex justify-center">
                         <Image
-                            src={thumbAldachildo}
-                            alt="Aldachildo"
-                            fill={true}
-                            quality={100}
-                            className="object-cover"
+                            src={iglesiaAldachildo}
+                            alt={'IIglesia Jesús Nazareno de ALDACHILDO'}
+                            className="h-[150px] w-auto"
                         />
                     </div>
-
-                    <div className="w-[155px] h-[155px] flex items-center justify-center bg-tinto z-20 thumbiglesias">
-                        <Link
-                            href="/iglesias/aldachildo"
-                            className="text-blanco text-[18px] text-center z-20 uppercase px-2"
-                        >
-                            Iglesia Jesús Nazareno de ALDACHILDO
+                    <div className="w-7/12 flex flex-col h-[160px] justify-center pl-[5px]">
+                        <h1 className={styles.tituloIglesia}>
+                            Iglesia Jesús Nazareno de Aldachildo
+                        </h1>
+                        <Link href="/iglesias/aldachildo" className={styles.btnVer}>
+                            VER
                         </Link>
                     </div>
                 </div>
-
-                <div className="w-[155] relative h-[155px] mx-[4px] my-[10px] thumbiglesias">
-                    <div className="opacity-70">
+                <div className="flex flex-row mb-[10px]">
+                    <div className="w-5/12 flex justify-center">
                         <Image
-                            src={thumbDetif}
-                            alt="Aldachildo"
-                            fill={true}
-                            quality={100}
-                            className="object-cover"
+                            src={iglesiaDetif}
+                            alt={'Iglesia Santiago Apóstol de DETIF'}
+                            className="h-[150px] w-auto"
                         />
                     </div>
-
-                    <div className="w-[155px] h-[155px] flex items-center justify-center bg-tinto z-20 thumbiglesias">
-                        <Link
-                            href="/iglesias/detif"
-                            className="text-blanco text-[18px] text-center z-20 uppercase px-2"
-                        >
-                            Iglesia Santiago Apóstol de DETIF
+                    <div className="w-7/12 flex flex-col h-[160px] justify-center pl-[5px]">
+                        <h1 className={styles.tituloIglesia}>Iglesia Santiago Apóstol de Detif</h1>
+                        <Link href="/iglesias/detif" className={styles.btnVer}>
+                            VER
                         </Link>
                     </div>
                 </div>
