@@ -29,7 +29,7 @@ export default function LasIglesias() {
                     quality={100} // Maintain image quality
                     className="object-cover object-top md:object-center"
                 />
-                <div className="container mx-auto flex h-[680px] items-center justify-center px-[50px]">
+                <div className="container mx-auto flex h-[680px] md:h-screen items-center justify-center px-[50px]">
                     <h1
                         className={`z-10 font-[600] text-blanco md:text-[40px] text-[34px] text-center leading-[48px] ${dosis.className}`}
                     >
