@@ -101,6 +101,7 @@ export default function LaArquitectura() {
                     </p>
                 </div>
             </section>
+
             <section className="md:py-[100px] md:mb-[100px] md:h-auto px-5 py-10 md:px-0">
                 <div className="container mx-auto">
                     <ArquitecturaGallery />

@@ -39,3 +39,10 @@ body{
     transition: transform .2s; /* Suaviza la transición */
     opacity: 0.8;
 }
+@media (max-width: 360px){
+    .thumbiglesias,
+    .thumbcompiglesias{
+        width: 150px;
+        height: 150px;
+    }
+}
