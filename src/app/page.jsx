@@ -242,7 +242,7 @@ export default function Inicio() {
             </section>
 
             <section
-                className="bg-cover bg-center bg-no-repeat md:h-screen"
+                className="bg-cover bg-center bg-no-repeat md:h-screen hidden xl:block"
                 style={{ backgroundImage: "url('./home-06.webp')" }}
             >
                 <div className="container mx-auto flex items-center justify-end md:h-screen h-[500px] px-5 md:px-0">
@@ -268,14 +268,29 @@ export default function Inicio() {
                                 className="transition-all ease-cubic-bezier hover:scale-[1.1] md:mt-[60px] md:w-[180px] md:flex hidden"
                             />
                         </Link>
-                        <div className="flex justify-center md:justify-start xl:hidden">
-                            <Link
-                                href="/uploads/protocolo.pdf"
-                                className="font-light bg-morado text-blanco text-[16px] leading-[16px] my-[30px] py-[12px] px-[20px]"
-                            >
-                                Conoce más
-                            </Link>
-                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section
+                className="md:hidden bg-cover bg-center bg-no-repeat px-5"
+                style={{ backgroundImage: "url('./home-08.webp')" }}
+            >
+                <div className="container mx-auto flex flex-col justify-center h-[720px] pl-[80px]">
+                    <h1 className="font-semibold text-blanco text-[24px] leading-[32px] mb-[30px]">
+                        PROTOCOLO DE VISITA
+                    </h1>
+                    <p className="font-thin text-blanco text-[20px] mb-[30px] ">
+                        Las iglesias de Chiloé no son museos, sino lugares de culto donde se debe
+                        mantener siempre una actitud de respeto.
+                    </p>
+                    <div className="flex justify-start xl:hidden">
+                        <Link
+                            href="/uploads/protocolo.pdf"
+                            className="font-light bg-morado text-blanco text-[16px] leading-[16px] py-[12px] px-[20px]"
+                        >
+                            Conoce más
+                        </Link>
                     </div>
                 </div>
             </section>
