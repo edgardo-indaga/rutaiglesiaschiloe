@@ -6,28 +6,22 @@ import thumbItem01 from '/public/descargables/thumb-item01.webp';
 export default function ThumbDescargablesMobile() {
     return (
         <section className="py-10 px-5 xl:hidden">
-            <div className="container mx-auto flex flex-wrap">
-                <div className="w-[165px] relative h-[165px] mx-[4px] my-[4px]">
-                    <div className="opacity-70">
+            <div className="container mx-auto flex flex-col items-center justify-center">
+                <Link href="/uploads/protocolo.pdf" className="my-5" target={'_blank'}>
+                    <div className="w-[320px] h-[366]">
+                        <h2 className="text-tinto text-[18px] font-[600] absolute mt-[20px] ml-[20px]">
+                            PROTOCOLO
+                        </h2>
                         <Image
                             src={thumbItem01}
-                            alt="Item 01"
-                            fill={true}
+                            alt="Protocolo"
                             quality={100}
-                            priority={true}
-                            className="object-cover"
+                            style={{
+                                objectFit: 'cover',
+                            }}
                         />
                     </div>
-                    <div className="w-[165px] h-[165px] flex items-center justify-center bg-tinto z-20">
-                        <Link
-                            href="/uploads/protocolo.pdf"
-                            target={'_blank'}
-                            className="text-blanco text-[18px] text-center z-20"
-                        >
-                            PROTOCOLO
-                        </Link>
-                    </div>
-                </div>
+                </Link>
             </div>
         </section>
     );
