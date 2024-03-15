@@ -8,81 +8,68 @@ import thumbcomunidad from '/public/iglesias/iglesia-05.webp';
 export default function ThumbCompIglesiasMobile() {
     return (
         <section className="pt-[50px] block md:hidden">
-            <div className="container mx-auto flex flex-wrap px-5 justify-between">
-                <div className="w-[155] relative h-[155px] mx-[4px] my-[10px] thumbcompiglesias">
-                    <div className="opacity-70">
+            <div className="container mx-auto flex flex-col items-center justify-center">
+                <Link href="/patrimonio" className="my-5">
+                    <div className="w-[320px] h-[366]">
+                        <h2 className="text-tinto text-[18px] font-[600] absolute mt-[20px] ml-[20px]">
+                            PATRIMONIO DE <br />
+                            LA HUMANIDAD
+                        </h2>
                         <Image
                             src={thumbpatrimonio}
-                            alt="Patrimonio"
-                            fill={true}
+                            alt="patrimonio"
                             quality={100}
-                            className="object-cover"
+                            style={{
+                                objectFit: 'cover',
+                            }}
                         />
                     </div>
-
-                    <div className="w-[155px] h-[155px] flex items-center justify-center bg-tinto z-20 thumbcompiglesias">
-                        <Link
-                            href="/patrimonio"
-                            className="text-blanco text-[18px] text-center z-20"
-                        >
-                            PATRIMONIO DE LA HUMANIDAD
-                        </Link>
-                    </div>
-                </div>
-
-                <div className="w-[155] relative h-[155px] mx-[4px] my-[10px] thumbcompiglesias">
-                    <div className="opacity-70">
+                </Link>
+                <Link href="/historia" className="my-5">
+                    <div className="w-[320px] h-[366]">
+                        <h2 className="text-tinto text-[18px] font-[600] absolute mt-[20px] ml-[20px]">
+                            LA HISTORIA
+                        </h2>
                         <Image
                             src={thumbhistoria}
-                            alt="Historia"
-                            fill={true}
+                            alt="LA HISTORIA"
                             quality={100}
-                            className="object-cover"
+                            style={{
+                                objectFit: 'cover',
+                            }}
                         />
                     </div>
-
-                    <div className="w-[155px] h-[155px] flex items-center justify-center bg-tinto z-20 thumbcompiglesias">
-                        <Link href="/historia" className="text-blanco text-[18px] text-center z-20">
-                            LA HISTORIA
-                        </Link>
-                    </div>
-                </div>
-
-                <div className="w-[155] relative h-[155px] mx-[4px] my-[10px] thumbcompiglesias">
-                    <div className="opacity-70">
+                </Link>
+                <Link href="/arquitectura" className="my-5">
+                    <div className="w-[320px] h-[366]">
+                        <h2 className="text-tinto text-[18px] font-[600] absolute mt-[20px] ml-[20px]">
+                            LA ARQUITECTURA
+                        </h2>
                         <Image
                             src={thumbparquitectura}
-                            alt="Patrimonio"
-                            fill={true}
+                            alt="LA ARQUITECTURA"
                             quality={100}
-                            className="object-cover"
+                            style={{
+                                objectFit: 'cover',
+                            }}
                         />
                     </div>
-
-                    <div className="w-[155px] h-[155px] flex items-center justify-center bg-tinto z-20 thumbcompiglesias">
-                        <Link href="/historia" className="text-blanco text-[18px] text-center z-20">
-                            LA ARQUITECTURA
-                        </Link>
-                    </div>
-                </div>
-
-                <div className="w-[155] relative h-[155px] mx-[4px] my-[10px] thumbcompiglesias">
-                    <div className="opacity-70">
+                </Link>
+                <Link href="/comunidades" className="my-5">
+                    <div className="w-[320px] h-[366]">
+                        <h2 className="text-tinto text-[18px] font-[600] absolute mt-[20px] ml-[20px]">
+                            LAS COMUNIDADES
+                        </h2>
                         <Image
                             src={thumbcomunidad}
-                            alt="Patrimonio"
-                            fill={true}
+                            alt="LAS COMUNIDADES"
                             quality={100}
-                            className="object-cover"
+                            style={{
+                                objectFit: 'cover',
+                            }}
                         />
                     </div>
-
-                    <div className="w-[155px] h-[155px] flex items-center justify-center bg-tinto z-20 thumbcompiglesias">
-                        <Link href="/historia" className="text-blanco text-[18px] text-center z-20">
-                            LAS COMUNIDADES
-                        </Link>
-                    </div>
-                </div>
+                </Link>
             </div>
         </section>
     );
