@@ -56,3 +56,6 @@ body{
         font-size: 27px;
     }
 }
+.mapboxgl-ctrl-attrib-inner{
+    display: none;
+}

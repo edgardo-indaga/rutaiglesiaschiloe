@@ -1,0 +1,28 @@
+'use client';
+
+import React, { useState, useEffect } from 'react';
+import mapboxgl from 'mapbox-gl';
+
+const Mapa = () => {
+    const [map, setMap] = useState(null);
+
+    useEffect(() => {
+        const map = new mapboxgl.Map({
+            container: 'mapa',
+            style: 'mapbox://styles/mapbox/streets-v11',
+            center: [-73.76340006601838, -42.48193679360982],
+            zoom: 17,
+            accessToken: process.env.NEXT_PUBLIC_MAPBOX_TOKEN,
+        });
+
+        return () => map.remove();
+    }, []);
+
+    return (
+        <div className="container mx-auto">
+            <div id="mapa" className="w-full h-[560px]" />
+        </div>
+    );
+};
+
+export default Mapa;

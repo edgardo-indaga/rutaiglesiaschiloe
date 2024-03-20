@@ -1,6 +1,7 @@
 import Image from 'next/image';
 import Link from 'next/link';
 import CastroGallery from '@/components/CastroGaleria';
+import MapaCastro from '@/components/MapaCastro';
 export const metadata = {
     title: 'PTI | Iglesia San Francisco de Castro',
 };
@@ -105,6 +106,9 @@ export default function IglesiaCastro() {
                         </b>
                     </p>
                 </div>
+
+                <MapaCastro />
+
                 <div className="container mx-auto flex justify-center">
                     <Link href="#" alt="Más Atractivos">
                         <Image
