@@ -19,12 +19,12 @@ export default function FooterPrincipal() {
 
                     <Link href="https://www.corfo.cl/" target={'_blank'}>
                         <Image
-                            src="/logo-corfo.svg"
+                            src="/logo-footer-07.svg"
                             alt="Logo Corfo"
-                            width={183}
+                            width={120}
                             height={60}
                             priority
-                            className="m-2 mx-4 w-[100px] md:w-[100px] md:ml-4"
+                            className="m-2 mx-4 w-[100px] md:w-[110px] md:ml-4"
                         />
                     </Link>
 
