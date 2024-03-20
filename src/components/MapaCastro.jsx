@@ -34,7 +34,7 @@ const Map = () => {
     }, []);
 
     return (
-        <div className="container mx-auto my-[50px] md:px-20">
+        <div className="container mx-auto mt-[30px] md:mt-[60px] md:px-20">
             <div ref={mapContainer} className="h-[350px] md:h-[400px]" />
         </div>
     );
