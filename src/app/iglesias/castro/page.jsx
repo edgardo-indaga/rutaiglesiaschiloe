@@ -1,11 +1,13 @@
 import Image from 'next/image';
 import Link from 'next/link';
 import CastroGallery from '@/components/CastroGaleria';
-import MapaCastro from '@/components/MapaCastro';
+import UbicacionIglesia from '@/components/UbicacionIglesia';
 export const metadata = {
     title: 'PTI | Iglesia San Francisco de Castro',
 };
 export default function IglesiaCastro() {
+    const lng = -73.7638; // longitud del centro del mapa
+    const lat = -42.4816; // latitud del centro del mapa
     return (
         <main>
             <section className="relative h-[680px] md:h-screen">
@@ -107,7 +109,7 @@ export default function IglesiaCastro() {
                     </p>
                 </div>
 
-                <MapaCastro />
+                <UbicacionIglesia lng={lng} lat={lat} />
 
                 <div className="container mx-auto flex justify-center">
                     <Link href="#" alt="Más Atractivos">
