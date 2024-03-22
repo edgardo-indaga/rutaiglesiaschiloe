@@ -5,7 +5,7 @@ import { useState } from 'react';
 
 const style = {
     imgResposive:
-        'w-[180px] sm:w-[200px] md:h-[200px] xl:w-[250px] xl:h-[250px] 2xl:w-[300px] 2xl:h-[300px]',
+        'w-[180px] sm:w-[200px] md:h-[200px] xl:w-[250px] xl:h-[250px] 2xl:w-[300px] 2xl:h-[300px] object-cover',
 };
 
 export default function ThumbCompIglesias() {
@@ -17,7 +17,7 @@ export default function ThumbCompIglesias() {
     return (
         <section className="py-[40px] px-[5px] md:pt-[100px] md:px-0 hidden md:block">
             <div className="container mx-auto flex flex-wrap">
-                <div className="flex w-6/12 items-center justify-center align-middle mb-[15px] md:mb-[25px] md:w-3/12">
+                <div className="flex w-6/12 items-center justify-center align-middle mb-[15px] md:mb-[25px] md:w-3/12 ">
                     <div
                         onMouseEnter={() => setIsHovered(true)}
                         onMouseLeave={() => setIsHovered(false)}
