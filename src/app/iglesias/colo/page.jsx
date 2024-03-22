@@ -1,12 +1,15 @@
 import Image from 'next/image';
 import Link from 'next/link';
 import ColoGallery from '@/components/ColoGaleria';
+import UbicacionIglesia from '@/components/UbicacionIglesia';
 
 export const metadata = {
     title: 'PTI | Iglesia San Antonio de Colo ',
 };
 
 export default function IglesiaColo() {
+    const lng = -73.401887; // longitud del centro del mapa
+    const lat = -42.2588991; // latitud del centro del mapa
     return (
         <main>
             <section className="relative h-[680px] md:h-screen">
@@ -96,6 +99,9 @@ export default function IglesiaColo() {
                         fueron esparcidas en el lugar.
                     </p>
                 </div>
+
+                <UbicacionIglesia lng={lng} lat={lat} />
+
                 <div className="container mx-auto flex justify-center">
                     <Link href="#" alt="Más Atractivos">
                         <Image

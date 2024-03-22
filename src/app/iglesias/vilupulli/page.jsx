@@ -1,11 +1,14 @@
 import Image from 'next/image';
 import Link from 'next/link';
 import VilupulliGallery from '@/components/VilupulliGaleria';
+import UbicacionIglesia from '@/components/UbicacionIglesia';
 export const metadata = {
     title: 'PTI | Iglesia San Antonio de Padua de Vilupulli',
 };
 
 export default function IglesiaVilupulli() {
+    const lng = -73.788; // longitud del centro del mapa
+    const lat = -42.6053607; // latitud del centro del mapa
     return (
         <main>
             <section className="relative h-[680px] md:h-screen">
@@ -101,6 +104,9 @@ export default function IglesiaVilupulli() {
                         en 1843.
                     </p>
                 </div>
+
+                <UbicacionIglesia lng={lng} lat={lat} />
+
                 <div className="container mx-auto flex justify-center">
                     <Link href="#" alt="Más Atractivos">
                         <Image

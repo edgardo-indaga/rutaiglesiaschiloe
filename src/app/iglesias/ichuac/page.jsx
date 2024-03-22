@@ -1,11 +1,14 @@
 import Image from 'next/image';
 import Link from 'next/link';
 import IchuacGallery from '@/components/IchuacGaleria';
+import UbicacionIglesia from '@/components/UbicacionIglesia';
 export const metadata = {
     title: 'PTI | Iglesia Natividad de María de Ichuac',
 };
 
 export default function IglesiaIchuac() {
+    const lng = -73.71975; // longitud del centro del mapa
+    const lat = -42.6160708; // latitud del centro del mapa
     return (
         <main>
             <section className="relative h-[680px] md:h-screen">
@@ -96,6 +99,9 @@ export default function IglesiaIchuac() {
                         legado histórico y religioso de la iglesia de Ichuac.
                     </p>
                 </div>
+
+                <UbicacionIglesia lng={lng} lat={lat} />
+
                 <div className="container mx-auto flex justify-center">
                     <Link href="#" alt="Más Atractivos">
                         <Image

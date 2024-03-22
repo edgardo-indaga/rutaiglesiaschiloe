@@ -1,12 +1,16 @@
 import Image from 'next/image';
 import Link from 'next/link';
 import AldachildoGallery from '@/components/AldachildoGaleria';
+import UbicacionIglesia from '@/components/UbicacionIglesia';
 
 export const metadata = {
     title: 'PTI | Iglesia Jesús Nazareno de Aldachildo',
 };
 
 export default function IglesiaAldachildo() {
+    const lng = -73.6119; // longitud del centro del mapa
+    const lat = -42.583854; // latitud del centro del mapa
+
     return (
         <main>
             <section className="relative h-[680px] md:h-screen">
@@ -97,6 +101,9 @@ export default function IglesiaAldachildo() {
                         mujeres.
                     </p>
                 </div>
+
+                <UbicacionIglesia lng={lng} lat={lat} />
+
                 <div className="container mx-auto flex justify-center">
                     <Link href="#" alt="Volver a paginas Iglesias">
                         <Image

@@ -1,11 +1,14 @@
 import Image from 'next/image';
 import Link from 'next/link';
 import QuinchaoGallery from '@/components/QuinchaoGaleria';
+import UbicacionIglesia from '@/components/UbicacionIglesia';
 export const metadata = {
     title: 'PTI | Iglesia Nuestra Señora de la Gracia de Quinchao',
 };
 
-export default function IglesiaColo() {
+export default function IglesiaQuinchao() {
+    const lng = -73.42722; // longitud del centro del mapa
+    const lat = -42.5350881; // latitud del centro del mapa
     return (
         <main>
             <section className="relative h-[680px] md:h-screen">
@@ -87,6 +90,9 @@ export default function IglesiaColo() {
                         lugar de ensayo.
                     </p>
                 </div>
+
+                <UbicacionIglesia lng={lng} lat={lat} />
+
                 <div className="container mx-auto flex justify-center">
                     <Link href="#" alt="Más Atractivos">
                         <Image

@@ -1,11 +1,14 @@
 import Image from 'next/image';
 import Link from 'next/link';
 import ChonchiGallery from '@/components/ChonchiGaleria';
+import UbicacionIglesia from '@/components/UbicacionIglesia';
 export const metadata = {
     title: 'PTI | Iglesia Nuestra Señora del Rosario de Chonchi',
 };
 
 export default function IglesiaChonchi() {
+    const lng = -73.7737; // longitud del centro del mapa
+    const lat = -42.62412; // latitud del centro del mapa
     return (
         <main>
             <section className="relative h-[680px] md:h-screen">
@@ -103,6 +106,9 @@ export default function IglesiaChonchi() {
                         siguiente.
                     </p>
                 </div>
+
+                <UbicacionIglesia lng={lng} lat={lat} />
+
                 <div className="container mx-auto flex justify-center">
                     <Link href="#" alt="Más Atractivos">
                         <Image

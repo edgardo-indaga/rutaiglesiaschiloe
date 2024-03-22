@@ -1,11 +1,15 @@
 import Image from 'next/image';
 import Link from 'next/link';
 import NerconGallery from '@/components/NerconGaleria';
+import UbicacionIglesia from '@/components/UbicacionIglesia';
 
 export const metadata = {
     title: 'PTI | Iglesia Nuestra Señora de Gracia de Nercón',
 };
 export default function IglesiaNercon() {
+    const lng = -73.7854; // longitud del centro del mapa
+    const lat = -42.5011614; // latitud del centro del mapa
+
     return (
         <main>
             <section className="relative h-[680px] md:h-screen">
@@ -104,6 +108,9 @@ export default function IglesiaNercon() {
                         iglesia cumplía el rol de faro.
                     </p>
                 </div>
+
+                <UbicacionIglesia lng={lng} lat={lat} />
+
                 <div className="container mx-auto flex justify-center">
                     <Link href="#" alt="Más Atractivos">
                         <Image

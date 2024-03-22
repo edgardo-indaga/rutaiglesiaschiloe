@@ -1,11 +1,14 @@
 import Image from 'next/image';
 import Link from 'next/link';
 import SanJuanGallery from '@/components/SanJuanGaleria';
+import UbicacionIglesia from '@/components/UbicacionIglesia';
 export const metadata = {
     title: 'PTI | Iglesia San Juan Bautista de San Juan ',
 };
 
 export default function IglesiaSanJuan() {
+    const lng = -73.50435; // longitud del centro del mapa
+    const lat = -42.3351; // latitud del centro del mapa
     return (
         <main>
             <section className="relative h-[680px] md:h-screen">
@@ -96,6 +99,9 @@ export default function IglesiaSanJuan() {
                         cantidad de santos en todo el archipiélago.
                     </p>
                 </div>
+
+                <UbicacionIglesia lng={lng} lat={lat} />
+
                 <div className="container mx-auto flex justify-center">
                     <Link href="#" alt="Más Atractivos">
                         <Image

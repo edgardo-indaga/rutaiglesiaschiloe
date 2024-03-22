@@ -1,11 +1,14 @@
 import Image from 'next/image';
 import Link from 'next/link';
 import AchaoGallery from '@/components/AchaoGaleria';
+import UbicacionIglesia from '@/components/UbicacionIglesia';
 export const metadata = {
     title: 'PTI | Iglesia Santa María de Loreto de Achao',
 };
 
 export default function IglesiaAchao() {
+    const lng = -73.4881; // longitud del centro del mapa
+    const lat = -42.4714885; // latitud del centro del mapa
     return (
         <main>
             <section className="relative h-[680px] md:h-screen">
@@ -109,6 +112,8 @@ export default function IglesiaAchao() {
                         Achao.
                     </p>
                 </div>
+
+                <UbicacionIglesia lng={lng} lat={lat} />
 
                 <div className="container mx-auto flex justify-center">
                     <Link href="#" alt="Más Atractivos">

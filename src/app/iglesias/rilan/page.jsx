@@ -1,10 +1,13 @@
 import Image from 'next/image';
 import Link from 'next/link';
 import RilanGallery from '@/components/RilanGaleria';
+import UbicacionIglesia from '@/components/UbicacionIglesia';
 export const metadata = {
     title: 'PTI | Iglesia Santa María de Rilan',
 };
 export default function IglesiaRilan() {
+    const lng = -73.6283356; // longitud del centro del mapa
+    const lat = -42.5198646; // latitud del centro del mapa
     return (
         <main>
             <section className="relative h-[680px] md:h-screen">
@@ -94,6 +97,9 @@ export default function IglesiaRilan() {
                         fuertemente en los ritos y tradiciones que se desarrollan en torno a ellas.
                     </p>
                 </div>
+
+                <UbicacionIglesia lng={lng} lat={lat} />
+
                 <div className="container mx-auto flex justify-center">
                     <Link href="#" alt="Más Atractivos">
                         <Image

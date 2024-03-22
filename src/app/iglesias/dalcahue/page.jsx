@@ -1,10 +1,13 @@
 import Image from 'next/image';
 import Link from 'next/link';
 import DalcahueGallery from '@/components/DalcahueGaleria';
+import UbicacionIglesia from '@/components/UbicacionIglesia';
 export const metadata = {
     title: 'PTI | Iglesia Nuestra Señora de los Dolores de Dalcahue',
 };
 export default function IglesiaDalcahue() {
+    const lng = -73.64737; // longitud del centro del mapa
+    const lat = -42.3792645; // latitud del centro del mapa
     return (
         <main>
             <section className="relative h-[680px] md:h-screen">
@@ -88,6 +91,9 @@ export default function IglesiaDalcahue() {
                         en que el cuerpo de Jesús fue retirado de la cruz después de su crucifixión.
                     </p>
                 </div>
+
+                <UbicacionIglesia lng={lng} lat={lat} />
+
                 <div className="container mx-auto flex justify-center">
                     <Link href="#" alt="Más Atractivos">
                         <Image

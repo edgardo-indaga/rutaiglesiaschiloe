@@ -1,11 +1,14 @@
 import Image from 'next/image';
 import Link from 'next/link';
 import CaguachGallery from '@/components/CaguachGaleria';
+import UbicacionIglesia from '@/components/UbicacionIglesia';
 export const metadata = {
     title: 'PTI | Iglesia Jesús Nazareno de Caguach',
 };
 
 export default function IglesiaCaguach() {
+    const lng = -73.2659598; // longitud del centro del mapa
+    const lat = -42.5101368; // latitud del centro del mapa
     return (
         <main>
             <section className="relative h-[680px] md:h-screen">
@@ -106,6 +109,8 @@ export default function IglesiaCaguach() {
                         archipiélago.
                     </p>
                 </div>
+
+                <UbicacionIglesia lng={lng} lat={lat} />
 
                 <div className="container mx-auto flex justify-center">
                     <Link href="#" alt="Más Atractivos">

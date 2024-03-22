@@ -1,11 +1,14 @@
 import Image from 'next/image';
 import Link from 'next/link';
 import TenaunGallery from '@/components/TenaunGaleria';
+import UbicacionIglesia from '@/components/UbicacionIglesia';
 export const metadata = {
     title: 'PTI | Iglesia Nuestra Señora del Patrocinio de Tenaún',
 };
 
 export default function IglesiaTenaun() {
+    const lng = -73.3750765; // longitud del centro del mapa
+    const lat = -42.3316887; // latitud del centro del mapa
     return (
         <main>
             <section className="relative h-[680px] md:h-screen">
@@ -99,6 +102,9 @@ export default function IglesiaTenaun() {
                         vestido de lana tejido a palillo por su antigua patrona.
                     </p>
                 </div>
+
+                <UbicacionIglesia lng={lng} lat={lat} />
+
                 <div className="container mx-auto flex justify-center">
                     <Link href="#" alt="Más Atractivos">
                         <Image
