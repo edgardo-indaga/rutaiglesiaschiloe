@@ -11,15 +11,15 @@ const UbicacionIglesia = ({ lng, lat }) => {
     const mapContainer = useRef(null);
 
     function navigateToGoogleMaps() {
-        window.location.href = `https://www.google.com/maps/search/?api=1&query=${lat},${lng}`;
+        window.open(`https://www.google.com/maps/search/?api=1&query=${lat},${lng}`, '_blank');
     }
 
     function navigateToWaze() {
-        window.location.href = `https://waze.com/ul?ll=${lat},${lng}&navigate=yes`;
+        window.open(`https://waze.com/ul?ll=${lat},${lng}&navigate=yes`, '_blank');
     }
 
     function navigateToAppleMaps() {
-        window.location.href = `maps://?q=${lat},${lng}`;
+        window.open(`maps://?q=${lat},${lng}`, '_blank');
     }
 
     const zoom = useRef(16); // valor por defecto
