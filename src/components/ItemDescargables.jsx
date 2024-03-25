@@ -5,7 +5,7 @@ import Link from 'next/link';
 
 const style = {
     imgResposive:
-        'w-[180px] sm:w-[200px] md:h-[200px] xl:w-[250px] xl:h-[250px] 2xl:w-[300px] 2xl:h-[300px]',
+        'w-[180px] sm:w-[200px] md:h-[200px] xl:w-[250px] xl:h-[250px] 2xl:w-[300px] 2xl:h-[300px] object-cover',
 };
 
 export default function ThumbDescargables() {
