@@ -207,7 +207,7 @@ export default function Inicio() {
                         </h1>
                         <p className="font-thin text-tinto text-[18px] mb-[20px] md:text-[26px] md:leading-[34px]">
                             Son las propias comunidades las que mantienen vivas a las iglesias y
-                            están a cargo su cuidado y mantención.
+                            están a cargo de su cuidado y mantención.
                         </p>
                         <Link href="/comunidades" alt="LAS COMUNIDADES">
                             <Image

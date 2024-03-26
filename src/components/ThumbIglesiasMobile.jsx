@@ -234,7 +234,7 @@ export default function ThumbIglesiasMobile() {
                 <div className="flex flex-row mb-[10px]">
                     <div className="w-5/12 flex justify-center">
                         <Image
-                            src={iglesiaChonchi}
+                            src={iglesiaVilupulli}
                             alt={'Iglesia San Antonio de Padua de VILUPULLI'}
                             className="h-[150px] w-auto"
                         />
