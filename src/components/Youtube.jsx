@@ -43,7 +43,7 @@ export default function YoutubeVideo() {
 
     return (
         <div className={styles.videoContainer}>
-            <YouTube videoId="Hu1vWWZKAl0" opts={opts} onReady={onReady} />
+            <YouTube videoId="3GArrx4sVUE" opts={opts} onReady={onReady} />
             {/* Botón de reproducción */}
             {!isPlaying && (
                 <button
