@@ -226,6 +226,18 @@ export default function HeaderPrincipal() {
                                 >
                                     <Link href="/descargables">Descargables</Link>
                                 </li>
+                                <li
+                                    onClick={() => setMenuOpen(false)}
+                                    className={styles.linksMobile}
+                                >
+                                    <a
+                                        href="https://youtube.com/@RutaIglesiasdeChiloe?si=a94OUR7dnIUZVf3a"
+                                        target={'_blank'}
+                                        rel="noreferrer"
+                                    >
+                                        Youtube
+                                    </a>
+                                </li>
                             </ul>
 
                             <div className="mt-[50px] flex">
