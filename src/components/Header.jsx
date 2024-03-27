@@ -5,7 +5,6 @@ import Link from 'next/link';
 import { usePathname } from 'next/navigation';
 import { useEffect, useState } from 'react';
 import logoCorfo from '/public/logo-corfo-color.svg';
-import IconYoutube from '/public/btn-youtube.svg';
 
 const styles = {
     navLinks:
