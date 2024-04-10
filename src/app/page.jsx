@@ -48,6 +48,7 @@ export default function Inicio() {
                             height={1503}
                             quality={100}
                             className="w-[280px] md:w-full"
+                            loading={'lazy'}
                         />
                     </div>
                     <div className="order-1 md:pt-[170px] md:leading-[57px] md:order-2 md:w-7/12">
@@ -66,6 +67,7 @@ export default function Inicio() {
                                 height={60}
                                 quality={100}
                                 className="hidden transition-all ease-cubic-bezier w-[130px] hover:scale-[1.1] md:mt-[60px] md:w-[180px] xl:flex"
+                                loading={'lazy'}
                             />
                         </Link>
                         <div className="flex justify-center md:justify-start xl:hidden">
@@ -96,6 +98,7 @@ export default function Inicio() {
                         width={1330}
                         height={1260}
                         quality={100}
+                        loading={'lazy'}
                     />
                     <Link
                         href="/iglesias"
@@ -125,6 +128,7 @@ export default function Inicio() {
                                 height={60}
                                 quality={100}
                                 className="transition-all ease-cubic-bezier hover:scale-[1.1] md:mt-[60px] md:w-[180px] md:flex hidden"
+                                loading={'lazy'}
                             />
                         </Link>
                         <div className="flex justify-center md:justify-start xl:hidden">
@@ -144,6 +148,7 @@ export default function Inicio() {
                             height={1503}
                             quality={100}
                             className="md:mt-[-300px] w-[260px] md:w-full"
+                            loading={'lazy'}
                         />
                     </div>
                 </div>
@@ -164,6 +169,7 @@ export default function Inicio() {
                             height={1462}
                             quality={100}
                             className="w-[280px] md:w-full"
+                            loading={'lazy'}
                         />
                     </div>
                     <div className="md:pt-[170px] md:leading-[57px] md:w-7/12 order-1 md:order-2">
@@ -182,6 +188,7 @@ export default function Inicio() {
                                 height={60}
                                 quality={100}
                                 className="hidden transition-all ease-cubic-bezier w-[130px] hover:scale-[1.1] md:mt-[60px] md:w-[180px] xl:flex"
+                                loading={'lazy'}
                             />
                         </Link>
                         <div className="flex justify-center md:justify-start xl:hidden">
@@ -217,6 +224,7 @@ export default function Inicio() {
                                 height={60}
                                 quality={100}
                                 className="transition-all ease-cubic-bezier hover:scale-[1.1] md:mt-[60px] md:w-[180px] md:flex hidden"
+                                loading={'lazy'}
                             />
                         </Link>
                         <div className="flex justify-center md:justify-start xl:hidden">
@@ -266,6 +274,7 @@ export default function Inicio() {
                                 height={60}
                                 quality={100}
                                 className="transition-all ease-cubic-bezier hover:scale-[1.1] md:mt-[60px] md:w-[180px] md:flex hidden"
+                                loading={'lazy'}
                             />
                         </Link>
                     </div>
