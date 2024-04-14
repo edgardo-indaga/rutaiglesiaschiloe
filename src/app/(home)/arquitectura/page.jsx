@@ -1,5 +1,5 @@
-import VideoArquitectura from '@/components/VideoArquitectura';
-import ArquitecturaGallery from '@/components/ArquitecturaGaleria';
+import VideoPlayer from '@/components/VideoPlayer';
+import GalleryView from '@/components/GalleryView';
 import Image from 'next/image';
 import Link from 'next/link';
 
@@ -15,6 +15,65 @@ export const metadata = {
     title: 'PTI | La Arquitectura',
 };
 export default function LaArquitectura() {
+    const slides = [
+        {
+            src: '/arquitectura/gallery/arquitectura_galeria_01.jpg',
+            width: 1333,
+            height: 2000,
+            title: 'Iglesia de Aldachildo',
+            description: 'Fachada',
+        },
+        {
+            src: '/arquitectura/gallery/arquitectura_galeria_02.jpg',
+            width: 1200,
+            height: 800,
+            title: 'Iglesia de Detif',
+            description: 'Bóveda',
+        },
+        {
+            src: '/arquitectura/gallery/arquitectura_galeria_03.jpg',
+            width: 1333,
+            height: 2000,
+            title: 'Iglesia de Quinchao',
+            description: 'Detalle constructivo',
+        },
+        {
+            src: '/arquitectura/gallery/arquitectura_galeria_04.jpg',
+            width: 1200,
+            height: 800,
+            title: 'Iglesia de Chelín',
+            description: 'Detalle ornamental',
+        },
+        {
+            src: '/arquitectura/gallery/arquitectura_galeria_05.jpg',
+            width: 1200,
+            height: 800,
+            title: 'Iglesia de Rilán',
+            description: 'Bóveda de crucerías',
+        },
+        {
+            src: '/arquitectura/gallery/arquitectura_galeria_06.jpg',
+            width: 1200,
+            height: 800,
+            title: 'Iglesia de Dalcahue',
+            description: 'Columnas pintadas imitando el mármol',
+        },
+        {
+            src: '/arquitectura/gallery/arquitectura_galeria_07.jpg',
+            width: 1200,
+            height: 800,
+            title: 'Iglesia de Vilupulli',
+            description: 'Plano de la iglesia',
+        },
+        {
+            src: '/arquitectura/gallery/arquitectura_galeria_08.jpg',
+            width: 1200,
+            height: 800,
+            title: 'Iglesia de Nercón',
+            description: 'Vista exterior de la bóveda',
+        },
+    ];
+
     return (
         <main>
             <section className="relative h-[680px] md:h-screen">
@@ -37,7 +96,7 @@ export default function LaArquitectura() {
 
             <section className="px-5 py-10 md:py-[100px] md:px-0">
                 <div className="container mx-auto flex items-center justify-center align-middle">
-                    <VideoArquitectura />
+                    <VideoPlayer videoId="94Yc_Z6ubpo" />
                 </div>
             </section>
 
@@ -104,7 +163,8 @@ export default function LaArquitectura() {
 
             <section className="md:py-[100px] md:mb-[100px] md:h-auto px-5 py-10 md:px-0">
                 <div className="container mx-auto">
-                    <ArquitecturaGallery />
+                    <GalleryView slides={slides} />
+
                     <Link href="/#arquitectura" alt="PAGINA DE INICIO">
                         <Image
                             src="/btn-volver.svg"

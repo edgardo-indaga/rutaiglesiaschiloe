@@ -1,6 +1,6 @@
 import Image from 'next/image';
-import VideoComunidades from '@/components/VideoComunidades';
-import ComunidadGallery from '@/components/ComunidadGaleria';
+import VideoPlayer from '@/components/VideoPlayer';
+import GalleryView from '@/components/GalleryView';
 import ComunidadGallerySecundaria from '@/components/ComunidadGaleriaSecundaria';
 
 import Link from 'next/link';
@@ -16,6 +16,65 @@ export const metadata = {
     title: 'PTI | Las Comunidades',
 };
 export default function LaComunidad() {
+    const slides = [
+        {
+            src: '/comunidades/gallery/comunidades_galeria_01.jpg',
+            width: 1200,
+            height: 800,
+            title: 'Iglesia de Detif ',
+            description: '',
+        },
+        {
+            src: '/comunidades/gallery/comunidades_galeria_02.jpg',
+            width: 1200,
+            height: 800,
+            title: 'Iglesia de Caguach',
+            description: 'Fiesta patronal de Jesús Nazareno',
+        },
+        {
+            src: '/comunidades/gallery/comunidades_galeria_03.jpg',
+            width: 1200,
+            height: 800,
+            title: 'Iglesia de Aldachildo',
+            description: 'Iglesia adornada por celebración religiosa',
+        },
+        {
+            src: '/comunidades/gallery/comunidades_galeria_04.jpg',
+            width: 1200,
+            height: 800,
+            title: 'Iglesia de Chelín',
+            description: 'Preparación de celebración religiosa',
+        },
+        {
+            src: '/comunidades/gallery/comunidades_galeria_05.jpg',
+            width: 1200,
+            height: 800,
+            title: 'Iglesia de Quinchao',
+            description: 'Imagen adornada por fiesta religiosa',
+        },
+        {
+            src: '/comunidades/gallery/comunidades_galeria_06.jpg',
+            width: 1200,
+            height: 800,
+            title: 'Iglesia de Nercón',
+            description: 'Imagen de San Miguel y banderines utilizados en pasacalles',
+        },
+        {
+            src: '/comunidades/gallery/comunidades_galeria_07.jpg',
+            width: 1200,
+            height: 800,
+            title: 'Iglesia de Caguach',
+            description: 'Fiesta patronal de Jesús Nazareno',
+        },
+        {
+            src: '/comunidades/gallery/comunidades_galeria_08.jpg',
+            width: 1333,
+            height: 2000,
+            title: 'Iglesia de Caguach',
+            description: 'Fiesta patronal de Jesús Nazareno',
+        },
+    ];
+
     return (
         <main>
             <section className="relative h-[680px] md:h-screen">
@@ -38,7 +97,7 @@ export default function LaComunidad() {
 
             <section className="px-5 py-10 md:py-[100px] md:px-0">
                 <div className="container mx-auto flex items-center justify-center align-middle">
-                    <VideoComunidades />
+                    <VideoPlayer videoId="i6WwIu5KDn4" />
                 </div>
             </section>
 
@@ -86,7 +145,7 @@ export default function LaComunidad() {
                     </p>
                 </div>
                 <div className="container mx-auto md:mt-[50px] my-5">
-                    <ComunidadGallery />
+                    <GalleryView slides={slides} />
                 </div>
             </section>
 

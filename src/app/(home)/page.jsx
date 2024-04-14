@@ -1,7 +1,7 @@
 import Image from 'next/image';
 import CarouselHome from '@/components/Carousel';
 import CarouselMobile from '@/components/CarouselMobile';
-import YoutubeVideo from '@/components/Youtube';
+import VideoPlayer from '@/components/VideoPlayer';
 import HotSpotsMapa from '@/components/HotSpotsMapa';
 import Link from 'next/link';
 import { Dosis } from 'next/font/google';
@@ -31,7 +31,7 @@ export default function Inicio() {
 
             <section className="py-10 md:py-[100px]">
                 <div className="container mx-auto flex items-center justify-center align-middle">
-                    <YoutubeVideo />
+                    <VideoPlayer videoId="3GArrx4sVUE" />
                 </div>
             </section>
 

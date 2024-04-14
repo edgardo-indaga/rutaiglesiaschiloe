@@ -1,5 +1,5 @@
-import VideoHistoria from '@/components/VideoHistoria';
-import HistoriaGallery from '@/components/HistoriaGaleria';
+import VideoPlayer from '@/components/VideoPlayer';
+import GalleryView from '@/components/GalleryView';
 import Image from 'next/image';
 import Link from 'next/link';
 
@@ -14,6 +14,65 @@ export const metadata = {
     title: 'PTI | La Historia',
 };
 export default function LaHistoria() {
+    const slides = [
+        {
+            src: '/historia/gallery/historia_galeria_01.jpg',
+            width: 1200,
+            height: 800,
+            title: 'Iglesia de Vilupulli',
+            description: 'Cuaderno de la Historia de Vilupulli, elaborado por la comunidad en 1986',
+        },
+        {
+            src: '/historia/gallery/historia_galeria_02.jpg',
+            width: 1200,
+            height: 800,
+            title: 'Iglesia de Chonchi',
+            description: 'Libro eclesiástico en latín',
+        },
+        {
+            src: '/historia/gallery/historia_galeria_07.jpg',
+            width: 1200,
+            height: 800,
+            title: 'Iglesia de Quinchao',
+            description: 'Antiguos reclinatorios',
+        },
+        {
+            src: '/historia/gallery/historia_galeria_08.jpg',
+            width: 1333,
+            height: 2000,
+            title: 'Iglesia de Caguach',
+            description: 'Sacerdote franciscano en fiesta patronal',
+        },
+        {
+            src: '/historia/gallery/historia_galeria_05.jpg',
+            width: 1200,
+            height: 800,
+            title: 'Iglesia de Castro',
+            description: 'Ilustración de la primera iglesia de Castro a comienzos del s. XIX',
+        },
+        {
+            src: '/historia/gallery/historia_galeria_04.jpg',
+            width: 1333,
+            height: 2000,
+            title: 'Iglesia de Castro',
+            description: ' Mapa de la Misión Circular',
+        },
+        {
+            src: '/historia/gallery/historia_galeria_03.jpg',
+            width: 1200,
+            height: 800,
+            title: 'Iglesia de Rilán',
+            description: 'Junto al altar se exponen dos banderas, la chilena y la huilliche',
+        },
+        {
+            src: '/historia/gallery/historia_galeria_06.jpg',
+            width: 1200,
+            height: 800,
+            title: 'Iglesia de Ichuac',
+            description: 'San Ignacio',
+        },
+    ];
+
     return (
         <main>
             <section className="relative h-[680px] md:h-screen">
@@ -36,7 +95,7 @@ export default function LaHistoria() {
 
             <section className="px-5 py-10 md:py-[100px] md:px-0">
                 <div className="container mx-auto flex items-center justify-center align-middle">
-                    <VideoHistoria />
+                    <VideoPlayer videoId="B7t_Pp9ku5c" />
                 </div>
             </section>
 
@@ -97,7 +156,7 @@ export default function LaHistoria() {
             </section>
             <section className="md:py-[100px] md:mb-[100px] md:h-auto px-5 py-10 md:px-0">
                 <div className="container mx-auto">
-                    <HistoriaGallery />
+                    <GalleryView slides={slides} />
 
                     <Link href="/#historia" alt="PAGINA DE INICIO">
                         <Image

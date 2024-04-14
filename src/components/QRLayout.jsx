@@ -1,7 +1,7 @@
 import React from 'react';
 import Image from 'next/image';
 
-const QrLayout = ({ imgBg, pdfEsp, pdfEng, titleChurch }) => {
+const QRLayout = ({ imgBg, pdfEsp, pdfEng, titleChurch }) => {
     return (
         <section className="relative h-screen">
             <Image
@@ -38,4 +38,4 @@ const QrLayout = ({ imgBg, pdfEsp, pdfEng, titleChurch }) => {
         </section>
     );
 };
-export default QrLayout;
+export default QRLayout;

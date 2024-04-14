@@ -1,4 +1,4 @@
-import QrLayout from '@/components/qrLayout';
+import QRLayout from '@/components/QRLayout';
 export default function qrAchaoPage() {
     const imgBg = '/qr/sanjuan.webp';
     const pdfEsp = '/uploads/sanjuan-es.pdf';
@@ -6,7 +6,7 @@ export default function qrAchaoPage() {
     const titleChurch = 'Iglesia San Juan Bautista de San Juan';
     return (
         <main>
-            <QrLayout imgBg={imgBg} pdfEsp={pdfEsp} pdfEng={pdfEng} titleChurch={titleChurch} />
+            <QRLayout imgBg={imgBg} pdfEsp={pdfEsp} pdfEng={pdfEng} titleChurch={titleChurch} />
         </main>
     );
 }

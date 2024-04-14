@@ -1,4 +1,4 @@
-import QrLayout from '@/components/qrLayout';
+import QRLayout from '@/components/QRLayout';
 import { Suspense } from 'react';
 
 export default function qrAchaoPage() {
@@ -9,7 +9,7 @@ export default function qrAchaoPage() {
     return (
         <main>
             <Suspense fallback={<p>Cargando...</p>}>
-                <QrLayout imgBg={imgBg} pdfEsp={pdfEsp} pdfEng={pdfEng} titleChurch={titleChurch} />
+                <QRLayout imgBg={imgBg} pdfEsp={pdfEsp} pdfEng={pdfEng} titleChurch={titleChurch} />
             </Suspense>
         </main>
     );

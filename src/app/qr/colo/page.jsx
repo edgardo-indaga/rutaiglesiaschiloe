@@ -1,4 +1,4 @@
-import QrLayout from '@/components/qrLayout';
+import QRLayout from '@/components/QRLayout';
 export default function qrAchaoPage() {
     const imgBg = '/qr/colo.webp';
     const pdfEsp = '/uploads/colo-es.pdf';
@@ -6,7 +6,7 @@ export default function qrAchaoPage() {
     const titleChurch = 'Iglesia San Antonio de Colo';
     return (
         <main>
-            <QrLayout imgBg={imgBg} pdfEsp={pdfEsp} pdfEng={pdfEng} titleChurch={titleChurch} />
+            <QRLayout imgBg={imgBg} pdfEsp={pdfEsp} pdfEng={pdfEng} titleChurch={titleChurch} />
         </main>
     );
 }

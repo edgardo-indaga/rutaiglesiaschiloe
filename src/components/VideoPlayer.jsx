@@ -2,26 +2,15 @@
 
 import React, { useState, useEffect } from 'react';
 import YouTube from 'react-youtube';
-import styles from './YoutubeVideo.module.css'; // Importar estilos CSS
+import styles from './VideoPlayer.module.css'; // Importar estilos CSS
 
-export default function VideoArquitectura() {
+export default function VideoPlayer({ videoId }) {
     const [player, setPlayer] = useState(null); // Estado para controlar el reproductor de video
     const [isPlaying, setIsPlaying] = useState(false); // Estado para controlar la reproducción
-    const [windowSize, setWindowSize] = useState({ width: 1280, height: 780 }); // Tamaño predeterminado
-
-    useEffect(() => {
-        const handleResize = () => {
-            setWindowSize({ width: window.innerWidth, height: window.innerHeight });
-        };
-        window.addEventListener('resize', handleResize);
-        return () => {
-            window.removeEventListener('resize', handleResize);
-        };
-    }, []);
 
     const opts = {
-        width: windowSize.width,
-        height: windowSize.height,
+        width: '1280',
+        height: '780',
         playerVars: {
             // https://developers.google.com/youtube/player_parameters
             autoplay: 0,
@@ -33,11 +22,17 @@ export default function VideoArquitectura() {
     };
 
     const handlePlayPause = () => {
-        setIsPlaying(!isPlaying); // Alternar el estado de reproducción
-        if (isPlaying) {
-            player.pauseVideo(); // Pausa el video si está reproduciendo
+        const newIsPlayingState = !isPlaying;
+        setIsPlaying(newIsPlayingState);
+
+        if (newIsPlayingState) {
+            if (player) {
+                player.playVideo();
+            }
         } else {
-            player.playVideo(); // Reproduce el video si está pausado
+            if (player) {
+                player.pauseVideo();
+            }
         }
     };
 
@@ -48,7 +43,7 @@ export default function VideoArquitectura() {
 
     return (
         <div className={styles.videoContainer}>
-            <YouTube videoId="94Yc_Z6ubpo" opts={opts} onReady={onReady} />
+            <YouTube videoId={videoId} opts={opts} onReady={onReady} />
             {/* Botón de reproducción */}
             {!isPlaying && (
                 <button
