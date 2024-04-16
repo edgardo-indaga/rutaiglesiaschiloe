@@ -13,7 +13,7 @@ export default function ThumbDescargables() {
     const [isHovereditem02, setIsHovereditem02] = useState(false);
 
     return (
-        <section className="py-[40px] px-[5px] md:py-[100px] md:px-0 hidden xl:block">
+        <section className="hidden py-[40px] px-[5px] md:py-[100px] md:px-0 xl:block">
             <div className="container mx-auto flex flex-wrap">
                 <div className="flex w-6/12 items-center justify-center align-middle mb-[15px] md:mb-[25px] md:w-3/12">
                     <div
