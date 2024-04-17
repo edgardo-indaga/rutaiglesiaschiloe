@@ -101,7 +101,7 @@ export default function ThumbDescargables() {
                                 isHovereditem03 ? '' : 'hidden'
                             }`}
                         >
-                            FICHA GENERAL
+                            CHILOÉ Y LA RUTA DE LAS IGLESIAS
                         </Link>
                     </div>
                 </div>

@@ -2,6 +2,7 @@ import Image from 'next/image';
 import Link from 'next/link';
 import AldachildoGallery from '@/components/AldachildoGaleria';
 import UbicacionIglesia from '@/components/UbicacionIglesia';
+import MoreAttraction from '@/components/MoreAttraction';
 
 export const metadata = {
     title: 'PTI | Iglesia Jesús Nazareno de Aldachildo',
@@ -10,6 +11,8 @@ export const metadata = {
 export default function IglesiaAldachildo() {
     const lng = -73.6119; // longitud del centro del mapa
     const lat = -42.583854; // latitud del centro del mapa
+    const pdfEsp = '/uploads/aldachildo-es.pdf';
+    const pdfEng = '/uploads/aldachildo-en.pdf';
 
     return (
         <main>
@@ -104,25 +107,7 @@ export default function IglesiaAldachildo() {
 
                 <UbicacionIglesia lng={lng} lat={lat} />
 
-                <div className="container mx-auto flex justify-center">
-                    <Link href="#" alt="Volver a paginas Iglesias">
-                        <Image
-                            src="/btn-atractivos.svg"
-                            alt="ir"
-                            width={570}
-                            height={64}
-                            className="transition-all ease-cubic-bezier float-end hover:scale-[1.1] md:mt-[60px] md:w-[430px] md:mr-[50px] hidden xl:block"
-                        />
-                    </Link>
-                </div>
-                <div className="flex justify-center md:justify-start xl:hidden">
-                    <Link
-                        href="#"
-                        className="font-light bg-morado text-blanco text-[16px] leading-[16px] my-[30px] py-[12px] px-[20px]"
-                    >
-                        Conoce más atractivos y servicios de la zona
-                    </Link>
-                </div>
+                <MoreAttraction pdfEsp={pdfEsp} pdfEng={pdfEng} />
             </section>
 
             <section className="md:pt-[100px] px-5 py-10 md:px-0">

@@ -2,6 +2,7 @@ import Image from 'next/image';
 import Link from 'next/link';
 import DetifGallery from '@/components/DetifGaleria';
 import UbicacionIglesia from '@/components/UbicacionIglesia';
+import MoreAttraction from '@/components/MoreAttraction';
 
 export const metadata = {
     title: 'PTI | Iglesia Nuestra Señora Detif',
@@ -10,6 +11,8 @@ export const metadata = {
 export default function IglesiaDetif() {
     const lng = -73.5566141; // longitud del centro del mapa
     const lat = -42.6850795; // latitud del centro del mapa
+    const pdfEsp = '/uploads/detif-es.pdf';
+    const pdfEng = '/uploads/detif-en.pdf';
     return (
         <main>
             <section className="relative h-[680px] md:h-screen">
@@ -98,25 +101,7 @@ export default function IglesiaDetif() {
 
                 <UbicacionIglesia lng={lng} lat={lat} />
 
-                <div className="container mx-auto flex justify-center">
-                    <Link href="#" alt="Más Atractivos">
-                        <Image
-                            src="/btn-atractivos.svg"
-                            alt="ir"
-                            width={570}
-                            height={64}
-                            className="transition-all ease-cubic-bezier float-end hover:scale-[1.1] md:mt-[60px] md:w-[430px] md:mr-[50px] hidden xl:block"
-                        />
-                    </Link>
-                </div>
-                <div className="flex justify-center md:justify-start xl:hidden">
-                    <Link
-                        href="#"
-                        className="font-light bg-morado text-blanco text-[16px] leading-[16px] my-[30px] py-[12px] px-[20px]"
-                    >
-                        Conoce más atractivos y servicios de la zona
-                    </Link>
-                </div>
+                <MoreAttraction pdfEsp={pdfEsp} pdfEng={pdfEng} />
             </section>
 
             <section className="md:pt-[100px] px-5 py-10 md:px-0">
