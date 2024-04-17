@@ -24,9 +24,9 @@ export default async function handler(req, res) {
     // Crea el correo electrónico
     const emailData = {
         from: 'Formulario contacto Ruta Iglesias Chiloé <web@rutaiglesiaschiloe.cl>', // Reemplaza con tu correo electrónico de envío
-        to: 'edgardoruotolo@gmail.com',
-        cc: 'edgardoruotolo@gmail.com',
-        subject: 'Nuevo Mensaje desde la web Ruta Iglesias Chiloe!',
+        to: 'ptirutaiglesias@gmail.com',
+        //cc: 'edgardoruotolo@gmail.com',
+        subject: 'Nuevo Mensaje desde la web Ruta Iglesias Chiloé!',
         html: `
             <p>Hola,</p>
             <p>Tiene un nuevo mensaje de: ${name}.</p>

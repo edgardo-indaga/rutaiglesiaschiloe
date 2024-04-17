@@ -84,6 +84,7 @@ export const ContactForm = () => {
                         type="number"
                         placeholder="Número de teléfono"
                         autoComplete="tel"
+                        required
                     />
                 </div>
 
