@@ -10,7 +10,7 @@ const dosis = Dosis({
     style: ['normal'],
 });
 export const metadata = {
-    title: 'PTI | Las Iglesias',
+    title: 'PTI | Descargables',
 };
 
 export default function Descargables() {
