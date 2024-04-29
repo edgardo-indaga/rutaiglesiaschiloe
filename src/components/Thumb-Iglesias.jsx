@@ -145,7 +145,7 @@ export default function ThumbIglesias() {
                                 isHoverRilan ? '' : 'hidden'
                             }`}
                         >
-                            Iglesia Nuestra Señora de los Dolores de Rilán
+                            Iglesia Santa María de Rilán
                         </Link>
                     </div>
                 </div>

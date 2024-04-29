@@ -91,9 +91,7 @@ export default function ThumbIglesiasMobile() {
                         />
                     </div>
                     <div className="w-7/12 flex flex-col h-[160px] justify-center pl-[5px]">
-                        <h1 className={styles.tituloIglesia}>
-                            Iglesia Nuestra Señora de los Dolores de Rilán
-                        </h1>
+                        <h1 className={styles.tituloIglesia}>Iglesia Santa María de Rilán</h1>
                         <Link href="/iglesias/rilan" className={styles.btnVer}>
                             VER
                         </Link>
