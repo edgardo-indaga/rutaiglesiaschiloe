@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://www.rutaiglesiaschiloe.cl/
+
+# Sitemaps
+Sitemap: https://www.rutaiglesiaschiloe.cl/sitemap.xml
