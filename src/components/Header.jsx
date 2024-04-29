@@ -111,6 +111,7 @@ export default function HeaderPrincipal() {
                                         href="https://youtube.com/@RutaIglesiasdeChiloe?si=a94OUR7dnIUZVf3a"
                                         target={'_blank'}
                                         rel="noreferrer"
+                                        title="Canal de Youtube PTI Iglesias"
                                     >
                                         <svg
                                             xmlns="http://www.w3.org/2000/svg"
@@ -129,6 +130,7 @@ export default function HeaderPrincipal() {
                                         href="https://www.instagram.com/rutaiglesiaschiloe/"
                                         target={'_blank'}
                                         rel="noreferrer"
+                                        title="Cuenta Instagram PTI Iglesias"
                                     >
                                         <svg
                                             xmlns="http://www.w3.org/2000/svg"
@@ -148,7 +150,7 @@ export default function HeaderPrincipal() {
                         {/* BARS MENU MOBILE */}
 
                         <div className="flex xl:hidden">
-                            <button onClick={toggleMenu}>
+                            <button onClick={toggleMenu} aria-label="Hamburguesa Menu Mobile">
                                 <svg
                                     xmlns="http://www.w3.org/2000/svg"
                                     fill="none"
@@ -256,6 +258,7 @@ export default function HeaderPrincipal() {
                                         href="https://youtube.com/@RutaIglesiasdeChiloe?si=a94OUR7dnIUZVf3a"
                                         target={'_blank'}
                                         rel="noreferrer"
+                                        title="Canal de Youtube PTI Iglesias"
                                     >
                                         <svg
                                             xmlns="http://www.w3.org/2000/svg"
@@ -274,6 +277,7 @@ export default function HeaderPrincipal() {
                                         href="https://www.instagram.com/rutaiglesiaschiloe/"
                                         target={'_blank'}
                                         rel="noreferrer"
+                                        title="Cuenta Instagram PTI Iglesias"
                                     >
                                         <svg
                                             xmlns="http://www.w3.org/2000/svg"
