@@ -11,7 +11,6 @@ const barlow = Barlow({
 });
 
 export const metadata = {
-    title: 'PTI Iglesias Patrimoniales De Chiloé',
     description: 'Ruta de las Iglesias de Chiloé, Patrimonio de la Humanidad.',
     icons: {
         icon: '/favicon.svg',

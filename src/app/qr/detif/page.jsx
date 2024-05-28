@@ -1,4 +1,7 @@
 import QRLayout from '@/components/QRLayout';
+export const metadata = {
+    title: 'QR | PTI | Iglesia Santiago Apóstol de Detif',
+};
 export default function qrAchaoPage() {
     const imgBg = '/qr/detif.webp';
     const pdfEsp = '/uploads/detif-es.pdf';

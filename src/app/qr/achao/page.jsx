@@ -1,5 +1,8 @@
 import QRLayout from '@/components/QRLayout';
 import { Suspense } from 'react';
+export const metadata = {
+    title: 'QR | PTI | Iglesia Santa María de Loreto de Achao',
+};
 
 export default function qrAchaoPage() {
     const imgBg = '/qr/achao.webp';

@@ -1,4 +1,7 @@
 import QRLayout from '@/components/QRLayout';
+export const metadata = {
+    title: 'QR | PTI | Chiloé y la ruta de las Iglesias',
+};
 export default function qrAchaoPage() {
     const imgBg = '/qr/fichageneral.webp';
     const pdfEsp = '/uploads/fichageneral-es.pdf';

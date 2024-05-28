@@ -1,4 +1,7 @@
 import QRLayout from '@/components/QRLayout';
+export const metadata = {
+    title: 'QR | PTI | Iglesia Nuestra Señora de los Dolores de Dalcahue',
+};
 export default function qrAchaoPage() {
     const imgBg = '/qr/dalcahue.webp';
     const pdfEsp = '/uploads/dalcahue-es.pdf';

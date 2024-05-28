@@ -1,4 +1,7 @@
 import QRLayout from '@/components/QRLayout';
+export const metadata = {
+    title: 'QR | PTI | Iglesia Santa María de Rilán',
+};
 export default function qrAchaoPage() {
     const imgBg = '/qr/rilan.webp';
     const pdfEsp = '/uploads/rilan-es.pdf';

@@ -1,4 +1,7 @@
 import QRLayout from '@/components/QRLayout';
+export const metadata = {
+    title: 'QR | PTI | Iglesia San Antonio de Colo',
+};
 export default function qrAchaoPage() {
     const imgBg = '/qr/colo.webp';
     const pdfEsp = '/uploads/colo-es.pdf';

@@ -1,4 +1,7 @@
 import QRLayout from '@/components/QRLayout';
+export const metadata = {
+    title: 'QR | PTI | Iglesia Natividad de María de Ichuac',
+};
 export default function qrAchaoPage() {
     const imgBg = '/qr/ichuac.webp';
     const pdfEsp = '/uploads/ichuac-es.pdf';

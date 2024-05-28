@@ -1,4 +1,7 @@
 import QRLayout from '@/components/QRLayout';
+export const metadata = {
+    title: 'QR | PTI | Iglesia Nuestra Señora del Rosario de Chelín',
+};
 export default function qrAchaoPage() {
     const imgBg = '/qr/chelin.webp';
     const pdfEsp = '/uploads/chelin-es.pdf';

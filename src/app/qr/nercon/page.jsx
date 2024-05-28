@@ -1,5 +1,8 @@
 import QRLayout from '@/components/QRLayout';
 import { Suspense } from 'react';
+export const metadata = {
+    title: 'QR | PTI | Iglesia Nuestra Señora de Gracia de Nercón',
+};
 
 export default function qrAchaoPage() {
     const imgBg = '/qr/nercon.webp';

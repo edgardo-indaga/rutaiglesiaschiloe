@@ -1,4 +1,8 @@
 import QRLayout from '@/components/QRLayout';
+export const metadata = {
+    title: 'QR | PTI | Iglesia San Juan Bautista de San Juan',
+};
+
 export default function qrAchaoPage() {
     const imgBg = '/qr/sanjuan.webp';
     const pdfEsp = '/uploads/sanjuan-es.pdf';

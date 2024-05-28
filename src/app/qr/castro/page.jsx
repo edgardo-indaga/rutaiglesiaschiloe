@@ -1,4 +1,7 @@
 import QRLayout from '@/components/QRLayout';
+export const metadata = {
+    title: 'QR | PTI | Iglesia San Francisco de Castro',
+};
 export default function qrAchaoPage() {
     const imgBg = '/qr/castro.webp';
     const pdfEsp = '/uploads/castro-es.pdf';
