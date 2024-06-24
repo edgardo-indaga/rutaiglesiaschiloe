@@ -5,6 +5,6 @@ export default function robots() {
             allow: '/',
             disallow: '/private/',
         },
-        sitemap: 'https://www.rutaiglesiaschiloe.cl/sitemap.xml',
+        sitemap: 'https://rutaiglesiaschiloe.cl/sitemap.xml',
     };
 }
