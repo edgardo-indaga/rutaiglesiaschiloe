@@ -1,7 +1,7 @@
 export default function sitemap() {
     return [
         {
-            url: 'https://www.rutaigleasiaschiloe.cl',
+            url: 'https://www.rutaiglesiaschiloe.cl/',
             lastModified: new Date('2024-06-24'),
             changeFrequency: 'daily',
             priority: 1,
