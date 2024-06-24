@@ -1,0 +1,148 @@
+export default function sitemap() {
+    return [
+        {
+            url: 'https://rutaigleasiaschiloe.cl',
+            lastModified: new Date('2024-06-24'),
+            changeFrequency: 'daily',
+            priority: 1,
+        },
+        {
+            url: 'https://www.rutaiglesiaschiloe.cl/iglesias',
+            lastModified: new Date('2024-06-24'),
+            changeFrequency: 'monthly',
+            priority: 0.8,
+        },
+        {
+            url: 'https://www.rutaiglesiaschiloe.cl/descargables',
+            lastModified: new Date('2024-06-24'),
+            changeFrequency: 'monthly',
+            priority: 0.8,
+        },
+        {
+            url: 'https://www.rutaiglesiaschiloe.cl/contacto',
+            lastModified: new Date('2024-06-24'),
+            changeFrequency: 'monthly',
+            priority: 0.8,
+        },
+        {
+            url: 'https://www.rutaiglesiaschiloe.cl/patrimonio',
+            lastModified: new Date('2024-06-24'),
+            changeFrequency: 'monthly',
+            priority: 0.8,
+        },
+        {
+            url: 'https://www.rutaiglesiaschiloe.cl/historia',
+            lastModified: new Date('2024-06-24'),
+            changeFrequency: 'monthly',
+            priority: 0.8,
+        },
+        {
+            url: 'https://www.rutaiglesiaschiloe.cl/arquitectura',
+            lastModified: new Date('2024-06-24'),
+            changeFrequency: 'monthly',
+            priority: 0.8,
+        },
+        {
+            url: 'https://www.rutaiglesiaschiloe.cl/comunidades',
+            lastModified: new Date('2024-06-24'),
+            changeFrequency: 'monthly',
+            priority: 0.8,
+        },
+        {
+            url: 'https://www.rutaiglesiaschiloe.cl/iglesias/detif',
+            lastModified: new Date('2024-06-24'),
+            changeFrequency: 'monthly',
+            priority: 0.7,
+        },
+        {
+            url: 'https://www.rutaiglesiaschiloe.cl/iglesias/aldachildo',
+            lastModified: new Date('2024-06-24'),
+            changeFrequency: 'monthly',
+            priority: 0.7,
+        },
+        {
+            url: 'https://www.rutaiglesiaschiloe.cl/iglesias/ichuac',
+            lastModified: new Date('2024-06-24'),
+            changeFrequency: 'monthly',
+            priority: 0.7,
+        },
+        {
+            url: 'https://www.rutaiglesiaschiloe.cl/iglesias/vilupulli',
+            lastModified: new Date('2024-06-24'),
+            changeFrequency: 'monthly',
+            priority: 0.7,
+        },
+        {
+            url: 'https://www.rutaiglesiaschiloe.cl/iglesias/chonchi',
+            lastModified: new Date('2024-06-24'),
+            changeFrequency: 'monthly',
+            priority: 0.7,
+        },
+        {
+            url: 'https://www.rutaiglesiaschiloe.cl/iglesias/caguach',
+            lastModified: new Date('2024-06-24'),
+            changeFrequency: 'monthly',
+            priority: 0.7,
+        },
+        {
+            url: 'https://www.rutaiglesiaschiloe.cl/iglesias/quinchao',
+            lastModified: new Date('2024-06-24'),
+            changeFrequency: 'monthly',
+            priority: 0.7,
+        },
+        {
+            url: 'https://www.rutaiglesiaschiloe.cl/iglesias/achao',
+            lastModified: new Date('2024-06-24'),
+            changeFrequency: 'monthly',
+            priority: 0.7,
+        },
+        {
+            url: 'https://www.rutaiglesiaschiloe.cl/iglesias/colo',
+            lastModified: new Date('2024-06-24'),
+            changeFrequency: 'monthly',
+            priority: 0.7,
+        },
+        {
+            url: 'https://www.rutaiglesiaschiloe.cl/iglesias/tenaun',
+            lastModified: new Date('2024-06-24'),
+            changeFrequency: 'monthly',
+            priority: 0.7,
+        },
+        {
+            url: 'https://www.rutaiglesiaschiloe.cl/iglesias/sanjuan',
+            lastModified: new Date('2024-06-24'),
+            changeFrequency: 'monthly',
+            priority: 0.7,
+        },
+        {
+            url: 'https://www.rutaiglesiaschiloe.cl/iglesias/chelin',
+            lastModified: new Date('2024-06-24'),
+            changeFrequency: 'monthly',
+            priority: 0.7,
+        },
+        {
+            url: 'https://www.rutaiglesiaschiloe.cl/iglesias/rilan',
+            lastModified: new Date('2024-06-24'),
+            changeFrequency: 'monthly',
+            priority: 0.7,
+        },
+        {
+            url: 'https://www.rutaiglesiaschiloe.cl/iglesias/dalcahue',
+            lastModified: new Date('2024-06-24'),
+            changeFrequency: 'monthly',
+            priority: 0.7,
+        },
+        {
+            url: 'https://www.rutaiglesiaschiloe.cl/iglesias/nercon',
+            lastModified: new Date('2024-06-24'),
+            changeFrequency: 'monthly',
+            priority: 0.7,
+        },
+        {
+            url: 'https://www.rutaiglesiaschiloe.cl/iglesias/castro',
+            lastModified: new Date('2024-06-24'),
+            changeFrequency: 'monthly',
+            priority: 0.7,
+        },
+    ];
+}
