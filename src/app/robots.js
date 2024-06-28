@@ -3,8 +3,7 @@ export default function robots() {
         rules: {
             userAgent: '*',
             allow: '/',
-            disallow: '/private/',
         },
-        sitemap: 'https://www.rutaiglesiaschiloe.cl/sitemap.xml',
+        sitemap: 'https://rutaiglesiaschiloe.cl/sitemap.xml',
     };
 }
