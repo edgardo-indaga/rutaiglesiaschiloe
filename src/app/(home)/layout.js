@@ -124,15 +124,17 @@ export const metadata = {
         googleBot: {
             index: true,
             follow: true,
-            noimageindex: false,
+            noimageindex: true,
             'max-video-preview': -1,
             'max-image-preview': 'large',
             'max-snippet': -1,
         },
     },
     alternates: {
-        canonical: 'https://rutaiglesiaschiloe.cl/',
-        language: 'es',
+        canonical: 'https://crowadvance.com',
+        language: {
+            es: '/',
+        },
     },
 };
 
