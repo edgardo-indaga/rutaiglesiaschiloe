@@ -131,7 +131,7 @@ export const metadata = {
         },
     },
     alternates: {
-        canonical: 'https://crowadvance.com',
+        canonical: 'https://www.rutaiglesiaschiloe.cl/',
         language: {
             es: '/',
         },
