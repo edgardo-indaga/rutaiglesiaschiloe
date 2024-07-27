@@ -1,11 +1,19 @@
 import Image from 'next/image';
 import Link from 'next/link';
-import CastroGallery from '@/components/CastroGaleria';
+
+// Componente Galeria, Arrays de imagenes altura de las filas
+import GalleryChurch from '@components/GalleryChurch/GalleryChurch';
+import CastroPhotoGallery from '@components/GalleryChurch/CastroPhotoGallery';
+
+// Componente de Ubicacion de la Iglesia
 import UbicacionIglesia from '@/components/UbicacionIglesia';
+// Componente de Mas Atractivos
 import MoreAttraction from '@/components/MoreAttraction';
+
 export const metadata = {
     title: 'PTI | Iglesia San Francisco de Castro',
 };
+
 export default function IglesiaCastro() {
     const lng = -73.7638; // longitud del centro del mapa
     const lat = -42.4816; // latitud del centro del mapa
@@ -135,7 +143,7 @@ export default function IglesiaCastro() {
 
             <section className="md:py-[100px] md:h-auto px-5 py-10 md:px-0">
                 <div className="container mx-auto">
-                    <CastroGallery />
+                    <GalleryChurch slides={CastroPhotoGallery} rowHeight={200} />
                 </div>
                 <div className="container mx-auto flex justify-end">
                     <Link href="/iglesias#listadoiglesias" alt="Volver a paginas Iglesias">

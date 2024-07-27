@@ -1,8 +1,15 @@
 import Image from 'next/image';
 import Link from 'next/link';
-import QuinchaoGallery from '@/components/QuinchaoGaleria';
+
+// Componente Galeria, Arrays de imagenes altura de las filas
+import GalleryChurch from '@components/GalleryChurch/GalleryChurch';
+import QuinchaoPhotoGallery from '@components/GalleryChurch/QuinchaoPhotoGallery';
+
+// Componente de Ubicacion de la Iglesia
 import UbicacionIglesia from '@/components/UbicacionIglesia';
+// Componente de Mas Atractivos
 import MoreAttraction from '@/components/MoreAttraction';
+
 export const metadata = {
     title: 'PTI | Iglesia Nuestra Señora de la Gracia de Quinchao',
 };
@@ -117,7 +124,7 @@ export default function IglesiaQuinchao() {
 
             <section className="md:py-[100px] md:h-auto px-5 py-10 md:px-0">
                 <div className="container mx-auto">
-                    <QuinchaoGallery />
+                    <GalleryChurch slides={QuinchaoPhotoGallery} rowHeight={300} />
                 </div>
                 <div className="container mx-auto flex justify-end">
                     <Link href="/iglesias#listadoiglesias" alt="Volver a paginas Iglesias">

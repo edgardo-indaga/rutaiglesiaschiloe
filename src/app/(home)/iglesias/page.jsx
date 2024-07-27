@@ -1,17 +1,10 @@
-import Image from 'next/image';
-
 import ThumbCompIglesias from '@/components/ThumbCompIglesias';
 import ThumbIglesias from '@/components/Thumb-Iglesias';
 import ThumbCompIglesiasMobile from '@/components/ThumbCompIglesiasMobile';
 import ThumbIglesiasMobile from '@/components/ThumbIglesiasMobile';
 
-import { Dosis } from 'next/font/google';
-
-const dosis = Dosis({
-    subsets: ['latin'],
-    weight: ['200', '300', '400', '500', '600', '700', '800'],
-    style: ['normal'],
-});
+import HeaderPage from '@/components/HeaderPage/HeaderPage';
+import HeaderImg from '@public/iglesias/iglesia-01.webp';
 
 export const metadata = {
     title: 'PTI | Las Iglesias',
@@ -20,23 +13,7 @@ export const metadata = {
 export default function LasIglesias() {
     return (
         <main>
-            <section className="relative h-[680px] md:h-screen">
-                <Image
-                    src="/iglesias/iglesia-01.webp"
-                    alt="Patrimonio de la humanidad"
-                    fill={true}
-                    priority={true} // Prioritize the image for faster loading
-                    quality={100} // Maintain image quality
-                    className="object-cover object-top md:object-center"
-                />
-                <div className="container mx-auto flex h-[680px] md:h-screen items-center justify-center px-[50px]">
-                    <h1
-                        className={`z-10 font-[600] text-blanco md:text-[40px] text-[34px] text-center leading-[48px] ${dosis.className}`}
-                    >
-                        IGLESIAS DE CHILOÉ
-                    </h1>
-                </div>
-            </section>
+            <HeaderPage HeaderTitle="IGLESIAS DE CHILOÉ" HeaderImg={HeaderImg} />
             <ThumbCompIglesias />
             <ThumbCompIglesiasMobile />
             <ThumbIglesias />

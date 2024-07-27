@@ -1,8 +1,16 @@
 import Image from 'next/image';
 import Link from 'next/link';
-import IchuacGallery from '@/components/IchuacGaleria';
+
+// Componente Galeria, Arrays de imagenes altura de las filas
+import GalleryChurch from '@components/GalleryChurch/GalleryChurch';
+import IchuacPhotoGallery from '@components/GalleryChurch/IchuacPhotoGallery';
+
+// Componente de Ubicacion de la Iglesia
 import UbicacionIglesia from '@/components/UbicacionIglesia';
+
+// Componente de Mas Atractivos
 import MoreAttraction from '@/components/MoreAttraction';
+
 export const metadata = {
     title: 'PTI | Iglesia Natividad de María de Ichuac',
 };
@@ -126,7 +134,7 @@ export default function IglesiaIchuac() {
 
             <section className="md:py-[100px] md:h-auto px-5 py-10 md:px-0">
                 <div className="container mx-auto">
-                    <IchuacGallery />
+                    <GalleryChurch slides={IchuacPhotoGallery} rowHeight={200} />
                 </div>
                 <div className="container mx-auto flex justify-end">
                     <Link href="/iglesias#listadoiglesias" alt="Volver a paginas Iglesias">

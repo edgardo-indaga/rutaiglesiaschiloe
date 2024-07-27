@@ -2,13 +2,9 @@ import Image from 'next/image';
 import ThumbDescargables from '@/components/ItemDescargables';
 import ThumbDescargablesMobile from '@/components/ItemDescargablesMobile';
 
-import { Dosis } from 'next/font/google';
+import HeaderImg from '@public/descargables/descargables-01.webp';
+import HeaderPage from '@components/HeaderPage/HeaderPage';
 
-const dosis = Dosis({
-    subsets: ['latin'],
-    weight: ['200', '300', '400', '500', '600', '700', '800'],
-    style: ['normal'],
-});
 export const metadata = {
     title: 'PTI | Descargables',
 };
@@ -16,23 +12,7 @@ export const metadata = {
 export default function Descargables() {
     return (
         <main>
-            <section className="relative h-[680px] md:h-screen">
-                <Image
-                    src="/descargables/descargables-01.webp"
-                    alt="Patrimonio de la humanidad"
-                    fill={true}
-                    priority={true} // Prioritize the image for faster loading
-                    quality={100} // Maintain image quality
-                    className="object-cover object-top md:object-center"
-                />
-                <div className="container mx-auto flex h-[680px] md:h-screen items-center justify-center px-[50px]">
-                    <h1
-                        className={`z-10 font-[600] text-blanco md:text-[40px] text-[34px] text-center leading-[48px] ${dosis.className}`}
-                    >
-                        DESCARGABLES
-                    </h1>
-                </div>
-            </section>
+            <HeaderPage HeaderTitle="DESCARGABLES" HeaderImg={HeaderImg} />
             <ThumbDescargables />
             <ThumbDescargablesMobile />
         </main>

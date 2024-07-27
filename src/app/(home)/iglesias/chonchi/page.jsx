@@ -1,8 +1,15 @@
 import Image from 'next/image';
 import Link from 'next/link';
-import ChonchiGallery from '@/components/ChonchiGaleria';
+
+// Componente Galeria, Arrays de imagenes altura de las filas
+import GalleryChurch from '@components/GalleryChurch/GalleryChurch';
+import ChonchiPhotoGallery from '@components/GalleryChurch/ChonchiPhotoGallery';
+
+// Componente de Ubicacion de la Iglesia
 import UbicacionIglesia from '@/components/UbicacionIglesia';
+// Componente de Mas Atractivos
 import MoreAttraction from '@/components/MoreAttraction';
+
 export const metadata = {
     title: 'PTI | Iglesia Nuestra Señora del Rosario de Chonchi',
 };
@@ -133,7 +140,7 @@ export default function IglesiaChonchi() {
 
             <section className="md:py-[100px] md:h-auto px-5 py-10 md:px-0">
                 <div className="container mx-auto">
-                    <ChonchiGallery />
+                    <GalleryChurch slides={ChonchiPhotoGallery} rowHeight={200} />
                 </div>
                 <div className="container mx-auto flex justify-end">
                     <Link href="/iglesias#listadoiglesias" alt="Volver a paginas Iglesias">

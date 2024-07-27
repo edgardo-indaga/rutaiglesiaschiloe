@@ -1,39 +1,60 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Next Iglesias
 
-## Getting Started
+Este es un proyecto de una aplicación web desarrollada con Next.js y React para mostrar información sobre iglesias en Chiloé.
 
-First, run the development server:
+## Tecnologías Utilizadas
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+- **Next.js**: Framework de React para aplicaciones web.
+- **React**: Biblioteca de JavaScript para construir interfaces de usuario.
+- **Tailwind CSS**: Framework de CSS para diseño.
+- **Mapbox GL**: Biblioteca para mapas interactivos.
+- **Axios**: Cliente HTTP para realizar peticiones.
+- **Nodemailer**: Biblioteca para enviar correos electrónicos.
+- **Sharp**: Biblioteca para manipulación de imágenes.
+- **Swiper**: Biblioteca para crear sliders.
+- **Vercel**: Plataforma de despliegue.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Scripts Disponibles
 
-You can start editing the page by modifying `app/page.jsx`. The page auto-updates as you edit the file.
+En el archivo `package.json`, se definen los siguientes scripts:
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+- `dev`: Inicia el servidor de desarrollo en el puerto 3080.
+- `build`: Construye la aplicación para producción.
+- `sitemap`: Genera el sitemap utilizando `next-sitemap`.
+- `start`: Inicia la aplicación en modo producción.
+- `lint`: Ejecuta ESLint para analizar el código.
 
-## Learn More
+## Instalación
 
-To learn more about Next.js, take a look at the following resources:
+1. Clona el repositorio:
+    ```sh
+    git clone <URL_DEL_REPOSITORIO>
+    ```
+2. Navega al directorio del proyecto:
+    ```sh
+    cd next-iglesias
+    ```
+3. Instala las dependencias:
+    ```sh
+    npm install
+    ```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Uso
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+1. Inicia el servidor de desarrollo:
+    ```sh
+    npm run dev
+    ```
+2. Abre [http://localhost:3080](http://localhost:3080) en tu navegador para ver la aplicación.
 
-## Deploy on Vercel
+## Despliegue
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Este proyecto está configurado para ser desplegado en Vercel. Para desplegar, simplemente conecta tu repositorio con Vercel y sigue las instrucciones en la plataforma.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+## Contribuciones
 
-Mapbox : pk.eyJ1IjoiZXJ1b3RvbG8iLCJhIjoiY2x1MGJzcXBvMDEydjJqbDgxM2tyeGRzeSJ9.Zau8xVeHCbhEwOppbyh1Tg
-Key Github: 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
+Las contribuciones son bienvenidas. Por favor, abre un issue o un pull request para discutir cualquier cambio que desees realizar.
+
+## Licencia
+
+Este proyecto está bajo la licencia MIT. Consulta el archivo `LICENSE` para más detalles.

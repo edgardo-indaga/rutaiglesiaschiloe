@@ -5,13 +5,9 @@ import ComunidadGallerySecundaria from '@/components/ComunidadGaleriaSecundaria'
 
 import Link from 'next/link';
 
-import { Dosis } from 'next/font/google';
+import HeaderPage from '@components/HeaderPage/HeaderPage';
+import HeaderImg from '@public/comunidades/comunidades-01.webp';
 
-const dosis = Dosis({
-    subsets: ['latin'],
-    weight: ['200', '300', '400', '500', '600', '700', '800'],
-    style: ['normal'],
-});
 export const metadata = {
     title: 'PTI | Las Comunidades',
 };
@@ -77,23 +73,7 @@ export default function LaComunidad() {
 
     return (
         <main>
-            <section className="relative h-[680px] md:h-screen">
-                <Image
-                    src="/comunidades/comunidades-01.webp"
-                    alt="Arquitectura"
-                    fill={true}
-                    priority={true} // Prioritize the image for faster loading
-                    quality={100} // Maintain image quality
-                    className="object-cover object-top"
-                />
-                <div className="container mx-auto flex h-[680px] md:h-screen items-center justify-center px-[50px]">
-                    <h1
-                        className={`z-10 font-[600] text-blanco md:text-[40px] text-[34px] text-center leading-[48px] ${dosis.className}`}
-                    >
-                        LAS COMUNIDADES
-                    </h1>
-                </div>
-            </section>
+            <HeaderPage HeaderTitle="LAS COMUNIDADES" HeaderImg={HeaderImg} />
 
             <section className="px-5 py-10 md:py-[100px] md:px-0">
                 <div className="container mx-auto flex items-center justify-center align-middle">

@@ -3,13 +3,8 @@ import GalleryView from '@/components/GalleryView';
 import Image from 'next/image';
 import Link from 'next/link';
 
-import { Dosis } from 'next/font/google';
-
-const dosis = Dosis({
-    subsets: ['latin'],
-    weight: ['200', '300', '400', '500', '600', '700', '800'],
-    style: ['normal'],
-});
+import HeaderPage from '@components/HeaderPage/HeaderPage';
+import HeaderImg from '@public/arquitectura/arquitectura-01.webp';
 
 export const metadata = {
     title: 'PTI | La Arquitectura',
@@ -76,23 +71,7 @@ export default function LaArquitectura() {
 
     return (
         <main>
-            <section className="relative h-[680px] md:h-screen">
-                <Image
-                    src="/arquitectura/arquitectura-01.webp"
-                    alt="Arquitectura"
-                    fill={true}
-                    priority={true} // Prioritize the image for faster loading
-                    quality={100} // Maintain image quality
-                    className="object-cover object-top"
-                />
-                <div className="container mx-auto flex h-[680px] md:h-screen items-center justify-center px-[50px]">
-                    <h1
-                        className={`z-10 font-[600] text-blanco md:text-[40px] text-[34px] text-center leading-[48px] ${dosis.className}`}
-                    >
-                        LA ARQUITECTURA
-                    </h1>
-                </div>
-            </section>
+            <HeaderPage HeaderTitle="LA ARQUITECTURA" HeaderImg={HeaderImg} />
 
             <section className="px-5 py-10 md:py-[100px] md:px-0">
                 <div className="container mx-auto flex items-center justify-center align-middle">
