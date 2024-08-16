@@ -276,7 +276,7 @@ export default function QRCaguachEsp() {
 
                     <p className="text-justify text-tinto text-[18px] leading-[28px] pl-[20px] md:text-[34px] md:leading-[40px] md:py-[20px]">
                         Coastal town in Chiloé, famed for its tranquility, oysters, and traditional
-                        architecture. A journey to the island's heart.
+                        architecture. A journey to the island´s heart.
                     </p>
 
                     <QRImages images={imageListVelez} />
