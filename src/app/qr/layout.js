@@ -1,6 +1,6 @@
 import { Barlow } from 'next/font/google';
 import './qrstyle.css';
-import QRHeader from '../../components/QRHeader';
+import QRHeader from '@components/QRPages/QRHeader';
 import { Analytics } from '@vercel/analytics/react';
 import { GoogleAnalytics } from '@next/third-parties/google';
 
@@ -62,7 +62,7 @@ export const metadata = {
 export default function DashboardLayout({ children }) {
     return (
         <html lang="es">
-            <body className={barlow.className}>
+            <body className={`${barlow.className} bg-[#F0EBE1]`}>
                 <QRHeader />
                 {children}
                 <Analytics />

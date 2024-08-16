@@ -1,15 +1,15 @@
-import QRLayout from '@/components/QRLayout';
+import QRLayout from '@components/QRPages/QRLayout';
 export const metadata = {
     title: 'QR | PTI | Iglesia Nuestra Señora del Patrocinio de Tenaú',
 };
 export default function qrAchaoPage() {
     const imgBg = '/qr/tenaun.webp';
-    const pdfEsp = '/uploads/tenaun-es.pdf';
-    const pdfEng = '/uploads/tenaun-en.pdf';
+    const linkEsp = '/qr/tenaun/es';
+    const linkEng = '/qr/tenaun/en';
     const titleChurch = 'Iglesia Nuestra Señora del Patrocinio de Tenaún';
     return (
         <main>
-            <QRLayout imgBg={imgBg} pdfEsp={pdfEsp} pdfEng={pdfEng} titleChurch={titleChurch} />
+            <QRLayout imgBg={imgBg} linkEsp={linkEsp} linkEng={linkEng} titleChurch={titleChurch} />
         </main>
     );
 }

@@ -1,4 +1,4 @@
-import QRLayout from '@/components/QRLayout';
+import QRLayout from '@components/QRPages/QRLayout';
 export const metadata = {
     title: 'QR | PTI | Chiloé y la ruta de las Iglesias',
 };
