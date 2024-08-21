@@ -4,8 +4,8 @@ export const metadata = {
 };
 export default function qrAchaoPage() {
     const imgBg = '/qr/chelin.webp';
-    const linkEsp = '/qr/chelin/es.pdf';
-    const linkEng = '/qr/chelin/en.pdf';
+    const linkEsp = '/qr/chelin/es';
+    const linkEng = '/qr/chelin/en';
     const titleChurch = 'Iglesia Nuestra Señora del Rosario de Chelín';
     return (
         <main>
