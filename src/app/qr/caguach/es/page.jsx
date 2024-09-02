@@ -18,7 +18,7 @@ export default function QRCaguachEsp() {
     const districtTitleChurch = 'Comuna';
     const districtNameChurch = 'Quinchao';
     const buildTitleChurch = 'Construcción';
-    const patronTitleChurch = 'Patrona';
+    const patronTitleChurch = 'Patrono';
     const feastDayTitleChurch = 'Fiesta';
     const buildNameChurch = '1919';
     const patronNameChurch = 'Jesús Nazareno ';
@@ -203,7 +203,7 @@ export default function QRCaguachEsp() {
                             {attractionZoneSub}
                         </h5>
                         <div className="mt-[50px]">
-                            <QRVideo videoId="85hxz8ddW44" />
+                            <QRVideo videoId="jZbusXVvKnk" />
                         </div>
                     </div>
                 </div>

@@ -18,7 +18,7 @@ export default function QRAldachildoEsp() {
     const districtTitleChurch = 'Comuna';
     const districtNameChurch = 'Puqueldón';
     const buildTitleChurch = 'Construcción';
-    const patronTitleChurch = 'Patrona';
+    const patronTitleChurch = 'Patrono';
     const feastDayTitleChurch = 'Fiesta';
     const buildNameChurch = '1905';
     const patronNameChurch = 'Jesús Nazareno';

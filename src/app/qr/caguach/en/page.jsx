@@ -18,7 +18,7 @@ export default function QRCaguachEsp() {
     const districtTitleChurch = 'District';
     const districtNameChurch = 'Quinchao';
     const buildTitleChurch = 'Built';
-    const patronTitleChurch = 'Patrona';
+    const patronTitleChurch = 'Patron';
     const feastDayTitleChurch = 'Feast Day';
     const buildNameChurch = '1919';
     const patronNameChurch = 'Jesus of Nazareth';

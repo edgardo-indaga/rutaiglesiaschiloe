@@ -18,7 +18,7 @@ export default function QRVilupulliEsp() {
     const districtTitleChurch = 'Comuna';
     const districtNameChurch = 'Chonchi';
     const buildTitleChurch = 'Construcción';
-    const patronTitleChurch = 'Patrona';
+    const patronTitleChurch = 'Patrono';
     const feastDayTitleChurch = 'Fiesta';
     const buildNameChurch = 'Alrededor de 1900';
     const patronNameChurch = 'San Antonio de Padua';

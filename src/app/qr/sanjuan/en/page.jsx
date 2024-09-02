@@ -18,7 +18,7 @@ export default function QRSanJuanEn() {
     const districtTitleChurch = 'District';
     const districtNameChurch = 'Dalcahue';
     const buildTitleChurch = 'Built';
-    const patronTitleChurch = 'Patrona';
+    const patronTitleChurch = 'Patron';
     const feastDayTitleChurch = 'Feast Day';
     const buildNameChurch = '1887';
     const patronNameChurch = 'St. John the Baptist';

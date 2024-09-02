@@ -18,7 +18,7 @@ export default function QRDetifEn() {
     const districtTitleChurch = 'District';
     const districtNameChurch = 'Puqueldón';
     const buildTitleChurch = 'Built';
-    const patronTitleChurch = 'Patrona';
+    const patronTitleChurch = 'Patron';
     const feastDayTitleChurch = 'Feast Day';
     const buildNameChurch = 'Early 19th Century';
     const patronNameChurch = 'Jesus of Nazareth';

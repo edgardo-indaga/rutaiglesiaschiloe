@@ -18,7 +18,7 @@ export default function QRCastroEsp() {
     const districtTitleChurch = 'Comuna';
     const districtNameChurch = 'Castro';
     const buildTitleChurch = 'Construcción';
-    const patronTitleChurch = 'Patrona';
+    const patronTitleChurch = 'Patrono';
     const feastDayTitleChurch = 'Fiesta';
     const buildNameChurch = '1910';
     const patronNameChurch = 'San Francisco';

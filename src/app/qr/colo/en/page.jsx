@@ -18,7 +18,7 @@ export default function QRColoEsp() {
     const districtTitleChurch = 'District';
     const districtNameChurch = 'Quemchi';
     const buildTitleChurch = 'Built';
-    const patronTitleChurch = 'Patrona';
+    const patronTitleChurch = 'Patron';
     const feastDayTitleChurch = 'Feast Day';
     const buildNameChurch = '1890';
     const patronNameChurch = 'St. Anthony';
