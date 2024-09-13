@@ -4,10 +4,126 @@ import QRHeaderGeneral from '@components/QRPages/QRHeaderGeneral';
 import QRFooterGeneral from '@components/QRPages/QRFooterGeneral';
 
 import Image from 'next/image';
+import IglesiasItems from '@components/IglesiasItems/IglesiasItems';
 
 export const metadata = {
     title: 'PTI | QR Iglesia | Chiloé and the route of the churches',
 };
+
+const data = [
+    {
+        id: 1,
+        name: 'Church of San Francisco de Castro',
+        image: '/iglesias-vector/castro-iglesia.png',
+        linkTitle: 'VIEW',
+        url: '/qr/castro/es',
+    },
+    {
+        id: 2,
+        name: 'Church of Our Lady of Grace of Nercón',
+        image: '/iglesias-vector/nercon-iglesia.png',
+        linkTitle: 'VIEW',
+        url: '/qr/nercon/en',
+    },
+    {
+        id: 3,
+        name: 'Church of Our Lady of Sorrows of Dalcahue',
+        image: '/iglesias-vector/dalcahue-iglesia.png',
+        linkTitle: 'VIEW',
+        url: '/qr/dalcahue/en',
+    },
+    {
+        id: 4,
+        name: 'Church of Santa María de Rilán',
+        image: '/iglesias-vector/rilan-iglesia.png',
+        linkTitle: 'VIEW',
+        url: '/qr/rilan/en',
+    },
+    {
+        id: 5,
+        name: 'Church of Our Lady of the Rosary of Chelín',
+        image: '/iglesias-vector/chelin-iglesia.png',
+        linkTitle: 'VIEW',
+        url: '/qr/chelin/en',
+    },
+    {
+        id: 6,
+        name: 'Church of San Juan Bautista de San Juan',
+        image: '/iglesias-vector/sanjuan-iglesia.png',
+        linkTitle: 'VIEW',
+        url: '/qr/sanjuan/en',
+    },
+    {
+        id: 7,
+        name: 'Church of Our Lady of the Patronage of Tenaún',
+        image: '/iglesias-vector/tenaun-iglesia.png',
+        linkTitle: 'VIEW',
+        url: '/qr/tenaun/en',
+    },
+    {
+        id: 8,
+        name: 'Church of San Antonio de Colo',
+        image: '/iglesias-vector/colo-iglesia.png',
+        linkTitle: 'VIEW',
+        url: '/qr/colo/en',
+    },
+    {
+        id: 9,
+        name: 'Church of Santa María de Loreto de Achao',
+        image: '/iglesias-vector/achao-iglesia.png',
+        linkTitle: 'VIEW',
+        url: '/qr/achao/en',
+    },
+    {
+        id: 10,
+        name: 'Church of Our Lady of Grace of Quinchao',
+        image: '/iglesias-vector/quinchao-iglesia.png',
+        linkTitle: 'VIEW',
+        url: '/qr/quinchao/en',
+    },
+    {
+        id: 11,
+        name: 'Church of Jesus Nazarene of Caguach',
+        image: '/iglesias-vector/caguach-iglesia.png',
+        linkTitle: 'VIEW',
+        url: '/qr/caguach/en',
+    },
+    {
+        id: 12,
+        name: 'Church of Our Lady of the Rosary of Chonchi',
+        image: '/iglesias-vector/chonchi-iglesia.png',
+        linkTitle: 'VIEW',
+        url: '/qr/chonchi/en',
+    },
+    {
+        id: 13,
+        name: 'Church of San Antonio de Padua de Vilupulli',
+        image: '/iglesias-vector/vilupulli-iglesia.png',
+        linkTitle: 'VIEW',
+        url: '/qr/vilupulli/en',
+    },
+    {
+        id: 14,
+        name: 'Church of the Nativity of Mary of Ichuac',
+        image: '/iglesias-vector/ichuac-iglesia.png',
+        linkTitle: 'VIEW',
+        url: '/qr/ichuac/en',
+    },
+    {
+        id: 15,
+        name: 'Church of Jesus Nazarene of Aldachildo',
+        image: '/iglesias-vector/aldachildo-iglesia.png',
+        linkTitle: 'VIEW',
+        url: '/qr/aldachildo/en',
+    },
+    {
+        id: 16,
+        name: 'Church of Santiago Apóstol de Detif',
+        image: '/iglesias-vector/detif-iglesia.png',
+        linkTitle: 'VIEW',
+        url: '/qr/detif/en',
+    },
+];
 
 export default function qrRutaIglesiasEn() {
     const imgMain = '/qr/fichageneral.webp';
@@ -77,6 +193,7 @@ export default function qrRutaIglesiasEn() {
                     </div>
                 </div>
                 <QRChurchesMaps titleContent="The route of the Churches" />
+                <IglesiasItems data={data} tituloPage="The route of the Churches" />
                 <QRFooterGeneral
                     titleContent="More information"
                     titleContact="Contact"

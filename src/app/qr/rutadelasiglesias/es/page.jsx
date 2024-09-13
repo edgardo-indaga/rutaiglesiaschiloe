@@ -4,10 +4,126 @@ import QRHeaderGeneral from '@components/QRPages/QRHeaderGeneral';
 import QRFooterGeneral from '@components/QRPages/QRFooterGeneral';
 
 import Image from 'next/image';
+import IglesiasItems from '@components/IglesiasItems/IglesiasItems';
 
 export const metadata = {
     title: 'PTI | QR Iglesia | Chiloé y la ruta de las iglesias',
 };
+
+const data = [
+    {
+        id: 1,
+        name: 'Iglesia San Francisco de Castro',
+        image: '/iglesias-vector/castro-iglesia.png',
+        linkTitle: 'VER',
+        url: '/qr/castro/es',
+    },
+    {
+        id: 2,
+        name: 'Iglesia Nuestra Señora de Gracia de Nercón',
+        image: '/iglesias-vector/nercon-iglesia.png',
+        linkTitle: 'VER',
+        url: '/qr/nercon/es',
+    },
+    {
+        id: 3,
+        name: 'Iglesia Nuestra Señora de los Dolores de Dalcahue',
+        image: '/iglesias-vector/dalcahue-iglesia.png',
+        linkTitle: 'VER',
+        url: '/qr/dalcahue/es',
+    },
+    {
+        id: 4,
+        name: 'Iglesia Santa María de Rilán',
+        image: '/iglesias-vector/rilan-iglesia.png',
+        linkTitle: 'VER',
+        url: '/qr/rilan/es',
+    },
+    {
+        id: 5,
+        name: 'Iglesia Nuestra Señora del Rosario de Chelín',
+        image: '/iglesias-vector/chelin-iglesia.png',
+        linkTitle: 'VER',
+        url: '/qr/chelin/es',
+    },
+    {
+        id: 6,
+        name: ' Iglesia San Juan Bautista de San Juan',
+        image: '/iglesias-vector/sanjuan-iglesia.png',
+        linkTitle: 'VER',
+        url: '/qr/sanjuan/es',
+    },
+    {
+        id: 7,
+        name: 'Iglesia Nuestra Señora del Patrocinio de Tenaún',
+        image: '/iglesias-vector/tenaun-iglesia.png',
+        linkTitle: 'VER',
+        url: '/qr/tenaun/es',
+    },
+    {
+        id: 8,
+        name: 'Iglesia San Antonio de Colo',
+        image: '/iglesias-vector/colo-iglesia.png',
+        linkTitle: 'VER',
+        url: '/qr/colo/es',
+    },
+    {
+        id: 9,
+        name: 'Iglesia Santa María de Loreto de Achao',
+        image: '/iglesias-vector/achao-iglesia.png',
+        linkTitle: 'VER',
+        url: '/qr/achao/es',
+    },
+    {
+        id: 10,
+        name: 'Iglesia Nuestra Señora de la Gracia de Quinchao',
+        image: '/iglesias-vector/quinchao-iglesia.png',
+        linkTitle: 'VER',
+        url: '/qr/quinchao/es',
+    },
+    {
+        id: 11,
+        name: 'Iglesia Jesús Nazareno de Caguach',
+        image: '/iglesias-vector/caguach-iglesia.png',
+        linkTitle: 'VER',
+        url: '/qr/caguach/es',
+    },
+    {
+        id: 12,
+        name: 'Iglesia Nuestra Señora del Rosario de Chonchi',
+        image: '/iglesias-vector/chonchi-iglesia.png',
+        linkTitle: 'VER',
+        url: '/qr/chonchi/es',
+    },
+    {
+        id: 13,
+        name: 'Iglesia San Antonio de Padua de Vilupulli',
+        image: '/iglesias-vector/vilupulli-iglesia.png',
+        linkTitle: 'VER',
+        url: '/qr/vilupulli/es',
+    },
+    {
+        id: 14,
+        name: 'Iglesia Natividad de María de Ichuac',
+        image: '/iglesias-vector/ichuac-iglesia.png',
+        linkTitle: 'VER',
+        url: '/qr/ichuac/es',
+    },
+    {
+        id: 15,
+        name: 'Iglesia Jesús Nazareno de Aldachildo',
+        image: '/iglesias-vector/aldachildo-iglesia.png',
+        linkTitle: 'VER',
+        url: '/qr/aldachildo/es',
+    },
+    {
+        id: 16,
+        name: 'Iglesia Santiago Apóstol de Detif',
+        image: '/iglesias-vector/detif-iglesia.png',
+        linkTitle: 'VER',
+        url: '/qr/detif/es',
+    },
+];
 
 export default function qrRutaIglesiasEsp() {
     const imgMain = '/qr/fichageneral.webp';
@@ -77,6 +193,7 @@ export default function qrRutaIglesiasEsp() {
                     </div>
                 </div>
                 <QRChurchesMaps titleContent="La ruta de las Iglesias" />
+                <IglesiasItems tituloPage="La ruta de las Iglesias" data={data} />
                 <QRFooterGeneral
                     titleContent="Más información"
                     titleContact="Contacto"
