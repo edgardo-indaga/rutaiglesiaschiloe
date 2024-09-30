@@ -36,7 +36,7 @@ export default function QRFooter({ titleContent, titleContact, linkService, text
                             </p>
                         </div>
                         <div className="flex flex-col items-center mx-[10px]">
-                            <a href="https://rutasiglesiaschiloe.cl" target="_blank">
+                            <a href="https://rutaiglesiaschiloe.cl" target="_blank">
                                 <Image src={web} alt={'Instagram'} width={70} height={70} />
                             </a>
                             <p className="text-tinto text-[14px] md:text-[18px]">
