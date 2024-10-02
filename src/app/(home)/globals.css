@@ -59,3 +59,13 @@ body{
 .mapboxgl-ctrl-attrib-inner{
     display: none;
 }
+.goog-te-gadget-simple{
+    display: flex !important;
+    margin-left: 10px;
+    padding-top: 4px !important;
+    background: transparent !important;
+    border: 0 !important;
+}
+.VIpgJd-ZVi9od-xl07Ob-lTBxed{
+    display: flex;
+}

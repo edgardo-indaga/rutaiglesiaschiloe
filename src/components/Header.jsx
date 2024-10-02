@@ -4,6 +4,7 @@ import Image from 'next/image';
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
 import { useEffect, useState } from 'react';
+import GoogleTranslateButton from '@components/Translate/GoogleTranslateButton';
 import logoCorfo from '/public/logo-corfo-color.svg';
 
 const styles = {
@@ -144,6 +145,7 @@ export default function HeaderPrincipal() {
                                         </svg>
                                     </a>
                                 </li>
+                                <GoogleTranslateButton />
                             </ul>
                         </div>
 
