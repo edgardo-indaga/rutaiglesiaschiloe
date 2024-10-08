@@ -63,7 +63,7 @@ export default function ThumbDescargables() {
                     </div>
                 </div>
 
-                <div className="flex w-6/12 items-center justify-center align-middle mb-[15px] md:mb-[25px] md:w-3/12">
+                {/*<div className="flex w-6/12 items-center justify-center align-middle mb-[15px] md:mb-[25px] md:w-3/12">
                     <div
                         onMouseEnter={() => setIsHovereditem02(true)}
                         onMouseLeave={() => setIsHovereditem02(false)}
@@ -82,7 +82,7 @@ export default function ThumbDescargables() {
                             />
                         </div>
                         <Link
-                            href="#"
+                            href="/uploads/pasaporte-new.pdf"
                             target={'_blank'}
                             className={`md:w-[300px] md:h-[300px] md:px-[20px] bg-beige flex justify-center items-center text-tinto md:text-[20px] md:font-medium uppercase text-center ${
                                 isHovereditem02 ? '' : 'hidden'
@@ -91,7 +91,7 @@ export default function ThumbDescargables() {
                             PASAPORTE
                         </Link>
                     </div>
-                </div>
+                </div>*/}
 
                 <div className="flex w-6/12 items-center justify-center align-middle mb-[15px] md:mb-[25px] md:w-3/12">
                     <div

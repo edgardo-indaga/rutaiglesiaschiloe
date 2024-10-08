@@ -58,7 +58,7 @@ export default function ThumbDescargablesMobile() {
                         />
                     </div>
                 </a>
-                <a href="#" className="my-5" target={'_blank'}>
+                {/*<a href="/uploads/pasaporte-new.pdf" className="my-5" target={'_blank'}>
                     <div className="w-[320px] h-[366]">
                         <h2 className="text-beige text-[18px] font-[600] absolute mt-[20px] ml-[20px]">
                             PASAPORTE
@@ -73,7 +73,7 @@ export default function ThumbDescargablesMobile() {
                             }}
                         />
                     </div>
-                </a>
+                </a>*/}
                 <a href={linkItem17} className="my-5" target={'_blank'}>
                     <div className="w-[320px] h-[366]">
                         <h2 className="text-beige text-[18px] font-[600] absolute mt-[20px] ml-[20px] uppercase">

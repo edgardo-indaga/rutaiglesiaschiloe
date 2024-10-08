@@ -23,7 +23,7 @@
         "react-youtube": "^10.1.0",
         "sharp": "^0.33.2",
         "swiper": "^11.0.6",
-        "vercel": "^32.3.0",
+        "vercel": "^37.6.3",
         "yet-another-react-lightbox": "^3.17.0"
     },
     "devDependencies": {
