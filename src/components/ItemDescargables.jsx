@@ -82,7 +82,7 @@ export default function ThumbDescargables() {
                             />
                         </div>
                         <Link
-                            href="/uploads/pasaporte-new.pdf"
+                            href="#"
                             target={'_blank'}
                             className={`md:w-[300px] md:h-[300px] md:px-[20px] bg-beige flex justify-center items-center text-tinto md:text-[20px] md:font-medium uppercase text-center ${
                                 isHovereditem02 ? '' : 'hidden'
