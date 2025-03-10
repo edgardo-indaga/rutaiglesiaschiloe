@@ -179,6 +179,7 @@ export default function QRColoEsp() {
                     titleContent="More information"
                     titleContact="Contact"
                     textService="Tourist Services"
+                    schedule="Churches schedule"
                     linkService="https://tinyurl.com/v3atf3zn"
                 />
             </section>

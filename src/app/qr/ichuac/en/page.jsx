@@ -270,6 +270,7 @@ export default function QRIchuacEn() {
                     titleContent="More information"
                     titleContact="Contact"
                     textService="Tourist Services"
+                    schedule="Churches schedule"
                     linkService="https://tinyurl.com/puqueldon2"
                 />
             </section>

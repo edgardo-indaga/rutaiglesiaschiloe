@@ -312,6 +312,7 @@ export default function QRSanJuanEn() {
                     titleContent="More information"
                     titleContact="Contact"
                     textService="Tourist Services"
+                    schedule="Churches schedule"
                     linkService="https://tinyurl.com/c3633ub2"
                 />
             </section>

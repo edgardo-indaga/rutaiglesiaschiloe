@@ -101,7 +101,7 @@ export default function HeaderPrincipal() {
                                         }}
                                         href="/contacto"
                                     >
-                                        Contacto
+                                        Servicios Turísticos
                                     </Link>
                                 </li>
                                 <li className={styles.navLinks}>

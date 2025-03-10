@@ -307,6 +307,7 @@ export default function QrAchaoEn() {
                     titleContent="More information"
                     titleContact="Contact"
                     textService="Tourist Services"
+                    schedule="Churches schedule"
                     linkService="https://tinyurl.com/quinchao"
                 />
             </section>

@@ -236,6 +236,7 @@ export default function QRChelinEn() {
                     titleContent="More information"
                     titleContact="Contact"
                     textService="Tourist Services"
+                    schedule="Churches schedule"
                     linkService="https://tinyurl.com/castrochile2"
                 />
             </section>

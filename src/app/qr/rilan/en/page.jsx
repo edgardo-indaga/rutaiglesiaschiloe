@@ -358,6 +358,7 @@ export default function QRRilanEn() {
                     titleContent="Más información"
                     titleContact="Contacto"
                     textService="Servicios Turísticos"
+                    schedule="Churches schedule"
                     linkService="https://tinyurl.com/castrochile2"
                 />
             </section>

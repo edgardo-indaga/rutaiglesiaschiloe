@@ -235,6 +235,7 @@ export default function QRVilupulliEn() {
                     titleContent="More information"
                     titleContact="Contact"
                     textService="Tourist Services"
+                    schedule="Churches schedule"
                     linkService="https://tinyurl.com/mr35hwsy"
                 />
             </section>

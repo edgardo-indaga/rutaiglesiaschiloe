@@ -315,6 +315,7 @@ export default function QRNerconEn() {
                     titleContent="More information"
                     titleContact="Contact"
                     textService="Tourist Services"
+                    schedule="Churches schedule"
                     linkService="https://tinyurl.com/castrochile2"
                 />
             </section>

@@ -358,6 +358,7 @@ export default function QRRilanEsp() {
                     titleContent="Más información"
                     titleContact="Contacto"
                     textService="Servicios Turísticos"
+                    schedule="Horario Iglesias"
                     linkService="https://tinyurl.com/castrochile2"
                 />
             </section>
