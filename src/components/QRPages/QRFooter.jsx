@@ -5,6 +5,8 @@ export default function QRFooter({ titleContent, titleContact, linkService, text
     const instagram = '/qr/icon-instagram.svg';
     const web = '/qr/icon-web.svg';
     const corfo = '/qr/corfo.svg';
+    const serpat = '/qr/logo-serpat.svg';
+    const fundacion = '/qr/logo-fundacion.png';
 
 
     return (
@@ -63,10 +65,23 @@ export default function QRFooter({ titleContent, titleContact, linkService, text
                         </div>
                     </div>
                 </div>
-                <div className="flex flex-row justify-center mt-[70px] md:mt-[100px] px-[20px] md:px-0 border-t-2 border-tinto pt-[20px]">
-                    <a href="https://www.corfo.cl/sites/cpp/homecorfo" target={'_blank'}>
-                        <Image src={corfo} alt={'Logo Corfo'} height={68} width={130} />
-                    </a>
+                <div className="flex flex-col md:flex-row md:justify-between mt-[70px] md:mt-[100px] px-[20px] md:px-0 border-t-2 border-tinto pt-[20px]">
+                    <div className="flex flex-col md:justify-center items-center mb-[20px]">
+                        <a href="https://www.corfo.cl/sites/cpp/homecorfo" target={'_blank'}>
+                            <Image src={corfo} alt={'Logo Corfo'} height={68} width={130} className="w-[160px]"/>
+                        </a>
+                    </div>
+                    <div className="flex flex-col justify-center">
+                        <h3 className="text-[16px] font-medium mb-[10px] text-center md:text-left">Colaboran</h3>
+                        <div className="flex flex-col md:flex-row md:justify-between items-center">
+                            <a href="https://www.iglesiaschiloe.cl/" target={'_blank'}>
+                                <Image src={fundacion} alt={'Logo Fundacion'} height={110} width={290} className="w-[240px] mr-[15px] mb-[10px]"/>
+                            </a>
+                            <a href="https://www.patrimoniocultural.gob.cl/" target={'_blank'}>
+                                <Image src={serpat} alt={'Logo Serpat'} height={557} width={1835} className="w-[200px] mb-[10px]"/>
+                            </a>
+                        </div>
+                    </div>
                 </div>
             </div>
         </>
