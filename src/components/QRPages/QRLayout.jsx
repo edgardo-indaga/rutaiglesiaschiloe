@@ -20,15 +20,15 @@ const QRLayout = ({ imgBg, linkEsp, linkEng, titleChurch }) => {
             <div className="container mx-auto z-10 flex flex-col h-screen items-center justify-center px-[50px]">
                 <Link
                     href={linkEsp}
-                    className="z-10 bg-blanco text-[38px] w-[300px] h-[64px] text-center rounded-[10px] mb-[20px] mt-[200px]"
+                    className="z-10 bg-blanco text-[26px] tracking-normal leading-[26px] w-[300px] h-[64px] text-center rounded-[10px] mb-[20px] mt-[200px] pt-[5px]"
                 >
-                    Español
+                    Español<br/> Más información
                 </Link>
                 <Link
                     href={linkEng}
-                    className="z-10 bg-blanco text-[38px] w-[300px] h-[64px] text-center rounded-[10px] mt-[20px] mb-[20px]"
+                    className="z-10 bg-blanco text-[26px] tracking-normal leading-[26px] w-[300px] h-[64px] text-center rounded-[10px] mt-[20px] mb-[20px] pt-[5px]"
                 >
-                    English
+                    English<br/> More information
                 </Link>
                 <Link
                     href="https://www.patrimoniovirtual.gob.cl/wp-content/uploads/recorridos/patrimonio-chiloe/"
